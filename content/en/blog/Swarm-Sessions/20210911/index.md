@@ -13,6 +13,8 @@ resources:
 
 ![](https://user-images.githubusercontent.com/25156451/132986348-fd09ad51-10ce-4636-94c2-a5f752f40e9b.png)
 
+A wide-ranging discussion of Reputation Systems and associated issues took place at the Saturday Swarm Session of 11th September 2021.
+
 https://github.com/Catalyst-Swarm/Catalyst-Beehive/issues/199#issuecomment-917441743
 
 ## References 
