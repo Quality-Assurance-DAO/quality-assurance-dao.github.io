@@ -8,5 +8,5 @@ description: >
 Ekphrasis
 ---
 
-Ekphrasis
+Ekphrasis Ekphrasis
 
