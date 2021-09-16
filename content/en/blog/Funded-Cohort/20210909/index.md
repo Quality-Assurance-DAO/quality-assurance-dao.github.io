@@ -1,7 +1,7 @@
 ---
 date: 2021-09-07
 title: "Coordinator Cohort Progress Meeting 7th September 2021"
-linkTitle: "Future of Swarm: Reputation Systems"
+linkTitle: "Coordinator Cohort Progress Meeting 7th September 2021"
 description: "Coordinator Cohort Progress Meeting 7th September 2021"
 author: Stephen Whitenstall
 resources:
