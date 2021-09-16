@@ -15,7 +15,13 @@ resources:
 
 A wide-ranging discussion of Reputation Systems and associated issues took place at the Saturday Swarm Session of 11th September 2021.
 
+{{< card header="**Imagine**" title="Artist and songwriter: John Lennon" subtitle="Co-writer: Yoko Ono"
+          footer="![SignatureJohnLennon](https://server.tld/…/signature.png \"Signature John Lennon\")">>}}
 https://www.youtube.com/watch?v=Y-rRJ9sBzJE&t
+…
+{{< /card >}}
+
+
 
 https://github.com/Catalyst-Swarm/Catalyst-Beehive/issues/199#issuecomment-917441743
 
