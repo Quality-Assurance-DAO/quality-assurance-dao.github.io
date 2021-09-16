@@ -11,14 +11,9 @@ resources:
     byline: "Quality Assurance DAO"
 ---
 
-![](https://user-images.githubusercontent.com/25156451/132986348-fd09ad51-10ce-4636-94c2-a5f752f40e9b.png)
-
-A wide-ranging discussion of Reputation Systems and associated issues took place at the Saturday Swarm Session of 11th September 2021.
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Y-rRJ9sBzJE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-
-https://github.com/Catalyst-Swarm/Catalyst-Beehive/issues/199#issuecomment-917441743
+A wide-ranging discussion of Reputation Systems and associated issues took place at the Saturday Swarm Session of 11th September 2021. Further details are recorded in this GitHub Issue comment [Future of Swarm: Reputation Systems](https://github.com/Catalyst-Swarm/Catalyst-Beehive/issues/199#issuecomment-917441743).
 
 ## References 
 ### Decentralized Identifiers (DIDs) v1.0
