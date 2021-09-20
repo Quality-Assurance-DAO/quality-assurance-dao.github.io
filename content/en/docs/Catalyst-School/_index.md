@@ -1,7 +1,7 @@
 ---
 title: "Catalyst School"
 linkTitle: "Catalyst School"
-weight: 9
+weight: 4
 description: >
   Catalyst School.
 ---
