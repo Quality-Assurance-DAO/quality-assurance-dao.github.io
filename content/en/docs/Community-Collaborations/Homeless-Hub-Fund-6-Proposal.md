@@ -1,5 +1,5 @@
 ---
-title: "Fund-6-Proposal"
+title: "Homeless-Hub-Fund-6-Proposal"
 date: 2017-01-05
 weight: 2
 description: >
