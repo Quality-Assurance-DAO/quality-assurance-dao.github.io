@@ -3,6 +3,6 @@ title: "QA-DAO"
 linkTitle: "QA-DAO"
 weight: 2
 description: >
-  Documentation of Quality Assurance DAO
+  Quality Assurance DAO Proposals
 ---
-Documentation of Quality Assurance DAO
+Quality Assurance DAO Project Catalyst Proposals
