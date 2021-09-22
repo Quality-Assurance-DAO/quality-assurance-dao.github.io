@@ -1,11 +1,11 @@
 ---
-title: "Oversight-GitBook"
-linkTitle: "Oversight-GitBook"
+title: "Catalyst Oversight GitBook"
+linkTitle: "Catalyst Oversight GitBook"
 weight: 100
 description: >-
-    Oversight-GitBook documents the activities of the Catalyst Circle 
+   Catalyst Oversight GitBookk documents the activities of the Catalyst Circle 
 ---
 
-## Oversight-GitBook
+## Catalyst Oversight GitBook
 
 https://catalyst-swarm.gitbook.io/catalyst-circle/
