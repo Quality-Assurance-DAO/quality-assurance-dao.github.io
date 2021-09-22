@@ -1,9 +1,9 @@
 ---
-title: "Homeless-Hub-Fund-6-Proposal"
+title: "Homeless-Hub"
 date: 2017-01-05
 weight: 2
 description: >
-  Homeless Hub Fund 6 Proposal
+  Homeless Hub
 ---
 
  Homeless Hub Fund 6 Proposal
