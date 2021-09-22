@@ -3,8 +3,7 @@ title: "Training"
 linkTitle: "Training"
 weight: 4
 description: >
-  Training
+  QA-DAO provides support & training for the Project Catalyst community via the Catalyst School.
 ---
 
-
-Training
+QA-DAO provides support & training for the Project Catalyst community via the Catalyst School.
