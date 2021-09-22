@@ -5,7 +5,7 @@ linkTitle: "Collaborations"
 weight: 6
 date: 2017-01-05
 description: >
-  Collaborations
+  Quality assurance standards don’t develop in a vacuum.
 ---
 
 Quality assurance standards don’t develop  in a vacuum. We need to hold our standards up to examination, and include perspectives from the margins. 
