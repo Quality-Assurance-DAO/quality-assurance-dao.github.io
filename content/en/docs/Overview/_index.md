@@ -5,7 +5,6 @@ weight: 1
 description: >
   The Distributed Autonomous Organisation of Quality Assurance
 ---
-![](https://avatars.githubusercontent.com/u/81937503?s=200&v=4)
 
 ### Quality Assurance DAO
 Assesses the funded cohort reporting experience. 
