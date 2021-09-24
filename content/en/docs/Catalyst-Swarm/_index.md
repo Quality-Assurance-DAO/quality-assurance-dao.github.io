@@ -4,6 +4,7 @@ title: "Catalyst-Swarm"
 linkTitle: "Catalyst-Swarm"
 weight: 3
 date: 2017-01-05
+hide_feedback: true
 description: >
  Support for a self organizing Project Catalyst community.
 ---
