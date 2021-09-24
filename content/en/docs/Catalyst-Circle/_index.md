@@ -2,6 +2,8 @@
 title: "Transparent Governance "
 linkTitle: "Transparent Governance "
 weight: 3
+hide_feedback: true
+icon: fa-university
 description: >
   Supporting, tracking and documenting Catalyst Governance experiments.
 ---
