@@ -5,6 +5,7 @@ linkTitle: "Catalyst-Swarm"
 weight: 3
 date: 2017-01-05
 hide_feedback: true
+icon: fa fa-cubes
 description: >
  Support for a self organizing Project Catalyst community.
 ---
