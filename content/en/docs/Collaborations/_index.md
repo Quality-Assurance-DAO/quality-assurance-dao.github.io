@@ -4,6 +4,7 @@ title: "Collaborations"
 linkTitle: "Collaborations"
 weight: 6
 date: 2017-01-05
+hide_feedback: true
 description: >
   Quality assurance standards don’t develop in a vacuum.
 ---
