@@ -2,6 +2,7 @@
 title: "Overview"
 linkTitle: "Overview"
 weight: 1
+hide_feedback: true
 description: >
   The Distributed Autonomous Organisation of Quality Assurance
 ---
