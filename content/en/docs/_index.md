@@ -4,7 +4,7 @@ title: "What is Quality Assurance DAO ?"
 linkTitle: "What is Quality Assurance DAO ?"
 weight: 20
 hide_feedback: true
-icon: fas fa-globe
+icon: fa-clipboard
 menu:
   main:
     weight: 20
