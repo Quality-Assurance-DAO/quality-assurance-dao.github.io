@@ -7,4 +7,4 @@ icon: fa fa-clipboard
 description: >
   QA-DAO’s core activities.
 ---
-The pathway of a funded cohort & assessment of funded cohort reporting requirements.
+Documenting the pathway of a funded cohort & assessment of Catalyst’s reporting requirements.
