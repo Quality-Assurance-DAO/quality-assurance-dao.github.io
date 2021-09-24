@@ -2,6 +2,7 @@
 title: "Training"
 linkTitle: "Training"
 weight: 4
+hide_feedback: true
 description: >
   Support & training for the Project Catalyst community.
 ---
