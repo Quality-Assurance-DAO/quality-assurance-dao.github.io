@@ -1,7 +1,7 @@
 ---
 date: 2021-09-27
 title: "Adaptive social networks promote the wisdom of crowds"
-linkTitle: "CAdaptive social networks promote the wisdom of crowds"
+linkTitle: "Adaptive social networks promote the wisdom of crowds"
 description: "Adaptive social networks promote the wisdom of crowds"
 author: Stephen Whitenstall
 resources:
