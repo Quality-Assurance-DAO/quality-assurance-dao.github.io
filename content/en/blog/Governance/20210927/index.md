@@ -11,7 +11,7 @@ resources:
     byline: "Adaptive social networks promote the wisdom of crowds"
 ---
 
-In a [Telegram post](https://t.me/CatalystCommunityAdvisors/12129) of 27th September Dor Gorbash shared an article "[Adaptive social networks promote the wisdom of crowds](https://www.pnas.org/content/117/21/11379)" published in https://www.pnas.org/ .
+In a [Telegram post](https://t.me/CatalystCommunityAdvisors/12129) of 9th July 2021 Dor Gorbash shared an article "[Adaptive social networks promote the wisdom of crowds](https://www.pnas.org/content/117/21/11379)" published in https://www.pnas.org/ .
 
 For me another key statement in this paper is "Studies have found that these divergent effects are moderated by placing well-informed individuals in prominent positions in the network structure". 
 
