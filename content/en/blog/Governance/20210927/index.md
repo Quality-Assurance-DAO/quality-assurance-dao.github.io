@@ -13,9 +13,9 @@ resources:
 
 In a [Telegram post](https://t.me/CatalystCommunityAdvisors/12129) of 9th July 2021 Dor Gorbash shared an article "[Adaptive social networks promote the wisdom of crowds](https://www.pnas.org/content/117/21/11379)" published in https://www.pnas.org/ .
 
-For me another key statement in this paper is "Studies have found that these divergent effects are moderated by placing well-informed individuals in prominent positions in the network structure". 
+On 27th September 2021, I commented : For me another key statement in this paper is "*Studies have found that these divergent effects are moderated by placing well-informed individuals in prominent positions in the network structure*". 
 
-Which is what (I assume) you mean by introducing "systemic biases". In short, there will always be a bias (equivalent to the prior in Bayes - one's beliefs about a quantity) - but what is important is that the bias is well-informed. 
+Which is what (I assume) you mean by introducing "*systemic biases*". In short, there will always be a bias (equivalent to the prior in Bayes - one's beliefs about a quantity) - but what is important is that the bias is well-informed. 
 
 In the context of CAs what might translate from this article is whether : 
 1) well-informed CAs are prominent in the network, 
