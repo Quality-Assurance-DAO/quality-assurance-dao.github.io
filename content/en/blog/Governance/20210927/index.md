@@ -11,6 +11,7 @@ resources:
     byline: "Adaptive social networks promote the wisdom of crowds"
 ---
 
+In a [Telegram post](https://t.me/CatalystCommunityAdvisors/12129) of 27th September Dor Gorbash shared an article "[Adaptive social networks promote the wisdom of crowds](https://www.pnas.org/content/117/21/11379)" published in https://www.pnas.org/ .
 
 For me another key statement in this paper is "Studies have found that these divergent effects are moderated by placing well-informed individuals in prominent positions in the network structure". 
 
@@ -23,6 +24,6 @@ In the context of CAs what might translate from this article is whether :
 4) the skills of the well-informed CA are dispersed (e.g. via School), 
 5) the quality of the assessments a vCA (for example) has to deal with is sustainable (an overload of poor information will test even the well-informed), 
 6) the diversity of viewpoints of CAs complements and is capable of recognising different approaches to return on intent and 
-7) importantly the nature and scale of the task at hand (e.g. "Challenging tasks elicit greater conformity" - Toyokawa et al) - so quantity will indeed impact quality (at scale, a lesser capability to handle proposals that are unusual, innovative or require special knowledge). 
+7) importantly the nature and scale of the task at hand (e.g. "Challenging tasks elicit greater conformity" - [Toyokawa et al](https://www.nature.com/articles/s41562-018-0518-x)) - so quantity will indeed impact quality (at scale, a lesser capability to handle proposals that are unusual, innovative or require special knowledge). 
 
 All the best S.
