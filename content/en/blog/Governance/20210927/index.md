@@ -26,4 +26,4 @@ In the context of CAs what might translate from this article is whether :
 6) the diversity of viewpoints of CAs complements and is capable of recognising different approaches to return on intent and 
 7) importantly the nature and scale of the task at hand (e.g. "Challenging tasks elicit greater conformity" - [Toyokawa et al](https://www.nature.com/articles/s41562-018-0518-x)) - so quantity will indeed impact quality (at scale, a lesser capability to handle proposals that are unusual, innovative or require special knowledge). 
 
-All the best S.
+One issue may be that there is a lack of focus, there is a lot of Social Psychology research (for example) but not so much specifically directed at the Blockchain context. As Dor highlighted, IOG research, to date, has been mainly concerned with game theory and security. So, the initiative will likely be with the community to incorporate relevant past research and to provide new contexts for research in distributed governance.  
