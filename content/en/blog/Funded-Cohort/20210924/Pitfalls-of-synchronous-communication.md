@@ -17,4 +17,6 @@ For example, Benjamin Wong suggested on [Catalyst Community Advisor Telegram](ht
 
 
 
-This post arose from an Issue raised in respect of "[IOG Funded Cohort Communication Issues](https://github.com/Quality-Assurance-DAO/F5-Developer-ecosystem-Proposal/issues/141)" as part of Quality Assuarnce DAO's [Fund 5 Developer ecosystem Proposal](https://github.com/Quality-Assurance-DAO/F5-Developer-ecosystem-Proposal).
+This post arose from an Issue raised as part of Quality Assurance DAO's [Fund 5 Developer ecosystem Proposal](https://github.com/Quality-Assurance-DAO/F5-Developer-ecosystem-Proposal).
+To participate in further discussion please comment under [IOG Funded Cohort Communication Issues](https://github.com/Quality-Assurance-DAO/F5-Developer-ecosystem-Proposal/issues/141)" on GitHub.
+
