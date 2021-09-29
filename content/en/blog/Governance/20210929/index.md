@@ -1,5 +1,3 @@
-## 
-
 ---
 date: 2021-09-29
 title: "The ideal Catalyst ideation platform"
