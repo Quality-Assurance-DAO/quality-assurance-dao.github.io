@@ -11,6 +11,8 @@ resources:
     byline: "The ideal Catalyst ideation platform"
 ---
 
+### CatalystCommunityAdvisors Telegram
+
 ![2021-09-29 (1)](https://user-images.githubusercontent.com/25156451/135315797-bbde9ad1-1454-438e-8202-0657a9da864c.png)
 
 
