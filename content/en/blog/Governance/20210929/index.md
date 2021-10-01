@@ -21,19 +21,6 @@ In a [CatalystCommunityAdvisors Telegram Post of 29th September 2021](https://t.
 Rodrigo Pacini
 {{< /imgproc >}}
 
-{{< cardpane >}}
-  {{< card header="Proposers" >}}
-    A proposer is someone who submits a proposal to Cardano Project Catalyst to be funded by the treasury. They have an understanding of a problem and an idea on how to solve it. Proposers are the ideas people, ones that see the bigger picture, identify needs, look to plug gaps. They are visionaries. A proposal is the way to communicate the idea to the community.
-  {{< /card >}}
-  {{< card header="Voters" >}}
-    Content card 2
-  {{< /card >}}
-  {{< card header="Community Advisor" >}}
-    Content card 3
-  {{< /card >}}
-{{< /cardpane >}}
-
-
 ### Further background
 [Further background](https://t.me/CatalystCommunityAdvisors/18286) was provided by Rodrigo Pacini in respect of Ideascale Improvements.
 - [Ideascale Improvements Voting](https://docs.google.com/spreadsheets/d/1n8cm_3-uuCrYxeha4N-49mgLMd8bRUV5UjpiM4i1uvo/edit#gid=1348170755)
