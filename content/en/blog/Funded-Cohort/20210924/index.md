@@ -12,7 +12,6 @@ resources:
 ---
 
 {{< imgproc cardano Fill "600x300" >}}
-Fetch and scale an image in the upcoming Hugo 0.43.
 {{< /imgproc >}}
 
 cardano.jpg
