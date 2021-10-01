@@ -20,6 +20,8 @@ In a [CatalystCommunityAdvisors Telegram Post of 29th September 2021](https://t.
 {{< imgproc Telegram-02 Fill "486x431" >}}
 Rodrigo Pacini
 {{< /imgproc >}}
+
+{{< swaggerui src="/openapi/petstore.yaml" >}}
 ### Further background
 [Further background](https://t.me/CatalystCommunityAdvisors/18286) was provided by Rodrigo Pacini in respect of Ideascale Improvements.
 - [Ideascale Improvements Voting](https://docs.google.com/spreadsheets/d/1n8cm_3-uuCrYxeha4N-49mgLMd8bRUV5UjpiM4i1uvo/edit#gid=1348170755)
