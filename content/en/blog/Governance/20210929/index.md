@@ -22,13 +22,13 @@ Rodrigo Pacini
 {{< /imgproc >}}
 
 {{< cardpane >}}
-  {{< card header="Header card 1" >}}
-    Content card 1
+  {{< card header="Proposers" >}}
+    A proposer is someone who submits a proposal to Cardano Project Catalyst to be funded by the treasury. They have an understanding of a problem and an idea on how to solve it. Proposers are the ideas people, ones that see the bigger picture, identify needs, look to plug gaps. They are visionaries. A proposal is the way to communicate the idea to the community.
   {{< /card >}}
-  {{< card header="Header card 2" >}}
+  {{< card header="Voters" >}}
     Content card 2
   {{< /card >}}
-  {{< card header="Header card 3" >}}
+  {{< card header="Community Advisor" >}}
     Content card 3
   {{< /card >}}
 {{< /cardpane >}}
