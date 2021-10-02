@@ -11,6 +11,8 @@ resources:
     byline: "Notes on Lambda Calculus"
 ---
 
+{{< imgproc Lambda_calculus-Church_numerals Fill "486x431" >}} Church encoding of the natural numbers in lambda calculus{{< /imgproc >}}
+
 ### Passive-Interface-Pair-for-Decentralized-Identity-DID
 
 In response to Marta's (N+Fold) discussion on *[Comparing Interoperability when there is a transliteration of material forms.](https://github.com/NFold/Passive-Interface-Pair-for-Decentralized-Identity-DID/wiki/Comparing-Interoperability-when-there-is-a--transliteration-of-material-forms.)* in relation to her Project Catalyst Fund 6 proposal *Passive-Interface-Pair-for-Decentralized-Identity-DID* I touched upon the subject of Lambda Calculus :
