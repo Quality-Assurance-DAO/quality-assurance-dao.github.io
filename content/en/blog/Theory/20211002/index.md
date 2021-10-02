@@ -11,7 +11,7 @@ resources:
     byline: "Notes on Lambda Calculus"
 ---
 
-{{< imgproc Lambda_calculus-Church_numerals Fill "486x431" >}} Church encoding of the natural numbers in lambda calculus{{< /imgproc >}}
+{{< imgproc Lambda_calculus-Church_numerals Fill "459x196" >}} Church encoding of the natural numbers in lambda calculus{{< /imgproc >}}
 
 ### Passive-Interface-Pair-for-Decentralized-Identity-DID
 
