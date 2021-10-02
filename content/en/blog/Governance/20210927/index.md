@@ -36,6 +36,8 @@ One issue may be that there is a lack of focus, there is a lot of Social Psychol
 
 ## Follow-up post
 
+In a [follow-up post](https://t.me/CatalystCommunityAdvisors/18718) of 2nd October 2021 I commented : 
+
 My own QA experience was at scale on a global Telecoms contract, in an Investment Bank managing many separate systems (from Bloomberg terminals to Mainframes) and audit reporting to KPMG, IBM and the FSA (UK government) . This past experience is corporate and centralized - the distributed challenge in Catalyst complicates the assurance issue and demands an innovative approach.  
 
 Catalyst is still at a relatively small scale - but aims to serve large institutions. What is stark in my view is the lack of any assurance of a capability to assess. What has emerged is a culture of qualitive assessment with some nods to the quantitative. What has been approved by this community is contingent and circumstantial to this community. At scale proposers will want evidence of an assessment standard and capable assessors with a consistent track record (solid data). Anonymity may be a red herring in this context and trust takes on a different dimension. To maintain quality as quantity increases specialization and standards will be needed.
