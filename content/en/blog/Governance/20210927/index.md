@@ -11,8 +11,8 @@ resources:
     byline: "Adaptive social networks promote the wisdom of crowds"
 ---
 
-![2021-09-29 (2)](https://user-images.githubusercontent.com/25156451/135316714-5b7adff1-e05c-4830-9bdd-5445258314fc.png)
-
+{{< imgproc Dor Fill "433x455" >}}
+{{< /imgproc >}}
 
 In a [Telegram post](https://t.me/CatalystCommunityAdvisors/12129) of 9th July 2021 Dor Gorbash shared an article "[Adaptive social networks promote the wisdom of crowds](https://www.pnas.org/content/117/21/11379)" published in https://www.pnas.org/ .
 
