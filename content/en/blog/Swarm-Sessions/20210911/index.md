@@ -16,6 +16,8 @@ resources:
 
 A wide-ranging discussion of Reputation Systems and associated issues took place at the Saturday Swarm Session of 11th September 2021. Further details are recorded in this GitHub Issue comment [Future of Swarm: Reputation Systems](https://github.com/Catalyst-Swarm/Catalyst-Beehive/issues/199#issuecomment-917441743).
 
+The probability of getting \\(k\\) heads when flipping \\(n\\) coins is:
+$$\tag*{(1)} P(E) = {n \choose k} p^k (1-p)^{n-k}$$
 
 The probability of getting \\(k\\) heads when flipping \\(n\\) coins is:
 $$\tag*{(1)} P(E) = {n \choose k} p^k (1-p)^{n-k}$$
