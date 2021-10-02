@@ -94,6 +94,9 @@ section = ["HTML", "print", "RSS"]
 # copyright = "Quality Assurance DAO"
 # privacy_policy = "https://policies.google.com/privacy"
 
+[params.katex]
+enable = true
+
 # First one is picked as the Twitter card image if not set on page.
 # images = ["images/project-illustration.png"]
 
