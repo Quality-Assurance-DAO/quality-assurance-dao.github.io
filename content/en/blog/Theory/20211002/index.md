@@ -22,7 +22,7 @@ In response to Marta's (N+Fold) discussion on *[Comparing Interoperability when 
  
  ### Mapping Multiple Traces of Immutability. Why?
  
- This comment was discussed further in an After Town Hall session of 22nd September 2021 entitled “*Mapping Multiple Traces of Immutability. Why?*" and [recorded on YouTube](https://www.youtube.com/watch?v=EpZGPf9r_Hg”).
+ This comment was discussed further in an After Town Hall session hosted by Marta on 22nd September 2021 entitled “*Mapping Multiple Traces of Immutability. Why?*" and [recorded on YouTube](https://www.youtube.com/watch?v=EpZGPf9r_Hg”).
   
 ### Lack of extension
 
