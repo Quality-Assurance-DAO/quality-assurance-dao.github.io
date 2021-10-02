@@ -17,7 +17,7 @@ Dor Gorbash
 
 In a [Telegram post](https://t.me/CatalystCommunityAdvisors/12129) of 9th July 2021 Dor Gorbash shared an article "[Adaptive social networks promote the wisdom of crowds](https://www.pnas.org/content/117/21/11379)" published in https://www.pnas.org/ .
 
-## Well-informed individuals
+### Well-informed individuals
 
 On 27th September 2021, I commented : For me another key statement in this paper is "*Studies have found that these divergent effects are moderated by placing well-informed individuals in prominent positions in the network structure*". 
 
@@ -34,7 +34,7 @@ In the context of CAs what might translate from this article is whether :
 
 One issue may be that there is a lack of focus, there is a lot of Social Psychology research (for example) but not so much specifically directed at the Blockchain context. As Dor highlighted, IOG research, to date, has been mainly concerned with game theory and security. So, the initiative will likely be with the community to incorporate relevant past research and to provide new contexts for research in distributed governance.  
 
-## Follow-up post
+### Follow-up post
 
 In a [follow-up post](https://t.me/CatalystCommunityAdvisors/18718) of 2nd October 2021 I commented : 
 
