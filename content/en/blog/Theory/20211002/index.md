@@ -11,14 +11,14 @@ resources:
     byline: "Notes on Lambda Calculus"
 ---
 
-## Notes on Lambda Calculus
-
 ### Passive-Interface-Pair-for-Decentralized-Identity-DID
 
 In response to Marta's (N+Fold) discussion on *[Comparing Interoperability when there is a transliteration of material forms.](https://github.com/NFold/Passive-Interface-Pair-for-Decentralized-Identity-DID/wiki/Comparing-Interoperability-when-there-is-a--transliteration-of-material-forms.)* in relation to her Project Catalyst Fund 6 proposal *Passive-Interface-Pair-for-Decentralized-Identity-DID* I touched upon the subject of Lambda Calculus :
 
 > It was an interesting session. With reference to your wiki notes: yes "Laws of Form" looks like it has parallels with Lambda Calculus. The name I was searching for on Saturday was Alonzo Church who collaborated with Alan Turing on computability. And Church's Lambda Calculus came to mind, in relation to your proposal, because it is an analogue means of computation (written notation) and a way to test what is computable without a digital computer. Another aspect of Lambda Calculus is its sparseness - at its core it is a non-extensional theory of functions. So it does not rely on external references to ordered pairs of data. Lambda functions are unary and immutable. A passive interface with an immutable history if it is computable would be a Turing machine and a possible reader/writer could be Lambda functions. 
  [Discord link](https://discord.com/channels/756943420660121600/875490941589422140/886757403490660373)
+ 
+ ### Mapping Multiple Traces of Immutability. Why?
  
  This comment was discussed further in an After Town Hall session of 22nd September 2021 entitled  “[Mapping Multiple Traces of Immutability. Why?]https://www.youtube.com/watch?v=EpZGPf9r_Hg”.
  
