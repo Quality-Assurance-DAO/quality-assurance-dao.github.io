@@ -6,7 +6,7 @@ description: >
  The first step in empowering any community to change their lives is to create a space where people can develop and crystallise their OWN understanding of the problem. 
 ---
 
-{{< imgproc Hub Fill "878x1200" >}} Homeless people have a unique culture.{{< /imgproc >}}
+{{< imgproc Hub Fill "400x546" >}} Homeless people have a unique culture.{{< /imgproc >}}
 
 ## Homeless people have a unique culture
 
