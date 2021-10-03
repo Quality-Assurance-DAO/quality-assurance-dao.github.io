@@ -2,6 +2,7 @@
 title: "Catalyst-Swarm-Genesis"
 linkTitle: "Catalyst-Swarm-Genesis"
 date: 2021-05-09
+hide_feedback: true
 description: >
   Catalyst-Swarm-Genesis - a GitBook which records the activities of the Catalyst-Swarm.
 ---
