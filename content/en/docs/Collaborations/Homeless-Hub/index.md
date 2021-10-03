@@ -1,5 +1,6 @@
 ---
 title: "Homeless-Hub"
+linkTitle: "Homeless people have a unique culture"
 date: 2017-01-05
 hide_feedback: true
 weight: 2
