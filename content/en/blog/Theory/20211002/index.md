@@ -29,7 +29,14 @@ In response to Marta's (N+Fold) discussion on *[Comparing Interoperability when 
 So I wanted to draw attention to a way to think abstractly about computation in terms of functions.  
 
   
-### Lack of extension
+### Extensional versus intensional Functions
+
+An extensional mapping of an input onto an output renders the input \\(X\\) & output \\Y\\) as a domain \\(X\\) & co-domain \\Y\\) .
+
+
+The probability of getting \\(k\\) heads when flipping \\(n\\) coins is:
+$$\tag*{(1)} P(E) = {n \choose k} p^k (1-p)^{n-k}$$
+
 
 A succent explanantion of the intensional nature of Lambda Calculus is given by Peter Selinger in his *[Lecture Notes on the Lambda Calculus](http://www.mscs.dal.ca/~selinger/papers/#lambdanotes)* .
 
