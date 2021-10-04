@@ -24,7 +24,7 @@ In response to Marta's (N+Fold) discussion on *[Comparing Interoperability when 
  
  This comment was discussed further in an After Town Hall session hosted by Marta on 22nd September 2021 entitled “*Mapping Multiple Traces of Immutability. Why?*" and [recorded on YouTube](https://www.youtube.com/watch?v=EpZGPf9r_Hg”).
  
- There was some discussion over the statement "*A passive interface with an immutable history if it is computable would be a Turing machine and a possible reader/writer could be Lambda functions.*". Filip understood that it was simply meant as a general statement. What is computable is Turing complete and this was picked up by SofiH. Lambda calculs is just one means to express what is computable. Its focus is on doing this through the use of functions only.
+ There was some discussion over the statement "*A passive interface with an immutable history if it is computable would be a Turing machine and a possible reader/writer could be Lambda functions.*". Filip understood that this was simply meant as a general statement. SofiH picked up that what is computable is Turing complete. Lambda calculs is just one means to express what is computable. The focus in Lambda is to do this through the use of functions only.
   
 ### Lack of extension
 
