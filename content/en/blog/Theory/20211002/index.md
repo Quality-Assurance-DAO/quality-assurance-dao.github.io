@@ -31,9 +31,8 @@ So I wanted to draw attention to a way to think abstractly about computation in 
   
 ### Extensional versus intensional Functions
 
-An extensional mapping of an input onto an output renders the input \\(X\\) & output \\(Y\\) as a domain \\(X\\) & co-domain \\(Y\\) .
-
-$$f : X \to Y$$
+An extensional mapping of an input onto an output renders the input \\(X\\) & output \\(Y\\) as a domain \\(X\\) & co-domain \\(Y\\).
+A function in this context \\(f : X \to Y\\)
 
 f : X → Y
 
