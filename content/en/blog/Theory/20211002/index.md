@@ -31,7 +31,11 @@ So I wanted to draw attention to a way to think abstractly about computation in 
   
 ### Extensional versus intensional Functions
 
-An extensional mapping of an input onto an output renders the input \\(X\\) & output \\Y\\) as a domain \\(X\\) & co-domain \\Y\\) .
+An extensional mapping of an input onto an output renders the input \\(X\\) & output \\(Y\\) as a domain \\(X\\) & co-domain \\(Y\\) .
+
+$$\to X$$
+
+f : X → Y
 
 
 The probability of getting \\(k\\) heads when flipping \\(n\\) coins is:
