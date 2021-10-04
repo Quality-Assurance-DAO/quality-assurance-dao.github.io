@@ -33,7 +33,7 @@ So I wanted to draw attention to a way to think abstractly about computation in 
 
 An extensional mapping of an input onto an output renders the input \\(X\\) & output \\(Y\\) as a domain \\(X\\) & co-domain \\(Y\\) .
 
-$$\to X$$
+$$f : X \to Y$$
 
 f : X → Y
 
