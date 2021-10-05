@@ -33,11 +33,8 @@ So I wanted to draw attention to a way to think abstractly about computation in 
 
 An extensional mapping of an input onto an output renders the input \\(X\\) & output \\(Y\\) as a domain \\(X\\) & co-domain \\(Y\\).
 
-A function in this context \\(f : X \to Y\\) is a set of pairs \\(f \subseteq X \times Y\\) such that for each \\(x \in X\\), there exists exactly one \\(Y \subseteq Y\\) such that \\((x,y) \subseteq f\\).
+A function in this context \\(f : X \to Y\\) is a set of pairs \\(f \subseteq X \times Y\\) such that for each \\(x \in X\\), there exists exactly one \\(y \subseteq Y\\) such that \\((x,y) \subseteq f\\).
 
-
-> is a set of pairs f ⊆ X × Y such that for each x ∈ X, there
-> exists exactly one y ∈ Y such that (x, y) ∈ f.
 
 
 
