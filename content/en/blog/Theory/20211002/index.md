@@ -32,7 +32,7 @@ So I wanted to draw attention to a way to think abstractly about computation in 
 ### Extensional versus intensional Functions
 
 An extensional mapping of an input onto an output renders the input \\(X\\) & output \\(Y\\) as a domain \\(X\\) & co-domain \\(Y\\).
-A function in this context \\(f : X \to Y\\) is a set of pairs \\(f \subseteq X x Y\\) such that for each \\(x \in X\\), there exists ..
+A function in this context \\(f : X \to Y\\) is a set of pairs \\(f \subseteq X \times Y\\) such that for each \\(x \in X\\), there exists ..
 
 
 is a set of pairs f ⊆ X × Y such that for each x ∈ X, there
