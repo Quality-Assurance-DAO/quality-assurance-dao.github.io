@@ -36,13 +36,6 @@ An extensional mapping of an input onto an output renders the input \\(X\\) & ou
 A function in this context \\(f : X \to Y\\) is a set of pairs \\(f \subseteq X \times Y\\) such that for each \\(x \in X\\), there exists exactly one \\(y \\in Y\\) such that \\((x,y) \in f\\).
 
 
-
-
-
-The probability of getting \\(k\\) heads when flipping \\(n\\) coins is:
-$$\tag*{(1)} P(E) = {n \choose k} p^k (1-p)^{n-k}$$
-
-
 A succent explanantion of the intensional nature of Lambda Calculus is given by Peter Selinger in his *[Lecture Notes on the Lambda Calculus](http://www.mscs.dal.ca/~selinger/papers/#lambdanotes)* .
 
 > Think of a computer program as defining a function that maps onput to output. Most computer programmers (and users) do not only care about the extensional behavior of a program (which inputs are mapped to which outputs), but also about how the output is calculated: How much time does it take? How much memory and disk space is used in the process? How much communication bandwidth is used? These are intensional questions having to do with the particular way in which a function was defined.
