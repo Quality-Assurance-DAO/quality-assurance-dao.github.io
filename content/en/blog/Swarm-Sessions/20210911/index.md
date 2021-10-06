@@ -10,8 +10,13 @@ resources:
   params:
     byline: "Quality Assurance DAO"
 ---
+### Part 1
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Y-rRJ9sBzJE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Part 2
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lNo2Xa7L6TY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 A wide-ranging discussion of Reputation Systems and associated issues took place at the Saturday Swarm Session of 11th September 2021. Further details are recorded in this GitHub Issue comment [Future of Swarm: Reputation Systems](https://github.com/Catalyst-Swarm/Catalyst-Beehive/issues/199#issuecomment-917441743).
