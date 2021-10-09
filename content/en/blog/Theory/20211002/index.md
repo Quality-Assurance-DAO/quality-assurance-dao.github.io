@@ -24,8 +24,7 @@ In response to Marta's (N+Fold) discussion on *[Comparing Interoperability when 
  
  This comment was discussed further in an After Town Hall session hosted by Marta on 22nd September 2021 entitled “*Mapping Multiple Traces of Immutability. Why?*" and [recorded on YouTube](https://www.youtube.com/watch?v=EpZGPf9r_Hg”).
  
- There was some discussion over the statement "*A passive interface with an immutable history if it is computable would be a Turing machine and a possible reader/writer could be Lambda functions.*". Filip understood that this was simply meant as a general statement. SofiH picked up that what is computable is Turing complete. Lambda Calculus is just one means to express what is computable as per the [Church-Turing Thesis](https://en.wikipedia.org/wiki/Church%E2%80%93Turing_thesis). The focus in Lambda is to do this through the use of functional reduction. So I wanted to draw attention to a way to think abstractly about computation in terms of functions.  
-
+ There was some discussion over the statement "*A passive interface with an immutable history if it is computable would be a Turing machine and a possible reader/writer could be Lambda functions.*". Filip understood that this was simply meant as a general statement. SofiH picked up that what is computable is Turing complete. Lambda Calculus is just one means to express what is computable. As per the [Church-Turing Thesis](https://en.wikipedia.org/wiki/Church%E2%80%93Turing_thesis). The focus in Lambda is to do this through the use of functional reduction and  I wanted to draw attention to a way of thinking abstractly about computation where the use of functional reduction is made explicit. In essence, to compute is to be able to solve numerical functions.
   
 ### Extensional versus intensional Functions
 
