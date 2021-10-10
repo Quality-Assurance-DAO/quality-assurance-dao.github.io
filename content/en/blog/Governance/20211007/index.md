@@ -1,9 +1,8 @@
-
 ---
 date: 2021-10-07
 title: "Catalyst Circle Meeting 7"
-linkTitle: "Catalyst Circle Meeting 7""
-description: "Catalyst Circle Meeting 7""
+linkTitle: "Catalyst Circle Meeting 7"
+description: "Catalyst Circle Meeting 7"
 author: Stephen Whitenstall
 resources:
 - src: "**.{png,jpg}"
