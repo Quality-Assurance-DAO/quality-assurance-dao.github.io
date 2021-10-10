@@ -8,9 +8,8 @@ description: >-
 
 ## Catalyst Circle Meeting 7, Thursday, 7th October 2021
 
-Edit this template to create your new page.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-EMK5ou-XLY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-* Give it a good name, ending in `.md` - e.g. `getting-started.md`
-* Edit the "front matter" section at the top of the page (weight controls how its ordered amongst other pages in the same directory; lowest number first).
-* Add a good commit message at the bottom of the page (<80 characters; use the extended description field for more detail).
-* Create a new branch so you can preview your new file and request a review via Pull Request.
+Updates on CC actions (50 min) -> Update Trello Board Accordingly 
+Moving existing Items across the board
+
