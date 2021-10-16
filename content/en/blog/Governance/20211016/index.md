@@ -3,7 +3,7 @@ date: 2021-10-16
 title: "Reporting distributed community projects"
 linkTitle: "Reporting distributed community projects"
 description: "Reporting distributed community projects"
-author: 
+author: Robert O'Brien, Vanessa Cardui
 resources:
 - src: "**.{png,jpg}"
   title: "Image #:counter"
