@@ -25,7 +25,12 @@ This cumulative blog post aims to bring together reference materials and discuss
 - https://en.wikipedia.org/wiki/Cynefin_framework
 - https://cynefin.io/wiki/Main_Page
 
-## Vanessa
+## Vanessa Cardui
 
 ### Asset Based Community Development (ABCD)
-- https://www.nurturedevelopment.org/asset-based-community-development/
+- https://resources.depaul.edu/abcd-institute/publications/Documents/A%20Guide%20to%20Evaluating%20Asset-Based.pdf
+- https://www.nurturedevelopment.org/blog/evaluating-asset-based-community-development-abcd-efforts/
+- https://evaluationsupportscotland.org.uk/wp-content/uploads/2020/08/principles_for_evaluating_asset-based_approaches_work.pdfhttps://www.nurturedevelopment.org/blog/evaluating-asset-based-community-development-abcd-efforts/
+
+#### Theory of Change approach to evaluation and reporting
+- https://www.intrac.org/resources/monitoring-and-evaluation-planning-series-16/
