@@ -3,7 +3,7 @@ date: 2021-10-16
 title: "Reporting distributed community projects"
 linkTitle: "Reporting distributed community projects"
 description: "Reporting distributed community projects"
-author: Robert O'Brien, Vanessa Cardui
+author: Robert O'Brien, Vanessa Cardui, Stephen Whitenstall
 resources:
 - src: "**.{png,jpg}"
   title: "Image #:counter"
@@ -11,7 +11,7 @@ resources:
     byline: "Reporting distributed community projects"
 ---
 
-This cumulative blog post aims to bring together reference materials and discussion points on the subject of How to report distributed community projects ?
+This cumulative blog post aims to bring together reference materials and discussion points on the subject of reporting distributed community projects.
 
 ## Robert O'Brien
 
