@@ -1,14 +1,14 @@
 ---
 date: 2021-10-16
-title: "How to report distributed community projects ?"
-linkTitle: "How to report distributed community projects ?"
-description: "How to report distributed community projects ?"
+title: "Reporting distributed community projects"
+linkTitle: "Reporting distributed community projects"
+description: "Reporting distributed community projects"
 author: 
 resources:
 - src: "**.{png,jpg}"
   title: "Image #:counter"
   params:
-    byline: "How to report distributed community projects ?"
+    byline: "Reporting distributed community projects"
 ---
 
 This cumulative blog post aims to bring together reference materials and discussion points on the subject of How to report distributed community projects ?
