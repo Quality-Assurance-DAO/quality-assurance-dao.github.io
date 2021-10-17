@@ -61,6 +61,14 @@ I don't really see this plutocracy kind of thing fading away in any kind of imme
 
 I think about the existential threat to the incentive system. But the thing I love most about catalyst so far has been the iterative approach. Its not all at once, it's each fund, it's scaling up. I really respect the teams for really looking at the data, really analyzing the activity of the wallets, and the participation. The other thing I love is the value system that we have within the Cardano community. We have done a pretty good job of attracting people that have a notion of community value, civic responsibility and communal effort. It isn't just about a pure financial economic vision or economic self interest. People care about values that aren't purely based on ADA, or Fiat. - *precis of Johnny [20:11](https://www.youtube.com/watch?v=24ImaWIiChg&t=1211s)*
 
+## Tevo - Experimenting in a safe, stable environment 
+
+One thing I would like to mention is that having this kind of iterative method makes us the people who are here today.
+Like asking questions such as "why don't we use this method" or "why we don't use this voting solution". And Catalyst helps to promote this and allows your idea to flourish. This provides incentives and the opportunity to create these small little experiments ourselves in a safe environment. - *precis of Tevo  [22:15](https://www.youtube.com/watch?v=24ImaWIiChg&t=1335s)*
+
+
+
+
 
 
 
