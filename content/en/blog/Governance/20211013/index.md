@@ -10,11 +10,9 @@ resources:
   params:
     byline: "Version Zero"
 ---
-## Café sûr le Pont introduction - hosted by Nori and Felix
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/24ImaWIiChg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+## Café sûr le Pont introduction 
 ☕ Cafe sur le pont introduction 🌉 was hosted by Nori and Felix at the After Town Hall of 13th October 2021.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/24ImaWIiChg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Summary Keywords
 The SUMMARY KEYWORDS from this meetings transcript : 
