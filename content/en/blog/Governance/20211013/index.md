@@ -2,7 +2,7 @@
 date: 2021-10-13
 title: "Version Zero"
 linkTitle: "Version Zero"
-description: "Version Zero"
+description: "Version Zero of Cafe sur la Pont"
 author: Cafe sur la Pont
 resources:
 - src: "**.{png,jpg}"
