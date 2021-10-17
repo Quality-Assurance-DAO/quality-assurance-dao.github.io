@@ -14,11 +14,21 @@ resources:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/24ImaWIiChg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+☕ Cafe sur le pont introduction 🌉 was hosted by Nori and Felix at the After Town Hall of 13th October 2021.
+
+## Summary Keywords
+The SUMMARY KEYWORDS from this meetings transcript : 
+> people, community, voting, governance, system, catalyst, open source, dor, ada, experiments, blockchain, create, talking, point, vote, environment, public goods, build, quadratic voting, reputation
+
+## Speakers
+> Tom, Ken, Simon, Dean, Quaser, Johnny, Tevo, Robert, Felix, Filip, Nick, Melanie, Dereyk, Charlie, Dor, Yoram, Nori, Jonathan, Vincent, George
+
+## Voltaire
+The subject being discussed is broadly "Voltaire" - an "[era of Cardano will provide the final pieces required for the Cardano network to become a self-sustaining system](https://roadmap.cardano.org/en/voltaire/)" (Cardano Roadmap).
+
+## George - What is the intention ? 
+
+Hey, oh, yeah, I was just wondering, because Voltaire realistically, it's going to be what later next year, so using Voltaire infrastructure is going to be delayed. So, I guess some is some of the idea here that we'll be making some kind of interim solutions may be expanding on what's being looked at with this Catalyst Circle v2 kind of thing I don't know what that I'm guessing that that kind of process will be open source and that anything technical be open source for that. So, I guess there could be some interim kind of things we use and build upon to have some processes that do these kind of smaller term, democratic kind of systems. Is that is that somewhat the intention? Or is it more kind of hypothetical kind of talking about what we could possibly do? I guess there any, in terms of that direction, what there's only preference. -George  07:18
 
 
-Edit this template to create your new page.
 
-* Give it a good name, ending in `.md` - e.g. `getting-started.md`
-* Edit the "front matter" section at the top of the page (weight controls how its ordered amongst other pages in the same directory; lowest number first).
-* Add a good commit message at the bottom of the page (<80 characters; use the extended description field for more detail).
-* Create a new branch so you can preview your new file and request a review via Pull Request.
