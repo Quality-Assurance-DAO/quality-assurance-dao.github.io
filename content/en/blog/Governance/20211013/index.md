@@ -107,6 +107,12 @@ I like it simple as it is right now. When I know the system stays mostly the sam
 
 It might be fun to have a way to replay the votes under different schemas.No matter how you count the votes we still have wallets in ADA, we still have the same amount of information going into each vote, unless we do rank or quadratics. If we try these different systems. What might that change as far as which proposals get picked? I think that might be cool to have a playground of sorts that actually takes the real voting data. - *precis of Vincent - [42:55](https://www.youtube.com/watch?v=24ImaWIiChg&t=2575s)*
 
+## Robert - PACE - Catalyst data API 
+
+PACE and myself do want to make all this data available as an API. So you might at least get the raw data. We have a proposal for that in Fund 6 to gather that proposal data in a structure API available to the community. - *precis of Robert  [45:00](https://www.youtube.com/watch?v=24ImaWIiChg&t=2700s)*
+
+- Reference:  F6: Improve and Grow Auditability - [PACE: Proposal progress updates](https://cardano.ideascale.com/a/dtd/PACE-Proposal-progress-updates/367266-48088)
+
 
 
 
