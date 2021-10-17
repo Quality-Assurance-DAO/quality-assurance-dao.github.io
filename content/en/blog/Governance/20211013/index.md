@@ -91,6 +91,13 @@ I really want to focus on gathering the human capital in the right environment. 
 
 It is important to recognise that if you have just one system then everybody is stuck using that system. The freedom to leave or to choose a different way of doing things is important. Catalyst is just one system. And with Cardano, it's possible to build whatever other voting system you want to build on it. - *precis of Ken - [35:05](https://www.youtube.com/watch?v=24ImaWIiChg&t=2105s)*
 
+## Tom - We should assume corruption and prepare for it 
+
+We should just assume that corruption will occur, we should just assume that the system, no matter how successful will eventually collapse from its own weight. And the benefit of Cardano, or any type of project like this is that the keys to rebuild something new are publicly available and always being innovated on. - *precis of Tom - [38:21](https://www.youtube.com/watch?v=24ImaWIiChg&t=2301s)*
+
+
+
+
 
 
 
