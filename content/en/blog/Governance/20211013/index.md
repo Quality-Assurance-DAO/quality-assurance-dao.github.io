@@ -40,6 +40,20 @@ Is Cardano a plutocratic system ? Which means, one ADA one vote. I just want to 
 
 I do see a point in the future when we've minted all of the ADA that's ever going to be produced, where you could end up in a situation where you have large holders who can effectively just stake and stay rich and stay powerful forever. So we may need to look at a transition at some point. But things are working presently. - *precis of Vincent  [10:40](https://www.youtube.com/watch?v=24ImaWIiChg&t=640s)*
 
+## Dor - Building Legitimacy
+
+I think it assumes a lot that a lot of people want a plutocratic system. And it is working against the stream to want something else. Nobody in IOG wants a world governance where rich people have lots of power. I sit in countless meetings trying to figure these things out and resolve them. And the truth is that any type of governance needs to develop legitimacy over time. Maybe someone here in the room has a quick fix. But we do not presently have an alternative voting model that cannot be Sybil attacked. 
+
+A way to validate your identity is one pathway forward. Only when it is feasible are we going to start experiments with different decision making mechanisms and allocations of voting power. And I think it's more of a question of do we wait in the sidelines and wait for the perfect conditions to arrive and only then start to experiment or do we take what we currently have, which is ADA based voting and leverage it. To start to build legitimacy for even introducing the concept that 10s of 1000s of people can make joint decisions together effectively. So it's not ideal, but this is the reality we have. 
+
+With our rapid funding mechanisms we can already start to launch large scale projects where we can see decision making. If we can prove that we have figured out a mechanism that is more effective, then it's not a matter of ideology. It transcends questions of whether I believe in this or that form of governance. It will become an inevitable truth that is just going to become the new norm over time. Simply because groups which are making better decisions are going to flourish and are going to outcompete any other group.
+
+And the unfortunate thing is it's not going to matter if it's more moral or less moral. Its going to be about what's more effective. But of course being attractive. A system that is fair is engaging, and is going to have more chances to succeed. Because people are going to believe in it, and be engaged with it. 
+
+So I would concede the fact that currently this is the best thing we've got. But we also need to start to figure out how can we actually transition in a controlled way.
+- *precis of Dor  [12:15](https://www.youtube.com/watch?v=24ImaWIiChg&t=735s)*
+
+
 
 
 
