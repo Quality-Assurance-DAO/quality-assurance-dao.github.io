@@ -70,6 +70,15 @@ Like asking questions such as "why don't we use this method" or "why we don't us
 
 Continuing what Tevo said, we can do a nice test. I mean we can compare results based on wallets and an estimation. So we can do a lot of trials and we will have some indication how far we have progressed with two different models. - *precis of Yoram  [24:31](https://www.youtube.com/watch?v=24ImaWIiChg&t=1471s)*
 
+## Charlie - Structured competing interests - power plays
+
+I guess one of the things that strikes me is that there's nothing more efficient than a centralized government in terms of getting things done in the short term. But in the long term it cannot last. And what's interesting with a lot of government structures being discussed now is you have structured, competing interests. It's interesting how there are technocracies, meritocracies, sociocracy - there a lot of different dimensions of power. So you see this sort of power play happening. - *precis of Charlie - [26:01](https://www.youtube.com/watch?v=24ImaWIiChg&t=1561s)*
+
+
+
+
+
+
 
 
 
