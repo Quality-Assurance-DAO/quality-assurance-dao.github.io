@@ -74,6 +74,11 @@ Continuing what Tevo said, we can do a nice test. I mean we can compare results 
 
 I guess one of the things that strikes me is that there's nothing more efficient than a centralized government in terms of getting things done in the short term. But in the long term it cannot last. And what's interesting with a lot of government structures being discussed now is you have structured, competing interests. It's interesting how there are technocracies, meritocracies, sociocracy - there a lot of different dimensions of power. So you see this sort of power play happening. - *precis of Charlie - [26:01](https://www.youtube.com/watch?v=24ImaWIiChg&t=1561s)*
 
+## Filip - Reputation as perception 
+
+As Charlie just said reputation will always have something that is social. Our personal identity is one thing, but reputation is a totally another thing. The reputation of Filip is how I and all the rest of us perceive Filip it has nothing to do with me. I have no control over it. I may act in a certain way to try to manipulate my reputation. But it's coming from outside. And it's extremely dynamic. So I think to attempt to quantify that needs something revolutionary. - *precis of Filip  [28:27](https://www.youtube.com/watch?v=24ImaWIiChg&t=1707s)*
+
+
 
 
 
