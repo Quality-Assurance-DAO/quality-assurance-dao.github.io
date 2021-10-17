@@ -78,6 +78,13 @@ I guess one of the things that strikes me is that there's nothing more efficient
 
 As Charlie just said reputation will always have something that is social. Our personal identity is one thing, but reputation is a totally another thing. The reputation of Filip is how I and all the rest of us perceive Filip it has nothing to do with me. I have no control over it. I may act in a certain way to try to manipulate my reputation. But it's coming from outside. And it's extremely dynamic. So I think to attempt to quantify that needs something revolutionary. - *precis of Filip  [28:27](https://www.youtube.com/watch?v=24ImaWIiChg&t=1707s)*
 
+## Nick - Building communities through archetypes
+
+One of the big things we have to start with is involving all the stakeholders, we're still such a niche environment that we're going to get very limited perspectives. And there is ways to measure that. My proposal Cardano community campus is all about using sociological and psychological research to build communities through archetypes. It's a way to understand if we have a holistic environment in which to actually gather all the right information to make these decisions.
+
+I really want to focus on gathering the human capital in the right environment. An emerging space, not just iterative, emerging meaning we actually create a space where things can come through in this effort of play and making mistakes and curiosity and imagination, because I think that's where the blue oceans are going to be for us.- *precis of Nick - 31:20*
+
+- Reference :  F6: Proposer outreach - [Cardano Community Campus](https://cardano.ideascale.com/a/dtd/Cardano-Community-Campus/369923-48088)
 
 
 
