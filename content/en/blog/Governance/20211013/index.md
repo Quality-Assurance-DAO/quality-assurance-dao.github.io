@@ -103,6 +103,11 @@ I think the education is the only chance to get there. And this iterating thing 
 
 I like it simple as it is right now. When I know the system stays mostly the same. And step by step, slight changes. -  *precis of Tevo  [39:26](https://www.youtube.com/watch?v=24ImaWIiChg&t=2366s)*
 
+## Vincent - Voting behavior and outcomes 
+
+It might be fun to have a way to replay the votes under different schemas.No matter how you count the votes we still have wallets in ADA, we still have the same amount of information going into each vote, unless we do rank or quadratics. If we try these different systems. What might that change as far as which proposals get picked? I think that might be cool to have a playground of sorts that actually takes the real voting data. - *precis of Vincent - [42:55](https://www.youtube.com/watch?v=24ImaWIiChg&t=2575s)*
+
+
 
 
 
