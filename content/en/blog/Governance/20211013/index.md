@@ -66,6 +66,12 @@ I think about the existential threat to the incentive system. But the thing I lo
 One thing I would like to mention is that having this kind of iterative method makes us the people who are here today.
 Like asking questions such as "why don't we use this method" or "why we don't use this voting solution". And Catalyst helps to promote this and allows your idea to flourish. This provides incentives and the opportunity to create these small little experiments ourselves in a safe environment. - *precis of Tevo  [22:15](https://www.youtube.com/watch?v=24ImaWIiChg&t=1335s)*
 
+## Yoram - Testing based on wallets
+
+Continuing what Tevo said, we can do a nice test. I mean we can compare results based on wallets and an estimation. So we can do a lot of trials and we will have some indication how far we have progressed with two different models. - *precis of Yoram  [24:31](https://www.youtube.com/watch?v=24ImaWIiChg&t=1471s)*
+
+
+
 
 
 
