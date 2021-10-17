@@ -26,7 +26,10 @@ The subject being discussed is broadly "Voltaire" - an "[era of Cardano will pro
 
 ## George - What is the intention ? 
 
-Hey, oh, yeah, I was just wondering, because Voltaire realistically, it's going to be what later next year, so using Voltaire infrastructure is going to be delayed. So, I guess some is some of the idea here that we'll be making some kind of interim solutions may be expanding on what's being looked at with this Catalyst Circle v2 kind of thing I don't know what that I'm guessing that that kind of process will be open source and that anything technical be open source for that. So, I guess there could be some interim kind of things we use and build upon to have some processes that do these kind of smaller term, democratic kind of systems. Is that is that somewhat the intention? Or is it more kind of hypothetical kind of talking about what we could possibly do? I guess there any, in terms of that direction, what there's only preference. -George  07:18
+Assuming the Voltaire infrastructure is going to be delayed. What are the interim solutions ? Will Catalyst Circle v2 expand upon this ? I guess the process will be open-source. And the interim will build processes that in the  short-term is a democratic kind of systems. Is that is that the intention? - precis of George 07:18.
+
+
+
 
 
 
