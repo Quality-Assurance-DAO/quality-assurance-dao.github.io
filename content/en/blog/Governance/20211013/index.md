@@ -50,8 +50,7 @@ With our rapid funding mechanisms we can already start to launch large scale pro
 
 And the unfortunate thing is it's not going to matter if it's more moral or less moral. Its going to be about what's more effective. But of course being attractive. A system that is fair is engaging, and is going to have more chances to succeed. Because people are going to believe in it, and be engaged with it. 
 
-So I would concede the fact that currently this is the best thing we've got. But we also need to start to figure out how can we actually transition in a controlled way.
-- *precis of Dor  [12:15](https://www.youtube.com/watch?v=24ImaWIiChg&t=735s)*
+So I would concede the fact that currently this is the best thing we've got. But we also need to start to figure out how can we actually transition in a controlled way. - *precis of Dor  [12:15](https://www.youtube.com/watch?v=24ImaWIiChg&t=735s)*
 
 
 
