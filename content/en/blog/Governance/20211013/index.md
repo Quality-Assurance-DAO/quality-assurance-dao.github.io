@@ -36,6 +36,11 @@ The initial preference is to have a conversation and not necessarily come togeth
 
 Is Cardano a plutocratic system ? Which means, one ADA one vote. I just want to ask is this fine? Do we do we accept this as a fact of life? If we look at governance systems everywhere, it's basically plutocratic. We may be sometimes mask it as a democracy, but in the end, it's heavily influenced by money. And should we just keep aligning our system according to plutocratic principles ? - *precis of Filip  [09:00](https://www.youtube.com/watch?v=24ImaWIiChg&t=540s)*
 
+## Vincent - large ADA holders 
+
+I do see a point in the future when we've minted all of the ADA that's ever going to be produced, where you could end up in a situation where you have large holders who can effectively just stake and stay rich and stay powerful forever. So we may need to look at a transition at some point. But things are working presently. - *precis of Vincent  [10:40](https://www.youtube.com/watch?v=24ImaWIiChg&t=640s)*
+
+
 
 
 
