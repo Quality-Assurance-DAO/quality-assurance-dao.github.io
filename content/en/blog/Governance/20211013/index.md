@@ -82,9 +82,14 @@ As Charlie just said reputation will always have something that is social. Our p
 
 One of the big things we have to start with is involving all the stakeholders, we're still such a niche environment that we're going to get very limited perspectives. And there is ways to measure that. My proposal Cardano community campus is all about using sociological and psychological research to build communities through archetypes. It's a way to understand if we have a holistic environment in which to actually gather all the right information to make these decisions.
 
-I really want to focus on gathering the human capital in the right environment. An emerging space, not just iterative, emerging meaning we actually create a space where things can come through in this effort of play and making mistakes and curiosity and imagination, because I think that's where the blue oceans are going to be for us.- *precis of Nick - 31:20*
+I really want to focus on gathering the human capital in the right environment. An emerging space, not just iterative, emerging meaning we actually create a space where things can come through in this effort of play and making mistakes and curiosity and imagination, because I think that's where the blue oceans are going to be for us.- *precis of Nick - [31:20](https://www.youtube.com/watch?v=24ImaWIiChg&t=1880s)*
 
 - Reference :  F6: Proposer outreach - [Cardano Community Campus](https://cardano.ideascale.com/a/dtd/Cardano-Community-Campus/369923-48088)
+
+## Ken - The freedom to choose a different way of doing things
+
+
+It is important to recognise that if you have just one system then everybody is stuck using that system. The freedom to leave or to choose a different way of doing things is important. Catalyst is just one system. And with Cardano, it's possible to build whatever other voting system you want to build on it. - *precis of Ken - [35:05](https://www.youtube.com/watch?v=24ImaWIiChg&t=2105s)*
 
 
 
