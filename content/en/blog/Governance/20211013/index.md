@@ -95,6 +95,15 @@ It is important to recognise that if you have just one system then everybody is 
 
 We should just assume that corruption will occur, we should just assume that the system, no matter how successful will eventually collapse from its own weight. And the benefit of Cardano, or any type of project like this is that the keys to rebuild something new are publicly available and always being innovated on. - *precis of Tom - [38:21](https://www.youtube.com/watch?v=24ImaWIiChg&t=2301s)*
 
+## Tevo - Explaining Cardano to newcomers - education - keeping it simple
+
+So many topics we have in between the Firestarter Filip with his radical questioning. I understand the problem of how do you explain it to a person who is outside of a blockchain and you explain don't trust governance here is much better solution for you ADA. ADA is a cryptocurrency, it's proof. This is a very radical change and people will still insist it is not safe. I like the way Nick started with how the question of how do we make the ecosystem healthy? 
+
+I think the education is the only chance to get there. And this iterating thing we are doing, we are educating ourselves. I don't think any of us are experts not even the Catalyst team themselves, or IOG. They are experimenting with all of this and they are not experts here as much as we are. We live and learn how we should govern and how we educate ourselves to govern. 
+
+I like it simple as it is right now. When I know the system stays mostly the same. And step by step, slight changes. -  *precis of Tevo  [39:26](https://www.youtube.com/watch?v=24ImaWIiChg&t=2366s)*
+
+
 
 
 
