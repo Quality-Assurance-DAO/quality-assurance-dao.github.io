@@ -136,6 +136,15 @@ Some things that I've that I've watched and seen said here is very much the simi
 
 - Reference : [Caldera_v_Microsoft](https://en.wikipedia.org/wiki/Microsoft_litigation#Caldera_v_Microsoft)
 
+## Jonathan  - Encourage many solutions - granular bottom-up decision making 
+
+I was listening to conversations, thinking about what I'd like to see would be to go back to what George was saying about different voting types for different scenarios. 
+
+We haven't got a single solution for every problem. Things that need to be decided in the community are very varied in terms of their makeup. Whether on a directional, moral, ethical or a fiscal level. They have all got different aspects. And so, we should have different tools for those things. 
+
+A single solution won't engage with people who vote. I think my drive is towards getting things more granular, smaller and decision making being made by people who are infused in the areas that they're working in. Investing time and energy. Heightening their good intentions in areas that they have expertise. - *precis of Jonathan  [54:00](https://www.youtube.com/watch?v=24ImaWIiChg&t=3240s)*
+
+
 
 
 
