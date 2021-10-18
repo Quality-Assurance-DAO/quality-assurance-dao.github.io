@@ -16,7 +16,7 @@ resources:
 
 ## Website
 
-Check out the Café sûr le pont [Website](http://bridgebuilders.io/) and [Youtube](https://www.youtube.com/channel/UCSpsGKOkl1xNM2VKTeu4Mmg) channel.
+Check out the **Café sûr le pont** [Website](http://bridgebuilders.io/) and [Youtube](https://www.youtube.com/channel/UCSpsGKOkl1xNM2VKTeu4Mmg) channel.
 
 ## Summary Keywords
 The SUMMARY KEYWORDS from this meetings transcript : 
@@ -29,12 +29,12 @@ The SUMMARY KEYWORDS from this meetings transcript :
 
 ## Café sûr le pont intro:
 
-Café sûr le pont (Coffee on the bridge) is the very first iteration of an open call to discuss highly relevant topics in regard to the Cardano Voltaire Era. In particular, to talk about the evolution of the community, possibilities, visions, and ideas.
+**Café sûr le pont** (*Coffee on the bridge*) is the very first iteration of an open call to discuss highly relevant topics in regard to the Cardano Voltaire Era. In particular, to talk about the evolution of the community, possibilities, visions, and ideas.
 
-At Café sûr le pont, the greater Cardano community gather to engage in an informal conversations on a variety of timely topics. This conversation is not intended to drive action items or agendas, but rather to open up silos, bring the entire community together on a personal and human level, to put faces to names, and connect people and ideas.
+At **Café sûr le pont**, the greater Cardano community gather to engage in an informal conversations on a variety of timely topics. This conversation is not intended to drive action items or agendas, but rather to open up silos, bring the entire community together on a personal and human level, to put faces to names, and connect people and ideas.
 
 ## Voltaire
-The subject being discussed is broadly "Voltaire" - an "[era of Cardano will provide the final pieces required for the Cardano network to become a self-sustaining system](https://roadmap.cardano.org/en/voltaire/)" (Cardano Roadmap).
+The subject being discussed is broadly "*Voltaire*" - an "[era of Cardano will provide the final pieces required for the Cardano network to become a self-sustaining system](https://roadmap.cardano.org/en/voltaire/)" (Cardano Roadmap).
 
 ## George - What is the intention ? 
 
