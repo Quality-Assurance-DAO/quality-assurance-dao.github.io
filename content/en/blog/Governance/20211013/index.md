@@ -130,9 +130,9 @@ Back then open source was a really bad word. If you bet your career on open sour
 
 Some things that I've that I've watched and seen said here is very much the similar thing,trying to figure out how in the world that you communicate to people, the value of open source. What we came to find out very quickly back then, and it was very painful, was it was a based upon the innovation of value. innovation of value was what would drive the market to be accepted, when people began to understand the connections between how the value was being brought forward. It was like, once someone saw the connection and the connectivity, it was the light would go on, they would begin to create their own visions of how they could start utilizing the structures. 
 
-"The real vision comes when the value gets created, and it gets connected."
+> "The real vision comes when the value gets created, and it gets connected."
 
-"And then we realized this, those who will create the value, and those that will help extend the value will always innovate towards goodness, they will do that." - *precis of Dean  [45:49](https://www.youtube.com/watch?v=24ImaWIiChg&t=2749s)*
+> "And then we realized this, those who will create the value, and those that will help extend the value will always innovate towards goodness, they will do that." - *precis of Dean  [45:49](https://www.youtube.com/watch?v=24ImaWIiChg&t=2749s)*
 
 - Reference : [Caldera_v_Microsoft](https://en.wikipedia.org/wiki/Microsoft_litigation#Caldera_v_Microsoft)
 
@@ -157,6 +157,28 @@ Our biggest asset is really the human capital that's involved. And the investmen
 ## Ken - Making things simple to access
 
 We were talking about having a multiple different systems for voting but I think we need to consider it from the point of view of the individual contributor. From their perspective, it needs to be simple for the one who's interacting with the community, whether it's through voting, or whether it's through some other form of engagement. Because as the system grows then it's not going to be something that you can track and manage as one. - precis of Ken  [1:04:08](https://www.youtube.com/watch?v=24ImaWIiChg&t=3848s)
+
+## Robert - Research on voting - revealing preferences via pricing systems - four quadrants of goods
+
+
+First of all, there's a heck of a lot of research, a millennium of research into voting. In the area that it's called, is social choice. Within Catalyst we're using approval voting which is one of the worst ones we could possibly have. But it's the best sort of approach for the moment. Aside from voting, there is actually another form of revealing preferences.
+
+> "I think that governance is far more than just voting, it's about actually trying to form consensus.""
+
+In fact, if you've reached need to use voting, you've probably actually failed at governance, in many respects, because you haven't managed to build a consensus.
+
+The other tool for revealing preferences is the pricing system, the market. And one of the key things is that we've actually got an accounting layer that works on a global scale. We can use different types of market mechanisms to reveal preferences which we can trust. This falls into things like reputation and identity. 
+
+There are basically four quadrants of types of goods that we're typically dealing with. Most of what we've grown up is what's called private goods. Things like Linux or open-source stuff was more in the camp of common, public goods. A lot of the blockchain space is about trying to bring back common resources and public goods. That does not mean we have to throw out things that worked well for private goods, which is the market system. 
+
+I would encourage everyone to do some digging into the work of Ostrom. She has 40 years looking at how to govern natural resources. A lot of that work was extended into how to govern knowledge Commons as well. 
+
+The key distinction between a market and a social choice system is that social choice never had the pricing function. So we need to bring the two together. 
+
+Don't throw out voting. We can actually experiment with a lot of different voting systems beyond just approval voting.  - precis of Robert  [1:07:04](https://www.youtube.com/watch?v=24ImaWIiChg&t=4024s)
+
+
+
 
 
 
