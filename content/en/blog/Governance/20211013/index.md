@@ -186,32 +186,17 @@ What is lacking in my view is any real sense of IOG staff and community members 
 
 ## Harris - Path from the community to Cardano 
 
-So yeah, it's definitely been a really great, great discussion, really great points of view, I certainly have lived through a few different waves of technology, along with your Dean, you know, I've definitely seen the changes. 
+It's not easy, there is no perfect governance. But as a community we get to reinvent what governance should be and take these great ideas, and leverage all the opinions from lots of different places around the world, to try to inform that. 
 
-And you know that that's what really inspired me into this movement, you know, is to really see how this can change the future, how it can fix a lot of the broken systems that are out there, we do have the challenge that, you know, governance is hard. 
+> "... I think, you know, the idea of catalyst is to fund great ideas and find ways to take people from being observers, to participants, to actually being active in the community to make this your full time job."" 
 
-It's not easy, there is no perfect governance, right. But as a community, we get to sort of reinvent what governance should be, right and take these great ideas, and leverage all the opinions from lots of different places around the world, to try to inform that. 
-
-So I'm just thrilled to be to be part of that along with you, folks. 
-
-So and IOG, you know, the thing that I've run into is there's so many people that have come from the community that become part of IOG So I'm really, and part of that path. 
-
-But a lot of the people, you know, many, many people that you've seen through catalysts have been on that, that path as well. And so I think there can be some opportunities for more and more to sort of join, I think, you know, the idea of catalyst is to fund great ideas and find ways to take people from being observers, to participants, to actually being active in the community to make this your full time job. 
-
-And that's one of the metrics that we see a success, if we can cause an impact, and create change along the way, and build the ecosystem. So I'm really excited to try to bring tools together as much as possible. 
-
-And I'm a huge data fan. And, you know, I'm digging into data sources, I want to make data available. I want to make API's available, to empower the community to continue to build the amazing tools that I've already seen being built, you know, through this process, and so I'm definitely encouraged and so I am happy to post my contact information. 
-
-But I'm really looking to engage and reach out to community members and see where I can be a value and help. It's great to listen to all of the amazing opinions and thoughts and, you know, I think we're well underway of, you know, supporting this, this movement from the community and, you know, our goal is to hand off, you know, the reins of, of driving, you know, the direction of the future on the Cardano platform to the community from IOG, so I am excited to be a part of that. 
-
-So that's some of what I'll offer today. And then I'll have more details. And I'll be sharing, sharing more as we, as we develop, in all probably create some other channels where we can have more, more community communications and involvement. So thank you. - 1:16:59
-
-<iframe src="https://github.com/sponsors/Quality-Assurance-DAO/card" title="Sponsor Quality-Assurance-DAO" height="225" width="600" style="border: 0;"></iframe>
-
+> "And I'm a huge data fan. And, you know, I'm digging into data sources, I want to make data available. I want to make API's available, to empower the community to continue to build the amazing tools that I've already seen being built ..." - precis of Harris - [1:16:59](https://www.youtube.com/watch?v=24ImaWIiChg&t=4619s)
 
 ## Transcription
 
 A full transcription of this meeting is available [here](https://github.com/Quality-Assurance-DAO/QA-DAO-Co-Ordination/blob/main/Documents/Meetings/20211013-Version-Zero-Transcript.md) 
+
+<iframe src="https://github.com/sponsors/Quality-Assurance-DAO/card" title="Sponsor Quality-Assurance-DAO" height="225" width="600" style="border: 0;"></iframe>
 
 
 
