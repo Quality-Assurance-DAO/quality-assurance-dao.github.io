@@ -167,6 +167,9 @@ It's not easy, there is no perfect governance. But as a community we get to rein
 
 ## Johnny - A map of the ecosystem - hard problems of blockchain governance 
 
+![Ecosystem_map_from_Johnny_Nguyen](https://user-images.githubusercontent.com/25156451/137805044-d80b4b0b-c8cf-49a6-9214-b08d21196180.png)
+
+
 ## Transcription
 
 A full transcription of this meeting is available [here](https://github.com/Quality-Assurance-DAO/QA-DAO-Co-Ordination/blob/main/Documents/Meetings/20211013-Version-Zero-Transcript.md) 
