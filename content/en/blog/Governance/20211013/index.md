@@ -10,7 +10,7 @@ resources:
   params:
     byline: "Version Zero"
 ---
-## Café sûr le Pont introduction 
+## Café sûr le pont introduction 
 ☕ Cafe sur le pont introduction 🌉 was hosted by Nori and Felix at the After Town Hall of 13th October 2021.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/24ImaWIiChg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -21,10 +21,11 @@ The SUMMARY KEYWORDS from this meetings transcript :
 ## Speakers
 > Tom, Ken, Simon, Dean, Quaser, Johnny, Tevo, Robert, Felix, Filip, Nick, Melanie, Dereyk, Charlie, Dor, Yoram, Nori, Jonathan, Vincent, George
 
-Website: http://bridgebuilders.io/
-Youtube: https://www.youtube.com/channel/UCSpsGKOkl1xNM2VKTeu4Mmg
+Café sûr le pont [Website](http://bridgebuilders.io/)
+Café sûr le pont [Youtube](https://www.youtube.com/channel/UCSpsGKOkl1xNM2VKTeu4Mmg)
 
 ## Café sûr le pont intro:
+
 Café sûr le pont (Coffee on the bridge) is the very first iteration of an open call to discuss highly relevant topics in regard to the Cardano Voltaire Era. In particular, to talk about the evolution of the community, possibilities, visions, and ideas.
 
 At Café sûr le pont, the greater Cardano community gather to engage in an informal conversations on a variety of timely topics. This conversation is not intended to drive action items or agendas, but rather to open up silos, bring the entire community together on a personal and human level, to put faces to names, and connect people and ideas.
