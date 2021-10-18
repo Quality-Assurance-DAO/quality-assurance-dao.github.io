@@ -8,7 +8,7 @@ resources:
 - src: "**.{png,jpg}"
   title: "Image #:counter"
   params:
-    byline: "Version Zero"
+    byline: "Version Zero - an open call to discuss highly relevant topics in regard to the Cardano Voltaire Era"
 ---
 ## Café sûr le pont introduction 
 ☕ **Cafe sur le pont introduction** 🌉 was hosted by Nori and Felix at the After Town Hall of 13th October 2021.
