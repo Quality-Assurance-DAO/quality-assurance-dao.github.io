@@ -14,6 +14,8 @@ resources:
 ☕ Cafe sur le pont introduction 🌉 was hosted by Nori and Felix at the After Town Hall of 13th October 2021.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/24ImaWIiChg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+> Check out the Café sûr le pont [Website](http://bridgebuilders.io/) and [Youtube](https://www.youtube.com/channel/UCSpsGKOkl1xNM2VKTeu4Mmg)channel.
+
 ## Summary Keywords
 The SUMMARY KEYWORDS from this meetings transcript : 
 > people, community, voting, governance, system, catalyst, open source, dor, ada, experiments, blockchain, create, talking, point, vote, environment, public goods, build, quadratic voting, reputation
@@ -21,8 +23,7 @@ The SUMMARY KEYWORDS from this meetings transcript :
 ## Speakers
 > Tom, Ken, Simon, Dean, Quaser, Johnny, Tevo, Robert, Felix, Filip, Nick, Melanie, Dereyk, Charlie, Dor, Yoram, Nori, Jonathan, Vincent, George
 
-Café sûr le pont [Website](http://bridgebuilders.io/)
-Café sûr le pont [Youtube](https://www.youtube.com/channel/UCSpsGKOkl1xNM2VKTeu4Mmg)
+
 
 ## Café sûr le pont intro:
 
