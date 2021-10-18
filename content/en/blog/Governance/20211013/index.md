@@ -171,9 +171,11 @@ It's not easy, there is no perfect governance. But as a community we get to rein
 
 - Johnny [1:20:25](https://www.youtube.com/watch?v=24ImaWIiChg&t=4825s)
 
+## Dean - Root of Trust, application service provider, extending the infrastructure
 
+The opportunity for Cardano is this concept of the Root of Trust. As Cardano moves forward it can help those channel organizations begin to understand how they can participate and be involved. And there are people that are wanting to see it and understand how they can participate on the technological side and bringing services to the marketplace. And how they extend their infrastructure to what Cardano can provide? - precis of Dean - [1:25:06](https://www.youtube.com/watch?v=24ImaWIiChg&t=5106s)
 
-
+- Reference - [Trust anchor](https://en.wikipedia.org/wiki/Trust_anchor)
 
 ## Transcription
 
