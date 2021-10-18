@@ -154,13 +154,12 @@ Our biggest asset is really the human capital that's involved. And the investmen
 
 > "...we jumped to voting, but governance really is about like, how do we nurture each person to help them go into their genius zone.""  - precis of Nick  [58:41](https://www.youtube.com/watch?v=24ImaWIiChg&t=3521s)
 
-{{% blocks/lead color="white" %}}
+## Ken - Making things simple to access
 
-TechOS is the OS of the future. 
+We were talking about having a multiple different systems for voting but I think we need to consider it from the point of view of the individual contributor. From their perspective, it needs to be simple for the one who's interacting with the community, whether it's through voting, or whether it's through some other form of engagement. Because as the system grows then it's not going to be something that you can track and manage as one. - precis of Ken  [1:04:08](https://www.youtube.com/watch?v=24ImaWIiChg&t=3848s)
 
-Runs on **bare metal** in the **cloud**!
 
-{{% /blocks/lead %}}
+
 
 
 
