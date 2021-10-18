@@ -144,6 +144,15 @@ We haven't got a single solution for every problem. Things that need to be decid
 
 A single solution won't engage with people who vote. I think my drive is towards getting things more granular, smaller and decision making being made by people who are infused in the areas that they're working in. Investing time and energy. Heightening their good intentions in areas that they have expertise. - *precis of Jonathan  [54:00](https://www.youtube.com/watch?v=24ImaWIiChg&t=3240s)*
 
+## Deryck -Outsourcing hiring to Catalyst
+
+In regards to hiring, it's great that IOG is growing. What we've been hearing is a desire to be more integrated and have more open communications with IOG and Cardano Foundation. Is there a way to start to consider the hiring, onboarding, being outsourced to people in Catalyst? - precis of Dereyk  [57:23](https://www.youtube.com/watch?v=24ImaWIiChg&t=3453s)
+
+
+
+
+
+
 
 
 
