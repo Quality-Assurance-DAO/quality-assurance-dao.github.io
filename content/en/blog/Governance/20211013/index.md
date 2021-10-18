@@ -169,6 +169,11 @@ It's not easy, there is no perfect governance. But as a community we get to rein
 
 ![Ecosystem_map_from_Johnny_Nguyen](https://user-images.githubusercontent.com/25156451/137805044-d80b4b0b-c8cf-49a6-9214-b08d21196180.png)
 
+- Johnny [1:20:25](https://www.youtube.com/watch?v=24ImaWIiChg&t=4825s)
+
+
+
+
 
 ## Transcription
 
