@@ -144,9 +144,17 @@ We haven't got a single solution for every problem. Things that need to be decid
 
 A single solution won't engage with people who vote. I think my drive is towards getting things more granular, smaller and decision making being made by people who are infused in the areas that they're working in. Investing time and energy. Heightening their good intentions in areas that they have expertise. - *precis of Jonathan  [54:00](https://www.youtube.com/watch?v=24ImaWIiChg&t=3240s)*
 
-## Deryck -Outsourcing hiring to Catalyst
+## Deryck - Outsourcing hiring to Catalyst
 
 In regards to hiring, it's great that IOG is growing. What we've been hearing is a desire to be more integrated and have more open communications with IOG and Cardano Foundation. Is there a way to start to consider the hiring, onboarding, being outsourced to people in Catalyst? - precis of Dereyk  [57:23](https://www.youtube.com/watch?v=24ImaWIiChg&t=3453s)
+
+## Nick -Taking advantage of Catalyst's human capital
+
+Our biggest asset is really the human capital that's involved. And the investment we put into making that human capital work. In order to be the most innovative environment and sustain that environment because technology is going to change over time. And I've been part of and consulted many startups that had superior technology but really lost out because they weren't able to connect properly with their clients or nurture long lasting, innovative environments.
+
+> "...we jumped to voting, but governance really is about like, how do we nurture each person to help them go into their genius zone.""  - precis of Nick  [58:41](https://www.youtube.com/watch?v=24ImaWIiChg&t=3521s)
+
+
 
 
 
