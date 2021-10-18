@@ -152,6 +152,9 @@ The key distinction between a market and a social choice system is that social c
 
 Don't throw out voting. We can actually experiment with a lot of different voting systems beyond just approval voting.  - precis of Robert  [1:07:04](https://www.youtube.com/watch?v=24ImaWIiChg&t=4024s)
 
+- Reference - Elinor Ostrom - Governing the Commons - [The Evolution of Institutions for Collective Action](https://www.cambridge.org/core/books/governing-the-commons/A8BB63BC4A1433A50A3FB92EDBBB97D5)
+- Reference - [Elinor Ostrum](https://en.wikipedia.org/wiki/Elinor_Ostrom)
+
 ## Simon - (quoting Stephen ) working meetings between IOG and Catalyst community 
 What is lacking in my view is any real sense of IOG staff and community members working together on day-to-day projects and deliverables. Not going away and coming back with readymade ideas and proposals. This may take some professionals out of their comfort zone - as we move to a situation where community members ("amateurs") must participate in all Cardano deliverables in actual working meetings. Not as an afterthought or a community consultation. Circle has introduced the possibility of this - but it needs to be expanded upon. Perhaps there needs to be less concern about ownership of tasks (e.g., IOG does this, the community does this) and more focus on collaborative delivery (e.g. who from IOG and the community can work on this). There has also been a long-standing difference of circumstances between paid IOG staff and an unpaid community which undermines the possibility of ownership and creates the sustainability risk. Once some of our funding and resource initiatives are in place hopefully there can be a levelling effect - as the community are paid for their contribution. - Simon (quoting Stephen) - [1:13:51](https://www.youtube.com/watch?v=24ImaWIiChg&t=4493s)
 
