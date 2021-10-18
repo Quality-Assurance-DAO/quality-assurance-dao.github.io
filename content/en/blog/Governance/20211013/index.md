@@ -154,9 +154,12 @@ Our biggest asset is really the human capital that's involved. And the investmen
 
 > "...we jumped to voting, but governance really is about like, how do we nurture each person to help them go into their genius zone.""  - precis of Nick  [58:41](https://www.youtube.com/watch?v=24ImaWIiChg&t=3521s)
 
-{{% alert title="Quote" color="tip" %}}
-""...we jumped to voting, but governance really is about like, how do we nurture each person to help them go into their genius zone.""
-{{% /alert %}}
+{{% blocks/lead color="dark" %}}
+TechOS is the OS of the future. 
+
+Runs on **bare metal** in the **cloud**!
+{{% /blocks/lead %}}
+
 
 
 
