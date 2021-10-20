@@ -25,6 +25,9 @@ This cumulative blog post aims to bring together reference materials and discuss
 - https://en.wikipedia.org/wiki/Cynefin_framework
 - https://cynefin.io/wiki/Main_Page
 
+### valueflo
+- https://valueflo.ws/
+
 ## Vanessa Cardui
 
 ### Asset Based Community Development (ABCD)
