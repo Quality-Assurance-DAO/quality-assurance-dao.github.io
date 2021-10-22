@@ -11,4 +11,12 @@ resources:
     byline: "Catalyst Boost Camp - Introduction"
 ---
 
-Catalyst Boost Camp - Introduction
+## Catalyst Boost Camp - Introduction
+
+Catalyst Boost Camp is a training initiave offered to Fund 2 to 5 Cohort by [entreprenerdy](https://entreprenerdy.com/) in partnership with [Project Catalyst](https://cardano.ideascale.com/).
+
+There are 9 standard Bootcamp sessions that cover: Intro, purpose, resources, objectives, model, idea, tasks, forecast, pitch/presentation.
+
+![2021-10-22 (6)](https://user-images.githubusercontent.com/25156451/138475800-b78e5055-855b-4f14-a0b9-24eb8469b776.png)
+
+![2021-10-22 (5)](https://user-images.githubusercontent.com/25156451/138475548-8ca619f8-ce64-47d9-9301-3231ece845f9.png)
