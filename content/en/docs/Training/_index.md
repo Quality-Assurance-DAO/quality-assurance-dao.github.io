@@ -4,6 +4,10 @@ linkTitle: "Training"
 weight: 4
 hide_feedback: true
 icon: fa fa-desktop
+categories:
+- Training
+tags:
+- Catalyst School
 description: >
   Support & training for the Project Catalyst community.
 ---
