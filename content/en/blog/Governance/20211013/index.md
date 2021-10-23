@@ -4,6 +4,12 @@ title: "Version Zero"
 linkTitle: "Version Zero"
 description: "Version Zero of Cafe sur la Pont"
 author: Cafe sur la Pont
+categories:
+- Governance
+tags:
+- Voltaire
+- Café sûr le pont
+- After Town Hall
 resources:
 - src: "**.{png,jpg}"
   title: "Image #:counter"
