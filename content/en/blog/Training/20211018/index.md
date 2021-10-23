@@ -27,9 +27,18 @@ There are 9 standard Bootcamp sessions that cover:
 - Forecast
 - Pitch/presentation.
 
-In respect of my involvement, I specified my **idea / concept description** as *The Distributed Autonomous Organisation of Quality Assurance. * taken from a longstanding tagline for QA-DAO. My **reasons for joining** are *To learn how to develop tools for distributed entrepreneurs. * The **progress in 6 months** I envisaged is *A distributed governance quality assurance consultancy* and **Need for Mentoring** is *designing entrepreneurship training and toolkits. Budgeting.*.
+In respect of my involvement ...
+- I specified my **idea / concept description** as *The Distributed Autonomous Organisation of Quality Assurance.* taken from a longstanding tagline for QA-DAO.
+- My **reasons for joining** are *To learn how to develop tools for distributed entrepreneurs.*
+- The **progress in 6 months** I envisaged is *A distributed governance quality assurance consultancy* 
+- and **Need for Mentoring** is *designing entrepreneurship training and toolkits. Budgeting.*.
 
-My original Catalyst proposal was in **Fund 5**. My **development stage** is *I’ve created working prototypes*. The **Ambitions for project** are *I would like to hire a team / employees.* I am uncertain **when I will raise money** nor am I sure if I need further funding. As at present this is subject to the outcome of Catalyst Fund 6 proposals such as [Distributed Auditability](https://cardano.ideascale.com/a/dtd/Distributed-Auditability/366707-48088) and [Open-Source Training](https://cardano.ideascale.com/a/dtd/Open-Source-Training/368678-48088). I do have **working prototypes** such as ...
+My original Catalyst proposal was ...
+- in **Fund 5**. 
+- My **development stage** is *I’ve created working prototypes*. 
+- The **Ambitions for project** are *I would like to hire a team / employees.* 
+- I am uncertain **when I will raise money** nor am I sure if I need further funding. As at present this is subject to the outcome of Catalyst Fund 6 proposals such as [Distributed Auditability](https://cardano.ideascale.com/a/dtd/Distributed-Auditability/366707-48088) and [Open-Source Training](https://cardano.ideascale.com/a/dtd/Open-Source-Training/368678-48088). 
+- I do have **working prototypes** such as ...
 
 
 ![2021-10-22 (6)](https://user-images.githubusercontent.com/25156451/138475800-b78e5055-855b-4f14-a0b9-24eb8469b776.png)
