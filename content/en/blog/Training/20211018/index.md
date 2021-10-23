@@ -6,6 +6,7 @@ description: "Catalyst Boost Camp - Introduction"
 author: Stephen Whitenstall
 tags:
 - Catalyst Boost Camp
+- Agile
 resources:
 - src: "**.{png,jpg}"
   title: "Image #:counter"
@@ -54,5 +55,7 @@ My original Catalyst proposal was ...
 ![2021-10-22 (6)](https://user-images.githubusercontent.com/25156451/138475800-b78e5055-855b-4f14-a0b9-24eb8469b776.png)
 
 ![2021-10-22 (5)](https://user-images.githubusercontent.com/25156451/138475548-8ca619f8-ce64-47d9-9301-3231ece845f9.png)
+
+## GitHub Issue
 
 A GitHub Issue tracks this activity [here](https://github.com/Quality-Assurance-DAO/F5-Developer-ecosystem-Proposal/issues/159)
