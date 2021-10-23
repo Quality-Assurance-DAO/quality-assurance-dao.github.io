@@ -4,6 +4,10 @@ title: "Catalyst Circle 7"
 linkTitle: "Catalyst Circle 7"
 description: "Catalyst Circle 7"
 author: Stephen Whitenstall
+categories:
+- Governance
+tags:
+- Catalyst Circle
 resources:
 - src: "**.{png,jpg}"
   title: "Image #:counter"
