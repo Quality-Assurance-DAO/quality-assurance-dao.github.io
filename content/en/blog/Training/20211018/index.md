@@ -8,7 +8,7 @@ resources:
 - src: "**.{png,jpg}"
   title: "Image #:counter"
   params:
-    byline: "Catalyst Boost Camp - Introduction"
+    byline: "a lean Agile training initiative"
 ---
 
 ## Catalyst Boost Camp - Introduction
