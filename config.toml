@@ -188,5 +188,8 @@ enable = true
 
 [params.taxonomy]
 taxonomyCloud = [] # set taxonomyCloud = [] to hide taxonomy clouds
-taxonomyCloudTitle = ["Categories", "Tags"] # if used, must have same lang as taxonomyCloud
-taxonomyPageHeader = ["Categories", "Tags"] # set taxonomyPageHeader = [] to hide taxonomies on the page headers
+taxonomyCloudTitle = [] # if used, must have same lang as taxonomyCloud
+taxonomyPageHeader = [] # set taxonomyPageHeader = [] to hide taxonomies on the page headers
+# taxonomyCloud = [] # set taxonomyCloud = [] to hide taxonomy clouds
+# taxonomyCloudTitle = ["Categories", "Tags"] # if used, must have same lang as taxonomyCloud
+# taxonomyPageHeader = ["Categories", "Tags"] # set taxonomyPageHeader = [] to hide taxonomies on the page headers
