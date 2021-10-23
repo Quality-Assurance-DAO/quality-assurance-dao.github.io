@@ -4,6 +4,12 @@ title: "The pitfalls-of-synchronous-communication."
 linkTitle: "The pitfalls-of-synchronous-communication."
 description: "The pitfalls-of-synchronous-communication."
 author: Stephen Whitenstall
+categories:
+- Auditability
+- Governance
+tags:
+- Funded Cohort
+- Reporting
 resources:
 - src: "**.{png,jpg}"
   title: "Image #:counter"
