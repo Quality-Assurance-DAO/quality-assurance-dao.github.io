@@ -90,8 +90,12 @@ weight = 1
 [outputs]
 section = ["HTML", "print", "RSS"]
 
-[params]
+[taxonomies]
+tag = "tags"
+category = "categories"
+proposals = "proposals"
 
+[params]
 
 [params.taxonomy]
 taxonomyCloud = [] # set taxonomyCloud = [] to hide taxonomy clouds
