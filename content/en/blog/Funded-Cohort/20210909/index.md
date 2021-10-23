@@ -4,6 +4,12 @@ title: "Coordinator Cohort Progress Meeting 7th September 2021"
 linkTitle: "Coordinator Cohort Progress Meeting 7th September 2021"
 description: "Coordinator Cohort Progress Meeting 7th September 2021"
 author: Stephen Whitenstall
+categories:
+- Auditability
+- Governance
+tags:
+- Funded Cohort
+- Reporting
 resources:
 - src: "**.{png,jpg}"
   title: "Image #:counter"
