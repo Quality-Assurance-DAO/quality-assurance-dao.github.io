@@ -90,6 +90,14 @@ weight = 1
 [outputs]
 section = ["HTML", "print", "RSS"]
 
+[params.taxonomy]
+taxonomyCloud = [] # set taxonomyCloud = [] to hide taxonomy clouds
+taxonomyCloudTitle = [] # if used, must have same lang as taxonomyCloud
+taxonomyPageHeader = [] # set taxonomyPageHeader = [] to hide taxonomies on the page headers
+# taxonomyCloud = [] # set taxonomyCloud = [] to hide taxonomy clouds
+# taxonomyCloudTitle = ["Categories", "Tags"] # if used, must have same lang as taxonomyCloud
+# taxonomyPageHeader = ["Categories", "Tags"] # set taxonomyPageHeader = [] to hide taxonomies on the page headers
+
 [params]
 
 # copyright = "Quality Assurance DAO"
@@ -185,11 +193,3 @@ enable = false
 
 [params.katex]
 enable = true
-
-[params.taxonomy]
-taxonomyCloud = [] # set taxonomyCloud = [] to hide taxonomy clouds
-taxonomyCloudTitle = [] # if used, must have same lang as taxonomyCloud
-taxonomyPageHeader = [] # set taxonomyPageHeader = [] to hide taxonomies on the page headers
-# taxonomyCloud = [] # set taxonomyCloud = [] to hide taxonomy clouds
-# taxonomyCloudTitle = ["Categories", "Tags"] # if used, must have same lang as taxonomyCloud
-# taxonomyPageHeader = ["Categories", "Tags"] # set taxonomyPageHeader = [] to hide taxonomies on the page headers
