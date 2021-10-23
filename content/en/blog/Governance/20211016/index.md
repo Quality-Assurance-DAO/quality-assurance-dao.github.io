@@ -4,6 +4,11 @@ title: "Reporting distributed community projects"
 linkTitle: "Reporting distributed community projects"
 description: "Reporting distributed community projects"
 author: Robert O'Brien, Vanessa Cardui, Stephen Whitenstall
+categories:
+- Auditability
+tags:
+- Reporting
+- Community projects
 resources:
 - src: "**.{png,jpg}"
   title: "Image #:counter"
