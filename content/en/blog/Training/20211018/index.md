@@ -15,7 +15,17 @@ resources:
 
 Catalyst Boost Camp is a training initiative offered to Fund 2 to 5 Cohort by [entreprenerdy](https://entreprenerdy.com/) in partnership with [Project Catalyst](https://cardano.ideascale.com/).
 
-There are 9 standard Bootcamp sessions that cover: Intro, purpose, resources, objectives, model, idea, tasks, forecast, pitch/presentation.
+There are 9 standard Bootcamp sessions that cover: 
+
+- Intro
+- Purpose
+- Resources
+- Objectives
+- Model
+- Idea
+- Tasks
+- Forecast
+- Pitch/presentation.
 
 ![2021-10-22 (6)](https://user-images.githubusercontent.com/25156451/138475800-b78e5055-855b-4f14-a0b9-24eb8469b776.png)
 
