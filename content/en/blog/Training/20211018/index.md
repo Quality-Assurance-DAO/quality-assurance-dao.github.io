@@ -52,6 +52,9 @@ My original Catalyst proposal was ...
 - I am uncertain **when I will raise money** nor am I sure if I need further funding. As at present this is subject to the outcome of Catalyst Fund 6 proposals such as [Distributed Auditability](https://cardano.ideascale.com/a/dtd/Distributed-Auditability/366707-48088) and [Open-Source Training](https://cardano.ideascale.com/a/dtd/Open-Source-Training/368678-48088). 
 - I do have **working prototypes** related to documentation such as this [Quality Assurance DAO](https://quality-assurance-dao.github.io/) website, a [QA-DAO Gitbook](https://stephen-rowan.gitbook.io/quality-assurance-dao/) and the [Fund 5 Developer Ecosystem GitHub repository](https://github.com/Quality-Assurance-DAO/F5-Developer-ecosystem-Proposal).
 
+## Notes
+
+A large part of the introduction drew upon material published in **[The Entrepreneurship Handbook](https://www.universitetsforlaget.no/entrepreneurship-a-handbook)** by Yngve Dahle. The "*2 - How much theory do you need ?*" section referenced the **[The promise of entrepreneurship as a field of research](https://entrepreneurscommunicate.pbworks.com/f/Shane%2520%252B%2520Venkat%2520-%2520Ent%2520as%2520field.pdf)**, 2000, Shane & Venkataraman paper as 1) establishing entrepreneurship as a field of research and 2) focusing on the activities of an entrepreneur, "doing" rather than identity "who is".
 
 ## Town Hall Slides
 
