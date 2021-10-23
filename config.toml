@@ -90,10 +90,10 @@ weight = 1
 [outputs]
 section = ["HTML", "print", "RSS"]
 
-[taxonomies]
-tag = "Tags"
-category = "Categories"
-proposals = "Proposals"
+# [taxonomies]
+# tag = "Tags"
+# category = "Categories"
+# proposals = "Proposals"
 
 [params]
 
