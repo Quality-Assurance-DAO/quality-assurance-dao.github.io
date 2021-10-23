@@ -4,6 +4,11 @@ title: "Notes on Lambda Calculus"
 linkTitle: "Notes on Lambda Calculus"
 description: "Notes on Lambda Calculus"
 author: Stephen Whitenstall
+categories:
+- Theory
+tags:
+- Lambda Calculus
+- Digital Identity
 resources:
 - src: "**.{png,jpg}"
   title: "Image #:counter"
