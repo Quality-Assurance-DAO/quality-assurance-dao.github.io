@@ -4,6 +4,9 @@ title: "Catalyst Boost Camp - Introduction"
 linkTitle: "Catalyst Boost Camp - Introduction"
 description: "A lean Agile training initiative"
 author: Stephen Whitenstall
+categories:
+- Training
+- Entrepreneurship
 tags:
 - Catalyst Boost Camp
 - Agile
