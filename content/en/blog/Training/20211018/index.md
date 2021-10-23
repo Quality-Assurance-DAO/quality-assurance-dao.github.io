@@ -4,6 +4,8 @@ title: "Catalyst Boost Camp - Introduction"
 linkTitle: "Catalyst Boost Camp - Introduction"
 description: "Catalyst Boost Camp - Introduction"
 author: Stephen Whitenstall
+tags:
+- Catalyst Boost Camp
 resources:
 - src: "**.{png,jpg}"
   title: "Image #:counter"
