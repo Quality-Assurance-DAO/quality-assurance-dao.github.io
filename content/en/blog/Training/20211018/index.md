@@ -62,7 +62,12 @@ The "*2 - How much theory do you need ?*" section referenced the paper **[The pr
 
 In a distributed context the translation of such a process of discovery may be familiar from recent "problem-sensing" exercises. Where the individual entrepreneur is diminished further in favour of iterative activities that seek opportunities and evaluate them according to the culture of a group or circle.
 
-Further on opportunity is presented in two aspects, a postive motivation to take advantage of a good opportunity and negative motivation to escape a lack of opportunity. A key difference here is the level of risk and/or the [opportunity cost](https://en.wikipedia.org/wiki/Opportunity_cost). 
+Further on opportunity is presented in two aspects: 
+- A positive motivation to take advantage of a good opportunity that defines an "*opportunity entrepreneur*".
+- and a negative motivation to escape a lack of opportunity that defines a "*necessity entrepreneur*".
+
+A key difference here is the level of risk and/or the [opportunity cost](https://en.wikipedia.org/wiki/Opportunity_cost) involved. Arguely a good opportunity has a low opportunity cost that does not impact an "*opportunity entrepreneur*". Perhaps because they have access to a wider range of implicit and explicit cost options - more to play with. Whilst the "*necessity entrepreneur*" must weigh a limited opportunity cost equation - a necessary choice.
+
 
 ## Town Hall Slides
 
