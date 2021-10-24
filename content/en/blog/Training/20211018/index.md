@@ -25,12 +25,12 @@ Catalyst Boost Camp is a training initiative offered to Fund 2 to 5 Cohort by [e
 
 There are 9 standard Bootcamp sessions that cover: 
 
-- Intro
-- Purpose
-- Resources
+- 1 Introduction
+- 2 Purpose
+- 3 Resources
+- 4 Idea
 - Objectives
 - Model
-- Idea
 - Tasks
 - Forecast
 - Pitch/presentation.
