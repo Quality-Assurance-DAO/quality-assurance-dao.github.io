@@ -1,7 +1,7 @@
 ---
 date: 2021-10-19
-title: "Catalyst Boost Camp - Purpose"
-linkTitle: "Catalyst Boost Camp - Purpose"
+title: "Catalyst Boost Camp - 1 - Purpose"
+linkTitle: "Catalyst Boost Camp - 1 - Purpose"
 description: "A lean Agile training initiative"
 author: Stephen Whitenstall
 categories:
