@@ -1,7 +1,7 @@
 ---
 date: 2021-10-21
-title: "Catalyst Boost Camp - Resources"
-linkTitle: "Catalyst Boost Camp - Resources"
+title: "Catalyst Boost Camp - 3 - Resources"
+linkTitle: "Catalyst Boost Camp - 3 - Resources"
 description: "A lean Agile training initiative"
 author: Stephen Whitenstall
 categories:
