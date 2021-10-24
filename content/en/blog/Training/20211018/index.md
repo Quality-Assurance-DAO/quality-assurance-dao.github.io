@@ -54,7 +54,13 @@ My original Catalyst proposal was ...
 
 ## Notes
 
-A large part of the introduction drew upon material published in **[The Entrepreneurship Handbook](https://www.universitetsforlaget.no/entrepreneurship-a-handbook)** by Yngve Dahle. The "*2 - How much theory do you need ?*" section referenced the **[The promise of entrepreneurship as a field of research](https://entrepreneurscommunicate.pbworks.com/f/Shane%2520%252B%2520Venkat%2520-%2520Ent%2520as%2520field.pdf)**, 2000, Shane & Venkataraman paper as 1) establishing entrepreneurship as a field of research and 2) focusing on the activities of entrepreneurship rather than seeking to identify who is an entrepreneur.
+A large part of the introduction drew upon material published in **[The Entrepreneurship Handbook](https://www.universitetsforlaget.no/entrepreneurship-a-handbook)** by Yngve Dahle. 
+
+The "*2 - How much theory do you need ?*" section referenced the paper **[The promise of entrepreneurship as a field of research](https://entrepreneurscommunicate.pbworks.com/f/Shane%2520%252B%2520Venkat%2520-%2520Ent%2520as%2520field.pdf)**, 2000, Shane & Venkataraman as 1) establishing entrepreneurship as a field of research and 2) focusing on the activities of entrepreneurship rather than seeking to identify who is an entrepreneur.
+
+> "*In contrast to previous research, we define the field of entrepreneurship as the scholarly examination of how, by whom, and with what effects opportunities to create future goods and services are discovered, evaluated, and exploited.* “ -(Venkataraman, 1997).
+
+In a distributed context the translation of such a process of discovery may be familiar from recent "problem-sensing" exercises. Where the individual entrepreneur is diminished further in favour of iterative activities that seek opportunities and evaluate them according to a circle's culture.
 
 ## Town Hall Slides
 
