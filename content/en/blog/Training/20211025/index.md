@@ -1,7 +1,7 @@
 ---
 date: 2021-10-22
-title: "Catalyst Boost Camp - Business Idea"
-linkTitle: "Catalyst Boost Camp - Business Idea"
+title: "Catalyst Boost Camp - 4 - Business Idea"
+linkTitle: "Catalyst Boost Camp - 4 - Business Idea"
 description: "A lean Agile training initiative"
 author: Stephen Whitenstall
 categories:
