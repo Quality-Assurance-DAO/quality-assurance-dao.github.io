@@ -60,7 +60,9 @@ The "*2 - How much theory do you need ?*" section referenced the paper **[The pr
 
 > "*In contrast to previous research, we define the field of entrepreneurship as the scholarly examination of how, by whom, and with what effects opportunities to create future goods and services are discovered, evaluated, and exploited.* “ -(Venkataraman, 1997).
 
-In a distributed context the translation of such a process of discovery may be familiar from recent "problem-sensing" exercises. Where the individual entrepreneur is diminished further in favour of iterative activities that seek opportunities and evaluate them according to a circle's culture.
+In a distributed context the translation of such a process of discovery may be familiar from recent "problem-sensing" exercises. Where the individual entrepreneur is diminished further in favour of iterative activities that seek opportunities and evaluate them according to the culture of a group or circle.
+
+Further on opportunity is presented in two aspects, a postive motivation to take advantage of a good opportunity and negative motivation to escape a lack of opportunity. A key difference here is the level of risk and/or the [opportunity cost](https://en.wikipedia.org/wiki/Opportunity_cost). 
 
 ## Town Hall Slides
 
