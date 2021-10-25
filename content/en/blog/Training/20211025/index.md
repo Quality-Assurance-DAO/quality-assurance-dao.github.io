@@ -1,5 +1,5 @@
 ---
-date: 2021-10-22
+date: 2021-10-25
 title: "Catalyst Boost Camp - 4 - Business Idea"
 linkTitle: "Catalyst Boost Camp - 4 - Business Idea"
 description: "A lean Agile training initiative"
