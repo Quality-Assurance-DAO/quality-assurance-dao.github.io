@@ -2,7 +2,7 @@
 date: 2021-10-21
 title: "Catalyst Circle Meeting 8"
 linkTitle: "Catalyst Circle Meeting 8"
-description: "Catalyst Circle Meeting 8"
+description: "The final Circle Version 1 Meeting"
 author: Catalyst Circle Admin
 categories:
 - Auditability
