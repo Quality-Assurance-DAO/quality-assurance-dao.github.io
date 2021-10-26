@@ -64,8 +64,11 @@ These features include -
 - Documentation
 - Tracking
 
+## Meeting details
+This meeting was held between 1600 and 1730 UTC on Tuesday, 26th October 2021 and was facilitated by Muzi Mtshali.
 
-
+## GitHub Issue
+https://github.com/Quality-Assurance-DAO/F5-Developer-ecosystem-Proposal/issues/164
 
 
 
