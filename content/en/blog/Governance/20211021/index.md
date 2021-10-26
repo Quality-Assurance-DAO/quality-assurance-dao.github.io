@@ -32,7 +32,7 @@ Catalyst Circle Meeting 8 discussed the following :
 
 Details of this meeting were also posted on Reddit :
 
-<iframe id="reddit-embed" src="https://www.redditmedia.com/r/cardano/comments/qfq1n7/catalyst_circle_meeting_8/?ref_source=embed&amp;ref=share&amp;embed=true" sandbox="allow-scripts allow-same-origin allow-popups" style="border: none;" scrolling="no" width="640" height="481"></iframe>
+https://www.reddit.com/r/cardano/comments/qfq1n7/catalyst_circle_meeting_8/?utm_source=share&utm_medium=web2x&context=3
 
 and Twitter :
 
