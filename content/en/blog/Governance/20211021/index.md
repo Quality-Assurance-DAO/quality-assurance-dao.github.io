@@ -30,11 +30,7 @@ Catalyst Circle Meeting 8 discussed the following :
 - Auditability
 - A Retrospective of Circle Meeting Version 1 : Things we’ve Loved, Learned, Lacked, Longed for and List of things to note
 
-Details of this meeting were also posted on Reddit :
-
-https://www.reddit.com/r/cardano/comments/qfq1n7/catalyst_circle_meeting_8/?utm_source=share&utm_medium=web2x&context=3
-
-and Twitter :
+Details of this meeting were also posted on [Cardano Reddit](https://www.reddit.com/r/cardano/comments/qfq1n7/catalyst_circle_meeting_8/?utm_source=share&utm_medium=web2x&context=3) and Twitter :
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">⭕️Catalyst Circle<br>🟠 Meeting 8 is now available<br>🟡 Circle Oversight GitBook<a href="https://t.co/OheLK3MyTI">https://t.co/OheLK3MyTI</a><br>🟢This meeting discussed Updates on the following subjects: <a href="https://t.co/iMNhEuxlG6">pic.twitter.com/iMNhEuxlG6</a></p>&mdash; QA-DAO (@qa_dao) <a href="https://twitter.com/qa_dao/status/1452658734166073350?ref_src=twsrc%5Etfw">October 25, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 
