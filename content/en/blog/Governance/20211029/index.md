@@ -1,4 +1,3 @@
----
 date: 2021-10-29
 title: "Nomination as representative for the Funded Proposer Cohort"
 linkTitle: "Nomination as representative for the Funded Proposer Cohort"
@@ -15,14 +14,18 @@ resources:
   params:
     byline: "Nomination as representative for the Funded Proposer Cohort"
 ---
-Hello fellow Coordinators – I am putting myself forward for nomination as rep for Catalyst Circle Version 2 and I would appreciate any support. I have posted full details here. All the Best. S
+Hello fellow Coordinators – I am putting myself forward for nomination as as representative for the Funded Proposer Cohort for Catalyst Circle Version 2 and humbly would appreciate any support. I have posted full details here. All the Best. S
 
 I am putting myself, Stephen Whitenstall, forward for nomination as representative for the Funded Proposer Cohort (also known as Catalyst Coordinators) for the next Catalyst Circle Version 2.
+
 My Fund 5 proposal Quality Assurance DAO sought to assess the pathway of a funded cohort and reporting requirements. And I have been working with IOG and several Community groups including Catalyst Swarm, Eastern Town Hall and SecretDecks to prepare for Fund 6 auditability.
+
 As a Circle representative for the Funded Proposer Cohort, I would: 
 1)	Seek the views of Coordinators on Telegram, Discord and at the Biweekly meetings
 2)	Pursue improvements to the reporting of funded proposals collaborating with different Circle representatives to implement a consistent auditability platform.
+3)	
 Thank you for your support
+
 S
 ## Experience
 
