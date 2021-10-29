@@ -49,3 +49,7 @@ Please enter this space with open hearts and open minds. Nobody is here in any o
 ### Felix - a common ground
 Café sur la pont is also to provide a common place where we all have the possibility to communicate to people from the various Cardano entities such as IOG, Emurgo and the Cardano foundation. A common ground where people from different groups can come together and do not have to represent themselves in any official role. Bur rather coming and joining together as community members. To get an idea of each other's visions, ideas, and ambitions. Thanks for joining everyone and have a lovely weekend. – precis of Felix - 1:51
 
+### Nori - guidelines
+So, there's no formal structure to this, we don't have an agenda, it's an open conversation. As topics and themes and conversations develop, feel free to jump in.
+If you would like the floor next, just raise your hand and we'll take them in the order of people raising their hands. It's not a hard and fast rule. But it's just kind of common courtesy. That's one of the tools we use here on Zoom. And make liberal use of the reactions. If you love something, give a thumbs up or a heart or a smiley face. Participate in that way. The chat is also open, and many people have side conversations there. - precis of Nori - 2:49
+
