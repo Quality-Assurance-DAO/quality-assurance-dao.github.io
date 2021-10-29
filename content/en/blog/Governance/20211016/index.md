@@ -58,9 +58,9 @@ If you would like the floor next, just raise your hand and we'll take them in th
 
 ### Heinz - Upcoming professional users of Cardano
 
-I'm here of course as enthusiastic community member but until a couple of days ago, I was leading digital transformation at AB InBev supply operations (https://www.ab-inbev.com/). So, we are romancing with joint activity. This is all about a public permissionless blockchain for a large industry venture. 
+I'm here of course as enthusiastic community member. But until a couple of days ago I was leading digital transformation at AB InBev supply operations (https://www.ab-inbev.com/). So, we are romancing with joint activity. This is all about a public permissionless blockchain for a large industry venture. 
 Of course, my private interest goes far beyond that. 
 
-But the governance topic is extremely Important for upcoming professional users of Cardano. To really to be able to rely on what we are doing. To feel safe. If a community takes over the future, the innovation, and the governance of such an experiment I think it's very important to radiate trust. And to do this bearing in mind that there is a growing number of users. So what we are doing and how we are doing this is very important. - precis of Heinz - 4:09
+But the governance topic is extremely important for upcoming professional users of Cardano. To really to be able to rely on what we are doing. To feel safe. If a community takes over the future, the innovation, and the governance of such an experiment I think it's very important to radiate trust. And to do this bearing in mind that there is a growing number of users. So what we are doing and how we are doing this is very important. - precis of Heinz - 4:09
 
 
