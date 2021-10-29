@@ -63,4 +63,11 @@ Of course, my private interest goes far beyond that.
 
 But the governance topic is extremely important for upcoming professional users of Cardano. To really to be able to rely on what we are doing. To feel safe. If a community takes over the future, the innovation, and the governance of such an experiment I think it's very important to radiate trust. And to do this bearing in mind that there is a growing number of users. So what we are doing and how we are doing this is very important. - precis of Heinz - 4:09
 
+### Nick - centropy - emerging environments - play environments
+
+Governance is not just about voting. And Ernesto mentioned a couple of important key points. That centropy (https://www.eoht.info/page/Centropy) really comes from emerging environments. I think an emerging environment is very different from an iterative environment. Iterative environments are more evolutionary and emerging environment are more revolutionary. That is an innovative environment. 
+
+Where we get to come together and just play and really provide for those interactions and see what blossoms. An environment that's conducive to bringing people together, increasing curiosity, increasing interactions. Driving a new language but still built on the base of an original language, which is our unconscious. Like using Myers Briggs (https://www.myersbriggs.org/) which is an example of an archetype. 
+
+That is still connecting to unconscious themes that we all experience as a human species. Being able to do that drives curiosity. When we're allowed and funded to play. I think that is where centropy starts to come in. In ways we couldn't even imagine. I almost see we might need two separate environments as catalyst moves towards this iterative problem and solution focused environment. Sometimes you need a whole play environment where curiosity can take hold you. And if that is funded, you're going to get the best out of the people. The best ideas come out of this kind of like play environment where mistakes can be made. - precis of Nick - 5:49
 
