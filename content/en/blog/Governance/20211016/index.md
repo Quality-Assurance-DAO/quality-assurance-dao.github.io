@@ -16,7 +16,7 @@ resources:
     byline: "Edition One - an open call to discuss highly relevant topics in regard to the Cardano Voltaire Era"
 ---
 ## Café sûr le pont Edition One 
-☕ **Cafe sur le pont Edition One** 🌉 was hosted by Nori and Felix on Discord on Saturday, 16th October 2021.
+☕ **Cafe sur le pont Edition One** 🌉 was hosted by Nori and Felix on Zoom on Saturday, 16th October 2021.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PMkBGjLmEZU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Website
