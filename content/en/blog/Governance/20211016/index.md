@@ -56,3 +56,11 @@ So, there's no formal structure to this, we don't have an agenda, it's an open c
 
 If you would like the floor next, just raise your hand and we'll take them in the order of people raising their hands. It's not a hard and fast rule. But it's just kind of common courtesy. That's one of the tools we use here on Zoom. And make liberal use of the reactions. If you love something, give a thumbs up or a heart or a smiley face. Participate in that way. The chat is also open, and many people have side conversations there. - precis of Nori - 2:49
 
+### Heinz - Upcoming professional users of Cardano
+
+I'm here of course as enthusiastic community member but until a couple of days ago, I was leading digital transformation at AB InBev supply operations (https://www.ab-inbev.com/). So, we are romancing with joint activity. This is all about a public permissionless blockchain for a large industry venture. 
+Of course, my private interest goes far beyond that. 
+
+But the governance topic is extremely Important for upcoming professional users of Cardano. To really to be able to rely on what we are doing. To feel safe. If a community takes over the future, the innovation, and the governance of such an experiment I think it's very important to radiate trust. And to do this bearing in mind that there is a growing number of users. So what we are doing and how we are doing this is very important. - precis of Heinz - 4:09
+
+
