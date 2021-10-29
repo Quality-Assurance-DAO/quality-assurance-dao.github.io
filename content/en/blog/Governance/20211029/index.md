@@ -1,3 +1,4 @@
+---
 date: 2021-10-29
 title: "Nomination as representative for the Funded Proposer Cohort"
 linkTitle: "Nomination as representative for the Funded Proposer Cohort"
@@ -14,7 +15,8 @@ resources:
   params:
     byline: "Nomination as representative for the Funded Proposer Cohort"
 ---
-Hello fellow Coordinators – I am putting myself forward for nomination as as representative for the Funded Proposer Cohort for Catalyst Circle Version 2 and humbly would appreciate any support. I have posted full details here. All the Best. S
+
+Hello fellow Catalyst Coordinators – I am putting myself forward for nomination as as representative for the Funded Proposer Cohort for Catalyst Circle Version 2 and humbly would appreciate any support. I have posted full details here. All the Best. S
 
 I am putting myself, Stephen Whitenstall, forward for nomination as representative for the Funded Proposer Cohort (also known as Catalyst Coordinators) for the next Catalyst Circle Version 2.
 
