@@ -31,7 +31,7 @@ Thank you for your support
 S
 ## Experience
 
-My experience in respect of Catalyst Circle Version 1 goes back to its formation to July 2021 when I started documenting its progress in a [Catalyst Circle Oversight GitBook](https://catalyst-swarm.gitbook.io/catalyst-circle/) and I subsequently became a secretary minuting from Circle Meeting 5 in September 2021 to the last Meeting 8 in October 2021.
+My experience in respect of Catalyst Circle Version 1 goes back to its formation to July 2021 when I started documenting its progress in a [Catalyst Circle Oversight GitBook](https://catalyst-swarm.gitbook.io/catalyst-circle/) and I subsequently became part of the Circle Admin Team, as a secretary, minuting from Circle Meeting 5 in September 2021 to the last Meeting 8 in October 2021.
 
 More broadly I became active in Project Catalyst in March 2021 documenting NFT-DAO, then joining Catalyst Swarm in June 2021 creating the [Catalyst Swarm Genesis GitBook](https://catalyst-swarm.gitbook.io/catalyst-swarm-genesis/), participating as a Host in the first Idea Fest and the foundation of the Catalyst School. Later I became involved in the organization and development of [Eastern Town Hall](https://c3eth.github.io/) in July 2021 together with a diverse and talented global team.
 
