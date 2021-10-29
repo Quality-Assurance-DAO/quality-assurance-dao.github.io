@@ -71,3 +71,10 @@ Where we get to come together and just play and really provide for those interac
 
 That is still connecting to unconscious themes that we all experience as a human species. Being able to do that drives curiosity. When we're allowed and funded to play. I think that is where centropy starts to come in. In ways we couldn't even imagine. I almost see we might need two separate environments as catalyst moves towards this iterative problem and solution focused environment. Sometimes you need a whole play environment where curiosity can take hold you. And if that is funded, you're going to get the best out of the people. The best ideas come out of this kind of like play environment where mistakes can be made. *- precis of Nick - 5:49*
 
+### Len - industry or governments needing consistency.
+
+I just want to focus on Heinz's point about industry or governments needing consistency. I go back to that first Fireside Chat between [Frederik Gregaard](https://summit.cardano.org/speakers/frederik-gregaard) and [Charles Hoskinson](https://iohk.io/en/team/charles-hoskinson), where I saw Charles taking notes. And Frederik said very clearly you're not going to get industry to put their mission critical systems on a blockchain that can be changed by a nameless community. They just won't do it. And so I think that that you have to consider this governance issue very carefully. *- precis of Len - 7:52*
+
+- Reference - [Cardano - Ada Lovelace anniversary fireside chat with Frederik Gregaard and Charles Hoskinson - Dec 10, 2020](https://www.youtube.com/watch?v=TdD-T8kiuVw)
+
+
