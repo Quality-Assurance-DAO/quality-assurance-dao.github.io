@@ -119,3 +119,15 @@ Just a short response. My personal perspective is much wider than the needs of i
 #### Reference
 – Center for Distributed Ledger Technologies, University of Malta - https://www.um.edu.mt/dlt
 
+### Yoram - identity and values
+
+We spoke already a lot about inspiration. A lot of the people in the conversation already did a sudden transition. To what inspired them, what motivated them. I will take it to another level, what disturbed me for many years is identity. What is identity? The differences between most of the governments today in the world is defined by identity. What we were born with. 
+
+People are here because they are looking for a different identity based on values somehow. What is the inspiration that is being created? How can we inspire more people? What is the inspiration that we can create to have this new identity that will make the world somehow better for the citizen and for nature?
+
+We have people from all over the world here and we have so many common things that we are building together. What fascinates people to come and do more? *- precis of Yoram - 14:47*
+
+
+
+
+
