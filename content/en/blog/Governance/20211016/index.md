@@ -90,7 +90,7 @@ This reminded me of a community I have been involved in called Game B. It's exac
 
 So, we experimented with play and it's amazing what is happening through emergence, it exists, and it is very powerful. I feel good to be in this community right now, I can call it bridge builders, but maybe we don't have a name yet.
 
-A philosopher of science, Bonita Roy (https://bonnittaroy.medium.com/), brought us a few of us, about 20 people on her farm. And we were playing with each other and with horses. Just like Café sur la pont but in person. It was amazing. 
+A philosopher of science, Bonita Roy (https://bonnittaroy.medium.com/), brought a few of us, about 20 people on her farm. And we were playing with each other and with horses. Just like Café sur la pont, but in person. It was amazing. 
 
 I wanted to point to what Ernesto was saying, because we need to redesign that is how you challenge the person.
 
