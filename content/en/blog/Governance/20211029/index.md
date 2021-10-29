@@ -2,7 +2,7 @@
 date: 2021-10-29
 title: "Nomination as representative for the Funded Proposer Cohort"
 linkTitle: "Nomination as representative for the Funded Proposer Cohort"
-description: "Background details for Funded Proposer Cohort Nominee"
+description: "Background details for the Funded Proposer Cohort Nominee"
 author: Stephen Whitenstall
 categories:
 - Auditability
