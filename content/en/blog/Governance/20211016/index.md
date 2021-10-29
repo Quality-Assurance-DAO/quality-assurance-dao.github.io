@@ -127,7 +127,13 @@ People are here because they are looking for a different identity based on value
 
 We have people from all over the world here and we have so many common things that we are building together. What fascinates people to come and do more? *- precis of Yoram - 14:47*
 
+### Mihaela Ulieru - Which values ?
 
+I would just say just one more thing, a tweak. Because which values? Everybody has values. I am sure industry CEOs have their own values. Even the predators have their values, how much prey? How many eyeballs? So, which value? *- precis of Mihaela - 16:29*
+
+### Yoram - Common values
+
+If take religious values, Muslim, Jewish or Christian values, you will get the same values. But everyone thinks that they have the best values. But it is the same in essence. We are trying, at least here, to build values that are above us, that are connected to climate change. Connected to a more equal world that is above our identity. *- precis of Yoram - 16:50*
 
 
 
