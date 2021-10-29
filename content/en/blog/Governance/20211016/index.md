@@ -77,4 +77,39 @@ I just want to focus on Heinz's point about industry or governments needing cons
 
 - Reference - [Cardano - Ada Lovelace anniversary fireside chat with Frederik Gregaard and Charles Hoskinson - Dec 10, 2020](https://www.youtube.com/watch?v=TdD-T8kiuVw)
 
+### Mihaela Ulieru - Game B, Bonita Roy, play and playgrounds, emergence and design
+I was inspired to bring this to the fore of our thoughts, especially regarding what Nikolas (Nick) said about the need for a space for play. Where ideas flow freely. 
+
+I experienced this already because I cheated a bit yesterday when Felix eased me with a preparatory discussion and then I had an opportunity to practice a bit this play.
+
+This reminded me of a community I have been involved in called Game B. It's exactly the opposite of top down. How industry is organized today. 
+
+So, we experimented with play and it's amazing what is happening through emergence, it exists, and it is very powerful. I feel good to be in this community right now, I can call it bridge builders, but maybe we don't have a name yet.
+
+A philosopher of science, Bonita Roy (https://bonnittaroy.medium.com/), brought us a few of us, about 20 people on her farm. And we were playing with each other and with horses. Just like Café sur la pont but in person. It was amazing. 
+
+I wanted to point to what Ernesto was saying, because we need to redesign that is how you challenge the person.
+
+Immediately this this word design. We are willing our way to design or redesign. I think this emergence and play are very important. This community is so powerful. First, because the people in need are amazing thinkers, and I'm always learning from this. 
+
+The way in which systems in society are currently structured people climb to the top in various ways. And I managed to climb to the top in the academic world, against a lot of odds and with much hardship. 
+
+There is so much there that is not considered, and the real power is overlooked in this structure. So how do we unleash this is something which has preoccupied me a lot. 
+
+I have an issue with the word redesign. Does redesign involve emergence and how it is linked with emergence? 
+
+To respond to Heinz, yes, these are extremely valid points. But the question is now, what do we want to do? Do we want to play with the old world by their rules? And why? So that's, that's the first question for me. 
+
+And I see Charles (Hoskinson) doing both. What I want to believe that he is putting, planting Trojan horses in the industry and government offices, and seeding experiments such as Catalyst. This is starting some movement from which other movements … and I have the wrong words. I don't know if this is a movement, whatever it is, a community playground. Catalyst is a focal point of inspiring such playgrounds.
+
+So, he’s (Charles Hoskinson) covering both ends.
+
+I believe there is a point in playing with the big guys and the industry. My question is how much do we want, and I am speaking for myself, to prostitute ourselves and play with the industry by their rules still? How much do we really want to be ourselves on this playground? 
+
+#### References :
+-	mihaela-ulieru -	https://iohk.io/en/team/mihaela-ulieru
+- Bonita Roy (https://bonnittaroy.medium.com/),
+-	Game B Wiki - https://www.gameb.wiki/index.php?title=Main_Page
+-	Game B – Reddit - https://www.reddit.com/r/gameb/
+
 
