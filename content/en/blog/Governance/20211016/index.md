@@ -104,7 +104,7 @@ And I see Charles (Hoskinson) doing both. What I want to believe that he is putt
 
 So, he’s (Charles Hoskinson) covering both ends.
 
-I believe there is a point in playing with the big guys and the industry. My question is how much do we want, and I am speaking for myself, to prostitute ourselves and play with the industry by their rules still? How much do we really want to be ourselves on this playground? 
+I believe there is a point in playing with the big guys and the industry. My question is how much do we want, and I am speaking for myself, to prostitute ourselves and play with the industry by their rules still? How much do we really want to be ourselves on this playground? *- precis of Mihaela - 8:55*
 
 #### References :
 -	mihaela-ulieru -	https://iohk.io/en/team/mihaela-ulieru
@@ -112,4 +112,10 @@ I believe there is a point in playing with the big guys and the industry. My que
 -	Game B Wiki - https://www.gameb.wiki/index.php?title=Main_Page
 -	Game B – Reddit - https://www.reddit.com/r/gameb/
 
+### Heinz - impact of distributed ledger technologies
+
+Just a short response. My personal perspective is much wider than the needs of industry. Also, I left my job at the end of September, and I am now in the University of Malta also engaged in blockchain activities. So personally, I think that also by introducing distributed ledger technologies, blockchains, to large companies, it's not just technology it is also triggering so many things within these companies. So, the trojan horse analogy is a good one. *- precis of Heinz - 13:51*
+
+#### Reference
+– Center for Distributed Ledger Technologies, University of Malta - https://www.um.edu.mt/dlt
 
