@@ -40,3 +40,15 @@ In Fund 5 of Project Catalyst QA-DAO submitted a proposal [Quality Assurance DAO
 In Fund 6, I submitted 5 proposals including [Distributed Auditability](https://cardano.ideascale.com/a/dtd/Distributed-Auditability/366707-48088) and [Open-Source Training](https://cardano.ideascale.com/a/dtd/Open-Source-Training/368678-48088). These proposals were all successful in receiving votes and will be funded in November 2021. I am a co-proposer on the [Homeless Hub](https://cardano.ideascale.com/a/dtd/Homeless-Hub/367891-48088) proposal with Vanessa Cardui, as well as the Catalyst Swarm and SecretDecks proposals. And I am referenced as a contributor in the Eastern Town Hall and Catalyst School proposals.
 
 I have acted as a Community Advisor in Fund 6, posted regularly in Catalyst Community Discord servers and I am familiar with Zoom, Telegram, Discord, Google Docs and Sheets.
+
+## Nomination Form
+
+![2021-10-29](https://user-images.githubusercontent.com/25156451/139543761-366330f3-5524-469f-8abe-09a9c1d384df.png)
+
+![2021-10-29 (1)](https://user-images.githubusercontent.com/25156451/139543783-efdf43a1-b7d1-4b84-8877-dd06845b3788.png)
+
+![2021-10-29 (2)](https://user-images.githubusercontent.com/25156451/139543813-316c1b33-f236-4eb5-b9a6-0853d8137e51.png)
+
+![2021-10-29 (3)](https://user-images.githubusercontent.com/25156451/139543835-d503a96b-3446-4d95-8022-41db9252d7d8.png)
+
+
