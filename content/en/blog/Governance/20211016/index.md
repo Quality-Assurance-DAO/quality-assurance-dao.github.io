@@ -150,4 +150,15 @@ People who are getting involved in what we're doing because it's open and permis
 
 When I brought this up in conversations that we need to funnel out the unintelligent or unintelligible people who are engaging in Catalyst. The responses are that leads to gatekeeping and authoritarian abuses. And I get that. But it seems to me it should be possible to do this weeding out process so that we are not jumping up and down in place and never going anywhere. *- precis of Steve - 17:50*
 
+### Noah - Practical virtue ethics.
+
+I just wanted to respond to what Mihaela was saying about values. I think that values, virtues, moral philosophy in general, the field of ethics, is quite practical. One of the points that I always keep coming back to is, Aristotle had a principle, that virtues must be ranked, or goods must be ranked. And if goods conflict you must put one good over the other good.
+
+But if you take this to a certain limit eventually you get to a highest good, which is not really something specific, but kind of a concept. 
+
+But you find that when you are making goods, they don't always conflict often they support each other. Often when you're optimizing for some value or virtue, you consider which goods conflict. And if it's difficult to decide it might be possible to restructure that question. To try to understand how I should prioritize virtues that help each other, rather than are against each other. 
+
+That can be an effective principle to use when determining aspects of systems, when it comes to human rights and human dignity. To find those sets of things that promote general well-being in people. *- precis of Noah - 21:51*
+
+
 
