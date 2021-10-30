@@ -139,5 +139,15 @@ I would just say just one more thing, a tweak. Because which values? Everybody h
 
 If we take religious values, Muslim, Jewish or Christian values, you will get the same values. But everyone thinks that they have the best values. But it is the same in essence. We are trying, at least here, to build values that are above us, that are connected to climate change. Connected to a more equal world that is above our identity. *- precis of Yoram - 16:50*
 
+### Steve - how Catalyst can prevent being gamed ?
+
+I have a fundamental question. I have been in the Catalyst community for over a year now. I try to pay attention to what IOG, what the Cardano Foundation is doing and appreciate the high-level thought and research into all these things.
+
+I try to pay attention to what everybody thinks about on the high level, the gamesmanship, the game theory, and the protecting against bad actors. 
+Down here at this ground level of community and in Catalyst we want to play, and I appreciate your speaking about it that way because I consider it that way too. But what I have noticed is that we're having a hard time as a community addressing how Catalyst can prevent being gamed and avoid wasting time with people who don't really understand what we're doing.
+
+People who are getting involved in what we're doing because it's open and permissionless which I want. But I don't want to waste time on people who don't even understand what we're doing. 
+
+When I brought this up in conversations that we need to funnel out the unintelligent or unintelligible people who are engaging in Catalyst. The responses are that leads to gatekeeping and authoritarian abuses. And I get that. But it seems to me it should be possible to do this weeding out process so that we are not jumping up and down in place and never going anywhere. *- precis of Steve - 17:50*
 
 
