@@ -16,6 +16,8 @@ resources:
     byline: "Nomination as representative for the Funded Proposer Cohort"
 ---
 
+### Statement
+
 *Hello fellow Catalyst Coordinators – I am putting myself forward for nomination as as representative for the Funded Proposer Cohort for Catalyst Circle Version 2 and would appreciate any support from the community. I have posted full details here. All the Best. S*
 
 I am putting myself, Stephen Whitenstall, forward for nomination as representative for the Funded Proposer Cohort (also known as Catalyst Coordinators) for the next Catalyst Circle Version 2.
@@ -29,7 +31,7 @@ As a Circle representative for the Funded Proposer Cohort, I would:
 Thank you for your support
 
 S
-## Experience
+### Experience
 
 My experience in respect of Catalyst Circle Version 1 goes back to its formation to July 2021 when I started documenting its progress in a [Catalyst Circle Oversight GitBook](https://catalyst-swarm.gitbook.io/catalyst-circle/) and I subsequently became part of the Circle Admin Team, as a secretary, minuting from Circle Meeting 5 in September 2021 to the last Meeting 8 in October 2021.
 
@@ -41,7 +43,7 @@ In Fund 6, I submitted 5 proposals including [Distributed Auditability](https://
 
 I have acted as a Community Advisor in Fund 6, posted regularly in Catalyst Community Discord servers and I am familiar with Zoom, Telegram, Discord, Google Docs and Sheets.
 
-## Nomination Form
+### Nomination Form
 
 ![2021-10-29](https://user-images.githubusercontent.com/25156451/139543761-366330f3-5524-469f-8abe-09a9c1d384df.png)
 
