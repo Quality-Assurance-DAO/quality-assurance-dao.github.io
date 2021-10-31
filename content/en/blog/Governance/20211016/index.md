@@ -184,4 +184,13 @@ I think that regardless of who is included in the community there are certain mo
 
 In such instances they cannot be expected to contribute to the goal of the product or the group. When they do such a thing they ought to be corrected. It’s for their own good that they be corrected. *- precis of Noah - 25:46*
 
+### Ricardo - Catalyst is in its infancy
+
+I think it's a little bit too early to be having this discussion. Catalyst is in its infancy. We wouldn't be here today if it wasn't for IOHK.
+
+If Catalyst is not able to collaborate with a commercial organization, it doesn't bode well for the future. It is an important relationship to establish. 
+
+If you say we are so organized now we don't need any sort of institution, any sort of governmental body. You're putting yourself way out there. And I don't think Catalyst is ready if anybody were to analyse where we're at now. *- precis of Ricardo - 26:52*
+
+
 
