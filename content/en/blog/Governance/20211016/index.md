@@ -17,9 +17,6 @@ resources:
 ---
 # THIS POST IS IN DRAFT
 
-![wordcloud](https://user-images.githubusercontent.com/25156451/139593825-10ea5d09-b86e-4132-833c-01ab5078ba23.jpg)
-
-
 ## Café sûr le pont Edition One 
 ☕ **Cafe sur le pont Edition One** 🌉 was hosted by Nori and Felix on Zoom on Saturday, 16th October 2021.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PMkBGjLmEZU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
