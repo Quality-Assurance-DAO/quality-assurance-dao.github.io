@@ -351,5 +351,5 @@ I think if everything we do comes from our purest intention. And our intention i
 
 So that brings the focus of us into that relationship. And that is what builds the community. Focusing on understanding our purest intention. Why is it exactly that we're doing this? And we're doing this not for ourselves but from a holistic perspective, we're doing it for the whole.
 
-We are creating more than a community, we are creating a commons. This is something that each one of us needs to work in ourselves. Who are we bringing into this community? Is it the best version of ourselves? Are we putting our purest intention in what we're doing here? Somebody mentioned truth, this would be the truest version of ourselves. - *- precis of Noah - 56:08*
+We are creating more than a community, we are creating a commons. This is something that each one of us needs to work in ourselves. Who are we bringing into this community? Is it the best version of ourselves? Are we putting our purest intention in what we're doing here? Somebody mentioned truth, this would be the truest version of ourselves. - *- precis of Ernesto - 56:08*
 
