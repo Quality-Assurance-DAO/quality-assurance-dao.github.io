@@ -255,5 +255,14 @@ But this generation is looking for something else. They want to be more connecte
 
 Of course, values and norms are important, we can generate these things together. But we should look at the young generations need and ensure that we always promote the individual stories. If we do that, I think we will bring the new Charles Hoskinson onboard, the new Mihaela onboard. 
 
-I believe we will see great things happening in in our ecosystem. As Mihaela mentioned, we borrow resources from the next generation. So we have to do something for them and empower the younger generation. *- precis of Ernesto - 39:00*
+I believe we will see great things happening in in our ecosystem. As Mihaela mentioned, we borrow resources from the next generation. So we have to do something for them and empower the younger generation. *- precis of Oscar - 39:00*
+
+### Mihaela  - Playing the social game with different values.
+
+There are many issues which arise here. The first one which jumped out at me is that there is a lot to learn from what is happening in Turkey right now. We can also look at a top down IOG or Charles itself as the power structure giving power to the community. 
+
+And individuals, which are here, each of us with our voices are creating a new game. By the way, Heinz, a new game. It involves rules, for example, only pilots, qualified people can pilot the aircraft. So, yes, there are rules in the game, but we're still playing the game. It is a game. I hope so at least.
+
+Secondly, I don't know if the purpose is to create a new Charles. I think Charles has the problem of giving up this power to the community. We can learn a lot from the young people. I agree with empowering individuals. But also empowering them to listen to each other and play the social game with different values. *- precis of Mihaela - 41:43*
+
 
