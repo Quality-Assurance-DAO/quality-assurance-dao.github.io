@@ -230,4 +230,17 @@ But we do need to consider how we be scalable to large numbers as well. It is a 
 I want more substance to what is not enough (from IOG). Maybe we cannot know, but just think about it. Eventually together. I'm just building a bridge from the other side now, although I'm not representing them (IOG), but I can think from their shoes.  *- precis of Mihaela - 35:09*
 
 
+### Ernesto - Patterns and principles of living systems.
+
+I would like to go back to this question of community and values and bring two other words into the conversation that I find have been important. In my experience of putting community together the first one is understanding the exact purpose of why we are here. Another word is much more powerful. That is the intention. If there is a pure intention and that is aligned with that purpose, I think that is what brings the community together. 
+
+I think that goes beyond values. What is our purest intention? Because everything is karmic, interrelated, and collective. 
+
+I would like to bring into the conversation, beyond values, the principles of life. Patterns and principles of living systems. We are not going to go through this threshold if we do not resonate and are aligned with the patterns and principles of living systems. 
+
+They are so simple once you understand them. Because it is just the journey of the universe. My question, addressed to technicians, is it possible to code with the patterns and principles of living systems? Is even discussed? 
+
+What are we coding as technicians, coders, language creators? Is the coding that is thought now from the old paradigm, transactional and extractive ? 
+The difference with Cardano is that it is thinking beyond monetization. It is bringing in this possibility of having this conversation.  *- precis of Ernesto - 35:51*
+
 
