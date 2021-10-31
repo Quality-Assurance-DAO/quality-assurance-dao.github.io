@@ -221,11 +221,13 @@ Because you said we need to change things and engage more people. I do not know 
 
 ### Aharon – We need to consider how we scale
 
-I personally do not believe that there is a gap of intercommunication between the Catalyst community and IOG. I think there is now the appropriate channels of communication. *- precis of Aharon - 34:03*
+I personally do not believe that there is a gap of intercommunication between the Catalyst community and IOG. I think there is now the appropriate channels of communication.
 
+But we do need to consider how we be scalable to large numbers as well. It is a challenge for every community and it's true for us as well. *- precis of Aharon - 34:03*
 
+### Mihaela Ulieru - What is not enough from IOG? 
 
-But we do need to consider how we be scalable to large numbers as well. It is a challenge for every community and it's true for us as well. 
+I want more substance to what is not enough (from IOG). Maybe we cannot know, but just think about it. Eventually together. I'm just building a bridge from the other side now, although I'm not representing them (IOG), but I can think from their shoes.  *- precis of Mihaela - 35:09*
 
 
 
