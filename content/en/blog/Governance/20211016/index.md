@@ -141,7 +141,7 @@ I would just say just one more thing, a tweak. Because which values? Everybody h
 
 If we take religious values, Muslim, Jewish or Christian values, you will get the same values. But everyone thinks that they have the best values. But it is the same in essence. We are trying, at least here, to build values that are above us, that are connected to climate change. Connected to a more equal world that is above our identity. *- precis of Yoram - 16:50*
 
-### Steve - how Catalyst can prevent being gamed ?
+### Steve - How can Catalyst prevent being gamed ?
 
 I have a fundamental question. I have been in the Catalyst community for over a year now. I try to pay attention to what IOG, what the Cardano Foundation is doing and appreciate the high-level thought and research into all these things.
 
