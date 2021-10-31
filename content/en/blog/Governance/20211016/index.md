@@ -192,5 +192,12 @@ If Catalyst is not able to collaborate with a commercial organization, it doesn'
 
 If you say we are so organized now we don't need any sort of institution, any sort of governmental body. You're putting yourself way out there. And I don't think Catalyst is ready if anybody were to analyse where we're at now. *- precis of Ricardo - 26:52*
 
+### Heinz - Not everyone will be able to play the pilot
+
+I think we are coming from a from a very good central body with IOHK. Let us be happy that there is no crisis to take over as a community. We have a very good central driving force behind roles such as the voter or community advisor or veteran community advisor.
+
+There might be concentric circles, basic topics to govern and delicate topics. Like if we are founding an airline. There are many basic topics but not everyone will be able to play the pilot. So, there might be a kind of a concentric circle that is need or merit based. We are in the very early beginning of this journey, which is super fascinating. *- precis of Heinz - 29:05*
+
+
 
 
