@@ -333,7 +333,7 @@ We are in the era of Voltaire. Voltaire would sign off all his letters, “[crus
 
 These are questions that we must negotiate over time. I think some of us will hit hard roadblocks when it comes to certain things such as equality. I can't support a situation where a woman cannot own an address on the blockchain. Because she can't own value. That is a major problem.
 
-I wanted to ask a couple of questions of Ernesto, because he mentioned this powerful notion of the intention. And he said that it's more powerful in some ways than values. I wanted to understand a little bit better from him what exactly what does it mean to have an intention? What is an intention? And what is the value winner? And when do they win? Are they the same? And when did they when did they conflict? 
+I wanted to ask a couple of questions of Ernesto, because he mentioned this powerful notion of the intention. And he said that it's more powerful in some ways than values. I wanted to understand a little bit better from him what exactly what does it mean to have an intention? What is an intention? And what is the value winner? And when do they win? Are they the same? And when did they when did they conflict?  - *- precis of Noah - 53:02*
 
 #### References
 #### Voltaire
