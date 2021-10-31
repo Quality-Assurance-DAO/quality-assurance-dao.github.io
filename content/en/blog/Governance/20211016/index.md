@@ -213,5 +213,10 @@ Governance is not just decisions about budgeting or about protocol changes it is
 
 I am very happy that IOG started with the iterative process that we now implement in Catalyst funding. We are not starting from zero. *- precis of Aharon - 30:17*
 
+### Mihaela Ulieru - Do you feel as a community that you are not sufficiently heard? 
+
+Can I ask something Aharon. Do you feel as a community that you are not sufficiently heard? 
+
+Because you said we need to change things and engage more people. I do not know how to understand that. Is this something which is not observed by IOG or you did not communicate it to them? *- precis of Aharon - 33:05*
 
 
