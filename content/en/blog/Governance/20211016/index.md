@@ -170,4 +170,7 @@ I also mentioned in chat that our bodies have immune systems that fight off inva
 
 I think that is a hard balance to achieve. We cannot have an absolutely zero immune system or the gaming and the fraud will happen. But we also do not want to make everything highly controlled and top down either. Where do we find that balance? And how will that work? *- precis of Nori - 24:03*
 
+### Mihaela Ulieru - Who decides which are the values in a community?
+
+I would add, who decides which are the values in a community? I think this is still an open question. *- precis of Mihaela - 25:27*
 
