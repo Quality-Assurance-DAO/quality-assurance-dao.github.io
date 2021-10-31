@@ -200,6 +200,18 @@ I think we are coming from a from a very good central body with IOHK. Let us be 
 
 There might be concentric circles, basic topics to govern and delicate topics. Like if we are founding an airline. There are many basic topics but not everyone will be able to play the pilot. So, there might be a kind of a concentric circle that is need or merit based. We are in the very early beginning of this journey, which is super fascinating. *- precis of Heinz - 29:05*
 
+### Aharon - Joining a community is a little bit like falling in love. 
+
+The discussion of the value is always vague, but it is very important. I can testify from my own experience being part of communities. 
+Joining a community is a little bit like falling in love. When you fall in love you see in your partner only the positive aspects and ignore the things that later will be annoying. 
+
+When you join in a community you have this feeling that you have found your place, and everybody shares the same values. So, this is the great right place for you to grow. But as the time goes by you see where your values are not actually the same as others. Then conflict arises, this is the time to decide whether to continue together or to separate. 
+
+I've seen many communities’ members choose to separate and the communities broke apart. The building of the infrastructure for dealing with conflict is very important from the beginning. 
+
+Governance is not just decisions about budgeting or about protocol changes it is also about the process. Discussion on the process may be a little bit meta. But it is very important that we have a process to create changes in decision making. 
+
+I am very happy that IOG started with the iterative process that we now implement in Catalyst funding. We are not starting from zero. *- precis of Aharon - 30:17*
 
 
 
