@@ -243,4 +243,17 @@ They are so simple once you understand them. Because it is just the journey of t
 What are we coding as technicians, coders, language creators? Is the coding that is thought now from the old paradigm, transactional and extractive ? 
 The difference with Cardano is that it is thinking beyond monetization. It is bringing in this possibility of having this conversation.  *- precis of Ernesto - 35:51*
 
+### Oscar - Young people not interested in big stories anymore.
+
+I was searching for a term and then Ernesto brought it to my mind. Intention that is beyond values that I was what I was looking for. We should look at the need of this generation’s intention. 
+
+I'm over 30 years old but work with young people in the university as a researcher. I see that their intention is that they are not interested in big stories anymore. They are interested in individual stories, and they like to share individual stories.
+
+Before, our religions and national stories used to govern people. In a country like Turkey these narratives are very strong. If you are a religious and nationalist politician, then you are likely to be voted. 
+
+But this generation is looking for something else. They want to be more connected. Blockchain is bringing an interesting narrative that is more likely to connect people than the Internet does. In Turkey young people especially are interested in blockchain. 
+
+Of course, values and norms are important, we can generate these things together. But we should look at the young generations need and ensure that we always promote the individual stories. If we do that, I think we will bring the new Charles Hoskinson onboard, the new Mihaela onboard. 
+
+I believe we will see great things happening in in our ecosystem. As Mihaela mentioned, we borrow resources from the next generation. So we have to do something for them and empower the younger generation. *- precis of Ernesto - 39:00*
 
