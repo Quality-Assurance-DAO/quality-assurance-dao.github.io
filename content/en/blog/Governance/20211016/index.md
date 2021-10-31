@@ -217,6 +217,15 @@ I am very happy that IOG started with the iterative process that we now implemen
 
 Can I ask something Aharon. Do you feel as a community that you are not sufficiently heard? 
 
-Because you said we need to change things and engage more people. I do not know how to understand that. Is this something which is not observed by IOG or you did not communicate it to them? *- precis of Aharon - 33:05*
+Because you said we need to change things and engage more people. I do not know how to understand that. Is this something which is not observed by IOG or you did not communicate it to them? *- precis of Mihaela - 33:05*
+
+### Aharon – We need to consider how we scale
+
+I personally do not believe that there is a gap of intercommunication between the Catalyst community and IOG. I think there is now the appropriate channels of communication. *- precis of Aharon - 34:03*
+
+
+
+But we do need to consider how we be scalable to large numbers as well. It is a challenge for every community and it's true for us as well. 
+
 
 
