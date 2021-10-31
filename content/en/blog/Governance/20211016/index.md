@@ -322,4 +322,25 @@ Therefore, we're in this blockchain (Cardano) not in other blockchains. Where th
 
 I am dedicating my years now to do more on climate change. That is a survival need for the planet, for us. For me it's not a game. I know that we have fun. And let's enjoy it and make mistakes. It's experiment and it's amazing, incredible. But it goes further than a game. It is part of the lives we want to create going forward. *- precis of Felix - 50:04*
 
+### Noah – In a time of abundance, we have the luxury to say everybody can get what they need. 
+
+I wanted to celebrate Nicholas's emphasis of the archetype because a lot of our manifestations of our personalities and our intentions are governed by in some sense by archetypes.
+
+When we're operating within a group, we are not just ourselves. We are also representing something that is more than one person. In a sense Charles is not Charles Hoskinson the person. Importantly to us Charles is an archetype of a certain type of leader. I would question a little bit the validity of the set of 12 archetypes because those are highly dependent on cultural contexts. But allowing the group to support the existence of certain archetypes is extremely valuable.
+In a time of abundance, we have the luxury to say everybody can get what they need. 
+
+We are in the era of Voltaire. Voltaire would sign off all his letters, “[crush the infamous thing](https://en.wikiquote.org/wiki/Voltaire)”. Do you guys know what he was talking about? He was talking about the Catholic Church and a conflict between the ability to speak freely and piety. Some people might think that piety is more valuable. Others might say freedom of speech is more important. 
+
+These are questions that we must negotiate over time. I think some of us will hit hard roadblocks when it comes to certain things such as equality. I can't support a situation where a woman cannot own an address on the blockchain. Because she can't own value. That is a major problem.
+
+I wanted to ask a couple of questions of Ernesto, because he mentioned this powerful notion of the intention. And he said that it's more powerful in some ways than values. I wanted to understand a little bit better from him what exactly what does it mean to have an intention? What is an intention? And what is the value winner? And when do they win? Are they the same? And when did they when did they conflict? 
+
+#### References
+#### Voltaire
+- https://en.wikipedia.org/wiki/Voltaire
+- https://en.wikiquote.org/wiki/Voltaire
+- *Quoi que vous fassiez, écrasez l'infâme, et aimez qui vous aime.*
+- Whatever you do, crush the infamous thing, and love those who love you.
+- Letter to Jean le Rond d'Alembert (28 November 1762); This was written in reference to crushing superstition, and the words "écrasez l'infâme" ("Crush the Infamy") became a motto strongly identified with Voltaire.
+
 
