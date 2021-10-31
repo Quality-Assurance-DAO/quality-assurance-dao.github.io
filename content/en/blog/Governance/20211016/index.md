@@ -295,5 +295,21 @@ It is an inherently gamified system. I learn about myself, how I interact with o
 - The E-Myth (1986) ([Michael Gerber](https://en.wikipedia.org/wiki/Michael_Gerber_(non-fiction_writer))). 
 
 
+### Felix - The biggest value we have is being ourselves.
+
+Nicholas I am happy you are here. Because I want to go to the same direction. I also think consensus can be dangerous because it always aims for an idealistic perspective.
+
+If everybody agrees then the way to fanatism is not so far anymore. There is a small border between Idealists and fanatics.
+
+I would be worried about a conversation where everybody agrees. I would say, wait there is something wrong. Where is the diversity when everybody agrees? Where is the alternative? Is it really diversity to say we are all on the same page? 
+
+I think it's not so important to say we have the same values. What matters much more is that I can understand and to respect your values. And that the other side also can understand and respect my values.
+
+So, there is not a value is worth more than another one. There is only a difference. This difference, which is the beauty of diversity, is easy to scale. 
+Nicholas, you said already with billions of users do you want to reach consensus? If you reach consensus then it's dictatorship? Something is very wrong when you have billions of users created for one thing, let's say for a whole bunch of protocols.
+
+I think it is much more saying let's develop everybody. The biggest value we have is being ourselves. When everybody has the environment and the possibility of being themselves. Then they can transform their potential into value, allowing them to serve people next to them in the environment. Then there doesn't need to be a whole protocol. 
+
+It's much more from a philosophical, humanistic point of view to say, hey, we are human. It can be as simple as that. *- precis of Felix - 47:41*
 
 
