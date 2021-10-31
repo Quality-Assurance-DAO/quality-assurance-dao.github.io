@@ -343,4 +343,13 @@ I wanted to ask a couple of questions of Ernesto, because he mentioned this powe
 - Whatever you do, crush the infamous thing, and love those who love you.
 - Letter to Jean le Rond d'Alembert (28 November 1762); This was written in reference to crushing superstition, and the words "écrasez l'infâme" ("Crush the Infamy") became a motto strongly identified with Voltaire.
 
+#### Ernesto - We are creating more than a community, we are creating a commons
+
+Well, I hope I can answer. It is a very complex question that I don't know if I have the words to describe. 
+
+I think if everything we do comes from our purest intention. And our intention is to be the truest self. What we do in our community is give permission to other people to be their true selves. 
+
+So that brings the focus of us into that relationship. And that is what builds the community. Focusing on understanding our purest intention. Why is it exactly that we're doing this? And we're doing this not for ourselves but from a holistic perspective, we're doing it for the whole.
+
+We are creating more than a community, we are creating a commons. This is something that each one of us needs to work in ourselves. Who are we bringing into this community? Is it the best version of ourselves? Are we putting our purest intention in what we're doing here? Somebody mentioned truth, this would be the truest version of ourselves. - *- precis of Noah - 56:08*
 
