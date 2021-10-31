@@ -174,3 +174,14 @@ I think that is a hard balance to achieve. We cannot have an absolutely zero imm
 
 I would add, who decides which are the values in a community? I think this is still an open question. *- precis of Mihaela - 25:27*
 
+### Noah – There is such a thing as morality, there are such things as virtues. 
+
+I don't think that any of us here are moral relativists or at least we ought not to be.
+
+There is such a thing as morality, there are such things as virtues. 
+
+I think that regardless of who is included in the community there are certain moral facts that can be agreed upon. And when people disagree with the entire infrastructure, perhaps they disagree with human rights, those might be instances in which actors are behaving in bad faith. 
+
+In such instances they cannot be expected to contribute to the goal of the product or the group. When they do such a thing they ought to be corrected. It’s for their own good that they be corrected. *- precis of Noah - 25:46*
+
+
