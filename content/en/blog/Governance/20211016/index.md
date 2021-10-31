@@ -312,4 +312,14 @@ I think it is much more saying let's develop everybody. The biggest value we hav
 
 It's much more from a philosophical, humanistic point of view to say, hey, we are human. It can be as simple as that. *- precis of Felix - 47:41*
 
+### Yoram - We are here because of a survival need to change.
+
+I completely agree with Felix and Nikolas. Pluralism is obviously excellent and good. On paper Cardano’s objective is to make this world better for all. But there is a challenge with everyone values. 
+
+Most of the people in the world live in a state of dictatorship. I think we are here, because of a survival need to change. At least myself. Most of us are not happy with the system we live in. For many of us it is a survival challenge that we want to create, to make this world a better for all.
+
+Therefore, we're in this blockchain (Cardano) not in other blockchains. Where the main goal of the blockchain is to create community. I would challenge that I must agree with everyone else’s value. There are some values in the world today, like human equality, just to give an example, which I don't agree with.
+
+I am dedicating my years now to do more on climate change. That is a survival need for the planet, for us. For me it's not a game. I know that we have fun. And let's enjoy it and make mistakes. It's experiment and it's amazing, incredible. But it goes further than a game. It is part of the lives we want to create going forward. *- precis of Felix - 50:04*
+
 
