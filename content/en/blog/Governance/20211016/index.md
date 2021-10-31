@@ -277,7 +277,7 @@ If we try to do it as one big, worldwide community we are going to struggle. We 
 
 It all happens at the individual level. Consensus does not work if we involve millions of people. It only works when you empower that individual team who has frontline knowledge. They know what makes them successful, that is when consensus works. We are moving out of this stem cell range, and we need to allow the liver cell to be the liver cell and the heart cell to be the heart cell and the eye cell to be the eye cell. We cannot force each of these cells to do the same thing. 
 
-This is also covered in some great books like “[The Innovators Dilemma](https://en.wikipedia.org/wiki/The_Innovator%27s_Dilemma)” (1997), “[The Innovators solution](https://claytonchristensen.com/books/the-innovators-solution/)"(2003)(Clayton Christensen), The E-Myth (1986) ([Michael Gerber](https://en.wikipedia.org/wiki/Michael_Gerber_(non-fiction_writer))). 
+This is also covered in some great books like “[The Innovators Dilemma](https://en.wikipedia.org/wiki/The_Innovator%27s_Dilemma)” (1997), “[The Innovators solution](https://claytonchristensen.com/books/the-innovators-solution/)"(2003, Clayton Christensen) and "The E-Myth" (1986, [Michael Gerber](https://en.wikipedia.org/wiki/Michael_Gerber_(non-fiction_writer))). 
 
 The first step is how do we start to really empower these different environments and teams. Then nurture them. Archetypes also provide an inherent play environment because not only are you learning about the project, the greater mission, the goal of the community, but you are also learning about yourself. 
 It is an inherently gamified system. I learn about myself, how I interact with other people and how I drive my own innovation. *- precis of Nick - 43:22*
