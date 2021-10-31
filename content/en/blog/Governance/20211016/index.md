@@ -160,5 +160,14 @@ But you find that when you are making goods, they don't always conflict often th
 
 That can be an effective principle to use when determining aspects of systems, when it comes to human rights and human dignity. To find those sets of things that promote general well-being in people. *- precis of Noah - 21:51*
 
+### Nori – Balancing the autonomy of the individual and protecting the community.
+
+Thanks Noah, I think that is an important topic. What are the values we are driving towards the community? And do we all have the same ones?
+
+Often, as I think Derek mentioned earlier, voting isn't the end solution, we should reach things by consensus. But that is only possible if we're all driving towards the same goal. If we are all going in different directions consensus is almost impossible. 
+
+I also mentioned in chat that our bodies have immune systems that fight off invaders or things that aren't good for the body. How do communities evolve that kind of an immune system to combat fraud or gaming? How do you strike a balance between the autonomy of the individual, self-sovereignty, thriving and doing what you think is best versus protecting the community from people trying to take advantage of that openness and freedom? 
+
+I think that is a hard balance to achieve. We cannot have an absolutely zero immune system or the gaming and the fraud will happen. But we also do not want to make everything highly controlled and top down either. Where do we find that balance? And how will that work? *- precis of Nori - 24:03*
 
 
