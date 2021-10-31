@@ -267,7 +267,7 @@ Secondly, I don't know if the purpose is to create a new Charles. I think Charle
 
 ### Nick – The power of archetypes
 
-The old paradigm is trying to use this word community to cover everybody trying to define all the values and intentions as one big community. We are at a stage right now where we really must separate. 
+The old paradigm is trying to use this word community to cover everybody. Trying to define all the values and intentions as one big community. We are at a stage right now where we really must separate. 
 
 Google's [Project Aristotle]( https://www.nytimes.com/2016/02/28/magazine/what-google-learned-from-its-quest-to-build-the-perfect-team.html ) identified what worked for one team didn't work for another. One team loved to aggressively talk over each other. Whereas like another team doing that would not be so good. They would like to raise hands or go around in a circle. 
 
