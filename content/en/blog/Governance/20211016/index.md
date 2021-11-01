@@ -388,4 +388,11 @@ It is our responsibility to understand how to update these rules to manage the B
 - https://en.wikipedia.org/wiki/David_Bollier
 - http://www.bollier.org/
 
+### Ernesto - Definition [of the Tragedy of the Commons]
+
+I can give you a definition [of the Tragedy of the Commons]. It is when we have a common asset, and the cost is distributed by everybody, but the benefit is individual.
+
+There was the Boston Commons, everybody grazed their sheep and cows, because the grass was free. The incentive was to have as much a sheep as possible because you didn't pay for the grass. But that created soil erosion. And that is happening at every level in the Amazon, in the oceans, etc. We have these free riders with this extractive mentality that are creating a tragedy of the commons. *- precis of Ernesto - 1:01:47*
+
+
 
