@@ -418,7 +418,7 @@ If there are incentives that are built into the system or distributed applicatio
 That is the beauty of this thing. We don't have to have consensus on how we are going to come together as a community. I think if we just focus on creating fertile ground for people to choose the community, the way they want to evolve, just giving people the freedom and letting go of how things manifest. 
 Then ultimately, we move together as a community and co create this together. Look at the principles that [Nassim Taleb](https://en.wikipedia.org/wiki/Nassim_Nicholas_Taleb) talks about in his book, [Anti-fragile](https://en.wikipedia.org/wiki/Antifragile_(book)), because I think that will guide us.
 
-Especially as Catalyst as a community needs to focus on building robust systems that are resilient, and anti-fragile. So, we don't have to tinker or intervene. Because the more we have to tinker and intervene we're going to get what we got. A system that's just prone to corruption, manipulation, tinkering, finding consensus, pushing other people out and creating haves and have nots. What a tragedy that would be if Cardano ended up moving in that direction. *- precis of Mihaela - 1:04:41*
+Especially as Catalyst as a community needs to focus on building robust systems that are resilient, and anti-fragile. So, we don't have to tinker or intervene. Because the more we have to tinker and intervene we're going to get what we got. A system that's just prone to corruption, manipulation, tinkering, finding consensus, pushing other people out and creating haves and have nots. What a tragedy that would be if Cardano ended up moving in that direction. *- precis of Gary - 1:04:41*
 
 #### References
 #### Thích Nhất Hạnh
