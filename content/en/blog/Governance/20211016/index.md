@@ -400,7 +400,7 @@ I think a point to take from this interaction now is to define what is the commo
 
 ### Gary – Cardano as a natural system
 
-Looking at what Ernesto was talking about natural systems, here I am, I just I pulled over to next what happened to be a national cemetery in Minnesota. Here we've got this confluence of all these people who used to be and the sun. 
+Looking at what Ernesto was talking about natural systems, here I am, pulled over next to what happened to be a national cemetery in Minnesota. Here we've got this confluence of all these people who used to be and the sun. 
 
 If you take this idea that Ernesto was talking about natural systems, Cardano is already there and it's a gift. It's already happening. 
 
