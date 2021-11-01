@@ -394,5 +394,9 @@ I can give you a definition [of the Tragedy of the Commons]. It is when we have 
 
 There was the Boston Commons, everybody grazed their sheep and cows, because the grass was free. The incentive was to have as much a sheep as possible because you didn't pay for the grass. But that created soil erosion. And that is happening at every level in the Amazon, in the oceans, etc. We have these free riders with this extractive mentality that are creating a tragedy of the commons. *- precis of Ernesto - 1:01:47*
 
+### Mihaela - What is the commons for us, for this community?
+
+I think a point to take from this interaction now is to define what is the commons for us, for this community? Are the Commons the knowledge which we create, the rules or whatever?  *- precis of Mihaela - 1:02:59*
+
 
 
