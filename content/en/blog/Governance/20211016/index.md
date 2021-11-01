@@ -406,7 +406,7 @@ If you take this idea that Ernesto was talking about natural systems, Cardano is
 
 If you take photons from the sun and follow them, they hit a plant and the plant creates some sugar, it's tokenized sunshine. The tokenized sunshine in that plant, you eat a raspberry, the raspberry becomes you, you break down that tokenize sunshine and then it goes into all your cells.
 
-What's great about Cardano is it this extension of nature. It is such a privilege to have this beautiful system that can take this tokenized sunshine in us now. 
+What's great about Cardano is this extension of nature. It is such a privilege to have this beautiful system that can take this tokenized sunshine in us now. 
 And now we can go back to intention. Because you control three things, you can set an intention, you can take an action and let go. Those are the only three things that we control. If we look at those three things, setting intention, taking an action, and letting go. It's that third thing the letting go that causes most of the suffering.
 
 The Buddhist monk [Thích Nhất Hạnh](https://en.wikipedia.org/wiki/Th%C3%ADch_Nh%E1%BA%A5t_H%E1%BA%A1nh) said that we're called to love of the people in such a way that they feel free. So, what if Cardano was a system was an ecosystem?
