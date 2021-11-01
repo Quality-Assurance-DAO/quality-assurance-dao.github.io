@@ -353,5 +353,21 @@ So that brings the focus of us into that relationship. And that is what builds t
 
 We are creating more than a community, we are creating a commons. This is something that each one of us needs to work in ourselves. Who are we bringing into this community? Is it the best version of ourselves? Are we putting our purest intention in what we're doing here? Somebody mentioned truth, this would be the truest version of ourselves. *- precis of Ernesto - 56:08*
 
+#### Ernesto / Noah - individual intention and the collective
+
+**Noah** - So is the self-static? Is it innate? Or does it evolve over time? In your definition?
+
+**Ernesto** - I hope it evolves over time.
+
+**Noah** - As we learn more and does it exist in a vacuum? Or does it exist as a synthesis, across our relationships?
+
+**Ernesto** - I don't any of us can exist in a vacuum.
+
+**Noah** - So if we become a good community that will help us become the best version of our pure selves. Is that correct?
+
+**Ernesto** – That is correct. If we come with the purest intention. Because all of us in our purest intention create the best collective version of what we are. Eventually, we're all one. If we already believed that we are all one it would be kind of simple to put it together. But we have the complexity of our egos, our mandates and everything that is on our backs. *- precis of Noah / Ernesto - 57:56*
+
+
+### Noah - How do we as a community address the tragedy of the commons?
 
 
