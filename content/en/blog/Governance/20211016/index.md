@@ -398,5 +398,31 @@ There was the Boston Commons, everybody grazed their sheep and cows, because the
 
 I think a point to take from this interaction now is to define what is the commons for us, for this community? Are the Commons the knowledge which we create, the rules or whatever?  *- precis of Mihaela - 1:02:59*
 
+### Gary – Cardano as a natural system
 
+Looking at what Ernesto was talking about natural systems, here I am, I just I pulled over to next what happened to be a national cemetery in Minnesota. Here we've got this confluence of all these people who used to be and the sun. 
 
+If you take this idea that Ernesto was talking about natural systems, Cardano is already there and it's a gift. It's already happening. 
+
+If you take photons from the sun and follow them, they hit a plant and the plant creates some sugar, it's tokenized sunshine. The tokenized sunshine in that plant, you eat a raspberry, the raspberry becomes you, you break down that tokenize sunshine and then it goes into all your cells.
+
+What's great about Cardano is it this extension of nature. It is such a privilege to have this beautiful system that can take this tokenized sunshine in us now. 
+And now we can go back to intention. Because you control three things, you can set an intention, you can take an action and let go. Those are the only three things that we control. If we look at those three things, setting intention, taking an action, and letting go. It's that third thing the letting go that causes most of the suffering.
+
+The Buddhist monk [Thích Nhất Hạnh](https://en.wikipedia.org/wiki/Th%C3%ADch_Nh%E1%BA%A5t_H%E1%BA%A1nh) said that we're called to love of the people in such a way that they feel free. So, what if Cardano was a system was an ecosystem?
+
+Where the intent is loving other people in such a way that they feel free to manifest the sunlight that's moving through their bodies. They can set intentions, take actions, and they can create communities. As a free being to associate and disassociate with people as they as they feel fit.
+
+If there are incentives that are built into the system or distributed applications that incentivize certain behaviours then people can choose applications, choose communities. They can choose p2p (peer to peer) lending, insurance or whatever it is that this ecosystem manifests. 
+
+That is the beauty of this thing. We don't have to have consensus on how we are going to come together as a community. I think if we just focus on creating fertile ground for people to choose the community, the way they want to evolve, just giving people the freedom and letting go of how things manifest. 
+Then ultimately, we move together as a community and co create this together. Look at the principles that [Nassim Taleb](https://en.wikipedia.org/wiki/Nassim_Nicholas_Taleb) talks about in his book, [Anti-fragile](https://en.wikipedia.org/wiki/Antifragile_(book)), because I think that will guide us.
+
+Especially as Catalyst as a community needs to focus on building robust systems that are resilient, and anti-fragile. So, we don't have to tinker or intervene. Because the more we have to tinker and intervene we're going to get what we got. A system that's just prone to corruption, manipulation, tinkering, finding consensus, pushing other people out and creating haves and have nots. What a tragedy that would be if Cardano ended up moving in that direction. *- precis of Mihaela - 1:04:41*
+
+#### References
+#### Thích Nhất Hạnh
+- https://en.wikipedia.org/wiki/Th%C3%ADch_Nh%E1%BA%A5t_H%E1%BA%A1nh
+#### Nassim Taleb
+- https://en.wikipedia.org/wiki/Nassim_Nicholas_Taleb
+- https://en.wikipedia.org/wiki/Antifragile_(book)
