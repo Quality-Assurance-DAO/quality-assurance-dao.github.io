@@ -361,7 +361,7 @@ We are creating more than a community, we are creating a commons. This is someth
 
 **Noah** - As we learn more and does it exist in a vacuum? Or does it exist as a synthesis, across our relationships?
 
-**Ernesto** - I don't any of us can exist in a vacuum.
+**Ernesto** - I don't think any of us can exist in a vacuum.
 
 **Noah** - So if we become a good community that will help us become the best version of our pure selves. Is that correct?
 
