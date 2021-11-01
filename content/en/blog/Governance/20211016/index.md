@@ -426,3 +426,12 @@ Especially as Catalyst as a community needs to focus on building robust systems 
 #### Nassim Taleb
 - https://en.wikipedia.org/wiki/Nassim_Nicholas_Taleb
 - https://en.wikipedia.org/wiki/Antifragile_(book)
+
+### Mihaela - From our community there will be many spinoffs
+
+I just want you to underline the importance of one thing, which was not mentioned before, before Gary brought it up here. I call them ad hoc regimes. From our community there will be many spinoffs. Around the archetypes, around the ways. And how you attract those who would join naturally. 
+
+Communities where I feel that I can communicate and that freedom. Where I choose my game. And when I say game, I don't mean it's not a serious game. I just mean this freedom that I must choose and to create and maybe recreate rules. 
+
+We must experiment with rules because we didn't crack the nut yet. What are the true rules? If you imagine a t shirt with Game B is written on it and on the back when you turn, you see, “we don't play” that means we are serious. Game A is the game which the current politics and industry is playing. *- precis of Mihaela - 1:09:23*
+
