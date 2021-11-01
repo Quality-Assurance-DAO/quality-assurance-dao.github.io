@@ -368,6 +368,24 @@ We are creating more than a community, we are creating a commons. This is someth
 **Ernesto** – That is correct. If we come with the purest intention. Because all of us in our purest intention create the best collective version of what we are. Eventually, we're all one. If we already believed that we are all one it would be kind of simple to put it together. But we have the complexity of our egos, our mandates and everything that is on our backs. *- precis of Noah / Ernesto - 57:56*
 
 
-### Noah - How do we as a community address the tragedy of the commons?
+### Noah / Ernesto - How do we as a community address the tragedy of the commons?
+
+**Noah** - How do we as a community address the tragedy of the commons?
+
+**Ernesto** - Elinor Ostrom came up with rules that are structured to the physical landscape Commons. I think this great discussion is now probably led by David Bollier. That is, how do we manage social and digital commerce. And it also did an incredible work in bringing these eight principles that govern the commons. 
+
+I think now we need to transition because technology has grown so exponentially that the commons that we are creating has the possibility of this new language that I mentioned. New systems are co evolving with this new language. 
+
+It is our responsibility to understand how to update these rules to manage the Boston Commons, differently. That became a kind of a desert. The commons that we are trying to create here actually needs to transcend community. The Commons, it's more a verb. We are commoners and that demands activity. It's a proactive action to prioritize what we want to build and to have a clear purpose and intention. *- precis of Noah / Ernesto - 59:17*
+
+#### References
+#### Tragedy of the commons
+- https://en.wikipedia.org/wiki/Tragedy_of_the_commons
+#### Elinor Ostrom
+- [Nobel Prize](https://www.nobelprize.org/prizes/economic-sciences/2009/ostrom/facts/)
+- https://en.wikipedia.org/wiki/Elinor_Ostrom 
+#### David Bollier
+- https://en.wikipedia.org/wiki/David_Bollier
+- http://www.bollier.org/
 
 
