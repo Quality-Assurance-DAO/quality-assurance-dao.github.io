@@ -464,7 +464,7 @@ We have the chance to not just enable changes that we're seeing happening, but t
 
 ### Mihaela -  [open-source] a good example of the Commons
 
-I'm old enough to have lived those times with Linux and all what you said in that story. This is such a good example of the Commons and how to catalyse a community to curate the commons. To make it perfect and better than anything else. This is, to me, a perfect example of what we can achieve. *- precis of Gary - 1:19:10*
+I'm old enough to have lived those times with Linux and all what you said in that story. This is such a good example of the Commons and how to catalyse a community to curate the commons. To make it perfect and better than anything else. This is, to me, a perfect example of what we can achieve. *- precis of Mihaela - 1:19:10*
 
 ### Nori - There are things that have come before that we can learn from. 
 
