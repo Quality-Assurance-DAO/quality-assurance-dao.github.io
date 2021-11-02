@@ -454,12 +454,17 @@ The innovation structure is one of the things that is driving my interest inside
 Another one is a striving for two types of values. One's called value transfer. And then one that's called value exchange. A value transfer is just something I'm just going to transfer to you. Artists will take some of the greatest pieces of creativity, and they'll give it away. Then many artists want a full value exchange they would like something back for what they've received. One of the things that Cardano does is provide the ability to enable people to transfer value and to enable engagement in value exchanges. 
 
 If we can enable people to build the bridges, they will build them. Because they will be driven by the very value that sits inside of them to say, I value this enough, I will build the bridge, I will go and spend the hours, I will go and lift things, whatever it takes to build the bridge. 
-We have the chance to not just enable changes that we're seeing happening, but the existing geopolitical environment will fuel where we're going. That is why Linux succeeded over BSD. At the time it wasn't about the technology it was about the geopolitical environment. About what people were tired of. About how can I break myself away. Then they started to look for people to help them. *- precis of Dean - 1:12:19*
+We have the chance to not just enable changes that we're seeing happening, but the existing geopolitical environment will fuel where we're going. That is why Linux succeeded over BSD. At the time it wasn't about the technology it was about the geopolitical environment. About what people were tired of. About how can I break myself away. Then they started to look for people to help them.  *- precis of Gary - 1:12:19*
 
 #### References
 #### BSD
 - https://en.wikipedia.org/wiki/Berkeley_Software_Distribution
 #### Linux
 - Linus Torvalds - https://en.wikipedia.org/wiki/Linus_Torvalds
+
+### Mihaela -  [open-source] a good example of the Commons
+
+I'm old enough to have lived those times with Linux and all what you said in that story. This is such a good example of the Commons and how to catalyse a community to curate the commons. To make it perfect and better than anything else. This is, to me, a perfect example of what we can achieve. *- precis of Gary - 1:19:10*
+
 
 
