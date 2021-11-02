@@ -466,5 +466,25 @@ We have the chance to not just enable changes that we're seeing happening, but t
 
 I'm old enough to have lived those times with Linux and all what you said in that story. This is such a good example of the Commons and how to catalyse a community to curate the commons. To make it perfect and better than anything else. This is, to me, a perfect example of what we can achieve. *- precis of Gary - 1:19:10*
 
+### Nori - There are things that have come before that we can learn from. 
 
+Thank you, Dean. That reminds me a lot that there are things that have come before that we can learn from that we shouldn't just try to build from scratch. 
+I was around in Tokyo back in 1992. And I started an ISP, using Linux, I think it was like version 0.98, patch level 14 from Slackware (https://en.wikipedia.org/wiki/Slackware). And I'm putting in 30 Different floppy disks to load the whole thing because CD ROMs weren't even invented yet. 
 
+About that time an article came out called “Cathedral in the Bazaar” (https://en.wikipedia.org/wiki/The_Cathedral_and_the_Bazaar) about why open-source works.
+We see other examples, not just Linux, like Wikipedia. Who would have thought we’d have an open website where anyone can add, edit and we'll create the world's largest encyclopaedia? At the same time, Microsoft was building Encarta (https://en.wikipedia.org/wiki/Encarta) and doing this whole centralized kind of thing. And it didn't win, because we, as a community and a collective are way more powerful. 
+
+I think there's some important things that we need to remember like radical transparency through open source, you can see what everyone's doing. So that brings your best game. The radical inclusivity of Wikipedia allows anybody to edit. 
+
+I think there are mechanisms there that we can learn from and incorporate into what we're building here. This conversation has been amazing because it's starting to connect a lot of the dots in my own head.
+
+I think it was Felix was comment that really solidified this. It’s not really about values. As Ernesto said the intention and purpose are overriding because we can all come with different values. There are certain values and identities but not everybody has to buy into that for us to work together as a community. 
+But the purpose or the intention to bring our best selves and to change the world and make something great here. I think those kinds of things are, are way more important. We should allow people of different values to come in and have, like burning man says radical inclusivity. But also, radical transparency. I love that Catalyst Circle and all these meetings are recorded and shared. So, anybody who's curious can see what's going on, there's nothing happening behind closed doors. *- precis of Nori - 1:19:55*
+
+#### References
+#### Slackware
+- https://en.wikipedia.org/wiki/Slackware
+#### Cathedral in the Bazaar
+- https://en.wikipedia.org/wiki/The_Cathedral_and_the_Bazaar
+#### Encarta
+- (https://en.wikipedia.org/wiki/Encarta) 
