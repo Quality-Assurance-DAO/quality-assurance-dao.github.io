@@ -435,3 +435,9 @@ Communities where I feel that I can communicate and that freedom. Where I choose
 
 We must experiment with rules because we didn't crack the nut yet. What are the true rules? If you imagine a t shirt with Game B is written on it and on the back when you turn, you see, “we don't play” that means we are serious. Game A is the game which the current politics and industry is playing. *- precis of Mihaela - 1:09:23*
 
+### Gary - Set an intention, take an action, let go
+
+If we go back to before there were cell phones, smartphones, and everybody glued to their screen. When I was a kid, we had to go and ring a doorbell, and invite someone to play a game. 
+
+If you can set an intention, take an action, let go. If the intention is to invite somebody to play this game and someone else joins the game. Now you build consensus around the rules of what it means to play the game. So, if we're playing a game, are we playing the same game? Are we engaging in this game that has the same rules? If we have the capacity and ability to allow people to enrol other people in the possibility of playing a game. Maybe it is the creation of a Dapp that revolutionizes local food production and food distribution? Let's play that game. Let's play a game of reforestation. *- precis of Gary - 1:10:52*
+
