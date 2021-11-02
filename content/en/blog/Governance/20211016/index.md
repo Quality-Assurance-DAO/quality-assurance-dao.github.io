@@ -441,3 +441,25 @@ If we go back to before there were cell phones, smartphones, and everybody glued
 
 If you can set an intention, take an action, let go. If the intention is to invite somebody to play this game and someone else joins the game. Now you build consensus around the rules of what it means to play the game. So, if we're playing a game, are we playing the same game? Are we engaging in this game that has the same rules? If we have the capacity and ability to allow people to enrol other people in the possibility of playing a game. Maybe it is the creation of a Dapp that revolutionizes local food production and food distribution? Let's play that game. Let's play a game of reforestation. *- precis of Gary - 1:10:52*
 
+### Dean - If we can enable people to build the bridges, they will build them.
+
+Before open source became famous as Linux there was another product that was far more valuable, far better suited to the industry and that was called [BSD](https://en.wikipedia.org/wiki/Berkeley_Software_Distribution). BSD already existed and a gentleman by the name of Linus Torvalds rallied a group of people to enable creativity and innovation. He didn't know where it was going to go. But what he did know was that the geopolitical environment, not the technology side, that was existing at that time was ripe for change. 
+
+This is one of the things that Charles [Hoskinson] has the capacity to do and help people understand. As we continue to move forward bridges are going to naturally evolve out of what's happening in the environment. 
+
+People who were involved in open source who wanted to not just build but make a financial impact found out quickly that the reason that open source succeeded so well is because code was opened to examination. If they must, they will throw that code away and they will redesign the code. 
+
+The innovation structure is one of the things that is driving my interest inside this Cardano structure. 
+
+Another one is a striving for two types of values. One's called value transfer. And then one that's called value exchange. A value transfer is just something I'm just going to transfer to you. Artists will take some of the greatest pieces of creativity, and they'll give it away. Then many artists want a full value exchange they would like something back for what they've received. One of the things that Cardano does is provide the ability to enable people to transfer value and to enable engagement in value exchanges. 
+
+If we can enable people to build the bridges, they will build them. Because they will be driven by the very value that sits inside of them to say, I value this enough, I will build the bridge, I will go and spend the hours, I will go and lift things, whatever it takes to build the bridge. 
+We have the chance to not just enable changes that we're seeing happening, but the existing geopolitical environment will fuel where we're going. That is why Linux succeeded over BSD. At the time it wasn't about the technology it was about the geopolitical environment. About what people were tired of. About how can I break myself away. Then they started to look for people to help them. *- precis of Dean - 1:12:19*
+
+#### References
+#### BSD
+- https://en.wikipedia.org/wiki/Berkeley_Software_Distribution
+#### Linux
+- Linus Torvalds - https://en.wikipedia.org/wiki/Linus_Torvalds
+
+
