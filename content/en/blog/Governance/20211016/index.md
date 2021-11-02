@@ -469,10 +469,10 @@ I'm old enough to have lived those times with Linux and all what you said in tha
 ### Nori - There are things that have come before that we can learn from. 
 
 Thank you, Dean. That reminds me a lot that there are things that have come before that we can learn from that we shouldn't just try to build from scratch. 
-I was around in Tokyo back in 1992. And I started an ISP, using Linux, I think it was like version 0.98, patch level 14 from Slackware (https://en.wikipedia.org/wiki/Slackware). And I'm putting in 30 Different floppy disks to load the whole thing because CD ROMs weren't even invented yet. 
+I was around in Tokyo back in 1992. And I started an ISP, using Linux, I think it was like version 0.98, patch level 14 from [Slackware](https://en.wikipedia.org/wiki/Slackware). And I'm putting in 30 Different floppy disks to load the whole thing because CD ROMs weren't even invented yet. 
 
-About that time an article came out called “Cathedral in the Bazaar” (https://en.wikipedia.org/wiki/The_Cathedral_and_the_Bazaar) about why open-source works.
-We see other examples, not just Linux, like Wikipedia. Who would have thought we’d have an open website where anyone can add, edit and we'll create the world's largest encyclopaedia? At the same time, Microsoft was building Encarta (https://en.wikipedia.org/wiki/Encarta) and doing this whole centralized kind of thing. And it didn't win, because we, as a community and a collective are way more powerful. 
+About that time an article came out called [“Cathedral in the Bazaar”](https://en.wikipedia.org/wiki/The_Cathedral_and_the_Bazaar) about why open-source works.
+We see other examples, not just Linux, like Wikipedia. Who would have thought we’d have an open website where anyone can add, edit and we'll create the world's largest encyclopaedia? At the same time, Microsoft was building [Encarta](https://en.wikipedia.org/wiki/Encarta) and doing this whole centralized kind of thing. And it didn't win, because we, as a community and a collective are way more powerful. 
 
 I think there's some important things that we need to remember like radical transparency through open source, you can see what everyone's doing. So that brings your best game. The radical inclusivity of Wikipedia allows anybody to edit. 
 
