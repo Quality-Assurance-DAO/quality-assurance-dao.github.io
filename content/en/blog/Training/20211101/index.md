@@ -19,3 +19,8 @@ resources:
 
 ## Catalyst Boost Camp - 7 - Tasks
 
+### What tasks are required to reach your objectives?
+
+Tasks or activities must be created to deliver objectives. Each objective required a definition of tasks to perform. In a team, each team member add their own tasks.
+
+
