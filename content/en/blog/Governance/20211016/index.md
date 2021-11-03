@@ -488,3 +488,19 @@ But the purpose or the intention to bring our best selves and to change the worl
 - https://en.wikipedia.org/wiki/The_Cathedral_and_the_Bazaar
 #### Encarta
 - (https://en.wikipedia.org/wiki/Encarta) 
+
+### Nick - Not everybody has that freedom of choice.
+
+Voltaire [Cardano roadmap](https://roadmap.cardano.org/en/voltaire/) needs to really be cautious about how we are fertilizing the environment to call in these bridge builders. 
+
+One thing I would challenge Dean on is that while everybody here on average is that creator type the reality is that is a small percentage of people around the world. And not everybody has the inherent resources to have that full freedom of choice. 
+
+That is where Cardano can be a successful forerunner if they really focus on creating that environment. To give the have nots, to people who are in the frontlines dealing with these problems, with real world examples. To make this world better we must figure out ways to bring them into the conversation.
+
+That's why I like using something like archetypes, whether it's [Myers Briggs]( https://www.myersbriggs.org/) or [union]( https://union.co/articles/archetype-casting-the-12-master-archetypes) ones. You can get to a ton of different archetypes. 
+
+We are still at a at a less than 1% of our market share from an engagement standpoint, you know, our engagement in Cardano is really small. In the statistics of start-ups getting a 10% of the market share is a doable thing for many companies. But it is only when you cross 10 to 15% that you've crossed that chasm where you drive mainstream adoption. 
+
+Understanding that nature thrives in diversity, it's not a monoculture. Monocultures have shown to be consistently problematic. How do we start providing for diversity, funding, and creating these environments so that the people can come in and have this freedom of choice? Because not everybody has that freedom of choice? *- precis of Nick - 1:23:10*
+
+
