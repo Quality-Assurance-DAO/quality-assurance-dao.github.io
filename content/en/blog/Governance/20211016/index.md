@@ -520,7 +520,7 @@ I believe that nature tends to strive to find an equilibrium. So when we create 
 
 ### Mihaela - co-creating the right questions.
 
-There are many questions. More questions, obviously, then, answers. Asking the right question, it was brought up. I think we are co-creating the right questions here. 
+There are many questions. More questions, obviously, than answers. Asking the right question, it was brought up. I think we are co-creating the right questions here. 
 This is, this is what is going on, at least for me. And it's truly wonderful. What struck me now, with the last person who voted this way, you know, this is a tall order. 
 What are we creating here? Is our goal to create the system on which is a world runs? This is huge. Although I know that Charles this is his vision. 
 
