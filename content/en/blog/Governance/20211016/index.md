@@ -515,8 +515,20 @@ Through that application we can create a foundation to build on to create inclus
 
 I believe that nature tends to strive to find an equilibrium. So when we create an environment that is inclusive, it allows for the natural swings from one perception to another one, one expression to another. We welcome all of these if our governance is set up that will support us to find equilibrium. That equilibrium then is what will support the community as a whole and our growth and the foundational intention that we're all operating from. *- precis of Ian - 1:27:32*
 
-
 #### 10 principles of Burning Man
 - [10 principles of Burning Man](https://burningman.org/culture/philosophical-center/10-principles/)
 
+### Mihaela - co-creating the right questions.
+
+There are many questions. More questions, obviously, then, answers. Asking the right question, it was brought up. I think we are co-creating the right questions here. 
+This is, this is what is going on, at least for me. And it's truly wonderful. What struck me now, with the last person who voted this way, you know, this is a tall order. 
+What are we creating here? Is our goal to create the system on which is a world runs? This is huge. Although I know that Charles this is his vision. 
+
+It struck me now, how are you going to do it, so it works for every individual? 
+
+What system do I like? What is my goal as an individual? Is it in tune with the natural order of things? To flourish at my full capacity and to be able to express my creativity. For me personally, it is to contribute, that is when I really feel fulfilled. 
+
+And in what environment? I'm here to find and co-create an environment where everyone can flourish to their full capacity and for create a better world. To that extent, I can see if that would work for the for the whole world and nature.
+
+Because this is the time of closing comments, I just wanted to have some feedback. I had a lot of wonderful feedback to my keynote at the [Cardano] summit. And what just happened, and for me, it kind of hurt, somebody in IOG did a blinder, and erased all the comments. I felt like this is a disconnect, like the Community Voices were cancelled. So how do we bring them in? Let’s create our own forum. Maybe we should also think of ways, invent some channels, in which maybe the control is not an authority and cannot be cancelled so easily. *- precis of Mihaela - 1:31:02* 
 
