@@ -503,4 +503,20 @@ We are still at a at a less than 1% of our market share from an engagement stand
 
 Understanding that nature thrives in diversity, it's not a monoculture. Monocultures have shown to be consistently problematic. How do we start providing for diversity, funding, and creating these environments so that the people can come in and have this freedom of choice? Because not everybody has that freedom of choice? *- precis of Nick - 1:23:10*
 
+### Ian - 10 principles of Burning Man
+
+I really appreciate you bringing up these [10 principles of Burning Man](https://burningman.org/culture/philosophical-center/10-principles/). I think that radical inclusion, radical self-expression are essences that got lost in our culture.
+
+Because there was right ways and wrong ways, acceptable and unacceptable, and it creates a lot of exclusion. That creates the haves and the have nots. How do we move towards inclusion? I think this idea of archetypes is something that could allow that for us to cut across our culture and society.
+
+Because the research shows archetypes give us the capacity to do that. The research shows that as human beings we operate in archetypes. Parts of we fit into an archetypal structure that make sense to me and will not make sense to anybody that does not speak my language or live in my culture. 
+
+Through that application we can create a foundation to build on to create inclusion for everybody. Because we can all communicate and find ways to relate with those people that are like us.
+
+I believe that nature tends to strive to find an equilibrium. So when we create an environment that is inclusive, it allows for the natural swings from one perception to another one, one expression to another. We welcome all of these if our governance is set up that will support us to find equilibrium. That equilibrium then is what will support the community as a whole and our growth and the foundational intention that we're all operating from. *- precis of Ian - 1:27:32*
+
+
+#### 10 principles of Burning Man
+- [10 principles of Burning Man](https://burningman.org/culture/philosophical-center/10-principles/)
+
 
