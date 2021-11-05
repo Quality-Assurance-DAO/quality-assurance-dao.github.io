@@ -36,7 +36,7 @@ The subject being discussed is broadly "*Voltaire*" - an "[era of Cardano will p
 ### Summary Keywords
 The SUMMARY KEYWORDS from this meetings transcript : 
 
-community, people, create, values, archetypes, commons, ernesto, question, catalyst, happening, important, intention, blockchain, build, environment, play, conversation, nicholas, world, system
+community, people, create, values, archetypes, commons, question, catalyst, happening, important, intention, blockchain, build, environment, play, conversation, world, system
 
 ## Speakers
 Ian, Heinz, Dean, Noah, Oscar, Felix, Len, Mihaela Ulieru, Steve, Nick, Aharon, Ernesto, Gary, Yoram, Nori, Ricardo
