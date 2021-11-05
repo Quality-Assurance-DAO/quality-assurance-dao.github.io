@@ -20,7 +20,7 @@ resources:
 
 ## Café sûr le pont Edition One 
 ☕ **Cafe sur le pont Edition One** 🌉 was hosted by Nori and Felix on Zoom on Saturday, 16th October 2021.
-<iframe width="560" height="315" src="https://www.youtube.com/embed/PMkBGjLmEZU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HdbvSGHa6eI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Website
 Check out the **Café sûr le pont** bridgebuilders [Website](http://bridgebuilders.io/) and [Youtube](https://www.youtube.com/channel/UCSpsGKOkl1xNM2VKTeu4Mmg) channel.
