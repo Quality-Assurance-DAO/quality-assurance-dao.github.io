@@ -518,6 +518,16 @@ I believe that nature tends to strive to find an equilibrium. So when we create 
 #### 10 principles of Burning Man
 - [10 principles of Burning Man](https://burningman.org/culture/philosophical-center/10-principles/)
 
+### Nori – Closing comments and feedback
+
+I will open the floor for any final comments from people. As this was our first iteration of Cafe sur la pont I would like to get some feedback from you all on:
+- What worked? 
+- What didn’t?
+- How can we improve for next time?
+- Does the open conversation format work?
+- Would you rather have us have an agenda or topics or ...?
+ So, we can iterate. Because we're experimenting as well. And getting some good feedback at the end would be very valuable for us.*- precis of Ian - 1:30:02*
+
 ### Mihaela - co-creating the right questions.
 
 There are many questions. More questions, obviously, than answers. Asking the right question, it was brought up. I think we are co-creating the right questions here. 
@@ -531,4 +541,13 @@ What system do I like? What is my goal as an individual? Is it in tune with the 
 And in what environment? I'm here to find and co-create an environment where everyone can flourish to their full capacity and for create a better world. To that extent, I can see if that would work for the for the whole world and nature.
 
 Because this is the time of closing comments, I just wanted to have some feedback. I had a lot of wonderful feedback to my keynote at the [Cardano summit](https://summit.cardano.org/). And what just happened, and for me, it kind of hurt, somebody in IOG did a blinder, and erased all the comments. I felt like this is a disconnect, like the Community Voices were cancelled. So how do we bring them in? Let’s create our own forum. Maybe we should also think of ways, invent some channels, in which maybe the control is not an authority and cannot be cancelled so easily. *- precis of Mihaela - 1:31:02* 
+
+### Ernesto - David Bohm - "On Dialogue"
+
+I want to thank all of you for the possibility of this space. I was struggling with your question [Nori] of whether we should have an agenda or not. And I at first, I thought it would be great. But an agenda would structure. And I come back to this this book by [David Bohm](https://en.wikipedia.org/wiki/David_Bohm) about dialogue ("On Dialogue" 1996(. It is beautiful because Bohm suggests an open space for emergence. And I think we need that flexibility for our margins. I think this space is going to grow. It's a space of, I believe, trustful relationships. And I think the basis of that are conditions for emergence. We need to think what conditions are needed for emergence. And I think this space provides this. *- precis of Ernesto - 1:34:24* 
+
+#### References
+#### David Bohm
+- https://en.wikipedia.org/wiki/David_Bohm
+- On Dialogue - https://www.bohmdialogue.org/
 
