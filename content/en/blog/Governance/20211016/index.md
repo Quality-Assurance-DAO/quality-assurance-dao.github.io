@@ -114,7 +114,7 @@ I believe there is a point in playing with the big guys and the industry. My que
 
 #### References :
 -	Mihaela Ulieru -	https://iohk.io/en/team/mihaela-ulieru
-- Bonita Roy (https://bonnittaroy.medium.com/),
+- Bonita Roy - https://bonnittaroy.medium.com/
 -	Game B Wiki - https://www.gameb.wiki/index.php?title=Main_Page
 -	Game B – Reddit - https://www.reddit.com/r/gameb/
 
