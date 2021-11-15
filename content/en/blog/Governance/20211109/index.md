@@ -19,5 +19,5 @@ resources:
  
  <iframe width="500" height="400" frameborder="0" src="https://js.adapools.org/widget.html?pool=e8fb1e898f1d3d9e219b784a080793d65153abf9dd0ab35a698cdcee"><a href="https://adapools.org/pool/e8fb1e898f1d3d9e219b784a080793d65153abf9dd0ab35a698cdcee">Detail</a></iframe>
  
- Quality Assurance DAO believes that quality assurance (QA) is a cornerstone of good governance; we aim to develop distributed, inclusive and open-source approaches to QA which engage communties in building cultures of transparency.
+
  
