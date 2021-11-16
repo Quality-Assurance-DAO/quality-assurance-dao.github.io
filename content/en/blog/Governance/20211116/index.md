@@ -1,5 +1,5 @@
 ---
-date: 2021-11-09
+date: 2021-11-16
 title: "Catalyst Circle v2 Meeting 1"
 linkTitle: "Catalyst Circle v2 Meeting 1"
 description: "QA-DAO has just published the record of Catalyst Circle v2 Meeting 1"
