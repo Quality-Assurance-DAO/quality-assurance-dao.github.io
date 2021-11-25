@@ -1,6 +1,6 @@
 
 ---
-title: "Catalyst Proposals"
+title: "Catalyst Proposals1"
 linkTitle: "Catalyst Proposals"
 weight: 20
 hide_feedback: true
