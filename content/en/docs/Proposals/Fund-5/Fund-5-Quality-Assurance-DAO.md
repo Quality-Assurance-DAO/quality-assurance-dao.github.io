@@ -12,10 +12,12 @@ tags:
 description: >
   In Fund 5 of Project Catalyst QA-DAO submitted a proposal "Quality Assurance DAO" in the Developer Ecosystem Challenge. 
 ---
+![QA-DAO-F5](https://user-images.githubusercontent.com/25156451/143424264-cb43f04e-6385-4b2f-8cdd-828a9f853697.png)
+
 
 In Fund 5 of Project Catalyst QA-DAO submitted a proposal "Quality Assurance DAO" in the Developer Ecosystem Challenge that sought to encourage open-source collaboration & innovation and to do a QA Assessment of Catalyst Proposal Process itself. This proposal was successful in receiving votes and was funded in August 2021. Governance of the Quality Assurance DAO Fund 5 proposal may be followed here.
 
-QA-DAO has submitted proposals in Fund 6 of Project Catalyst. Follow this link to the Fund 6 Proposals Section for more details.
+
 
 https://cardano.ideascale.com/a/dtd/Quality-Assurance-DAO/351678-48088
 
