@@ -1,11 +1,9 @@
 ---
-title: "Transparent Governance "
-linkTitle: "Transparent Governance "
+title: "My amazing new F5 section"
 weight: 1
-hide_feedback: true
-icon: fa fa-university
+type: docs
 description: >
-  Supporting, tracking and documenting Catalyst Governance experiments.
+    A special section with a docs layout.
 ---
 
- Catalyst Circle is an initiative started by IOHK to advance governance in Project Catalyst.
+
