@@ -1,4 +1,3 @@
-
 ---
 title: "What is Quality Assurance DAO ?"
 linkTitle: "What is Quality Assurance DAO ?"
