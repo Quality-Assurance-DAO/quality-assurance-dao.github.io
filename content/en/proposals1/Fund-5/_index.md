@@ -1,12 +1,11 @@
-
 ---
-title: "Fund 5 Proposals"
-linkTitle: "Fund 5 Proposals""
+title: "Transparent Governance "
+linkTitle: "Transparent Governance "
 weight: 3
 hide_feedback: true
 icon: fa fa-university
 description: >
-  Fund 5 Proposals"
+  Supporting, tracking and documenting Catalyst Governance experiments.
 ---
 
- Fund 5 Proposals
+ Catalyst Circle is an initiative started by IOHK to advance governance in Project Catalyst.
