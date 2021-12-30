@@ -1,9 +1,9 @@
 ---
-title: "My amazing new F5 section"
+title: "Fund 5 Proposals"
 weight: 1
 type: docs
 description: >
-    A special section with a docs layout.
+    Fund 5 Proposals
 ---
 
-vvvv
+Fund 5 Proposals
