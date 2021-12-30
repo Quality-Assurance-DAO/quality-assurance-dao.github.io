@@ -1,11 +1,9 @@
 ---
-title: "Our Proposals"
-linkTitle: "Our Proposals"
-weight: 20
-hide_feedback: true
-icon: fa fa-clipboard
-menu:
-  main:
-    weight: 20
+title: "My amazing new section"
+weight: 1
+type: docs
+description: >
+    A special section with a docs layout.
 ---
-Our Proposals
+
+
