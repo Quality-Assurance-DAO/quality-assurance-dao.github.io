@@ -1,9 +1,10 @@
 ---
-title: "My amazing new section"
-weight: 1
-type: docs
-description: >
-    A special section with a docs layout.
----
+title: "Latest News"
+linkTitle: "News"
+menu:
+  main:
+    weight: 30
 
-some text
+cascade:
+- type: "docs"
+---
