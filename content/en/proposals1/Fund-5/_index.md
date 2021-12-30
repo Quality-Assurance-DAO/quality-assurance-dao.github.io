@@ -1,7 +1,7 @@
 ---
 title: "Transparent Governance "
 linkTitle: "Transparent Governance "
-weight: 3
+weight: 1
 hide_feedback: true
 icon: fa fa-university
 description: >
