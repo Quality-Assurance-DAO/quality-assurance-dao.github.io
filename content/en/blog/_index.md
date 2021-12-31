@@ -1,6 +1,6 @@
 ---
-title: "QA-DAO Blog"
-linkTitle: "QA-DAO Blog"
+title: "Blog"
+linkTitle: "Blog"
 menu:
   main:
     weight: 30
