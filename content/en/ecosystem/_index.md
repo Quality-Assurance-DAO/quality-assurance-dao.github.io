@@ -10,4 +10,4 @@ cascade:
 - type: "docs"
 ---
 
-Catalyst Ecosystem
+The Catalyst Ecosystem is growing rapidly and this section attempts to provide a directory of related projects.
