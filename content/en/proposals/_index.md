@@ -1,6 +1,6 @@
 ---
-title: "News"
-linkTitle: "News"
+title: "Proposals"
+linkTitle: "Proposals"
 menu:
   main:
     weight: 30
