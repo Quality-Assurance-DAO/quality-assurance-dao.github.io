@@ -4,6 +4,10 @@ linkTitle: "PACE"
 weight: 3
 hide_feedback: true
 icon: fa fa-university
+categories:
+- Ecosystem
+tags:
+- PACE
 description: >
   PACE - Community tools
 ---
