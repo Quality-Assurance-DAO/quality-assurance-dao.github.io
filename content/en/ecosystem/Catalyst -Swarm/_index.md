@@ -7,8 +7,11 @@ icon: fa fa-university
 description: >
   Catalyst Swarm - Community tools
 ---
+## Resources
+### Catalyst Swarm
+- https://catalystswarm.com/
+### GitHub
+- https://catalyst-swarm.github.io/
+- https://github.com/Catalyst-Swarm
+- https://github.com/Catalyst-Swarm/Catalyst-Beehive
 
-### Resources
-
-#### Catalyst Swarm
-https://projectcatalyst.org/
