@@ -16,6 +16,8 @@ resources:
 ---
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lc_7Swz_SpA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+{{< youtube lc_7Swz_SpA >}}
+
 ## QA-DAO has just published the record of Catalyst Circle v2 Meeting 2
 
 QA-DAO has just published the record of Catalyst Circle v2 Meeting 2 (which took place on Thurs 25th November 2021) – including timestamps, minutes, and a full verbatim transcript.
