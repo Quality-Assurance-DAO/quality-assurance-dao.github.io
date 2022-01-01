@@ -14,9 +14,8 @@ resources:
   params:
     byline: "QA-DAO has just published the record of Catalyst Circle v2 Meeting 2"
 ---
-<iframe width="560" height="315" src="https://www.youtube.com/embed/lc_7Swz_SpA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-{{< youtube lc_7Swz_SpA >}}
+{{< youtube 9iShgbf_N_4 >}}
 
 ## QA-DAO has just published the record of Catalyst Circle v2 Meeting 2
 
