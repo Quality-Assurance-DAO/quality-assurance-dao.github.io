@@ -8,9 +8,9 @@ description: >
   PACE - Community tools
 ---
 
-### Resources
+## Resources
 
-#### Community Dashboard
+### Community Dashboard
 https://projectcatalyst.org/
 
 ## Proposals
