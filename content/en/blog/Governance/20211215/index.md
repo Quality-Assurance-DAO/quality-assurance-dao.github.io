@@ -15,7 +15,7 @@ resources:
     byline: "Community Governance Oversight"
 ---
 
-{{< youtube 9iShgbf_N_4 >}}
+{{< youtube J1MomJFNfeo >}}
 
 ## After Town Session, 15th December 2021
 
