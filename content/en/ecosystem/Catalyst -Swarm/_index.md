@@ -46,5 +46,17 @@ description: >
 > Resource the documentation & tracking of the Catalyst-Swarm Genesis GitBook. Communicate the content of the Catalyst-Swarm Genesis GitBook.
 - https://cardano.ideascale.com/a/dtd/Catalyst-Swarm-Genesis-GitBook/369556-48088
 
+ #### F6: DLT Entrepreneurship Toolbox - IDEA FEST for Fund 6 + 7
+ > The Fund 7 Idea Fest provides all proposers a stage to pitch their ideas and allows the voters & community to interact and discuss with them
+ - https://cardano.ideascale.com/a/dtd/IDEA-FEST-for-Fund-6-+-7/366717-48088
+
+  #### F6: Catalyst value onboarding - Weekly Swarm Sessions
+  > Organize and facilitate weekly Zoom sessions with different breakout rooms on relevant topics for the community
+  - https://cardano.ideascale.com/a/dtd/Weekly-Swarm-Sessions/366714-48088
+
+   #### F6: Proposer outreach - After Town Hall by Swarm
+   > Organize breakout rooms after each weekly Town Hall to discuss current events. Provide space for funded and upcoming projects and ideas.
+   - https://cardano.ideascale.com/a/dtd/After-Town-Hall-by-Swarm/366709-48088
+
 
 
