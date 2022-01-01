@@ -17,6 +17,9 @@ description: >
 ### Community Dashboard
 https://projectcatalyst.org/
 
+### Youtube Channel
+https://www.youtube.com/channel/UCr4dWfkrAm_NMITY_eRj8Cg/videos
+
 ## Proposals
 
 ### Fund 6
