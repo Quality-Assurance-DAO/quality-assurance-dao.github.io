@@ -8,9 +8,9 @@ description: >
   Catalyst Swarm - Community tools
 ---
 ## Resources
-### Catalyst Swarm
+### Swarm website
 - https://catalystswarm.com/
-### GitHub
+### Swarm GitHub
 - https://catalyst-swarm.github.io/
 - https://github.com/Catalyst-Swarm
 - https://github.com/Catalyst-Swarm/Catalyst-Beehive
@@ -40,6 +40,7 @@ description: >
 > Resource the documentation & tracking of Project Catalyst.  Communicate the content of the Catalyst 2022 GitBook to the community.
 - https://cardano.ideascale.com/a/dtd/Catalyst-Swarm-2022-GitBook/382330-48088
 
+### Fund 6
 
 #### F6: Catalyst value onboarding - Catalyst-Swarm-Genesis GitBook
 > Resource the documentation & tracking of the Catalyst-Swarm Genesis GitBook. Communicate the content of the Catalyst-Swarm Genesis GitBook.
