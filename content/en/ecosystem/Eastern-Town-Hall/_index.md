@@ -17,4 +17,5 @@ description: >
 
 - Website - https://easterntownhall.com/
 - GitHub - https://github.com/C3ETH
+- Discussions - https://github.com/C3ETH/c3eth-operations/discussions
 
