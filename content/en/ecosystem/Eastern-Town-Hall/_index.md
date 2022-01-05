@@ -12,7 +12,9 @@ description: >
    Eastern-Town-Hall
 ---
 
-## Resources
+##  Eastern-Town-Hall
+> Cardano is a global decentralised open-source project Proof-of-Stake blockchain network, allowing people all over the world to cooperate, collaborate, propose, fund, and deploy markets, financial solutions, and applications to build economic wellbeing for millions.
 
-###  Eastern-Town-Hall
+- Website - https://easterntownhall.com/
+- GitHub - https://github.com/C3ETH
 
