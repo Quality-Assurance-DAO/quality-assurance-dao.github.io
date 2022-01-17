@@ -16,10 +16,7 @@ Quality Assurance DAO (QADAO) is an ongoing open source project that provides su
 
 
 {{< cardpane >}}
-{{< card header="**Stephen Whitenstall**" subtitle="**Co-Founder**" footer="xx")">}}
-xxx
-{{< /card >}}
-{{< card header="**Vanessa Cardui**" title="\* 1735 &nbsp;&nbsp;&nbsp; † 1826" subtitle="**Co-Founder**" footer="![SignatureJohnAdams](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/John_Adams_Sig_2.svg/320px-John_Adams_Sig_2.svg.png \"Signature John Adams\")" >}}
+{{< card header="**xxx**" title="\* 1735 &nbsp;&nbsp;&nbsp; † 1826" subtitle="**Co-Founder**" footer="![SignatureJohnAdams](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/John_Adams_Sig_2.svg/320px-John_Adams_Sig_2.svg.png \"Signature John Adams\")" >}}
 ![PortraitJohnAdams](https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Gilbert_Stuart%2C_John_Adams%2C_c._1800-1815%2C_NGA_42933.jpg/633px-Gilbert_Stuart%2C_John_Adams%2C_c._1800-1815%2C_NGA_42933.jpg "Portrait John Adams")
 {{< /card >}}
 {{< /cardpane >}}
