@@ -13,14 +13,7 @@ Quality Assurance DAO (QADAO) is an ongoing open source project that provides su
 > QA-DAO is part of the [Ryuuki](https://cardano-community-builders.github.io/) network a grouping of x projects including :
 > Catalyst Swarm, [WADA](https://wadalliance.org/), [Lauris | EU01 StakePool](https://www.stakepool247.eu/), [Gimbalabs](https://www.gimbalabs.com/gimbalgrid), Catalyst School, [Eastern Town Hall](https://easterntownhall.com/) ...
 
-{{< card header="**Imagine**" title="Artist and songwriter: John Lennon" subtitle="Co-writer: Yoko Ono"
-          footer="![SignatureJohnLennon](https://server.tld/…/signature.png \"Signature John Lennon\")">>}}
-Imagine there's no heaven, It's easy if you try<br/>
-No hell below us, above us only sky<br/>
-Imagine all the people living for today…
 
-…
-{{< /card >}}
 
 
 
