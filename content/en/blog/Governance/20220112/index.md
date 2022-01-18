@@ -1,5 +1,5 @@
 ---
-date: 2021-12-15
+date: 2022-01-12
 title: "How to nurture a listening culture in Catalyst ?"
 linkTitle: "How to nurture a listening culture in Catalyst"
 description: "How to nurture a listening culture in Catalyst ?"
