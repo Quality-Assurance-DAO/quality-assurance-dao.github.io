@@ -1,5 +1,5 @@
 ---
-date: 2021-11-25
+date: 2021-12-15
 title: "Antifragile Success criteria"
 linkTitle: "Antifragile Success criteria"
 description: "Antifragile Success criteria"
