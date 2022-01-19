@@ -3,7 +3,7 @@ title: "Fund 5 Proposals"
 weight: 1
 type: docs
 description: >
-    Fund 5 Proposals
+    F5: Developer ecosystem - Quality-Assurance-DAO 
 ---
 
-In Fund 5 of Project Catalyst QA-DAO submitted a proposal “Quality Assurance DAO” in the Developer Ecosystem Challenge.
+In Fund 5 of Project Catalyst QA-DAO submitted a proposal “[Quality Assurance DAO](https://cardano.ideascale.com/c/idea/351678)” in the Developer Ecosystem Challenge.
