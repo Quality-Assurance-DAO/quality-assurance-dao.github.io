@@ -29,7 +29,7 @@ Summary details are provided as follows : Fund, Proposal Name (Proposal Link),, 
 - In Progress - Stephen (QADAO) & Catalyst School - Budget $ 8720 
 ### [Distributed Auditability](https://cardano.ideascale.com/c/idea/366707) 
 - [F6: Improve and Grow Auditability](https://cardano.ideascale.com/c/campaigns/26119/about)
-- In Progress - Stephen – QADAO & CC Admin Treasury & ETH - Budget $ 8720 
+- In Progress - Stephen (QADAO), CC Admin Treasury & Eastern Town Hall - Budget $ 8720 
 ## Fund 7
 
 
