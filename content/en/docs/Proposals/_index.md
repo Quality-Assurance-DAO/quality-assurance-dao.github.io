@@ -15,6 +15,7 @@ Summary details are provided as follows : Fund, Proposal Name (Proposal Link), F
 
 ## Fund 5
 ### [Quality-Assurance-DAO](https://cardano.ideascale.com/c/idea/351678) 
+> Innovative approach to open source. Reform PM to distributed peer facilitation.Adapt maturity standards to distributed organizations.
 - [F5: Developer ecosystem](https://cardano.ideascale.com/c/campaigns/25939/about)
 - **Completed** - Stephen Whitenstall(QADAO) - Budget $1
 ## Fund 6
@@ -31,6 +32,7 @@ Summary details are provided as follows : Fund, Proposal Name (Proposal Link), F
 - [F6: Improve and Grow Auditability](https://cardano.ideascale.com/c/campaigns/26119/about)
 - *In Progress* - Stephen Whitenstall (QADAO), CC Admin Treasury & Eastern Town Hall - Budget $ 8720 
 ### [Homeless Hub](https://cardano.ideascale.com/c/idea/367891)
+> Introduce the Cardano Community to homeless communities in Manchester, UK, through in-person workshops and online sessions.
 - [F6: Scale-UP Cardano's Community Hubs](https://cardano.ideascale.com/c/campaigns/26118/about)
 - *In Progress* - Vanessa Cardui (QADAO) - Budget $ 18980
 ## Fund 7
