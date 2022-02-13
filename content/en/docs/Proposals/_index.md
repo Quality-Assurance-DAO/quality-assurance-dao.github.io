@@ -9,7 +9,7 @@ categories:
 tags:
 - Funded Cohort
 description: >
-  This section outlines the QADAO proposals funded by the Project Catalyst experiment in community innovation. For further information on Project Catalyst please refer to the [Catalyst landing page](https://cardano.ideascale.com/) on the ideascale platform.
+  This section outlines the QADAO proposals funded or Challenges voted by the Project Catalyst experiment in community innovation. For further information on Project Catalyst please refer to the [Catalyst landing page](https://cardano.ideascale.com/) on the ideascale platform.
 ---
 Summary details are provided as follows : Fund, Proposal Name (Proposal Link), Fund Challenge (About Link), Status (Completed/In Progress), Resources (Vanessa, Stephen etc.) and Budget. 
 
@@ -53,12 +53,14 @@ Summary details are provided as follows : Fund, Proposal Name (Proposal Link), F
 - [F7: Scale-UP Cardano's Community Hubs](https://cardano.ideascale.com/c/campaigns/26244/about)
 - *Funded* - Stephen Whitenstall (QADAO) - in colloboration with Circle - Budget $ 4350
 ### [Ekphrasis Gitbook](https://cardano.ideascale.com/c/idea/382334)
+> Resource the documentation of philosophical debate and discussion around Cardano.
 - [F7: Miscellaneous Challenge](https://cardano.ideascale.com/c/campaigns/26248/about)
 - *Funded* - Stephen Whitenstall (QADAO) - Budget $ 4350
 
 ## Fund 8 
 
 ### [Improve and Grow Auditability - F8 Challenge](https://cardano.ideascale.com/c/idea/383480)
+> How to make the auditing process of funded proposals efficient, distributed and transparent?
 - [F7: Fund8 challenge setting](https://cardano.ideascale.com/c/campaigns/26257/about)
 - *Voted* - Stephen Whitenstall (QADAO) - Challenge owner & Challenge Team lead in colloboration with Audit Community & liason with IOG - Budget $ 200,000
 
