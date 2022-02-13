@@ -15,7 +15,7 @@ Summary details are provided as follows : Fund, Proposal Name (Proposal Link),, 
 
 ## Fund 5
 ### [Quality-Assurance-DAO](https://cardano.ideascale.com/c/idea/351678) 
-- F5: Developer ecosystem - 
+- [F5: Developer ecosystem](https://cardano.ideascale.com/c/campaigns/25939/about)
 - Completed -Budget $1 - Stephen (QADAO)
 ## Fund 6
 ### [Catalyst-Swarm-Genesis GitBook](https://cardano.ideascale.com/c/idea/369556) 
