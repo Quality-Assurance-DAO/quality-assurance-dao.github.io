@@ -31,6 +31,8 @@ Summary details are provided as follows : Fund, Proposal Name (Proposal Link),, 
 - [F6: Improve and Grow Auditability](https://cardano.ideascale.com/c/campaigns/26119/about)
 - In Progress - Stephen (QADAO), CC Admin Treasury & Eastern Town Hall - Budget $ 8720 
 ## Fund 7
-
+### [QA-DAO Transcription Service](https://cardano.ideascale.com/c/idea/383492) 
+- [F7: Community Events](https://cardano.ideascale.com/c/campaigns/26234/about)
+- Funded - Vanessa (QADAO) - Budget $ 39053
 
 
