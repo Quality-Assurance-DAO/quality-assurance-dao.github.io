@@ -30,6 +30,9 @@ Summary details are provided as follows : Fund, Proposal Name (Proposal Link), F
 ### [Distributed Auditability](https://cardano.ideascale.com/c/idea/366707) 
 - [F6: Improve and Grow Auditability](https://cardano.ideascale.com/c/campaigns/26119/about)
 - *In Progress* - Stephen (QADAO), CC Admin Treasury & Eastern Town Hall - Budget $ 8720 
+### [Homeless Hub](https://cardano.ideascale.com/c/idea/367891)
+- [F6: Scale-UP Cardano's Community Hubs](https://cardano.ideascale.com/c/campaigns/26118/about)
+- *In Progress* - Vanessa Cardui (QADAO) - Budget $ 18980
 ## Fund 7
 ### [QA-DAO Transcription Service](https://cardano.ideascale.com/c/idea/383492) 
 - [F7: Community Events](https://cardano.ideascale.com/c/campaigns/26234/about)
