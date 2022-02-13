@@ -25,7 +25,7 @@ Summary details are provided as follows : Fund, Proposal Name (Proposal Link),, 
 - [F6: Distributed decision making](https://cardano.ideascale.com/c/campaigns/26104/about)
 - In Progress - Budget $ 7440  - Vanessa (QADAO)
 ###  [Open Source Training](https://cardano.ideascale.com/c/idea/368678) 
-- F6: DLT Entrepreneurship Toolbox 
+- [F6: DLT Entrepreneurship Toolbox](https://cardano.ideascale.com/c/campaigns/26113/about) 
 - In Progress - Stephen (QADAO) & Catalyst School - Budget $ 8720 
 ### [Distributed Auditability](https://cardano.ideascale.com/c/idea/366707) 
 - F6: Improve and Grow Auditability
