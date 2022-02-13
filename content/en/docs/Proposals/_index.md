@@ -28,7 +28,7 @@ Summary details are provided as follows : Fund, Proposal Name (Proposal Link),, 
 - [F6: DLT Entrepreneurship Toolbox](https://cardano.ideascale.com/c/campaigns/26113/about) 
 - In Progress - Stephen (QADAO) & Catalyst School - Budget $ 8720 
 ### [Distributed Auditability](https://cardano.ideascale.com/c/idea/366707) 
-- F6: Improve and Grow Auditability
+- [F6: Improve and Grow Auditability](https://cardano.ideascale.com/c/campaigns/26119/about)
 - In Progress - Stephen – QADAO & CC Admin Treasury & ETH - Budget $ 8720 
 ## Fund 7
 
