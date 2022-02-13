@@ -9,40 +9,40 @@ categories:
 tags:
 - Funded Cohort
 description: >
-  This section outlines the proposals submitted by QADAO in the Project Catalyst experiment in community innovation. For further information on Project Catalyst please refer to the [Catalyst landing page](https://cardano.ideascale.com/) on the ideascale platform.
+  This section outlines the QADAO proposals funded by the Project Catalyst experiment in community innovation. For further information on Project Catalyst please refer to the [Catalyst landing page](https://cardano.ideascale.com/) on the ideascale platform.
 ---
 Summary details are provided as follows : Fund, Proposal Name (Proposal Link), Fund Challenge (About Link), Status (Completed/In Progress), Resources (Vanessa, Stephen etc.) and Budget. 
 
 ## Fund 5
 ### [Quality-Assurance-DAO](https://cardano.ideascale.com/c/idea/351678) 
 - [F5: Developer ecosystem](https://cardano.ideascale.com/c/campaigns/25939/about)
-- **Completed** - Stephen (QADAO) - Budget $1
+- **Completed** - Stephen Whitenstall(QADAO) - Budget $1
 ## Fund 6
 ### [Catalyst-Swarm-Genesis GitBook](https://cardano.ideascale.com/c/idea/369556) 
 -  [F6: Catalyst value onboarding](https://cardano.ideascale.com/c/campaigns/26106/about)
--  **Completed** – Closing video pending – Stephen (QADAO) & SWARM - Budget $ 3480
+-  **Completed** – Closing video pending – Stephen Whitenstall (QADAO) & SWARM - Budget $ 3480
 ### [Oversight of Catalyst Circle](https://cardano.ideascale.com/c/idea/370088) 
 - [F6: Distributed decision making](https://cardano.ideascale.com/c/campaigns/26104/about)
-- *In Progress* - Vanessa (QADAO) - Budget $ 7440
+- *In Progress* - Vanessa Cardui (QADAO) - Budget $ 7440
 ###  [Open Source Training](https://cardano.ideascale.com/c/idea/368678) 
 - [F6: DLT Entrepreneurship Toolbox](https://cardano.ideascale.com/c/campaigns/26113/about) 
-- *In Progress* - Stephen (QADAO) & Catalyst School - Budget $ 8720 
+- *In Progress* - Stephen Whitenstall (QADAO) & Catalyst School - Budget $ 8720 
 ### [Distributed Auditability](https://cardano.ideascale.com/c/idea/366707) 
 - [F6: Improve and Grow Auditability](https://cardano.ideascale.com/c/campaigns/26119/about)
-- *In Progress* - Stephen (QADAO), CC Admin Treasury & Eastern Town Hall - Budget $ 8720 
+- *In Progress* - Stephen Whitenstall (QADAO), CC Admin Treasury & Eastern Town Hall - Budget $ 8720 
 ### [Homeless Hub](https://cardano.ideascale.com/c/idea/367891)
 - [F6: Scale-UP Cardano's Community Hubs](https://cardano.ideascale.com/c/campaigns/26118/about)
 - *In Progress* - Vanessa Cardui (QADAO) - Budget $ 18980
 ## Fund 7
 ### [QA-DAO Transcription Service](https://cardano.ideascale.com/c/idea/383492) 
 - [F7: Community Events](https://cardano.ideascale.com/c/campaigns/26234/about)
-- *Funded* - Vanessa (QADAO) - Budget $ 39053
+- *Funded* - Vanessa Cardui (QADAO) - Budget $ 39053
 ### [Community Governance Oversight](https://cardano.ideascale.com/c/idea/383517)
 - [F7: Improve and Grow Auditability](https://cardano.ideascale.com/c/campaigns/26253/about)
-- *Funded* - Stephen (QADAO) - Proposal owner in colloboration with Audit Community & liason with IOG - Budget $ 19100
+- *Funded* - Stephen Whitenstall (QADAO) - Proposal owner in colloboration with Audit Community & liason with IOG - Budget $ 19100
 ### [Catalyst Audit Circle](https://cardano.ideascale.com/c/idea/381354) 
 - [F7: Improve and Grow Auditability](https://cardano.ideascale.com/c/campaigns/26253/about)
-- *Funded* - Stephen (QADAO) - Proposal owner in colloboration with Audit Community & liason with IOG - Budget $ 12700
+- *Funded* - Stephen Whitenstall (QADAO) - Proposal owner in colloboration with Audit Community & liason with IOG - Budget $ 12700
 
 
 
