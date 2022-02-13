@@ -17,7 +17,7 @@ Summary details are provided as follows : Fund, Proposal Name (Proposal Link), F
 ### [Quality-Assurance-DAO](https://cardano.ideascale.com/c/idea/351678) 
 > Innovative approach to open source. Reform PM to distributed peer facilitation.Adapt maturity standards to distributed organizations.
 - [F5: Developer ecosystem](https://cardano.ideascale.com/c/campaigns/25939/about)
-- **Completed** - Stephen Whitenstall(QADAO) - Budget $1
+- **Completed** - Stephen Whitenstall (QADAO) - Budget $1
 ## Fund 6
 ### [Catalyst-Swarm-Genesis GitBook](https://cardano.ideascale.com/c/idea/369556) 
 > Resource the documentation & tracking of the Catalyst-Swarm Genesis GitBook. Communicate the content of the Catalyst-Swarm Genesis GitBook.
