@@ -41,16 +41,19 @@ Summary details are provided as follows : Fund, Proposal Name (Proposal Link), F
 - *In Progress* - Vanessa Cardui (QADAO) - Budget $ 18980
 ## Fund 7
 ### [QA-DAO Transcription Service](https://cardano.ideascale.com/c/idea/383492) 
+> Transcribe, time-stamp and summarise the Zoom videos of key community events, making them accessible, searchable, and translatable.
 - [F7: Community Events](https://cardano.ideascale.com/c/campaigns/26234/about)
 - *Funded* - Vanessa Cardui (QADAO) - Budget $ 39053
 ### [Community Governance Oversight](https://cardano.ideascale.com/c/idea/383517)
+> Survey, report & facilitate retrospectives to improve our governance processes.
 - [F7: Improve and Grow Auditability](https://cardano.ideascale.com/c/campaigns/26253/about)
 - *Funded* - Stephen Whitenstall (QADAO) - Proposal owner in colloboration with Audit Community & liason with IOG - Budget $ 19100
 ### [Catalyst Audit Circle](https://cardano.ideascale.com/c/idea/381354) 
+> Establish a Catalyst auditing circle to guide improvements needed to maximise each funding rounds return on intention.
 - [F7: Improve and Grow Auditability](https://cardano.ideascale.com/c/campaigns/26253/about)
 - *Funded* - Stephen Whitenstall (QADAO) - Proposal owner in colloboration with Audit Community & liason with IOG - Budget $ 12700
-
 ### [Catalyst Swarm 2022 GitBook](https://cardano.ideascale.com/c/idea/382330)
+> Resource the documentation & tracking of Project Catalyst.  Communicate the content of the Catalyst 2022 GitBook to the community.
 - [F7: Community Events](https://cardano.ideascale.com/c/campaigns/26234/about)
 - *Funded* - Stephen Whitenstall (QADAO) - in colloboration with SWARM - Budget $ 4350
 ### [Catalyst-Coordinator Hub](https://cardano.ideascale.com/c/idea/382324)
