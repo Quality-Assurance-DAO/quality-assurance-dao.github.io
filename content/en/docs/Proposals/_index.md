@@ -11,7 +11,7 @@ tags:
 description: >
   This section outlines the proposals submitted by QADAO in the Project Catalyst experiment in community innovation. For further information on Project Catalyst please refer to the [Catalyst landing page](https://cardano.ideascale.com/) on the ideascale platform.
 ---
-Summary details are provided as follows : Fund, Proposal Name (Proposal Link),, Challenge (About Link), Status (Completed/In Progress), Budget and Resources (Vanessa, Stephen etc.).
+Summary details are provided as follows : Fund, Proposal Name (Proposal Link), Fund Challenge (About Link), Status (Completed/In Progress), Resources (Vanessa, Stephen etc.) and Budget. 
 
 ## Fund 5
 ### [Quality-Assurance-DAO](https://cardano.ideascale.com/c/idea/351678) 
