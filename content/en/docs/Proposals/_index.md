@@ -9,8 +9,8 @@ description: >
 ---
 This section outlines proposals submitted by QADAO in the Project Catalyst experiment in community innovation. For further information on Project Catalyst please refer to the [Catalyst landing page](https://cardano.ideascale.com/) on the ideascale platform . 
 
-## Fund 5
-### Quality-Assurance-DAO 
+# Fund 5
+## Quality-Assurance-DAO 
 - F5: Developer ecosystem - https://cardano.ideascale.com/c/idea/351678
 - Completed -Budget $1 - Stephen (QADAO)
 
