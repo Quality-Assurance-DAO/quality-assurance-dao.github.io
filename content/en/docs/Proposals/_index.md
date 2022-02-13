@@ -49,6 +49,7 @@ Summary details are provided as follows : Fund, Proposal Name (Proposal Link), F
 ### [Catalyst Swarm 2022 GitBook](https://cardano.ideascale.com/c/idea/382330)
 - [F7: Community Events](https://cardano.ideascale.com/c/campaigns/26234/about)
 - *Funded* - Stephen Whitenstall (QADAO) - in colloboration with SWARM - Budget $ 4350
-
-
+### [Catalyst-Coordinator Hub](https://cardano.ideascale.com/c/idea/382324)
+- [F7: Scale-UP Cardano's Community Hubs](https://cardano.ideascale.com/c/campaigns/26244/about)
+- *Funded* - Stephen Whitenstall (QADAO) - in colloboration with Circle - Budget $4350
 
