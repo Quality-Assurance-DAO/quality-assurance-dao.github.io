@@ -34,8 +34,8 @@ Summary details are provided as follows : Fund, Proposal Name (Proposal Link), F
 ### [QA-DAO Transcription Service](https://cardano.ideascale.com/c/idea/383492) 
 - [F7: Community Events](https://cardano.ideascale.com/c/campaigns/26234/about)
 - *Funded* - Vanessa (QADAO) - Budget $ 39053
-### [Community Governance Oversight]
-- [F7: Improve and Grow Auditability](https://cardano.ideascale.com/c/idea/383517)
+### [Community Governance Oversight](https://cardano.ideascale.com/c/idea/383517)
+- [F7: Improve and Grow Auditability](https://cardano.ideascale.com/c/campaigns/26253/about)
 - *Funded* - Stephen (QADAO) - Proposal owner in colloboration with Audit Community & liason with IOG
 ### [Catalyst Audit Circle](https://cardano.ideascale.com/c/idea/381354) 
 - [F7: Improve and Grow Auditability](https://cardano.ideascale.com/c/campaigns/26253/about)
