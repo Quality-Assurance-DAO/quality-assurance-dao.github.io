@@ -51,5 +51,16 @@ Summary details are provided as follows : Fund, Proposal Name (Proposal Link), F
 - *Funded* - Stephen Whitenstall (QADAO) - in colloboration with SWARM - Budget $ 4350
 ### [Catalyst-Coordinator Hub](https://cardano.ideascale.com/c/idea/382324)
 - [F7: Scale-UP Cardano's Community Hubs](https://cardano.ideascale.com/c/campaigns/26244/about)
-- *Funded* - Stephen Whitenstall (QADAO) - in colloboration with Circle - Budget $4350
+- *Funded* - Stephen Whitenstall (QADAO) - in colloboration with Circle - Budget $ 4350
+### [Ekphrasis Gitbook](https://cardano.ideascale.com/c/idea/382334)
+- [F7: Miscellaneous Challenge](https://cardano.ideascale.com/c/campaigns/26248/about)
+- *Funded* - Stephen Whitenstall (QADAO) - Budget $ 4350
+
+## Fund 8 
+
+### [Improve and Grow Auditability - F8 Challenge](https://cardano.ideascale.com/c/idea/383480)
+- [F7: Fund8 challenge setting](https://cardano.ideascale.com/c/campaigns/26257/about)
+- *Voted* - Stephen Whitenstall (QADAO) - Challenge owner & Challenge Team lead in colloboration with Audit Community & liason with IOG - Budget $ 200,000
+
+
 
