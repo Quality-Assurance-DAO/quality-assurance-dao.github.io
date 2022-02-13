@@ -32,6 +32,7 @@ Summary details are provided as follows : Fund, Proposal Name (Proposal Link), F
 - [F6: DLT Entrepreneurship Toolbox](https://cardano.ideascale.com/c/campaigns/26113/about) 
 - *In Progress* - Stephen Whitenstall (QADAO) & Catalyst School - Budget $ 8720 
 ### [Distributed Auditability](https://cardano.ideascale.com/c/idea/366707) 
+> Identify common community standards. Build consistent evaluation tools. Automate funded proposal reporting.
 - [F6: Improve and Grow Auditability](https://cardano.ideascale.com/c/campaigns/26119/about)
 - *In Progress* - Stephen Whitenstall (QADAO), CC Admin Treasury & Eastern Town Hall - Budget $ 8720 
 ### [Homeless Hub](https://cardano.ideascale.com/c/idea/367891)
