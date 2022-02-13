@@ -4,6 +4,10 @@ linkTitle: "Proposals"
 weight: 3
 hide_feedback: true
 icon: fa fa-university
+categories:
+- Proposals
+tags:
+- Funded Cohort
 description: >
   This section outlines the proposals submitted by QADAO in the Project Catalyst experiment in community innovation. For further information on Project Catalyst please refer to the [Catalyst landing page](https://cardano.ideascale.com/) on the ideascale platform.
 ---
