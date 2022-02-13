@@ -46,6 +46,9 @@ Summary details are provided as follows : Fund, Proposal Name (Proposal Link), F
 - [F7: Improve and Grow Auditability](https://cardano.ideascale.com/c/campaigns/26253/about)
 - *Funded* - Stephen Whitenstall (QADAO) - Proposal owner in colloboration with Audit Community & liason with IOG - Budget $ 12700
 
+### [Catalyst Swarm 2022 GitBook](https://cardano.ideascale.com/c/idea/382330)
+- [F7: Community Events](https://cardano.ideascale.com/c/campaigns/26234/about)
+- *Funded* - Stephen Whitenstall (QADAO) - in colloboration with SWARM - Budget $ 4350
 
 
 
