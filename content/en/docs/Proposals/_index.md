@@ -20,12 +20,15 @@ Summary details are provided as follows : Fund, Proposal Name (Proposal Link), F
 - **Completed** - Stephen Whitenstall(QADAO) - Budget $1
 ## Fund 6
 ### [Catalyst-Swarm-Genesis GitBook](https://cardano.ideascale.com/c/idea/369556) 
+> Resource the documentation & tracking of the Catalyst-Swarm Genesis GitBook. Communicate the content of the Catalyst-Swarm Genesis GitBook.
 -  [F6: Catalyst value onboarding](https://cardano.ideascale.com/c/campaigns/26106/about)
 -  **Completed** – Closing video pending – Stephen Whitenstall (QADAO) & SWARM - Budget $ 3480
 ### [Oversight of Catalyst Circle](https://cardano.ideascale.com/c/idea/370088) 
+> Provide independent oversight of Catalyst Circle. Resource an active site that documents & tracks the activities of the Catalyst Circle
 - [F6: Distributed decision making](https://cardano.ideascale.com/c/campaigns/26104/about)
 - *In Progress* - Vanessa Cardui (QADAO) - Budget $ 7440
 ###  [Open Source Training](https://cardano.ideascale.com/c/idea/368678) 
+> Open-source training materials for Entrepreneurship-Toolbox. Workshops explaining open-source infrastructure to early stage entrepreneurs.
 - [F6: DLT Entrepreneurship Toolbox](https://cardano.ideascale.com/c/campaigns/26113/about) 
 - *In Progress* - Stephen Whitenstall (QADAO) & Catalyst School - Budget $ 8720 
 ### [Distributed Auditability](https://cardano.ideascale.com/c/idea/366707) 
