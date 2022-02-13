@@ -57,6 +57,7 @@ Summary details are provided as follows : Fund, Proposal Name (Proposal Link), F
 - [F7: Community Events](https://cardano.ideascale.com/c/campaigns/26234/about)
 - *Funded* - Stephen Whitenstall (QADAO) - in colloboration with SWARM - Budget $ 4350
 ### [Catalyst-Coordinator Hub](https://cardano.ideascale.com/c/idea/382324)
+> Implement a collaborative layer, a community hub, to welcome funded proposers to Catalyst and provide support.
 - [F7: Scale-UP Cardano's Community Hubs](https://cardano.ideascale.com/c/campaigns/26244/about)
 - *Funded* - Stephen Whitenstall (QADAO) - in colloboration with Circle - Budget $ 4350
 ### [Ekphrasis Gitbook](https://cardano.ideascale.com/c/idea/382334)
@@ -65,7 +66,6 @@ Summary details are provided as follows : Fund, Proposal Name (Proposal Link), F
 - *Funded* - Stephen Whitenstall (QADAO) - Budget $ 4350
 
 ## Fund 8 
-
 ### [Improve and Grow Auditability - F8 Challenge](https://cardano.ideascale.com/c/idea/383480)
 > How to make the auditing process of funded proposals efficient, distributed and transparent?
 - [F7: Fund8 challenge setting](https://cardano.ideascale.com/c/campaigns/26257/about)
