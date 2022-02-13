@@ -1,6 +1,6 @@
 ---
-title: "Proposals"
-linkTitle: "Proposals"
+title: "Funded Proposals"
+linkTitle: "Funded Proposals"
 weight: 3
 hide_feedback: true
 icon: fa fa-university
