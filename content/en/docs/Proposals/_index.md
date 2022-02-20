@@ -27,6 +27,8 @@ Summary details are provided as follows : Fund, Proposal Name (Proposal Link), F
 > Provide independent oversight of Catalyst Circle. Resource an active site that documents & tracks the activities of the Catalyst Circle
 - [F6: Distributed decision making](https://cardano.ideascale.com/c/campaigns/26104/about)
 - *In Progress* - Vanessa Cardui (QADAO) - Budget $ 7440
+- https://quality-assurance-dao.gitbook.io/catalyst-circle-oversight-v2/
+- https://quality-assurance-dao.gitbook.io/catalyst-circle-oversight-v3/
 ###  [Open Source Training](https://cardano.ideascale.com/c/idea/368678) 
 > Open-source training materials for Entrepreneurship-Toolbox. Workshops explaining open-source infrastructure to early stage entrepreneurs.
 - [F6: DLT Entrepreneurship Toolbox](https://cardano.ideascale.com/c/campaigns/26113/about) 
@@ -40,6 +42,7 @@ Summary details are provided as follows : Fund, Proposal Name (Proposal Link), F
 > Introduce the Cardano Community to homeless communities in Manchester, UK, through in-person workshops and online sessions.
 - [F6: Scale-UP Cardano's Community Hubs](https://cardano.ideascale.com/c/campaigns/26118/about)
 - *In Progress* - Vanessa Cardui (QADAO) - Budget $ 18980
+- https://quality-assurance-dao.gitbook.io/homeless-hub/
 ## Fund 7
 ### [QA-DAO Transcription Service](https://cardano.ideascale.com/c/idea/383492) 
 > Transcribe, time-stamp and summarise the Zoom videos of key community events, making them accessible, searchable, and translatable.
@@ -49,6 +52,7 @@ Summary details are provided as follows : Fund, Proposal Name (Proposal Link), F
 > Survey, report & facilitate retrospectives to improve our governance processes.
 - [F7: Improve and Grow Auditability](https://cardano.ideascale.com/c/campaigns/26253/about)
 - *Funded* - Stephen Whitenstall (QADAO) - Proposal owner in colloboration with Audit Community & liason with IOG - Budget $ 19100
+- https://quality-assurance-dao.gitbook.io/community-governance-oversight/
 ### [Catalyst Audit Circle](https://cardano.ideascale.com/c/idea/381354) 
 > Establish a Catalyst auditing circle to guide improvements needed to maximise each funding rounds return on intention.
 - [F7: Improve and Grow Auditability](https://cardano.ideascale.com/c/campaigns/26253/about)
