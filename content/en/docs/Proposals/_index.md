@@ -35,6 +35,7 @@ Summary details are provided as follows : Fund, Proposal Name (Proposal Link), F
 > Identify common community standards. Build consistent evaluation tools. Automate funded proposal reporting.
 - [F6: Improve and Grow Auditability](https://cardano.ideascale.com/c/campaigns/26119/about)
 - *In Progress* - Stephen Whitenstall (QADAO), CC Admin Treasury & Eastern Town Hall - Budget $ 8720 
+- https://quality-assurance-dao.gitbook.io/distributed-auditability/
 ### [Homeless Hub](https://cardano.ideascale.com/c/idea/367891)
 > Introduce the Cardano Community to homeless communities in Manchester, UK, through in-person workshops and online sessions.
 - [F6: Scale-UP Cardano's Community Hubs](https://cardano.ideascale.com/c/campaigns/26118/about)
@@ -60,6 +61,7 @@ Summary details are provided as follows : Fund, Proposal Name (Proposal Link), F
 > Implement a collaborative layer, a community hub, to welcome funded proposers to Catalyst and provide support.
 - [F7: Scale-UP Cardano's Community Hubs](https://cardano.ideascale.com/c/campaigns/26244/about)
 - *Funded* - Stephen Whitenstall (QADAO) - in colloboration with Circle - Budget $ 4350
+- https://quality-assurance-dao.gitbook.io/catalyst-coordinator/
 ### [Ekphrasis Gitbook](https://cardano.ideascale.com/c/idea/382334)
 > Resource the documentation of philosophical debate and discussion around Cardano.
 - [F7: Miscellaneous Challenge](https://cardano.ideascale.com/c/campaigns/26248/about)
@@ -71,6 +73,7 @@ Summary details are provided as follows : Fund, Proposal Name (Proposal Link), F
 > How to make the auditing process of funded proposals efficient, distributed and transparent?
 - [F7: Fund8 challenge setting](https://cardano.ideascale.com/c/campaigns/26257/about)
 - *Voted* - Stephen Whitenstall (QADAO) - Challenge owner & Challenge Team lead in colloboration with Audit Community & liason with IOG - Budget $ 200,000
+- https://quality-assurance-dao.gitbook.io/f8-improve-and-grow-auditability/
 
 
 
