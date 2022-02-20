@@ -64,6 +64,7 @@ Summary details are provided as follows : Fund, Proposal Name (Proposal Link), F
 > Resource the documentation of philosophical debate and discussion around Cardano.
 - [F7: Miscellaneous Challenge](https://cardano.ideascale.com/c/campaigns/26248/about)
 - *Funded* - Stephen Whitenstall (QADAO) - Budget $ 4350
+- https://quality-assurance-dao.gitbook.io/ekphrasis/
 
 ## Fund 8 
 ### [Improve and Grow Auditability - F8 Challenge](https://cardano.ideascale.com/c/idea/383480)
