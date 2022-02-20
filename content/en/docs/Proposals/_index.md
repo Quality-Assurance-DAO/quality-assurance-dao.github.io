@@ -23,10 +23,12 @@ Summary details are provided as follows : Fund, Proposal Name (Proposal Link), F
 > Resource the documentation & tracking of the Catalyst-Swarm Genesis GitBook. Communicate the content of the Catalyst-Swarm Genesis GitBook.
 -  [F6: Catalyst value onboarding](https://cardano.ideascale.com/c/campaigns/26106/about)
 -  **Completed** – Closing video pending – Stephen Whitenstall (QADAO) & SWARM - Budget $ 3480
+-  https://catalyst-swarm.gitbook.io/catalyst-swarm-genesis/
 ### [Oversight of Catalyst Circle](https://cardano.ideascale.com/c/idea/370088) 
 > Provide independent oversight of Catalyst Circle. Resource an active site that documents & tracks the activities of the Catalyst Circle
 - [F6: Distributed decision making](https://cardano.ideascale.com/c/campaigns/26104/about)
 - *In Progress* - Vanessa Cardui (QADAO) - Budget $ 7440
+- https://catalyst-swarm.gitbook.io/catalyst-circle/
 - https://quality-assurance-dao.gitbook.io/catalyst-circle-oversight-v2/
 - https://quality-assurance-dao.gitbook.io/catalyst-circle-oversight-v3/
 ###  [Open Source Training](https://cardano.ideascale.com/c/idea/368678) 
@@ -61,6 +63,7 @@ Summary details are provided as follows : Fund, Proposal Name (Proposal Link), F
 > Resource the documentation & tracking of Project Catalyst.  Communicate the content of the Catalyst 2022 GitBook to the community.
 - [F7: Community Events](https://cardano.ideascale.com/c/campaigns/26234/about)
 - *Funded* - Stephen Whitenstall (QADAO) - in colloboration with SWARM - Budget $ 4350
+- https://catalyst-swarm.gitbook.io/catalyst-swarm-2022/
 ### [Catalyst-Coordinator Hub](https://cardano.ideascale.com/c/idea/382324)
 > Implement a collaborative layer, a community hub, to welcome funded proposers to Catalyst and provide support.
 - [F7: Scale-UP Cardano's Community Hubs](https://cardano.ideascale.com/c/campaigns/26244/about)
