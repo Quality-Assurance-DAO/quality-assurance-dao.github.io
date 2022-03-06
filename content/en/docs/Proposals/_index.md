@@ -35,11 +35,12 @@ Summary details are provided as follows : Fund, Proposal Name (Proposal Link), F
 > Open-source training materials for Entrepreneurship-Toolbox. Workshops explaining open-source infrastructure to early stage entrepreneurs.
 - [F6: DLT Entrepreneurship Toolbox](https://cardano.ideascale.com/c/campaigns/26113/about) 
 - *In Progress* - Stephen Whitenstall (QADAO) & Catalyst School - Budget $ 8720 
+- https://quality-assurance-dao.gitbook.io/training-and-automation/
 ### [Distributed Auditability](https://cardano.ideascale.com/c/idea/366707) 
 > Identify common community standards. Build consistent evaluation tools. Automate funded proposal reporting.
 - [F6: Improve and Grow Auditability](https://cardano.ideascale.com/c/campaigns/26119/about)
 - *In Progress* - Stephen Whitenstall (QADAO), CC Admin Treasury & Eastern Town Hall - Budget $ 8720 
-- https://quality-assurance-dao.gitbook.io/distributed-auditability/
+- https://quality-assurance-dao.gitbook.io/training-and-automation/
 ### [Homeless Hub](https://cardano.ideascale.com/c/idea/367891)
 > Introduce the Cardano Community to homeless communities in Manchester, UK, through in-person workshops and online sessions.
 - [F6: Scale-UP Cardano's Community Hubs](https://cardano.ideascale.com/c/campaigns/26118/about)
