@@ -83,5 +83,11 @@ Summary details are provided as follows : Fund, Proposal Name (Proposal Link), F
 - *Voted* - Stephen Whitenstall (QADAO) - Challenge owner & Challenge Team lead in colloboration with Audit Community & liason with IOG - Budget $ 200,000
 - https://quality-assurance-dao.gitbook.io/f8-improve-and-grow-auditability/
 
+## Fund 8 - Submitted
+### [Community Governance Oversight](https://cardano.ideascale.com/c/idea/398225)
+> Survey, report & facilitate retrospectives to improve our governance processes.
+- [F8: Improve and Grow Auditability](https://cardano.ideascale.com/c/campaigns/26447/about)
+
+
 
 
