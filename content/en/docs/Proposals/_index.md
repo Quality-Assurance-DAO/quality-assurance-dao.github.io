@@ -14,17 +14,20 @@ description: >
 Summary details are provided as follows : Fund, Proposal Name (Proposal Link), Fund Challenge (About Link), Status (Completed/In Progress), Resources (Vanessa, Stephen etc.) and Budget. 
 
 ## Fund 5
-### [Quality-Assurance-DAO](https://cardano.ideascale.com/c/idea/351678) 
+### Quality-Assurance-DAO
+- [Ideascale](https://cardano.ideascale.com/c/idea/351678) 
 > Innovative approach to open source. Reform PM to distributed peer facilitation.Adapt maturity standards to distributed organizations.
 - [F5: Developer ecosystem](https://cardano.ideascale.com/c/campaigns/25939/about)
 - **Completed** - Stephen Whitenstall (QADAO) - Budget $ 5
 ## Fund 6
-### [Catalyst-Swarm-Genesis GitBook](https://cardano.ideascale.com/c/idea/369556) 
+### Catalyst-Swarm-Genesis GitBook
+- [Ideascale](https://cardano.ideascale.com/c/idea/369556) 
 > Resource the documentation & tracking of the Catalyst-Swarm Genesis GitBook. Communicate the content of the Catalyst-Swarm Genesis GitBook.
 -  [F6: Catalyst value onboarding](https://cardano.ideascale.com/c/campaigns/26106/about)
 -  **Completed** – Closing video pending – Stephen Whitenstall (QADAO) & SWARM - Budget $ 3480
 -  https://catalyst-swarm.gitbook.io/catalyst-swarm-genesis/
-### [Oversight of Catalyst Circle](https://cardano.ideascale.com/c/idea/370088) 
+### Oversight of Catalyst Circle
+- [Ideascale](https://cardano.ideascale.com/c/idea/370088) 
 > Provide independent oversight of Catalyst Circle. Resource an active site that documents & tracks the activities of the Catalyst Circle
 - [F6: Distributed decision making](https://cardano.ideascale.com/c/campaigns/26104/about)
 - *In Progress* - Vanessa Cardui (QADAO) - Budget $ 7440
