@@ -34,54 +34,54 @@ Summary details are provided as follows : Fund, Proposal Name (Proposal Link), F
 - https://catalyst-swarm.gitbook.io/catalyst-circle/
 - https://quality-assurance-dao.gitbook.io/catalyst-circle-oversight-v2/
 - https://quality-assurance-dao.gitbook.io/catalyst-circle-oversight-v3/
-###  [Open Source Training]
+###  Open Source Training
 - [Ideascale](https://cardano.ideascale.com/c/idea/368678) 
 > Open-source training materials for Entrepreneurship-Toolbox. Workshops explaining open-source infrastructure to early stage entrepreneurs.
 - [F6: DLT Entrepreneurship Toolbox](https://cardano.ideascale.com/c/campaigns/26113/about) 
 - *In Progress* - Stephen Whitenstall (QADAO) & Catalyst School - Budget $ 8720 
 - https://quality-assurance-dao.gitbook.io/training-and-automation/
-### [Distributed Auditability]
+### Distributed Auditability
 - [Ideascale](https://cardano.ideascale.com/c/idea/366707) 
 > Identify common community standards. Build consistent evaluation tools. Automate funded proposal reporting.
 - [F6: Improve and Grow Auditability](https://cardano.ideascale.com/c/campaigns/26119/about)
 - *In Progress* - Stephen Whitenstall (QADAO), CC Admin Treasury & Eastern Town Hall - Budget $ 8720 
 - https://quality-assurance-dao.gitbook.io/training-and-automation/
-### [Homeless Hub]
+### Homeless Hub
 - [Ideascale](https://cardano.ideascale.com/c/idea/367891)
 > Introduce the Cardano Community to homeless communities in Manchester, UK, through in-person workshops and online sessions.
 - [F6: Scale-UP Cardano's Community Hubs](https://cardano.ideascale.com/c/campaigns/26118/about)
 - *In Progress* - Vanessa Cardui (QADAO) - Budget $ 18980
 - https://quality-assurance-dao.gitbook.io/homeless-hub/
 ## Fund 7
-### [QA-DAO Transcription Service]
+### QA-DAO Transcription Service
 - [Ideascale](https://cardano.ideascale.com/c/idea/383492) 
 > Transcribe, time-stamp and summarise the Zoom videos of key community events, making them accessible, searchable, and translatable.
 - [F7: Community Events](https://cardano.ideascale.com/c/campaigns/26234/about)
 - *Funded* - Vanessa Cardui (QADAO) - Budget $ 39053
-### [Community Governance Oversight]
+### Community Governance Oversight
 - [Ideascale](https://cardano.ideascale.com/c/idea/383517)
 > Survey, report & facilitate retrospectives to improve our governance processes.
 - [F7: Improve and Grow Auditability](https://cardano.ideascale.com/c/campaigns/26253/about)
 - *Funded* - Stephen Whitenstall (QADAO) - Proposal owner in colloboration with Audit Community & liason with IOG - Budget $ 19100
 - https://quality-assurance-dao.gitbook.io/community-governance-oversight/
-### [Catalyst Audit Circle]
+### Catalyst Audit Circle
 - [Ideascale](https://cardano.ideascale.com/c/idea/381354) 
 > Establish a Catalyst auditing circle to guide improvements needed to maximise each funding rounds return on intention.
 - [F7: Improve and Grow Auditability](https://cardano.ideascale.com/c/campaigns/26253/about)
 - *Funded* - Stephen Whitenstall (QADAO) - Proposal owner in colloboration with Audit Community & liason with IOG - Budget $ 12700
-### [Catalyst Swarm 2022 GitBook]
+### Catalyst Swarm 2022 GitBook
 - [Ideascale](https://cardano.ideascale.com/c/idea/382330)
 > Resource the documentation & tracking of Project Catalyst.  Communicate the content of the Catalyst 2022 GitBook to the community.
 - [F7: Community Events](https://cardano.ideascale.com/c/campaigns/26234/about)
 - *Funded* - Stephen Whitenstall (QADAO) - in colloboration with SWARM - Budget $ 4350
 - https://catalyst-swarm.gitbook.io/catalyst-swarm-2022/
-### [Catalyst-Coordinator Hub]
+### Catalyst-Coordinator Hub
 - [Ideascale](https://cardano.ideascale.com/c/idea/382324)
 > Implement a collaborative layer, a community hub, to welcome funded proposers to Catalyst and provide support.
 - [F7: Scale-UP Cardano's Community Hubs](https://cardano.ideascale.com/c/campaigns/26244/about)
 - *Funded* - Stephen Whitenstall (QADAO) - in colloboration with Circle - Budget $ 4350
 - https://quality-assurance-dao.gitbook.io/catalyst-coordinator/
-### [Ekphrasis Gitbook]
+### Ekphrasis Gitbook
 - [Ideascale](https://cardano.ideascale.com/c/idea/382334)
 > Resource the documentation of philosophical debate and discussion around Cardano.
 - [F7: Miscellaneous Challenge](https://cardano.ideascale.com/c/campaigns/26248/about)
@@ -89,7 +89,7 @@ Summary details are provided as follows : Fund, Proposal Name (Proposal Link), F
 - https://quality-assurance-dao.gitbook.io/ekphrasis/
 
 ## Fund 8 
-### [Improve and Grow Auditability - F8 Challenge]
+### Improve and Grow Auditability - F8 Challenge
 - [Ideascale](https://cardano.ideascale.com/c/idea/383480)
 > How to make the auditing process of funded proposals efficient, distributed and transparent?
 - [F7: Fund8 challenge setting](https://cardano.ideascale.com/c/campaigns/26257/about)
@@ -97,7 +97,7 @@ Summary details are provided as follows : Fund, Proposal Name (Proposal Link), F
 - https://quality-assurance-dao.gitbook.io/f8-improve-and-grow-auditability/
 
 ## Fund 8 - Submitted
-### [Community Governance Oversight]
+### Community Governance Oversight
 - [Ideascale](https://cardano.ideascale.com/c/idea/398225)
 > Survey, report & facilitate retrospectives to improve our governance processes.
 - [F8: Improve and Grow Auditability](https://cardano.ideascale.com/c/campaigns/26447/about)
