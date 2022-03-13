@@ -112,6 +112,3 @@ Summary details are provided as follows : Fund, Proposal Name (Proposal Link), F
 > Implement a collaborative layer, a community hub, to welcome funded proposers to Catalyst and provide support.
 - **Challenge : ** [F8: Scale-UP Cardano's Community Hubs](https://cardano.ideascale.com/c/campaigns/26439/about)
 - **Documentation :** https://catalyst-circle.gitbook.io/catalyst-coordinator/
-
-
-
