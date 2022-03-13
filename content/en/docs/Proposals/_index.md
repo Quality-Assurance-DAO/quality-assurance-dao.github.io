@@ -58,13 +58,13 @@ Summary details are provided as follows : Fund, Proposal Name (Proposal Link), F
 > Transcribe, time-stamp and summarise the Zoom videos of key community events, making them accessible, searchable, and translatable.
 - **Challenge :**[F7: Community Events](https://cardano.ideascale.com/c/campaigns/26234/about)
 - *Funded* - Vanessa Cardui (QADAO) - Budget $ 39053
-### Community Governance Oversight
+### F7 Community Governance Oversight
 - [Ideascale](https://cardano.ideascale.com/c/idea/383517)
 > Survey, report & facilitate retrospectives to improve our governance processes.
 - **Challenge :** [F7: Improve and Grow Auditability](https://cardano.ideascale.com/c/campaigns/26253/about)
 - *Funded* - Stephen Whitenstall (QADAO) - Proposal owner in colloboration with Audit Community & liason with IOG - Budget $ 19100
 - **Documentation :** https://quality-assurance-dao.gitbook.io/community-governance-oversight/
-### Catalyst Audit Circle
+### F7 Catalyst Audit Circle
 - [Ideascale](https://cardano.ideascale.com/c/idea/381354) 
 > Establish a Catalyst auditing circle to guide improvements needed to maximise each funding rounds return on intention.
 - **Challenge :** [F7: Improve and Grow Auditability](https://cardano.ideascale.com/c/campaigns/26253/about)
@@ -97,16 +97,21 @@ Summary details are provided as follows : Fund, Proposal Name (Proposal Link), F
 - **Documentation :** https://quality-assurance-dao.gitbook.io/f8-improve-and-grow-auditability/
 
 ## Fund 8 - Submitted
-### Community Governance Oversight
+### F8 Community Governance Oversight
 - [Ideascale](https://cardano.ideascale.com/c/idea/398225)
 > Survey, report & facilitate retrospectives to improve our governance processes.
 - **Challenge :** [F8: Improve and Grow Auditability](https://cardano.ideascale.com/c/campaigns/26447/about)
 - **Documentation :** https://quality-assurance-dao.gitbook.io/community-governance-oversight/fund-8-proposal
-### Catalyst Audit Circle
+### F8 Catalyst Audit Circle
 - [Ideascale](https://cardano.ideascale.com/c/idea/399163)
 > Resource the Catalyst auditing circle to guide improvements needed to maximise each funding rounds return on intention.
 - **Challenge : ** [F8: Improve and Grow Auditability](https://cardano.ideascale.com/c/campaigns/26447/about)
 - **Documentation :** https://quality-assurance-dao.gitbook.io/audit-circle
+### Funded Proposer Sub-Circle
+- [Ideascale](https://cardano.ideascale.com/c/idea/398211)
+> Implement a collaborative layer, a community hub, to welcome funded proposers to Catalyst and provide support.
+- **Challenge : ** [F8: Scale-UP Cardano's Community Hubs](https://cardano.ideascale.com/c/campaigns/26439/about)
+- **Documentation :** https://catalyst-circle.gitbook.io/catalyst-coordinator/
 
 
 
