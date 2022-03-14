@@ -107,6 +107,11 @@ Summary details are provided as follows : Fund, Proposal Name (Proposal Link), F
 > Resource the Catalyst auditing circle to guide improvements needed to maximise each funding rounds return on intention.
 - **Challenge : ** [F8: Improve and Grow Auditability](https://cardano.ideascale.com/c/campaigns/26447/about)
 - **Documentation :** https://quality-assurance-dao.gitbook.io/audit-circle
+### QA-DAO Oversight of Catalyst Circle
+- [Ideascale](https://cardano.ideascale.com/c/idea/399108)
+> Provide independent oversight of Catalyst Circle. Resource the Circle GitBooks to document & track the activities of Circle v4 and v5.
+- **Challenge : ** [F8: Miscellaneous Challenge](https://cardano.ideascale.com/c/campaigns/26441/about)
+- **Documentation :** https://quality-assurance-dao.gitbook.io/catalyst-circle-oversight-v2
 ### Funded Proposer Sub-Circle
 - [Ideascale](https://cardano.ideascale.com/c/idea/398211)
 > Implement a collaborative layer, a community hub, to welcome funded proposers to Catalyst and provide support.
@@ -117,8 +122,4 @@ Summary details are provided as follows : Fund, Proposal Name (Proposal Link), F
 > Provide governance training and research materials to the Cardano community.
 - **Challenge : ** [F8: Miscellaneous Challenge](https://cardano.ideascale.com/c/campaigns/26441/about)
 - **Documentation :** https://quality-assurance-dao.gitbook.io/ekphrasis/
-
-
-
-
 
