@@ -122,4 +122,13 @@ Summary details are provided as follows : Fund, Proposal Name (Proposal Link), F
 > Provide governance training and research materials to the Cardano community.
 - **Challenge : ** [F8: Miscellaneous Challenge](https://cardano.ideascale.com/c/campaigns/26441/about)
 - **Documentation :** https://quality-assurance-dao.gitbook.io/ekphrasis/
-
+### Automate, Educate, Communicate
+- [Ideascale](https://cardano.ideascale.com/c/idea/398131) - Stephen
+> Build and document automation tools, provide open source training & communicate what open source in Cardano entails.
+- **Challenge : ** [F8: Open Source Development Ecosystem](https://cardano.ideascale.com/c/campaigns/26434/about)
+- **Documentation :** https://quality-assurance-dao.gitbook.io/training-and-automation/
+### Liverpool Cardano Philosophy Hub
+- [Ideascale](https://cardano.ideascale.com/c/idea/402601) - Vanessa & Stephen
+> Work with an established UK community philosophy network, to build a philosophy-based Hub and develop philosophy discussion within Catalyst.
+- **Challenge : ** [F8: Open Source Development Ecosystem](https://cardano.ideascale.com/c/campaigns/26439/about)
+- **Documentation :** https://quality-assurance-dao.gitbook.io/ekphrasis
