@@ -94,7 +94,7 @@ Summary details are provided as follows : Fund, Proposal Name (Proposal Link), F
 > How to make the auditing process of funded proposals efficient, distributed and transparent?
 - **Challenge :** [F7: Fund8 challenge setting](https://cardano.ideascale.com/c/campaigns/26257/about)
 - *Voted* - Stephen Whitenstall (QADAO) - Challenge owner & Challenge Team lead in colloboration with Audit Community & liason with IOG - Budget $ 200,000
-- **Documentation :** https://quality-assurance-dao.gitbook.io/f8-improve-and-grow-auditability/
+- **Documentation :** https://quality-assurance-dao.gitbook.io/improve-and-grow-auditability/
 
 ## Fund 8 - Submitted
 ### F8 Community Governance Oversight
@@ -132,3 +132,10 @@ Summary details are provided as follows : Fund, Proposal Name (Proposal Link), F
 > Work with an established UK community philosophy network, to build a philosophy-based Hub and develop philosophy discussion within Catalyst.
 - **Challenge : ** [F8: Open Source Development Ecosystem](https://cardano.ideascale.com/c/campaigns/26439/about)
 - **Documentation :** https://quality-assurance-dao.gitbook.io/ekphrasis
+
+## Fund 9
+### Improve and Grow Auditability - F9 Challenge 
+- [Ideascale](https://cardano.ideascale.com/c/idea/397157) - Stephen
+> How to make auditability of proposals & oversight of governance efficient, distributed and transparent?
+- **Challenge :** [F8: Fund9 challenge setting](https://cardano.ideascale.com/c/campaigns/26455/about)
+- **Documentation :** https://quality-assurance-dao.gitbook.io/improve-and-grow-auditability/
