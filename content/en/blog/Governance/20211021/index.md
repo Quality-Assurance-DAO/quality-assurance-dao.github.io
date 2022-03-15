@@ -1,7 +1,7 @@
 ---
 date: 2021-10-21
-title: "Catalyst Circle Meeting 8"
-linkTitle: "Catalyst Circle Meeting 8"
+title: "Catalyst Circle v1 Meeting 8"
+linkTitle: "Catalyst Circle v1 Meeting 8"
 description: "The final Circle Version 1 Meeting"
 author: Catalyst Circle Admin
 categories:
@@ -13,9 +13,9 @@ resources:
 - src: "**.{png,jpg}"
   title: "Image #:counter"
   params:
-    byline: "Catalyst Circle Meeting 8"
+    byline: "Catalyst Circle v Meeting 8"
 ---
-## Catalyst Circle Meeting 8 was held on Thursday, 21st October 2021
+## Catalyst Circle v1 Meeting 8 was held on Thursday, 21st October 2021
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/vzuYlhG5zxQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
