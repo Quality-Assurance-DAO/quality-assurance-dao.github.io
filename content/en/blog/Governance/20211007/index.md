@@ -1,8 +1,8 @@
 ---
 date: 2021-10-07
-title: "Catalyst Circle 7"
-linkTitle: "Catalyst Circle 7"
-description: "Catalyst Circle 7"
+title: "Catalyst Circle v1 #7"
+linkTitle: "Catalyst Circle v1 #7"
+description: "Catalyst Circle v1 #7"
 author: Stephen Whitenstall
 categories:
 - Governance
@@ -19,7 +19,7 @@ resources:
 
 ### Overview
 
-The 7th Catalyst Circle meeting focused mainly on planning and discussion of the elections for Circle version 2.
+The 7th Catalyst Circle v1 meeting focused mainly on planning and discussion of the elections for Circle version 2.
 
 The meeting commenced with updates on Catalyst Circle actions using the Trello Board cards that record problems to be addressed. And to move existing Items across the board.
 
