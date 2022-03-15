@@ -1,8 +1,8 @@
 ---
 date: 2021-10-07
-title: "Catalyst Circle v1 #7"
-linkTitle: "Catalyst Circle v1 #7"
-description: "Catalyst Circle v1 #7"
+title: "Catalyst Circle v1 Meeting 7"
+linkTitle: "Catalyst Circle v1 Meeting 7"
+description: "Catalyst Circle v1 Meeting 7"
 author: Stephen Whitenstall
 categories:
 - Governance
