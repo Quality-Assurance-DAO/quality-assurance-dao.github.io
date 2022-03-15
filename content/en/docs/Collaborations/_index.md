@@ -13,6 +13,7 @@ description: >
 This section is about the collaborations, alliances and two-way exchanges that QA-DAO is developing; how we are working with organisations within and beyond Catalyst.
 
 ## Catalyst Swarm
+Quality-Assurance DAO provides technical project management support for Swarm a self-organizing Project Catalyst community. The Swarm is a collaborative, relation-based network in Project Catalyst. The main goal is to propose a dynamic and adaptable multi-stream structure to the Catalyst Community, where individuals, groups and projects can use their maximum amount of potential to create common value.
 Catalyst-Swarm-Genesis - a GitBook which records the activities of the Catalyst-Swarm which formed in April 2021 out of the Project Catalyst experiment.
 
 ## Homeless-Hub
