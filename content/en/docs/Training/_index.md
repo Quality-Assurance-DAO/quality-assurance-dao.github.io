@@ -1,15 +1,21 @@
 ---
-title: "Training"
-linkTitle: "Training"
+title: "Training & Research"
+linkTitle: "Training & Research"
 weight: 4
 hide_feedback: true
 icon: fa fa-desktop
 categories:
 - Training
+- Research
 tags:
 - Catalyst School
 description: >
-  Support & training for the Project Catalyst community.
+  Training & Research for the Project Catalyst community.
 ---
 
-QA-DAO provides support & training for the Project Catalyst community via the Catalyst School.
+QA-DAO provides training & research for the Project Catalyst community.
+
+## Open-Source-Training
+
+
+## Ekphrasis-GitBook
