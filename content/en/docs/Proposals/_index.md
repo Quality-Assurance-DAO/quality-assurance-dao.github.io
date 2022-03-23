@@ -113,7 +113,7 @@ Summary details are provided as follows : Fund, Proposal Name (Proposal Link), F
 - **Challenge : ** [F8: Miscellaneous Challenge](https://cardano.ideascale.com/c/campaigns/26441/about)
 - **Documentation :** https://quality-assurance-dao.gitbook.io/catalyst-circle-oversight-v2
 ### Funded Proposer Sub-Circle
-- [Ideascale](https://cardano.ideascale.com/c/idea/398211) - Stephen
+- [Ideascale](https://cardano.ideascale.com/c/idea/398211) - Stephen & Vanessa
 > Implement a collaborative layer, a community hub, to welcome funded proposers to Catalyst and provide support.
 - **Challenge : ** [F8: Scale-UP Cardano's Community Hubs](https://cardano.ideascale.com/c/campaigns/26439/about)
 - **Documentation :** https://catalyst-circle.gitbook.io/catalyst-coordinator/
