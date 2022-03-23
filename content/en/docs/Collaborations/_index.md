@@ -21,6 +21,9 @@ Homeless people have a unique culture. Homeless Hub Fund 6 Proposal.
 > Homeless people have a unique culture, with much to share on key issues like value / contribution; but Cardano hasn’t yet engaged with them.
 > Empowering communities - The first step in empowering any community to change their lives is to create a space where people can develop and crystallise their OWN understanding of the problem.
 
+## WADA
+WADA delivers groundbreaking projects in Africa to engage communities with Cardano.
+
 ## Eastern-Town-Hall
 Cardano Catalyst Community Eastern Townhall is helping to enable community members from a wide variety of countries and languages in the eastern timezones.
 Eastern-Town-Hall Website - https://c3eth.github.io/
