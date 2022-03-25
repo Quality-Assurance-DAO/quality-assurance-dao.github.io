@@ -17,7 +17,4 @@ resources:
 ---
 
 {{< youtube pfvAd-T4HTA >}}
-
-## QA-DAO has just published the record of Community Governance Oversight & Audit Circle Pre Planning
-
-QA-DAO has just published the record of ommunity Governance Oversight & Audit Circle Pre Planning (which took place on Thurs 3rd March 2022) 
+> QA-DAO has just published the record of the [Community Governance Oversight & Audit Circle Pre Planning Meeting](https://quality-assurance-dao.gitbook.io/community-governance-oversight/project-management/meetings-and-town-halls/pre-planning-3rd-march-2022) which took place on Thursday 3rd March 2022. 
