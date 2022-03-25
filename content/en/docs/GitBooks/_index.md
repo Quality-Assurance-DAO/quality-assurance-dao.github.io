@@ -14,9 +14,14 @@ description: >
 
 ## Swarm GitBooks
 
+### Catalyst Swarm 2022
+- https://catalyst-swarm.gitbook.io/catalyst-swarm-2022/
+- This GitBook records the activities of the Catalyst-Swarm in 2022. Town Hall Recordings, Slides, After Town Hall Breakout rooms and events organised by Swarm such as Challenge Fest, Idea Fest and Governance Week.
+- Catalyst Swarm 2022 was voted for and funded in Fund 7 - https://cardano.ideascale.com/c/idea/382330
+
 ### Catalyst-Swarm-Genesis
 - https://catalyst-swarm.gitbook.io/catalyst-swarm-genesis/
-- This GitBook recorded the activities of the Catalyst-Swarm from April 2021 to December 2021.
+- This GitBook recorded the activities of the Catalyst-Swarm from April 2021 to December 2021.Town Hall Recordings, Slides, After Town Hall Breakout rooms and events organised by Swarm such as Idea Fest.
 - Catalyst-Swarm-Genesis was voted for and funded in Fund 6 - https://cardano.ideascale.com/c/idea/369556
 
 
