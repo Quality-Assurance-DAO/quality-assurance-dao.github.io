@@ -1,8 +1,8 @@
 ---
 date: 2022-10-03
-title: "Community Governance Oversight Meeting #1"
-linkTitle: "Community Governance Oversight Meeting #1"
-description: "QA-DAO has just published Community Governance Oversight Meeting #1"
+title: "Community Governance Oversight Meeting 1"
+linkTitle: "Community Governance Oversight Meeting 1"
+description: "QA-DAO has just published Community Governance Oversight Meeting 1"
 author: Stephen Whitenstall
 categories:
 - Governance
@@ -12,7 +12,7 @@ resources:
 - src: "**.{png,jpg}"
   title: "Image #:counter"
   params:
-    byline: "Community Governance Oversight Meeting #1"
+    byline: "Community Governance Oversight Meeting 1"
 ---
 
 {{< youtube kQWPb25P5II >}}
