@@ -24,6 +24,13 @@ description: >
 - This GitBook recorded the activities of the Catalyst-Swarm from April 2021 to December 2021.Town Hall Recordings, Slides, After Town Hall Breakout rooms and events organised by Swarm such as Idea Fest.
 - Catalyst-Swarm-Genesis was voted for and funded in Fund 6 - https://cardano.ideascale.com/c/idea/369556
 
-
-
-GitBooks
+## Catalyst Circle Oversight (QADAO)
+### Catalyst Circle V1
+- https://catalyst-swarm.gitbook.io/catalyst-circle
+- This GitBook records Catalyst Circle V1
+### Catalyst Circle V2
+- https://quality-assurance-dao.gitbook.io/catalyst-circle-oversight-v2/
+- This GitBook records Catalyst Circle V2
+### Catalyst Circle V3
+- https://quality-assurance-dao.gitbook.io/catalyst-circle-oversight-v3/
+- This GitBook records Catalyst Circle V3
