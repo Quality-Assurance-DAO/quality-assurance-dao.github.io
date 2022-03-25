@@ -8,7 +8,7 @@ description: >
 ---
 
 ### Quality Assurance DAO
-Quality Assurance DAO (QA-DAO) started as a Project Catalyst Fund 5 Proposal in the Developer Ecosystem challenge. Its current core activities are documenting the pathway of a funded cohort & assessment of Catalyst’s reporting requirements.
+Quality Assurance DAO (QADAO) began in April 2021 with an Open Source Feedback survey and submitted a proposal "[Quality-Assurance-DAO](https://cardano.ideascale.com/c/idea/351678)" in the [Fund 5: Developer ecosystem Challenge](https://cardano.ideascale.com/c/campaigns/25939/about) that sought to encourage open-source collaboration & innovation and to do a QA Assessment of Catalyst Proposal Process itself. This proposal was successful in receiving votes and was funded in August 2021. QADAO went on to document the pathway of a funded cohort & began to assess Project Catalyst’s reporting requirements. 
 
 ### Documentation & Tracking
 QA-DAO designs and maintains documentation and tracks activity in open-source GitHub repositories for the Catalyst Circle, Catalyst Swarm and The Catalyst School. The tracking of activity is typically done using GitHub Issues in Project Boards. 
