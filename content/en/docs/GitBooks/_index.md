@@ -46,3 +46,15 @@ description: >
 - https://quality-assurance-dao.gitbook.io/audit-circle/
 - Oversight of Catalyst Governance Processes
 - Audit Circle was voted for and funded in Fund 7 - https://cardano.ideascale.com/c/idea/381354
+
+## Research
+### Ekphrasis
+- https://quality-assurance-dao.gitbook.io/ekphrasis/
+- This GitBook is a repository of academic and philosophical content from across the wider Cardano community. IOHK, Project Catalyst and University of Edinburgh as well as many other sources.
+- Ekphrasis was voted for and funded in Fund 7 - https://cardano.ideascale.com/c/idea/382334
+
+## Training & Automation
+### Training and automation
+- https://quality-assurance-dao.gitbook.io/training-and-automation/
+- This GitBook combines Distributed Auditability and Open Source Training ...
+- Training and automation was voted for and funded in Fund 6 - Distributed Auditability - https://cardano.ideascale.com/c/idea/366707 & Open Source Training - https://cardano.ideascale.com/c/idea/368678.
