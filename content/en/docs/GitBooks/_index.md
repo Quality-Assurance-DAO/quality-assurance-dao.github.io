@@ -9,7 +9,7 @@ categories:
 tags:
 - Documentation
 description: >
-  GitBooks
+  GitBooks created and maintained by QADAO
 ---
 
 ## Swarm GitBooks
@@ -35,3 +35,9 @@ description: >
 ### Catalyst Circle V3
 - https://quality-assurance-dao.gitbook.io/catalyst-circle-oversight-v3/
 - This GitBook records Catalyst Circle V3
+
+### Catalyst Governance
+### Community Governance Oversight
+- https://quality-assurance-dao.gitbook.io/community-governance-oversight/
+- Oversight of Catalyst Governance Processes
+- Community Governance Oversight was voted for and funded in Fund 7 - https://cardano.ideascale.com/c/idea/383517
