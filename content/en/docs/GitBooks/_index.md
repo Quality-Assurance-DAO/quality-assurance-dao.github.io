@@ -36,8 +36,13 @@ description: >
 - https://quality-assurance-dao.gitbook.io/catalyst-circle-oversight-v3/
 - This GitBook records Catalyst Circle V3
 
-### Catalyst Governance
+## Catalyst Governance
 ### Community Governance Oversight
 - https://quality-assurance-dao.gitbook.io/community-governance-oversight/
 - Oversight of Catalyst Governance Processes
 - Community Governance Oversight was voted for and funded in Fund 7 - https://cardano.ideascale.com/c/idea/383517
+
+### Audit Circle
+- https://quality-assurance-dao.gitbook.io/audit-circle/
+- Oversight of Catalyst Governance Processes
+- Audit Circle was voted for and funded in Fund 7 - https://cardano.ideascale.com/c/idea/381354
