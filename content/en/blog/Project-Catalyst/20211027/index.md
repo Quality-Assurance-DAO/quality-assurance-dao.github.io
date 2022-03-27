@@ -12,7 +12,7 @@ resources:
 - src: "**.{png,jpg}"
   title: "Image #:counter"
   params:
-    byline: "Coordinator Cohort Progress Meeting 7th September 2021"
+    byline: "Fund 7 - Timetable"
 ---
 
 Announced at Catalyst Fund6 Townhall #11
