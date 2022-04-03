@@ -47,6 +47,12 @@ description: >
 - Oversight of Catalyst Governance Processes
 - Audit Circle was voted for and funded in Fund 7 - https://cardano.ideascale.com/c/idea/381354
 
+### Funded Proposers Hub
+- The Funded Proposers Hub which supports Catalyst Funded Proposers.
+- https://catalyst-circle.gitbook.io/funded-proposers-hub/
+- Fund 7 Catalyst-Coordinator Hub proposal - https://cardano.ideascale.com/c/idea/382324
+- Fund 8 Funded Proposer Sub-Circle proposal - https://cardano.ideascale.com/c/idea/398211
+
 ## Research
 ### Ekphrasis
 - https://quality-assurance-dao.gitbook.io/ekphrasis/
