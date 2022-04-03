@@ -155,23 +155,18 @@ This deliverable is specified by Project Catalyst.\
 
 ![](<../.gitbook/assets/9 (1).png>)
 
-\
 **Self-Assessment checklist Summary:** How my proposal impacts the challenge metrics is articulated in this manner.
 
-**Did we manage to make it easier for developers to build on top of Cardano?** I hope to highlight in Output (3) the Open-Source Assessment Report that an improved awareness of the wide range of the open-source Cardano community may enable developers to build from many different even contrary directions.
-
-**Number of repos on Github using the tooling. (Month over month increase):** The tooling in this proposal, its repo, is the proposal undone. It will offer to the community a deconstructed, dissected, and resurrected F5-Developer-ecosystem-Proposal. Although not usable as a template, it is hoped it's bones may be picked over for many months to come as point of reference.
-
-**A sense of community and conversations. Having people around to talk with.:** This proposal has already been circulated around the Catalyst open-source community in the form of it's open-source assessment component, provoking mixed reactions and conversations.
-
-**How I address the challenge question:** I addressed the challenge question "How can we create a positive developer experience that helps the developer focus on building successful apps?" by focusing on one instance of a development lifecycle; how to take something broken to the community to fix.
+- **Did we manage to make it easier for developers to build on top of Cardano?** I hope to highlight in Output (3) the Open-Source Assessment Report that an improved awareness of the wide range of the open-source Cardano community may enable developers to build from many different even contrary directions.
+- **Number of repos on Github using the tooling. (Month over month increase):** The tooling in this proposal, its repo, is the proposal undone. It will offer to the community a deconstructed, dissected, and resurrected F5-Developer-ecosystem-Proposal. Although not usable as a template, it is hoped it's bones may be picked over for many months to come as point of reference.
+- **A sense of community and conversations. Having people around to talk with.:** This proposal has already been circulated around the Catalyst open-source community in the form of it's open-source assessment component, provoking mixed reactions and conversations.
+- **How I address the challenge question:** I addressed the challenge question "How can we create a positive developer experience that helps the developer focus on building successful apps?" by focusing on one instance of a development lifecycle; how to take something broken to the community to fix.
 
 **Definitions of Success:**
 
-\
-**3 Months** - The Proposal is funded, its contribution is recognized, which provided an incentive to continue to Fund 7.\
-**6 Months** - The Proposal is used as a useful reference tool for other proposals.\
-**12 Months** - The Proposal is now redundant and regarded as a historical anomaly.
+- **3 Months** - The Proposal is funded, its contribution is recognized, which provided an incentive to continue to Fund 7.
+- **6 Months** - The Proposal is used as a useful reference tool for other proposals.
+- **12 Months** - The Proposal is now redundant and regarded as a historical anomaly.
 
 **Budget Requirements:** My Budget is broken into $5 for basic costs. The minting of an ADA Non-Fungible Token is pending negotiation for work in kind with NFT-DAO.
 
@@ -185,17 +180,17 @@ This deliverable is a QA of General Usability Issues of the Ideascale Platform (
 
 ![](<../.gitbook/assets/10 (1).png>)
 
-\
+
 [https://github.com/Quality-Assurance-DAO/F5-Developer-ecosystem-Proposal/issues/17](https://github.com/Quality-Assurance-DAO/F5-Developer-ecosystem-Proposal/issues/17)
 
 ### **(4) Feedback Challenge: Open-Source Assessment Report - Due: 26/05/2021:**
 
-\
+
 This deliverable will be an informal document aimed at informing, celebrating, and inspiring the Catalyst open-source community.
 
 ![](../.gitbook/assets/11.png)
 
-\
+
 [https://github.com/Quality-Assurance-DAO/F5-Developer-ecosystem-Proposal/blob/main/Project-Catalyst/Reports/01-Open-Source-Assessment-Report.md](https://github.com/Quality-Assurance-DAO/F5-Developer-ecosystem-Proposal/blob/main/Project-Catalyst/Reports/01-Open-Source-Assessment-Report.md) )
 
 ### **(5) Project Catalyst Proposal Process Report - Due: 26/05/2021:** 
@@ -204,7 +199,7 @@ This deliverable will be a formal document which will attempt a QA Assessment of
 
 ![](<../.gitbook/assets/12 (1).png>)
 
-\
+
 [https://github.com/Quality-Assurance-DAO/F5-Developer-ecosystem-Proposal/blob/main/Project-Catalyst/Reports/02-Project-Catalyst-Proposal%20Process.md](https://github.com/Quality-Assurance-DAO/F5-Developer-ecosystem-Proposal/blob/main/Project-Catalyst/Reports/02-Project-Catalyst-Proposal%20Process.md)
 
 ### **(6) Governance: Due: TBA** 
@@ -213,7 +208,7 @@ This deliverable will be a “leap of faith" interaction with voters to assess w
 
 ![](../.gitbook/assets/13.png)
 
-\
+
 [https://github.com/Quality-Assurance-DAO/F5-Developer-ecosystem-Proposal/blob/main/Project-Catalyst/Reports/03-Governance.md](https://github.com/Quality-Assurance-DAO/F5-Developer-ecosystem-Proposal/blob/main/Project-Catalyst/Reports/03-Governance.md)
 
 ## **Estimated cost**:
