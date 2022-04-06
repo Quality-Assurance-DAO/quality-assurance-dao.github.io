@@ -14,8 +14,9 @@ resources:
   params:
     byline: "Community Governance Oversight Meeting 2"
 ---
+> QA-DAO has just published the record of the [Community Governance Oversight Meeting 2](https://quality-assurance-dao.gitbook.io/community-governance-oversight/project-management/meetings-and-town-halls/f7-meeting-2-24th-march-2022) which took place on Thursday 24th March 2022. 
 
 {{< youtube UOfoooeurpg >}}
-> QA-DAO has just published the record of the [Community Governance Oversight Meeting 2](https://quality-assurance-dao.gitbook.io/community-governance-oversight/project-management/meetings-and-town-halls/f7-meeting-2-24th-march-2022) which took place on Thursday 24th March 2022. 
+
 
 
