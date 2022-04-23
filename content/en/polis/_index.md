@@ -10,14 +10,9 @@ cascade:
 
 ## The conversation
 
-<div
-  class='polis'
-  data-page_id='3nawxcefjc'
-  data-site_id='polis_site_id_k8UCQ13yaJAg4H7Tkm'>
-</div>
-<script async
-  src='https://pol.is/embed.js'>
-</script>
+<div class='polis' data-conversation_id='3nawxcefjc'></div>
+<script async src='https://pol.is/embed.js'></script>
+
 ## The report
 
 
