@@ -1,5 +1,5 @@
 ---
-title: "polis"
+title: "The ABC of Governance "
 linkTitle: "polis"
 menu:
   main:
@@ -7,8 +7,6 @@ menu:
 cascade:
 - type: "docs"
 ---
-
-# The ABC of Governance 
 
 ## The conversation
 
