@@ -29,4 +29,13 @@ If you've found a problem in the docs, but you're not sure how to fix it yoursel
 * [Hugo documentation](https://gohugo.io/documentation/): Comprehensive reference for Hugo.
 * [Github Hello World!](https://guides.github.com/activities/hello-world/): A basic introduction to GitHub concepts and workflow.
 
+<div
+  class='polis'
+  data-page_id='PAGE_ID'
+  data-site_id='polis_site_id_k8UCQ13yaJAg4H7Tkm'>
+</div>
+<script async
+  src='https://pol.is/embed.js'>
+</script>
+
 
