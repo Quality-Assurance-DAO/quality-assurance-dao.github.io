@@ -1,6 +1,6 @@
 ---
-title: "Catalyst Ecosystem"
-linkTitle: "Catalyst Ecosystem"
+title: "polis"
+linkTitle: "polis"
 menu:
   main:
     weight: 30
@@ -8,4 +8,4 @@ cascade:
 - type: "docs"
 ---
 
-The Catalyst Ecosystem is growing rapidly and this section attempts to provide a directory of related projects.
+polis
