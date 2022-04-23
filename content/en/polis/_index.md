@@ -18,8 +18,6 @@ cascade:
 <script async
   src='https://pol.is/embed.js'>
 </script>
-
-
 ## The report
 
 
