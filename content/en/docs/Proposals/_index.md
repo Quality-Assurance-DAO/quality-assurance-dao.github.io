@@ -14,12 +14,6 @@ description: >
 Summary details are provided as follows : Fund, Proposal Name (Proposal Link), Fund Challenge (About Link), Status (Completed/In Progress), Resources (Vanessa, Stephen etc.) and Budget. 
 
 ## Fund 5
-### Distributed Auditability
-- [Ideascale](https://cardano.ideascale.com/c/idea/366707) - Stephen
-> Identify common community standards. Build consistent evaluation tools. Automate funded proposal reporting.
-- **Challenge :** [F6: Improve and Grow Auditability](https://cardano.ideascale.com/c/campaigns/26119/about)
-- *In Progress* - Stephen Whitenstall (QADAO), CC Admin Treasury & Eastern Town Hall - Budget $ 8720 
-- **Documentation :** https://quality-assurance-dao.gitbook.io/training-and-automation/
 ### Homeless Hub
 - [Ideascale](https://cardano.ideascale.com/c/idea/367891) - Vanessa
 > Introduce the Cardano Community to homeless communities in Manchester, UK, through in-person workshops and online sessions.
