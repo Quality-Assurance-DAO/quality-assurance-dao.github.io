@@ -16,6 +16,7 @@ description: >
 - **Challenge :** [F6: DLT Entrepreneurship Toolbox](https://cardano.ideascale.com/c/campaigns/26113/about) 
 - *In Progress* - Stephen Whitenstall (QADAO) & Catalyst School - Budget $ 8720 
 - **Documentation :** https://quality-assurance-dao.gitbook.io/training-and-automation/
+- **Reporting :** https://quality-assurance-dao.gitbook.io/training-and-automation/proposal-reporting/f6-open-source-training
 
 ## Last Report - 24th April 2022
 
