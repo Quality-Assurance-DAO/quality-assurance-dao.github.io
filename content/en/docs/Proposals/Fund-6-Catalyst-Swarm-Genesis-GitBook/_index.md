@@ -27,6 +27,9 @@ description: >
 - **Is the project on track?** - Yes
 - **If you answered No to the above question, what are the issues or blockages you are having?** - Awaiting close out report and video. 
 - **What date will you complete your project?** - Jan 1st 2022
+- **Do you plan to launch a token?** - No
+- **If you answered yes to the above questions regarding a token, please explain the utility of the token** - n/a
+- **How large is your community (social or otherwise) ? We are particularly interested in large, active communities with real people and engagement.** - What metrics are expected for this question ? 
 - **(Optional) Please share any suitable evidence of progress about your deliverables since last report? This could be documentation, photo or any other measurable way you feel demonstrates the impact of your project** - n/a
 - **Is there anything else you would like to share about your project?** - n/a
 
