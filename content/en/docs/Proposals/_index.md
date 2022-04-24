@@ -14,11 +14,6 @@ description: >
 Summary details are provided as follows : Fund, Proposal Name (Proposal Link), Fund Challenge (About Link), Status (Completed/In Progress), Resources (Vanessa, Stephen etc.) and Budget. 
 
 ## Fund 8 - Submitted
-### F8 Community Governance Oversight
-- [Ideascale](https://cardano.ideascale.com/c/idea/398225)  - Stephen
-> Survey, report & facilitate retrospectives to improve our governance processes.
-- **Challenge :** [F8: Improve and Grow Auditability](https://cardano.ideascale.com/c/campaigns/26447/about)
-- **Documentation :** https://quality-assurance-dao.gitbook.io/community-governance-oversight/fund-8-proposal
 ### F8 Catalyst Audit Circle
 - [Ideascale](https://cardano.ideascale.com/c/idea/399163)  - Stephen
 > Resource the Catalyst auditing circle to guide improvements needed to maximise each funding rounds return on intention.
