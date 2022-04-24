@@ -1,6 +1,6 @@
 ---
-title: "F8 Challenge - Improve and Grow Auditability"
-linkTitle: "F8 Challenge - Improve and Grow Auditability"
+title: "Fund 8 Challenge - Improve and Grow Auditability"
+linkTitle: "Fund 8 Challenge - Improve and Grow Auditability"
 weight: 5
 hide_feedback: true
 icon: fa fa-book
