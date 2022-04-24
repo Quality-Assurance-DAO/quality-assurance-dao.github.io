@@ -16,15 +16,16 @@ description: >
 -  **Completed** – Closing video pending – Stephen Whitenstall (QADAO) & SWARM - Budget $ 3480
 - **Documentation :**  https://catalyst-swarm.gitbook.io/catalyst-swarm-genesis/
 
-**Email** - Private
-**Project ID** - [600037](https://docs.google.com/spreadsheets/d/1bfnWFa94Y7Zj0G7dtpo9W1nAYGovJbswipxiHT4UE3g/edit#gid=977996080&range=B47)
-**Which fund is your challenge in ?** - Fund 6
-**In which Challenge is your proposal? (one report per project)** - [F6: Catalyst value onboarding](https://cardano.ideascale.com/c/campaigns/26106/about)             **Is the project still in progress / launched / complete ?** - Completed
-**Is the project on track?** - Yes  
-**If you answered No to the above question, what are the issues or blockages you are having?** - Awaiting close out report and video. 
-**What date will you complete your project?** - Jan 1st 2022
-**(Optional) Please share any suitable evidence of progress about your deliverables since last report? This could be documentation, photo or any other measurable way you feel demonstrates the impact of your project** - n/a   
-**Is there anything else you would like to share about your project?** - n/a
+- **Email** - Private
+- **Project ID** - [600037](https://docs.google.com/spreadsheets/d/1bfnWFa94Y7Zj0G7dtpo9W1nAYGovJbswipxiHT4UE3g/edit#gid=977996080&range=B47)
+- **Which fund is your challenge in ?** - Fund 6
+- **In which Challenge is your proposal? (one report per project)** - [F6: Catalyst value onboarding](https://cardano.ideascale.com/c/campaigns/26106/about)
+- **Is the project still in progress / launched / complete ?** - Completed
+- **Is the project on track?** - Yes
+- **If you answered No to the above question, what are the issues or blockages you are having?** - Awaiting close out report and video. 
+- **What date will you complete your project?** - Jan 1st 2022
+- **(Optional) Please share any suitable evidence of progress about your deliverables since last report? This could be documentation, photo or any other measurable way you feel demonstrates the impact of your project** - n/a
+- **Is there anything else you would like to share about your project?** - n/a
 
 #### Notes -
 
