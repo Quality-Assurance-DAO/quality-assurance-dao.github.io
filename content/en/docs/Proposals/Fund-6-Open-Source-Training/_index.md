@@ -22,16 +22,16 @@ description: >
 - **Email** - Private
 - **Project ID** - [600106](https://docs.google.com/spreadsheets/d/1bfnWFa94Y7Zj0G7dtpo9W1nAYGovJbswipxiHT4UE3g/edit#gid=977996080&range=B107)
 - **Which fund is your challenge in ?** - Fund 6
-- **In which Challenge is your proposal? (one report per project)** - [F6: DLT Entrepreneurship Toolbox](https://cardano.ideascale.com/c/campaigns/26113/about)
+- **In which Challenge is your proposal? (one report per project)** - [F6: DLT Entrepreneurship Toolbox](https://cardano.ideascale.com/c/campaigns/26113/about) 
 - **Is the project still in progress / launched / complete ?** - In progress
 - **Is the project on track?** - Yes
 - **If you answered No to the above question, what are the issues or blockages you are having?** - 
-- **What date will you complete your project?** - 
+- **What date will you complete your project?** - 1st June 2022
 - **Do you plan to launch a token?** - 
 - **If you answered yes to the above questions regarding a token, please explain the utility of the token** - n/a
-- **How large is your community (social or otherwise) ? We are particularly interested in large, active communities with real people and engagement.** - 
+- **How large is your community (social or otherwise) ? We are particularly interested in large, active communities with real people and engagement.** - Community engaged via After Town Halls & YouTube videos of training sessions
 - **(Optional) Please share any suitable evidence of progress about your deliverables since last report? This could be documentation, photo or any other measurable way you feel demonstrates the impact of your project** - n/a
-- **Is there anything else you would like to share about your project?** - n/a
+- **Is there anything else you would like to share about your project?** - Evidence & information about the progress of this project can be found here - https://quality-assurance-dao.gitbook.io/training-and-automation/
 
 #### Notes -
 
