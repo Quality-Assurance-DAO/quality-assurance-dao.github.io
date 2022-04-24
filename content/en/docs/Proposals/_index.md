@@ -14,11 +14,6 @@ description: >
 Summary details are provided as follows : Fund, Proposal Name (Proposal Link), Fund Challenge (About Link), Status (Completed/In Progress), Resources (Vanessa, Stephen etc.) and Budget. 
 
 ## Fund 8 - Submitted
-### Liverpool Cardano Philosophy Hub
-- [Ideascale](https://cardano.ideascale.com/c/idea/402601) - Vanessa & Stephen
-> Work with an established UK community philosophy network, to build a philosophy-based Hub and develop philosophy discussion within Catalyst.
-- **Challenge :** [F8: Open Source Development Ecosystem](https://cardano.ideascale.com/c/campaigns/26439/about)
-- **Documentation :** https://quality-assurance-dao.gitbook.io/ekphrasis
 ### Catalyst Facilitators’ Collective
 - [Ideascale](https://cardano.ideascale.com/c/idea/403681) - Vanessa
 > Deliver facilitation skills training via Catalyst School; build an ongoing facilitators’ community to champion good facilitation skills.
