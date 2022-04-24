@@ -13,13 +13,6 @@ description: >
 ---
 Summary details are provided as follows : Fund, Proposal Name (Proposal Link), Fund Challenge (About Link), Status (Completed/In Progress), Resources (Vanessa, Stephen etc.) and Budget. 
 
-## Fund 5
-### Homeless Hub
-- [Ideascale](https://cardano.ideascale.com/c/idea/367891) - Vanessa
-> Introduce the Cardano Community to homeless communities in Manchester, UK, through in-person workshops and online sessions.
-- **Challenge :** [F6: Scale-UP Cardano's Community Hubs](https://cardano.ideascale.com/c/campaigns/26118/about)
-- *In Progress* - Vanessa Cardui (QADAO) - Budget $ 18980
-- **Documentation :** https://quality-assurance-dao.gitbook.io/homeless-hub/
 ## Fund 7
 ### QA-DAO Transcription Service 
 - [Ideascale](https://cardano.ideascale.com/c/idea/383492) - Vanessa
