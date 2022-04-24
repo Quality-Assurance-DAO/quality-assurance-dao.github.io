@@ -7,6 +7,6 @@ icon: fa fa-university
 categories:
 - Proposals
 description: >
- Fund 5 - Quality-Assurance-DAO
+ Innovative approach to open source. Reform PM to distributed peer facilitation.Adapt maturity standards to distributed organizations.
 ---
 Fund 5 - Quality-Assurance-DAO
