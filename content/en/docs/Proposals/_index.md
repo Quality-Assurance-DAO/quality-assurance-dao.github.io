@@ -13,14 +13,6 @@ description: >
 ---
 Summary details are provided as follows : Fund, Proposal Name (Proposal Link), Fund Challenge (About Link), Status (Completed/In Progress), Resources (Vanessa, Stephen etc.) and Budget. 
 
-## Fund 7
-### Ekphrasis Gitbook 
-- [Ideascale](https://cardano.ideascale.com/c/idea/382334)- Stephen
-> Resource the documentation of philosophical debate and discussion around Cardano.
-- **Challenge :**[F7: Miscellaneous Challenge](https://cardano.ideascale.com/c/campaigns/26248/about)
-- *Funded* - Stephen Whitenstall (QADAO) - Budget $ 4350
-- **Documentation :** https://quality-assurance-dao.gitbook.io/ekphrasis/
-
 ## Fund 8 
 ### Improve and Grow Auditability - F8 Challenge 
 - [Ideascale](https://cardano.ideascale.com/c/idea/383480) - Stephen
