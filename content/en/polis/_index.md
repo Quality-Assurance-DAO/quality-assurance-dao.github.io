@@ -1,6 +1,7 @@
 ---
 title: "polis"
 linkTitle: "polis"
+hide_feedback: true
 menu:
   main:
     weight: 30
