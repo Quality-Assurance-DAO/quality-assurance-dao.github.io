@@ -14,11 +14,6 @@ description: >
 Summary details are provided as follows : Fund, Proposal Name (Proposal Link), Fund Challenge (About Link), Status (Completed/In Progress), Resources (Vanessa, Stephen etc.) and Budget. 
 
 ## Fund 8 - Submitted
-### QA-DAO Oversight of Catalyst Circle
-- [Ideascale](https://cardano.ideascale.com/c/idea/399108) - Vanessa
-> Provide independent oversight of Catalyst Circle. Resource the Circle GitBooks to document & track the activities of Circle v4 and v5.
-- **Challenge :** [F8: Miscellaneous Challenge](https://cardano.ideascale.com/c/campaigns/26441/about)
-- **Documentation :** https://quality-assurance-dao.gitbook.io/catalyst-circle-oversight-v2
 ### Funded Proposer Sub-Circle
 - [Ideascale](https://cardano.ideascale.com/c/idea/398211) - Stephen & Vanessa
 > Implement a collaborative layer, a community hub, to welcome funded proposers to Catalyst and provide support.
