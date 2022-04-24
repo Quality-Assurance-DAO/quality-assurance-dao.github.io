@@ -14,11 +14,6 @@ description: >
 Summary details are provided as follows : Fund, Proposal Name (Proposal Link), Fund Challenge (About Link), Status (Completed/In Progress), Resources (Vanessa, Stephen etc.) and Budget. 
 
 ## Fund 7
-### QA-DAO Transcription Service 
-- [Ideascale](https://cardano.ideascale.com/c/idea/383492) - Vanessa
-> Transcribe, time-stamp and summarise the Zoom videos of key community events, making them accessible, searchable, and translatable.
-- **Challenge :**[F7: Community Events](https://cardano.ideascale.com/c/campaigns/26234/about)
-- *Funded* - Vanessa Cardui (QADAO) - Budget $ 39053
 ### F7 Community Governance Oversight
 - [Ideascale](https://cardano.ideascale.com/c/idea/383517) - Stephen
 > Survey, report & facilitate retrospectives to improve our governance processes.
