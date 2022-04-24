@@ -14,12 +14,6 @@ description: >
 Summary details are provided as follows : Fund, Proposal Name (Proposal Link), Fund Challenge (About Link), Status (Completed/In Progress), Resources (Vanessa, Stephen etc.) and Budget. 
 
 ## Fund 7
-### Catalyst Swarm 2022 GitBook 
-- [Ideascale](https://cardano.ideascale.com/c/idea/382330)- Stephen
-> Resource the documentation & tracking of Project Catalyst.  Communicate the content of the Catalyst 2022 GitBook to the community.
-- **Challenge :** [F7: Community Events](https://cardano.ideascale.com/c/campaigns/26234/about)
-- *Funded* - Stephen Whitenstall (QADAO) - in colloboration with SWARM - Budget $ 4350
-- **Documentation :** https://catalyst-swarm.gitbook.io/catalyst-swarm-2022/
 ### Catalyst-Coordinator Hub 
 - [Ideascale](https://cardano.ideascale.com/c/idea/382324) - Stephen
 > Implement a collaborative layer, a community hub, to welcome funded proposers to Catalyst and provide support.
