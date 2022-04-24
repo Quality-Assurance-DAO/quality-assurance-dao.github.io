@@ -14,32 +14,6 @@ description: >
 Summary details are provided as follows : Fund, Proposal Name (Proposal Link), Fund Challenge (About Link), Status (Completed/In Progress), Resources (Vanessa, Stephen etc.) and Budget. 
 
 ## Fund 5
-### Quality-Assurance-DAO
-- [Ideascale](https://cardano.ideascale.com/c/idea/351678) - Stephen
-> Innovative approach to open source. Reform PM to distributed peer facilitation.Adapt maturity standards to distributed organizations.
-- **Challenge :** [F5: Developer ecosystem](https://cardano.ideascale.com/c/campaigns/25939/about)
-- **Completed** - Stephen Whitenstall (QADAO) - Budget $ 5
-## Fund 6
-### Catalyst-Swarm-Genesis GitBook
-- [Ideascale](https://cardano.ideascale.com/c/idea/369556) - Stephen
-> Resource the documentation & tracking of the Catalyst-Swarm Genesis GitBook. Communicate the content of the Catalyst-Swarm Genesis GitBook.
-- **Challenge :**  [F6: Catalyst value onboarding](https://cardano.ideascale.com/c/campaigns/26106/about)
--  **Completed** – Closing video pending – Stephen Whitenstall (QADAO) & SWARM - Budget $ 3480
-- **Documentation :**  https://catalyst-swarm.gitbook.io/catalyst-swarm-genesis/
-### Oversight of Catalyst Circle
-- [Ideascale](https://cardano.ideascale.com/c/idea/370088)  - Stephen & Vanessa
-> Provide independent oversight of Catalyst Circle. Resource an active site that documents & tracks the activities of the Catalyst Circle
-- **Challenge :** [F6: Distributed decision making](https://cardano.ideascale.com/c/campaigns/26104/about)
-- *In Progress* - Vanessa Cardui (QADAO) - Budget $ 7440
-- **Documentation :** https://catalyst-swarm.gitbook.io/catalyst-circle/
-- **Documentation :** https://quality-assurance-dao.gitbook.io/catalyst-circle-oversight-v2/
-- **Documentation :** https://quality-assurance-dao.gitbook.io/catalyst-circle-oversight-v3/
-###  Open Source Training
-- [Ideascale](https://cardano.ideascale.com/c/idea/368678) - Stephen
-> Open-source training materials for Entrepreneurship-Toolbox. Workshops explaining open-source infrastructure to early stage entrepreneurs.
-- **Challenge :** [F6: DLT Entrepreneurship Toolbox](https://cardano.ideascale.com/c/campaigns/26113/about) 
-- *In Progress* - Stephen Whitenstall (QADAO) & Catalyst School - Budget $ 8720 
-- **Documentation :** https://quality-assurance-dao.gitbook.io/training-and-automation/
 ### Distributed Auditability
 - [Ideascale](https://cardano.ideascale.com/c/idea/366707) - Stephen
 > Identify common community standards. Build consistent evaluation tools. Automate funded proposal reporting.
