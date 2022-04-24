@@ -14,11 +14,6 @@ description: >
 Summary details are provided as follows : Fund, Proposal Name (Proposal Link), Fund Challenge (About Link), Status (Completed/In Progress), Resources (Vanessa, Stephen etc.) and Budget. 
 
 ## Fund 8 - Submitted
-### Funded Proposer Sub-Circle
-- [Ideascale](https://cardano.ideascale.com/c/idea/398211) - Stephen & Vanessa
-> Implement a collaborative layer, a community hub, to welcome funded proposers to Catalyst and provide support.
-- **Challenge :** [F8: Scale-UP Cardano's Community Hubs](https://cardano.ideascale.com/c/campaigns/26439/about)
-- **Documentation :** https://catalyst-circle.gitbook.io/catalyst-coordinator/
 ### ABC of Governance
 - [Ideascale](https://cardano.ideascale.com/c/idea/398140) - Stephen
 > Provide governance training and research materials to the Cardano community.
