@@ -14,11 +14,6 @@ description: >
 Summary details are provided as follows : Fund, Proposal Name (Proposal Link), Fund Challenge (About Link), Status (Completed/In Progress), Resources (Vanessa, Stephen etc.) and Budget. 
 
 ## Fund 7
-### F7 Catalyst Audit Circle
-- [Ideascale](https://cardano.ideascale.com/c/idea/381354)  - Stephen
-> Establish a Catalyst auditing circle to guide improvements needed to maximise each funding rounds return on intention.
-- **Challenge :** [F7: Improve and Grow Auditability](https://cardano.ideascale.com/c/campaigns/26253/about)
-- *Funded* - Stephen Whitenstall (QADAO) - Proposal owner in colloboration with Audit Community & liason with IOG - Budget $ 12700
 ### Catalyst Swarm 2022 GitBook 
 - [Ideascale](https://cardano.ideascale.com/c/idea/382330)- Stephen
 > Resource the documentation & tracking of Project Catalyst.  Communicate the content of the Catalyst 2022 GitBook to the community.
