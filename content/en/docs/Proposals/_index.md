@@ -14,11 +14,6 @@ description: >
 Summary details are provided as follows : Fund, Proposal Name (Proposal Link), Fund Challenge (About Link), Status (Completed/In Progress), Resources (Vanessa, Stephen etc.) and Budget. 
 
 ## Fund 8 - Submitted
-### ABC of Governance
-- [Ideascale](https://cardano.ideascale.com/c/idea/398140) - Stephen
-> Provide governance training and research materials to the Cardano community.
-- **Challenge :** [F8: Miscellaneous Challenge](https://cardano.ideascale.com/c/campaigns/26441/about)
-- **Documentation :** https://quality-assurance-dao.gitbook.io/ekphrasis/
 ### Automate, Educate, Communicate
 - [Ideascale](https://cardano.ideascale.com/c/idea/398131) - Stephen
 > Build and document automation tools, provide open source training & communicate what open source in Cardano entails.
