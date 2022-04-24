@@ -14,11 +14,6 @@ description: >
 Summary details are provided as follows : Fund, Proposal Name (Proposal Link), Fund Challenge (About Link), Status (Completed/In Progress), Resources (Vanessa, Stephen etc.) and Budget. 
 
 ## Fund 8 - Submitted
-### Automate, Educate, Communicate
-- [Ideascale](https://cardano.ideascale.com/c/idea/398131) - Stephen
-> Build and document automation tools, provide open source training & communicate what open source in Cardano entails.
-- **Challenge :** [F8: Open Source Development Ecosystem](https://cardano.ideascale.com/c/campaigns/26434/about)
-- **Documentation :** https://quality-assurance-dao.gitbook.io/training-and-automation/
 ### Liverpool Cardano Philosophy Hub
 - [Ideascale](https://cardano.ideascale.com/c/idea/402601) - Vanessa & Stephen
 > Work with an established UK community philosophy network, to build a philosophy-based Hub and develop philosophy discussion within Catalyst.
