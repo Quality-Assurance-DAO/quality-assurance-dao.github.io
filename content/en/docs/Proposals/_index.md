@@ -14,12 +14,6 @@ description: >
 Summary details are provided as follows : Fund, Proposal Name (Proposal Link), Fund Challenge (About Link), Status (Completed/In Progress), Resources (Vanessa, Stephen etc.) and Budget. 
 
 ## Fund 7
-### Catalyst-Coordinator Hub 
-- [Ideascale](https://cardano.ideascale.com/c/idea/382324) - Stephen
-> Implement a collaborative layer, a community hub, to welcome funded proposers to Catalyst and provide support.
-- **Challenge :** [F7: Scale-UP Cardano's Community Hubs](https://cardano.ideascale.com/c/campaigns/26244/about)
-- *Funded* - Stephen Whitenstall (QADAO) - in colloboration with Circle - Budget $ 4350
-- **Documentation :** https://quality-assurance-dao.gitbook.io/catalyst-coordinator/
 ### Ekphrasis Gitbook 
 - [Ideascale](https://cardano.ideascale.com/c/idea/382334)- Stephen
 > Resource the documentation of philosophical debate and discussion around Cardano.
