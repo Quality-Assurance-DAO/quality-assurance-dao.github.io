@@ -9,7 +9,7 @@ categories:
 tags:
 - Funded Cohort
 description: >
-**Completed** - Resource the documentation & tracking of the Catalyst-Swarm Genesis GitBook. Communicate the content of the Catalyst-Swarm Genesis GitBook. Budget $ 3480
+Completed - Resource the documentation & tracking of the Catalyst-Swarm Genesis GitBook. Communicate the content of the Catalyst-Swarm Genesis GitBook. Budget $ 3480
 ---
 
 
