@@ -18,6 +18,8 @@ description: >
 > Examples include: permissionless, decentralized, distributed, delegated voting, etc .
 >
 > **Click Agree, Disagree or Pass. Then add your own perspective.**
+>
+> Please note that suggestions are moderated.
 
 
 <div class='polis' data-conversation_id='6zwkermm8d'></div>
