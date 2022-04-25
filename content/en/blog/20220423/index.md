@@ -14,7 +14,10 @@ tags:
 
 A governance that has a constitution is a centralised governance. Decentralised governance is discovered (in many different forms) not drafted. 
 
-## Universalism
+- [Asset-based community development](https://en.wikipedia.org/wiki/Asset-based_community_development)
+- [Capability approach](https://en.wikipedia.org/wiki/Capability_approach#Measurement_of_capabilities)
+
+## Universalism versus pluralism
 
 Many of the elements being discussed in governance are prescriptive requirements for participation. I also detect a presumption of an immutable basis. For example, universal values. This is from a particular constitutional tradition that historically has sought to determine global values and often export them.
 
