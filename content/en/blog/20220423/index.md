@@ -37,3 +37,5 @@ Because governance is human it is always flawed, partial, local, and contingent.
 
 So, no founders, no middlemen who listen, no expectations, no values, no visions, no mission, no alignments.
 Just persons unknown. Where is the space for them?
+
+> Fallibilism is a key element in innovation. An iterative approach to governance takes steps of "[*Proofs and Refutations*](https://en.wikipedia.org/wiki/Proofs_and_Refutations)" (Imre Lakatos) or "*Conjectures and Refutations*"([Karl Popper](https://en.wikipedia.org/wiki/Karl_Popper)). As Matt Ridley notes in "*How Innovation Works: And Why It Flourishes in Freedom*" (2020) innovation is a gradual, different from invention, often serendiptious, recombinant, involves trail and error and prefers fragmented governance (Chapter 8 - Innovation's essentials).    
