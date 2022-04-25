@@ -38,8 +38,14 @@ Because governance is human it is always flawed, partial, local, and contingent.
 So, no founders, no middlemen who listen, no expectations, no values, no visions, no mission, no alignments.
 Just persons unknown. Where is the space for them?
 
-> Fallibilism is a key element in innovation. An iterative approach to governance takes steps of "[*Proofs and Refutations*](https://en.wikipedia.org/wiki/Proofs_and_Refutations)" (Imre Lakatos) or "*Conjectures and Refutations*"([Karl Popper](https://en.wikipedia.org/wiki/Karl_Popper)). As Matt Ridley notes in "*How Innovation Works: And Why It Flourishes in Freedom*" (2020) innovation is a gradual, different from invention, often serendiptious, recombinant, involves trail and error and prefers fragmented governance (Chapter 8 - Innovation's essentials).    
+> Fallibilism is a key element in innovation. An iterative approach to governance takes steps of "[*Proofs and Refutations*](https://en.wikipedia.org/wiki/Proofs_and_Refutations)" (Imre Lakatos) or "*Conjectures and Refutations*"([Karl Popper](https://en.wikipedia.org/wiki/Karl_Popper)). As Matt Ridley notes in "*How Innovation Works: And Why It Flourishes in Freedom*" (2020) innovation is gradual, different from invention, often serendiptious, recombinant, involves trail and error and prefers fragmented governance (Chapter 8 - Innovation's essentials).    
 
 ## Composability
 
-> "Composability is the general possibility that allows the components of a system to be recombined into larger structures and for the output of one component to be the input of another." - Emurgo, [Why Composability is a Secret Weapon for Web3 dApps](https://education.emurgo.io/blog/emurgo-academy-why-composability-is-a-secret-weapon-for-web3-dapps-course-info)
+> "Composability is the general possibility that allows the components of a system to be recombined into larger structures and for the output of one component to be the input of another." - Emurgo, [Why Composability is a Secret Weapon for Web3 dApps](https://education.emurgo.io/blog/emurgo-academy-why-composability-is-a-secret-weapon-for-web3-dapps-course-info).
+A blockchain can provide centralised or decentralised governance, permissioned or permissionless, homogeneous or heterogenic.
+- A centralised governance approach such as a constitution is oriented to fundamental principles that vest sovereignty in organisations. The founding principles resist being dislodged from their foundation, have a low fault tolerance and resist being recombined. 
+- A decentralised governance approach is recombinant. There are no founding principles, a high fault tolerance and an orientation towards a composable governance toolkit.
+
+
+
