@@ -47,5 +47,7 @@ A blockchain can provide centralised or decentralised governance, permissioned o
 - A centralised governance approach such as a constitution is oriented to fundamental principles that vest sovereignty in organisations. The founding principles resist being dislodged from their foundation, have a low fault tolerance and resist being recombined. 
 - A decentralised governance approach is recombinant. There are no founding principles, a high fault tolerance and an orientation towards a composable governance toolkit.
 
+## Intention
 
+> What is the intent behind a consitution, a mantifesto or any set of common values ? How is the current state and the expected or envisioned state being framed ?
 
