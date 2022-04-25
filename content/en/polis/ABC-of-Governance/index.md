@@ -12,7 +12,9 @@ description: >
 ## The conversation
 
 > Participate in a conversation about specific words and concepts that regularly circulate in Cardano and Project Catalyst.
+> 
 > Help resolve ambiguities of meaning. [Support our ABC of Governance Fund 8 proposal](https://cardano.ideascale.com/c/idea/398140).
+> 
 > Examples include: permissionless, decentralized, distributed, delegated voting, etc .
 
 
