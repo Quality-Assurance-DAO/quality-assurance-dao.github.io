@@ -10,7 +10,11 @@ tags:
 - Decentralisation
 ---
 
+## Decentralised governance is discovered
+
 A governance that has a constitution is a centralised governance. Decentralised governance is discovered (in many different forms) not drafted. 
+
+## Universalism
 
 Many of the elements being discussed in governance are prescriptive requirements for participation. I also detect a presumption of an immutable basis. For example, universal values. This is from a particular constitutional tradition that historically has sought to determine global values and often export them.
 
