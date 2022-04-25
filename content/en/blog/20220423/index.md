@@ -39,3 +39,7 @@ So, no founders, no middlemen who listen, no expectations, no values, no visions
 Just persons unknown. Where is the space for them?
 
 > Fallibilism is a key element in innovation. An iterative approach to governance takes steps of "[*Proofs and Refutations*](https://en.wikipedia.org/wiki/Proofs_and_Refutations)" (Imre Lakatos) or "*Conjectures and Refutations*"([Karl Popper](https://en.wikipedia.org/wiki/Karl_Popper)). As Matt Ridley notes in "*How Innovation Works: And Why It Flourishes in Freedom*" (2020) innovation is a gradual, different from invention, often serendiptious, recombinant, involves trail and error and prefers fragmented governance (Chapter 8 - Innovation's essentials).    
+
+## Composability
+
+> "Composability is the general possibility that allows the components of a system to be recombined into larger structures and for the output of one component to be the input of another." - Emurgo, [Why Composability is a Secret Weapon for Web3 dApps](https://education.emurgo.io/blog/emurgo-academy-why-composability-is-a-secret-weapon-for-web3-dapps-course-info)
