@@ -25,6 +25,8 @@ Many of the elements being discussed in governance are prescriptive requirements
 
 When common values become sovereign the individual loses their sovereignty. They then become subservient to a common will. 
 
+> "The language of reason on this subject is, “Give us equality and justice, but no constitution. Suffer us to follow without restraint the dictates of our own judgment, and to change our forms of social order as fast as we improve in understanding and knowledge.” - William Godwin, Of Constitutions, [Enquiry Concerning Political Justice](https://en.wikipedia.org/wiki/Enquiry_Concerning_Political_Justice)
+
 ## Pax Romana
 
 Some have called this imperialism in the past. The world I live in is pluralistic and lacks consistency. The problem is not with any lack in this – but the insistence of centralising tendencies to regulate such behaviour. 
