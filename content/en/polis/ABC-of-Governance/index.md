@@ -16,6 +16,8 @@ description: >
 > Help resolve ambiguities of meaning. [Support our ABC of Governance Fund 8 proposal](https://cardano.ideascale.com/c/idea/398140).
 > 
 > Examples include: permissionless, decentralized, distributed, delegated voting, etc .
+>
+> **Click Agree, Disagree or Pass. Then add your own perspective.**
 
 
 <div class='polis' data-conversation_id='6zwkermm8d'></div>
