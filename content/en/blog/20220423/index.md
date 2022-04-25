@@ -12,10 +12,19 @@ tags:
 
 A governance that has a constitution is a centralised governance. Decentralised governance is discovered (in many different forms) not drafted. 
 
-Many of the elements being discussed here are prescriptive requirements for participation. I also detect a presumption of an immutable basis. For example, universal values. This is from a particular constitutional tradition that historically has sought to determine global values and often export them.
+Many of the elements being discussed in governance are prescriptive requirements for participation. I also detect a presumption of an immutable basis. For example, universal values. This is from a particular constitutional tradition that historically has sought to determine global values and often export them.
+
+## Rousseau's The Social Contract
+
 When common values become sovereign the individual loses their sovereignty. They then become subservient to a common will. 
 
-Some have called this imperialism in the past. The world I live in is pluralistic and lacks consistency. The problem is not with any lack in this – but the insistence of centralising tendencies to regulate such behaviour. Because governance is human it is always flawed, partial, local, and contingent. Decentralised governance is proportional to these human qualities and does not try to perfect human nature in common ideals.
+## Pax Romana
+
+Some have called this imperialism in the past. The world I live in is pluralistic and lacks consistency. The problem is not with any lack in this – but the insistence of centralising tendencies to regulate such behaviour. 
+
+## Fallibilism
+
+Because governance is human it is always flawed, partial, local, and contingent. Decentralised governance is proportional to these human qualities and does not try to perfect human nature in common ideals.
 
 So, no founders, no middlemen who listen, no expectations, no values, no visions, no mission, no alignments.
 Just persons unknown. Where is the space for them?
