@@ -44,8 +44,8 @@ Just persons unknown. Where is the space for them?
 
 > "Composability is the general possibility that allows the components of a system to be recombined into larger structures and for the output of one component to be the input of another." - Emurgo, [Why Composability is a Secret Weapon for Web3 dApps](https://education.emurgo.io/blog/emurgo-academy-why-composability-is-a-secret-weapon-for-web3-dapps-course-info).
 A blockchain can provide centralised or decentralised governance, permissioned or permissionless, homogeneous or heterogenic. ([Decentralisation in Blockchain](https://aws.amazon.com/blockchain/decentralization-in-blockchain/)).
-- A centralised governance approach such as a constitution is oriented to fundamental principles that vest sovereignty in organisations. The founding principles resist being dislodged from their foundation, have a low fault tolerance and resist being recombined. 
-- A decentralised governance approach is recombinant. There are no founding principles, a high fault tolerance and an orientation towards a composable governance toolkit.
+- **Government as invention** - A centralised governance approach such as a constitution is oriented to fundamental principles that vest sovereignty in organisations. The founding principles resist being dislodged from their foundation, have a low fault tolerance and resist being recombined. 
+- **Government as gradual innovation** - A decentralised governance approach is recombinant. There are no founding principles, a high fault tolerance and an orientation towards a composable governance toolkit.
 
 ## Intention
 
