@@ -14,7 +14,8 @@ tags:
 
 A governance that has a constitution is a centralised governance. Decentralised governance is discovered (in many different forms) not drafted. 
 
-- [Asset-based community development](https://en.wikipedia.org/wiki/Asset-based_community_development)
+Some alternatives include :
+- [Asset-based community development](https://en.wikipedia.org/wiki/Asset-based_community_development) highlighted by Vanessa Cardui [here](https://quality-assurance-dao.github.io/blog/2021/10/16/reporting-distributed-community-projects/#asset-based-community-development-abcd).
 - [Capability approach](https://en.wikipedia.org/wiki/Capability_approach#Measurement_of_capabilities)
 
 ## Universalism versus pluralism
