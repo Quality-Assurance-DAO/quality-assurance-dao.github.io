@@ -50,6 +50,7 @@ A blockchain can provide centralised or decentralised governance, permissioned o
 ## Intention
 
 > What is the intent behind a consitution, a mantifesto or any set of common values ? How is the current state and the expected or envisioned state being framed ? What motivates a particular group to pursue a consitution ?
+> Are we designers or legislators ?
 
 - Designers - an approach to governance that builds a toolkit to enable decentralisation.
 - Legislators - the drafting of laws, visions, missions and values. 
