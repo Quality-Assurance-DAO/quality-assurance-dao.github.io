@@ -54,5 +54,9 @@ A blockchain can provide centralised or decentralised governance, permissioned o
 - Designers - an approach to governance that builds a toolkit to enable decentralisation.
 - Legislators - the drafting of laws, visions, missions and values. 
 
+## Conclusion
 
+I guess where I am coming from is "Whose community?". What is the intent behind drafting a constitution? To me it feels like building a particular government not building governance tools. 
 
+If you start to define common values, you begin to consolidate your community. This may feel good - but it then just becomes one community defined by a constitution. 
+Already the possibility of governance is made conditional to those who are not present. I would like to explore the intent of building governance tools. A governance toolkit. Which many different communities may choose to use or abuse.
