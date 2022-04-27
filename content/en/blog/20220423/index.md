@@ -16,7 +16,7 @@ A governance that has a constitution is a centralised governance. Decentralised 
 
 Some alternatives include :
 - [Asset-based community development](https://en.wikipedia.org/wiki/Asset-based_community_development) highlighted by Vanessa Cardui [here](https://quality-assurance-dao.github.io/blog/2021/10/16/reporting-distributed-community-projects/#asset-based-community-development-abcd).
-- Amartya Sen's take on [Social Choice Theory](https://en.wikipedia.org/wiki/Social_choice_theory#Interpersonal_utility_comparison) may extend blockchain goverance to include interpersonal utility. 
+- Amartya Sen's take on [Social Choice Theory](https://en.wikipedia.org/wiki/Social_choice_theory#Interpersonal_utility_comparison) may extend blockchain governance to include interpersonal utility. 
 
 ## Universalism versus pluralism
 
