@@ -63,3 +63,16 @@ I guess where I am coming from is "Whose community?". What is the intent behind 
 
 If you start to define common values, you begin to consolidate your community. This may feel good - but it then just becomes one community defined by a constitution. 
 Already the possibility of governance is made conditional to those who are not present. I would like to explore the intent of building governance tools. A governance toolkit. Which many different communities may choose to use or abuse.
+
+## Addendum
+
+It is tempting to fall into the weeds by insisting on Blockchain Governance Principles such as decentralization. In practice how we implement governance on a blockchain is more flexible. Even at the "Social Choice Theory" parameter level that Aggelos Kiayias & Philip Lazos recently outlined there is scope to include broader interpersonal utility through Amartya Sen’s approach.
+
+Since Fund 5 and lessons I learnt from NFTDAO – I have wrestled with the tension between contribution and value. And I have tended to the view that contribution should always come first to avoid being led or determined by a premature or prescriptive notion of value. But tracking contribution is hard and often appears intrusive to participants.
+
+The pain of tracking contribution can be ameliorated by wrapping it in a token. But this leads us back to a value proposition. So, I now recognise that contribution & value may be necessarily linked in blockchain solutions. A token granted to represent a contribution (e.g., work done, a vote submitted etc) seems to lack meaning if it is not linked to a value (e.g., payments, incentives, roles).
+
+But the story does not end here. As you have pointed out there is a kind of iterative process going on with value propositions. It is linked with factors such as trust, sustainability etc. 
+
+And above all, in my view, culture. In a recent conversation with someone doing Phd research into social dynamics in the Cardano ecosystem we observed that different cultures clustered around different payment models (e.g., SPO culture, CA culture, Funded Proposer culture). These cultures differ according to how the relationship between contribution and value is configured (e.g., SPO delegation, CA crowdsourced incentives, Funded Proposer waterfall life cycles).  
+
