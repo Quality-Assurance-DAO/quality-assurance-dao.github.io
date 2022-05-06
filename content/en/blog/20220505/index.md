@@ -21,5 +21,8 @@ This approach to proposal assessment was showcased in a Catalyst Town Hall of 6t
 > Project Catalyst Fund3: Kick off town hall and Q&A #1 - January 2021
 > https://www.youtube.com/watch?v=GjPhxXDFv58&t
 
+> "In less than half a year, Project Catalyst has grown to become the world’s largest decentralized autonomous organization (DAO)."
+> Source - "[Our million-dollar baby: Project Catalyst](https://iohk.io/en/blog/posts/2021/02/12/our-million-dollar-baby-project-catalyst/)"
+
 
 
