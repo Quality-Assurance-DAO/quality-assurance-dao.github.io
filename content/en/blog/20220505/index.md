@@ -28,4 +28,7 @@ This approach to proposal assessment was showcased in a Catalyst Town Hall of 6t
 > "Fund6 features new significant upgrades to the Catalyst infrastructure including changes to reward incentives and a significant upgrade to the overall voting experience in the application. This makes it more equitable and attractive for community advisors as well as veteran community advisors to help assess the quality of proposals." - [Project Catalyst Fund6 – our biggest, boldest & best Cardano community innovation fund yet](https://iohk.io/en/blog/posts/2021/08/13/project-catalyst-fund-6-our-biggest-boldest-and-best-cardano-community-innovation-fund-yet/)
 
 
+> "There are many ways to get involved with Project Catalyst. As an innovator, voter, commenter, proposal reviewer, or even a mentor." - [Project Catalyst, Cardano’s innovation engine, launches Fund8!](https://iohk.io/en/blog/posts/2022/03/02/project-catalyst-cardano-s-innovation-engine-launches-fund8/)
+
+
 
