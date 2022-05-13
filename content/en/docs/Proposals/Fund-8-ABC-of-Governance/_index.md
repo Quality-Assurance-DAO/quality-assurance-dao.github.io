@@ -7,7 +7,7 @@ icon: fa fa-book
 categories:
 - Proposals
 description: >
- Submitted. Provide governance training and research materials to the Cardano community. Budget $ 10135
+ Funded. Provide governance training and research materials to the Cardano community. Budget $ 10135
 ---
 
 - [Ideascale](https://cardano.ideascale.com/c/idea/398140) - Stephen
