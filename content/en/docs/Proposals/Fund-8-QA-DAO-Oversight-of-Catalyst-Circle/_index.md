@@ -7,7 +7,7 @@ icon: fa fa-book
 categories:
 - Proposals
 description: >
- Submitted. Provide independent oversight of Catalyst Circle. Resource the Circle GitBooks to document & track the activities of Circle v4 and v5. Budget $ 16143
+ Funded. Provide independent oversight of Catalyst Circle. Resource the Circle GitBooks to document & track the activities of Circle v4 and v5. Budget $ 16143
 ---
 
 - [Ideascale](https://cardano.ideascale.com/c/idea/399108) - Vanessa
