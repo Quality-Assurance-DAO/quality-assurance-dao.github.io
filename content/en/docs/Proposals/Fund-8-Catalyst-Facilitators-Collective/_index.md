@@ -7,7 +7,7 @@ icon: fa fa-book
 categories:
 - Proposals
 description: >
- Submitted. Deliver facilitation skills training via Catalyst School; build an ongoing facilitators’ community to champion good facilitation skills. Budget $ 29540
+ Funded. Deliver facilitation skills training via Catalyst School; build an ongoing facilitators’ community to champion good facilitation skills. Budget $ 29540
 ---
 
 - [Ideascale](https://cardano.ideascale.com/c/idea/403681) - Vanessa
