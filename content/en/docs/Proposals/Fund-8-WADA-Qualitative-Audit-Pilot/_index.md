@@ -7,7 +7,7 @@ icon: fa fa-book
 categories:
 - Proposals
 description: >
- Submitted. Develop a new audit & documentation methodology which incorporates vital qualitative information. Pilot it with key WADA funded proposals. Budget $ 26000
+ Funded. Develop a new audit & documentation methodology which incorporates vital qualitative information. Pilot it with key WADA funded proposals. Budget $ 26000
 ---
 
 - [Ideascale](https://cardano.ideascale.com/c/idea/402487) - Vanessa
