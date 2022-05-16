@@ -7,7 +7,7 @@ icon: fa fa-book
 categories:
 - Proposals
 description: >
- Submitted. Implement a collaborative layer, a community hub, to welcome funded proposers to Catalyst and provide support. Budget $ 14215
+ Funded. Implement a collaborative layer, a community hub, to welcome funded proposers to Catalyst and provide support. Budget $ 14215
 ---
 
 - [Ideascale](https://cardano.ideascale.com/c/idea/398211) - Stephen & Vanessa
