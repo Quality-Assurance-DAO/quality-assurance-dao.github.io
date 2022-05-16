@@ -7,7 +7,7 @@ icon: fa fa-book
 categories:
 - Proposals
 description: >
- Submitted. Build and document automation tools, provide open source training & communicate what open source in Cardano entails. Budget $ 9750
+ Funded. Build and document automation tools, provide open source training & communicate what open source in Cardano entails. Budget $ 9750
 ---
 
 - [Ideascale](https://cardano.ideascale.com/c/idea/398131) - Stephen
