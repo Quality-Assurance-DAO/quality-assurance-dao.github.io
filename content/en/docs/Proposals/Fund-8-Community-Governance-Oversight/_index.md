@@ -7,7 +7,7 @@ icon: fa fa-book
 categories:
 - Proposals
 description: >
- Submitted. Survey, report & facilitate retrospectives to improve our governance processes. Budget $ 34300
+ Funded. Survey, report & facilitate retrospectives to improve our governance processes. Budget $ 34300
 ---
 
 - [Ideascale](https://cardano.ideascale.com/c/idea/398225)  - Stephen
