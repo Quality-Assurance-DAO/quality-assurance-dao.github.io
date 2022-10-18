@@ -18,21 +18,22 @@ Cardano with its emphasis on original research and long-term continuous innovati
 
 ## Value and impact 
 
-Ring fencing innovation. The “value proposition” cliche of marketing.
+> Ring fencing innovation. The “value proposition” cliche of marketing.
 
 A project’s mission and vision in itself does not represent original thought.
 Conflating your mission statement with thought leadership is a sure way to aggrandise yourself and diminish how seriously your actual thought is received. It is also a proprietary maneuver which signals a lack of sympathy to or understanding of open source collaboration.
 
 ## Establishing your mission and vision
 
-The “establish authority” cliche of marketing.
+> The “establish authority” cliche of marketing.
 
 Establishing your mission and vision in the context of thought leadership is premature. It ring fences any original thought you have and presents this static example as dynamic. Concentrating on this creates a serious risk that you will be distracted away from the ongoing activity of thought and engagement with other thinkers for the sake of marketing.
 
 Packaging yourself as a thought leader can diminish your IP by treating thoughts as products. Because you advertise to the world your limited viewpoint. From thought leader to loss leader.
 
 ## Communicating your story and point of view
-You, you and you. The sympathetic “backstory” cliche of marketing.
+
+> You, you and you. The sympathetic “backstory” cliche of marketing.
 
 Communicating your story and point of view is about you. It's nothing to do with original thought. 
 The story of a thought leader is a mythic process intended to draw customers in 
