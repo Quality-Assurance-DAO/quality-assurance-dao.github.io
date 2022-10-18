@@ -2,7 +2,7 @@
 date: 2022-10-18
 title: "The narcissism of thought leadership"
 linkTitle: "The narcissism of thought leadership"
-description: "The narcissism of thought leadership"
+description: "The narcissism of thought leadership - an alternative view."
 author: Stephen Whitenstall
 categories:
 - Governance
