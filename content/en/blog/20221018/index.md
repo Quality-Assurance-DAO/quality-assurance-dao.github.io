@@ -10,7 +10,7 @@ tags:
 - Narcissism
 ---
 
-{{< imgproc Narcissus Fill "433x455" >}} Narcissus {{< /imgproc >}}
+{{< imgproc Narcissus Fill "433x455" >}} Narcissus at the Source, 1597-1599. Galleria Nazionale d'Arte Antica, Rome {{< /imgproc >}}
 
 ## The narcissism of thought leadership
 
