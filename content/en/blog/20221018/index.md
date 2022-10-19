@@ -10,6 +10,8 @@ tags:
 - Narcissism
 ---
 
+{{< imgproc Narcissus Fill "433x455" >}} Narcissus {{< /imgproc >}}
+
 ## The narcissism of thought leadership
 
 The blockchain and crypto world has always been dominated by marketing.  As the promise of the technology precedes its delivery there is a tendency to invest in the message and hope that this pays off in reality.
