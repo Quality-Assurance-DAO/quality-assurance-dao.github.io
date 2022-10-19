@@ -34,7 +34,9 @@ This runs counter to collaborative thinking which invites participants not follo
 
 Establishing your mission and vision in the context of thought leadership is premature. It ring fences any original thought you have and presents this static example as dynamic. Concentrating on this creates a serious risk that you will be distracted away from the ongoing activity of thought and engagement with other thinkers for the sake of marketing.
 
-Packaging yourself as a thought leader can diminish your IP by treating thoughts as products. Because you advertise to the world your limited viewpoint. From thought leader to loss leader.
+Packaging yourself as a thought leader can diminish your Intellectual Property by treating thoughts as products. Because you advertise to the world your limited viewpoint. From thought leader to loss leader.
+
+In the blockchain context your mission and vision maps out your limited terrority. Your central location. Your unique, discrete proposition. Innovation, original thought, collaboration only happen outside these limits. When boundaries are crossed and propositions are contingent and iterative.
 
 ## Communicating your story and point of view
 
