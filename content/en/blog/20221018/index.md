@@ -55,7 +55,7 @@ Thought leadership seeks followers not thinkers. This kind of approach will narr
 
 The Thought leader will always seek growth on their own terms. It is the growth of their business product that they are primarily concerned with after all. And engagement will follow in terms of the discrete, static packaging of their product. All that grows is the product’s market share and this is finite and discontinuous.
 
-Thinkers seek other thinkers in order to grow through the permutations of thought. It is engagement with and development of the subject that matters not the possession of a particular viewpoint. 
+Actual thinkers seek other thinkers in order to grow through the permutations of thought. It is engagement with and development of the subject that matters not the possession of a particular viewpoint. 
 
 ## Semantic Shift
 
