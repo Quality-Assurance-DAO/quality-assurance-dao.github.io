@@ -51,3 +51,5 @@ Thinkers seek other thinkers in order to grow through the permutations of though
 
 
 ## Semantic Shift
+
+References on how crypto culture shifts the meaning of terms to be inserted here
