@@ -58,6 +58,8 @@ The Thought leader will always seek growth on their own terms. It is the growth 
 
 Actual thinkers seek other thinkers in order to grow through the permutations of thought. It is engagement with and development of the subject that matters not the possession of a particular viewpoint. If a particular endeavor is dominated by a single personality, a thought leader, this is a red flag for centralized and homogenous thinking. 
 
+This are just initial thoughts and I will be adding further material on ...
+
 ## Semantic Shift
 
 References on how crypto culture shifts the meaning of terms to be inserted here
