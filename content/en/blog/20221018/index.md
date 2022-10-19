@@ -25,8 +25,7 @@ Cardano with its emphasis on original research and long-term continuous innovati
 A project’s mission and vision in itself does not represent original thought.
 Conflating your mission statement with thought leadership is a sure way to aggrandise yourself and diminish how seriously your actual thought is received. It signals an intention to possess your thoughts as an emblem of your product so others can follow. 
 
-This runs counter to collaborative thinking which invites participants not followers. The proprietary maneuver of thought leadership demonstrates a lack of sympathy to or understanding of open source collaboration.
-
+This runs counter to collaborative thinking which invites participants not followers. The proprietary maneuver of thought leadership demonstrates a lack of sympathy to or understanding of open source collaboration. Community partnerships are likely to be frustrated by the prescriptive approach of a corporate culture of thought leadership that expects to be followed.
 
 ## Establishing your mission and vision
 
