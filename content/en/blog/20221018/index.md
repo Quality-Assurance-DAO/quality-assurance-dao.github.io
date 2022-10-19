@@ -14,7 +14,7 @@ tags:
 
 The blockchain and crypto world has always been dominated by marketing.  As the promise of the technology precedes its delivery there is a tendency to invest in the message and hope that this pays off in reality.
 
-Cardano with its emphasis on original research and long-term continuous innovation has always represented something of an exception to hype. A rapprochement between the two cultures of crypto and open source is mooted. But the need to struggle for attention in the marketing metaverse always brings a risk that the balance between hype and reality swings back to hype.
+Cardano with its emphasis on original research and long-term continuous innovation has always represented something of an exception to this hype. And a  rapprochement between the two cultures of crypto and open source is mooted. But the need to struggle for attention in the marketing metaverse always brings a risk that the balance between hype and reality swings back to hype.
 
 ## Value and impact 
 
