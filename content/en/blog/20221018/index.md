@@ -43,7 +43,7 @@ Packaging yourself as a thought leader can diminish your IP by treating thoughts
 Communicating your story and point of view is about you. It's nothing to do with original thought. 
 The story of a thought leader is a mythic process intended to elicit sympathy and identification. To draw customers in. This is a passive process where customers follow the lead. The sympathetic backstory presents a desirable biography. This sidetracks the pursuit of thinking, shutting down free enquiry in favor of the banality of the leader’s profile. 
 
-A collaborative story on the other hand is an ongoing narrative where no particular biography is foregrounded.   
+A collaborative story on the other hand is an ongoing narrative where no particular biography is foregrounded. Where participants are not led but rather engage in the activity of thinking.
 
 ## Capturing the right audience
 
