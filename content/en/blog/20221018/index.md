@@ -47,10 +47,15 @@ A collaborative story on the other hand is an ongoing narrative where no particu
 
 ## Capturing the right audience
 
+If you seek to only connect with the “right” audiences then you will cut yourself off from the “wrong” differences and counterpoints that encourage original thinking in the first place. 
+
+Thought leadership seeks followers not thinkers. This kind of approach will narrow your market segment to target your thought product at the right audience. Your thought product will gain short-term profile at the expense of the long-term sustainability of collaborative thinking.
+
+## Growth and engagement
+
 The Thought leader will always seek growth on their own terms. It is the growth of their business product that they are primarily concerned with after all. And engagement will follow in terms of the discrete, static packaging of their product. All that grows is the product’s market share and this is finite and discontinuous.
 
 Thinkers seek other thinkers in order to grow through the permutations of thought. It is engagement with and development of the subject that matters not the possession of a particular viewpoint. 
-
 
 ## Semantic Shift
 
