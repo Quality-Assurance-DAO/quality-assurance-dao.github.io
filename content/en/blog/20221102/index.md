@@ -30,4 +30,4 @@ Favorable conditions include -
 
 ## The MBO is it is not decentralization
 
-Whatever the MBO is, it is not decentralization. It is s something else using that language as window dressing.
+Whatever the MBO is, it is not decentralization. It is something else using that language as window dressing.
