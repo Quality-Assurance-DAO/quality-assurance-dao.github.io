@@ -10,7 +10,7 @@ tags:
 - Decentralization
 ---
 
-{{< imgproc Narcissus Fill "433x455" >}} Narcissus at the Source, 1597-1599. Galleria Nazionale d'Arte Antica, Rome {{< /imgproc >}}
+{{< imgproc Shadow Fill "433x455" >}} Shadow cast by a hand {{< /imgproc >}}
 
 ## Decentralized governance will never look like centralized governance
 
