@@ -22,11 +22,11 @@ All that can be done is create favorable conditions for decentralized nodes to e
 
 Favorable conditions include -
 
-Minimalism - no complicated systems, processes or organizations seeking to design everything. Instead the governance node is very specfic, fragmented and localized.
-Pluralism - decentralization has led to a fragmentation of governance which can accommodate dissenting views and communities.
-Fragmentation - many treasuries emerge as the central treasury dissolves.
-Localism - no universal vales, no constitutional models and no bicameral system. These political bias just reproduce republican or American concerns and seek to impose these values on others. Decentralism implies localism and many different often contrary values.
-Accountability is relational - accountability is primarily about viable relations between nodes. Can different communities or functions work or play together ? If stable relations of trust form and persist - then there is accountability.
+- **Minimalism** - no complicated systems, processes or organizations seeking to design everything. Instead the governance node is very specfic, fragmented and localized.
+- **Pluralism** - decentralization has led to a fragmentation of governance which can accommodate dissenting views and communities.
+- **Fragmentation** - many treasuries emerge as the central treasury dissolves.
+- **Localism** - no universal vales, no constitutional models and no bicameral system. These political bias just reproduce republican or American concerns and seek to impose these values on others. Decentralism implies localism and many different often contrary values.
+- **Accountability is relational** - accountability is primarily about viable relations between nodes. Can different communities or functions work or play together ? If stable relations of trust form and persist - then there is accountability.
 
 The MBO is it is not decentralization
 
