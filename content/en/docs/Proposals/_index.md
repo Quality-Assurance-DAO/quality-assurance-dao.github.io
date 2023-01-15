@@ -1,5 +1,5 @@
 ---
-title: "Proposals"
+title: "Funded Proposals"
 linkTitle: "Proposals"
 weight: 3
 hide_feedback: true
