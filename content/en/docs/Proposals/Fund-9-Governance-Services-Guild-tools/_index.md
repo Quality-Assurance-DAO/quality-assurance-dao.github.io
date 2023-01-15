@@ -7,11 +7,11 @@ icon: fa fa-book
 categories:
 - Proposals
 description: >
- Funded. Develop a new audit & documentation methodology which incorporates vital qualitative information. Pilot it with key WADA funded proposals. Budget $ 26000
+ Funded. Provide distributed governance services supporting Cardano groups and communities using tools such as dework, Discord and GitHub. Document & incorporate lessons learnt into Project Based Learning. Budget $ 37600
 ---
 
-- [Ideascale](https://cardano.ideascale.com/c/idea/402487) - Vanessa
-> Develop a new audit & documentation methodology which incorporates vital qualitative information. Pilot it with key WADA funded proposals.
+- [Ideascale](https://cardano.ideascale.com/c/idea/420109) - Stephen
+> Provide distributed governance services supporting Cardano groups and communities using tools such as dework, Discord and GitHub. Document & incorporate lessons learnt into Project Based Learning.
 - **Challenge :** [F8: Improve and Grow Auditability](https://cardano.ideascale.com/c/campaigns/26441/about)
 - **Documentation :** https://quality-assurance-dao.github.io/
 
