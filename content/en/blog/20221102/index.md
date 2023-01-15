@@ -1,5 +1,5 @@
 ---
-date: 2022-12-07
+date: 2022-11-02
 title: "Decentralized governance will never look like centralized governance"
 linkTitle: "What are the favourable conditions for decentralised governance ?"
 description: "What are the favourable conditions for decentralised governance ?"
