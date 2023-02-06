@@ -12,8 +12,6 @@ description: >
   GitBooks created and maintained by QADAO
 ---
 
-# Documentation and Communication
-
 ## Swarm GitBooks
 
 ### Catalyst Swarm 2022
