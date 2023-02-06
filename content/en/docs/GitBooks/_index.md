@@ -1,6 +1,6 @@
 ---
-title: "GitBooks"
-linkTitle: "GitBooks"
+title: "Documentation and Communication"
+linkTitle: "Documentation and Communication"
 weight: 2
 hide_feedback: true
 icon: fa fa-clipboard
@@ -11,6 +11,8 @@ tags:
 description: >
   GitBooks created and maintained by QADAO
 ---
+
+# Documentation and Communication
 
 ## Swarm GitBooks
 
