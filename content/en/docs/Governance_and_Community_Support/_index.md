@@ -1,6 +1,6 @@
 ---
-title: "Transparent Governance "
-linkTitle: "Transparent Governance "
+title: "Governance and Community Support "
+linkTitle: "Governance and Community Support"
 weight: 3
 hide_feedback: true
 icon: fa fa-university
