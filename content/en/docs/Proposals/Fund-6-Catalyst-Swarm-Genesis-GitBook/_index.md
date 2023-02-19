@@ -18,6 +18,8 @@ description: >
 - **Documentation :**  https://catalyst-swarm.gitbook.io/catalyst-swarm-genesis/
 - **Lidonation :** https://www.lidonation.com/en/proposals/catalyst-swarm-genesis-gitbook
 
+{{< youtube UbAgX1wLXa8 >}}
+
 
 ## Last Report - 24th April 2022
 
