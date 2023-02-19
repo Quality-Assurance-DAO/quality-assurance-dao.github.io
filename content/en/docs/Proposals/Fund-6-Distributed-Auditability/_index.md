@@ -8,7 +8,7 @@ categories:
 - Proposals
 - Completed Proposals
 description: >
- Completed. 600061. Identify common community standards. Build consistent evaluation tools. Automate funded proposal reporting. Budget $ 8720
+ Completed. Proposal. ID: 600061. Identify common community standards. Build consistent evaluation tools. Automate funded proposal reporting. Budget $ 8720
 ---
 
 - [Ideascale](https://cardano.ideascale.com/c/idea/366707) - Stephen
