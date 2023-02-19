@@ -6,6 +6,7 @@ hide_feedback: true
 icon: fa fa-book
 categories:
 - Proposals
+- Completed Proposals
 description: >
  Completed. Resource the documentation & tracking of the Catalyst-Swarm Genesis GitBook. Communicate the content of the Catalyst-Swarm Genesis GitBook. Budget $ 3480
 ---
@@ -15,6 +16,7 @@ description: >
 - **Challenge :**  [F6: Catalyst value onboarding](https://cardano.ideascale.com/c/campaigns/26106/about)
 -  **Completed** – Closing video pending – Stephen Whitenstall (QADAO) & SWARM - Budget $ 3480
 - **Documentation :**  https://catalyst-swarm.gitbook.io/catalyst-swarm-genesis/
+- **Lidonation :** https://www.lidonation.com/en/proposals/catalyst-swarm-genesis-gitbook
 
 
 ## Last Report - 24th April 2022
