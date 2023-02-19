@@ -8,7 +8,7 @@ categories:
 - Proposals
 - Completed Proposals
 description: >
- Completed. 500060. Innovative approach to open source. Reform PM to distributed peer facilitation.Adapt maturity standards to distributed organizations. Budget $ 5
+ Completed. Proposal. ID : 500060. Innovative approach to open source. Reform PM to distributed peer facilitation.Adapt maturity standards to distributed organizations. Budget $ 5
 ---
 
 - [Ideascale](https://cardano.ideascale.com/c/idea/351678) - Stephen
