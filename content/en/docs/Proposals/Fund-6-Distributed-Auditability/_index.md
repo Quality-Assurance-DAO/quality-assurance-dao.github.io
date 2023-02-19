@@ -15,3 +15,4 @@ description: >
 - **Challenge :** [F6: Improve and Grow Auditability](https://cardano.ideascale.com/c/campaigns/26119/about)
 - *In Progress* - Stephen Whitenstall (QADAO), CC Admin Treasury & Eastern Town Hall - Budget $ 8720 
 - **Documentation :** https://quality-assurance-dao.gitbook.io/training-and-automation/
+- **Lidonation :** https://www.lidonation.com/en/proposals/distributed-auditability
