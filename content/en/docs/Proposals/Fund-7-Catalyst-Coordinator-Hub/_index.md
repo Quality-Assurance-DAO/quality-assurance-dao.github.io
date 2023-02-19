@@ -6,8 +6,9 @@ hide_feedback: true
 icon: fa fa-book
 categories:
 - Proposals
+- Pending Proposals
 description: >
- In Progress. Implement a collaborative layer, a community hub, to welcome funded proposers to Catalyst and provide support. Budget $ 4350
+ In Progress. Co-Proposal. ID: 700067. Implement a collaborative layer, a community hub, to welcome funded proposers to Catalyst and provide support. Budget $ 4350
 ---
 
 - [Ideascale](https://cardano.ideascale.com/c/idea/382324) - Stephen
