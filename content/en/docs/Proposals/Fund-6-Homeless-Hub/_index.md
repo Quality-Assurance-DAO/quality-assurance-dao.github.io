@@ -7,7 +7,7 @@ icon: fa fa-book
 categories:
 - Proposals
 description: >
- In Progress. Introduce the Cardano Community to homeless communities in Manchester, UK, through in-person workshops and online sessions. Budget $ 18980
+ In Progress. Co-Proposal. ID: 600080. Introduce the Cardano Community to homeless communities in Manchester, UK, through in-person workshops and online sessions. Budget $ 18980
 ---
 
 - [Ideascale](https://cardano.ideascale.com/c/idea/367891) - Vanessa
