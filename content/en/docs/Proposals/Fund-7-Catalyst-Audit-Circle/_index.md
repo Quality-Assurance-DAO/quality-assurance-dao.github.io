@@ -6,8 +6,9 @@ hide_feedback: true
 icon: fa fa-book
 categories:
 - Proposals
+- Pending Proposals
 description: >
- In Progress. Establish a Catalyst auditing circle to guide improvements needed to maximise each funding rounds return on intention. Budget $ 12700
+ In Progress. Co-Proposal. ID:700058. Establish a Catalyst auditing circle to guide improvements needed to maximise each funding rounds return on intention. Budget $ 12700
 ---
 
 - [Ideascale](https://cardano.ideascale.com/c/idea/381354)  - Stephen
