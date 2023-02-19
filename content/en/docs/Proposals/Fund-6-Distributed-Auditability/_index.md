@@ -7,7 +7,7 @@ icon: fa fa-book
 categories:
 - Proposals
 description: >
- In Progress. Identify common community standards. Build consistent evaluation tools. Automate funded proposal reporting. Budget $ 8720
+ In Progress. 600061. Identify common community standards. Build consistent evaluation tools. Automate funded proposal reporting. Budget $ 8720
 ---
 
 - [Ideascale](https://cardano.ideascale.com/c/idea/366707) - Stephen
