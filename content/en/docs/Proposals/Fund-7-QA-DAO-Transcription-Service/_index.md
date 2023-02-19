@@ -6,8 +6,9 @@ hide_feedback: true
 icon: fa fa-book
 categories:
 - Proposals
+- Pending Proposals
 description: >
- In Progress. Transcribe, time-stamp and summarise the Zoom videos of key community events, making them accessible, searchable, and translatable. Budget $ 39053
+ In Progress. Co-Proposal. ID: 700219. Transcribe, time-stamp and summarise the Zoom videos of key community events, making them accessible, searchable, and translatable. Budget $ 39053
 ---
 
 - [Ideascale](https://cardano.ideascale.com/c/idea/383492) - Vanessa
