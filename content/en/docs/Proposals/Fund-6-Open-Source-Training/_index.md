@@ -6,8 +6,9 @@ hide_feedback: true
 icon: fa fa-book
 categories:
 - Proposals
+- Completed Proposals
 description: >
- In Progress. Open-source training materials for Entrepreneurship-Toolbox. Workshops explaining open-source infrastructure to early stage entrepreneurs. Budget $ 8720
+ Completed. Proposal. ID: 600102.  Open-source training materials for Entrepreneurship-Toolbox. Workshops explaining open-source infrastructure to early stage entrepreneurs. Budget $ 8720
 ---
 
 ###  Open Source Training
