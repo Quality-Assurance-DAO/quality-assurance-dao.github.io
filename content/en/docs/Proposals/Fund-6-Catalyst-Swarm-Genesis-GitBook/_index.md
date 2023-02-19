@@ -8,7 +8,7 @@ categories:
 - Proposals
 - Completed Proposals
 description: >
- Completed. Resource the documentation & tracking of the Catalyst-Swarm Genesis GitBook. Communicate the content of the Catalyst-Swarm Genesis GitBook. Budget $ 3480
+ Completed. 600037. Resource the documentation & tracking of the Catalyst-Swarm Genesis GitBook. Communicate the content of the Catalyst-Swarm Genesis GitBook. Budget $ 3480
 ---
 
 - [Ideascale](https://cardano.ideascale.com/c/idea/369556) - Stephen
