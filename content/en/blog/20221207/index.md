@@ -5,7 +5,9 @@ linkTitle: "Empowering community-driven governance on Cardano"
 description: "Empowering community-driven governance on Cardano"
 author: Stephen Whitenstall
 categories:
-- Governance, Voltaire, MBO
+- Governance
+- Voltaire
+- MBO
 tags:
 - Decentralization
 ---
