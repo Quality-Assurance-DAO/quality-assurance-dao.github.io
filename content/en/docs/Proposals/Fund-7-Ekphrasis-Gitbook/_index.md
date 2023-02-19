@@ -6,8 +6,9 @@ hide_feedback: true
 icon: fa fa-book
 categories:
 - Proposals
+- Pending Proposals
 description: >
- In Progress. Resource the documentation of philosophical debate and discussion around Cardano.. Budget $ 4350
+ In Progress. Proposer. ID: 700108. Resource the documentation of philosophical debate and discussion around Cardano.. Budget $ 4350
 ---
 
 - [Ideascale](https://cardano.ideascale.com/c/idea/382334)- Stephen
