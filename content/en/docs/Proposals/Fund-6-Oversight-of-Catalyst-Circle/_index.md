@@ -6,8 +6,9 @@ hide_feedback: true
 icon: fa fa-book
 categories:
 - Proposals
+- Pending Proposals
 description: >
- In Progress. Provide independent oversight of Catalyst Circle. Resource an active site that documents & tracks the activities of the Catalyst Circle. Budget $ 7440
+ In Progress. Co-Proposal. ID: 600106. Provide independent oversight of Catalyst Circle. Resource an active site that documents & tracks the activities of the Catalyst Circle. Budget $ 7440
 ---
 
 - [Ideascale](https://cardano.ideascale.com/c/idea/370088)  - Stephen & Vanessa
