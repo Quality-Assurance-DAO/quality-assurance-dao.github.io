@@ -6,8 +6,9 @@ hide_feedback: true
 icon: fa fa-book
 categories:
 - Proposals
+- Completed Proposals
 description: >
- In Progress. Resource the documentation & tracking of Project Catalyst.  Communicate the content of the Catalyst 2022 GitBook to the community. Budget $ 4350
+ Completed. Co-Proposal. ID: 700064. Resource the documentation & tracking of Project Catalyst.  Communicate the content of the Catalyst 2022 GitBook to the community. Budget $ 4350
 ---
 
 - [Ideascale](https://cardano.ideascale.com/c/idea/382330)- Stephen
