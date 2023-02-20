@@ -6,7 +6,7 @@ hide_feedback: true
 icon: fa fa-book
 categories:
 - Proposals
-- Pending Proposal
+- Pending Proposals
 description: >
  In Progress. Co_proposal. ID:800358. Develop a new audit & documentation methodology which incorporates vital qualitative information. Pilot it with key WADA funded proposals. Budget $ 26000
 ---
