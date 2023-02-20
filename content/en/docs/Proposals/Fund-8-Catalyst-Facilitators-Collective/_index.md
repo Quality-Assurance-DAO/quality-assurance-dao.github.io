@@ -6,8 +6,9 @@ hide_feedback: true
 icon: fa fa-book
 categories:
 - Proposals
+- Pending Proposals
 description: >
- Funded. Deliver facilitation skills training via Catalyst School; build an ongoing facilitators’ community to champion good facilitation skills. Budget $ 29540
+ In Progress. Co-proposer. ID: 800101. Deliver facilitation skills training via Catalyst School; build an ongoing facilitators’ community to champion good facilitation skills. Budget $ 29540
 ---
 
 - [Ideascale](https://cardano.ideascale.com/c/idea/403681) - Vanessa
