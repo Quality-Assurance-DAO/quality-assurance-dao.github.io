@@ -6,8 +6,9 @@ hide_feedback: true
 icon: fa fa-book
 categories:
 - Proposals
+- Pending Proposals
 description: >
- Funded. Provide distributed governance services supporting Cardano groups and communities using tools such as dework, Discord and GitHub. Document & incorporate lessons learnt into Project Based Learning. Budget $ 37600
+ In Progress. Collaboration. ID: 900114.  Provide distributed governance services supporting Cardano groups and communities using tools such as dework, Discord and GitHub. Document & incorporate lessons learnt into Project Based Learning. Budget $ 37600
 ---
 
 - [Ideascale](https://cardano.ideascale.com/c/idea/420109) - Stephen
