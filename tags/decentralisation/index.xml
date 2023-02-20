@@ -1,0 +1,55 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Quality Assurance DAO – Decentralisation</title><link>/tags/decentralisation/</link><description>Recent content in Decentralisation on Quality Assurance DAO</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Mon, 25 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="/tags/decentralisation/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: A governance that has a constitution is a centralised governance.</title><link>/blog/2022/04/25/a-governance-that-has-a-constitution-is-a-centralised-governance./</link><pubDate>Mon, 25 Apr 2022 00:00:00 +0000</pubDate><guid>/blog/2022/04/25/a-governance-that-has-a-constitution-is-a-centralised-governance./</guid><description>
+&lt;h2 id="decentralised-governance-is-discovered">Decentralised governance is discovered&lt;/h2>
+&lt;p>A governance that has a constitution is a centralised governance. Decentralised governance is discovered (in many different forms) not drafted.&lt;/p>
+&lt;p>Some alternatives include :&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://en.wikipedia.org/wiki/Asset-based_community_development">Asset-based community development&lt;/a> highlighted by Vanessa Cardui &lt;a href="https://quality-assurance-dao.github.io/blog/2021/10/16/reporting-distributed-community-projects/#asset-based-community-development-abcd">here&lt;/a>.&lt;/li>
+&lt;li>Amartya Sen&amp;rsquo;s take on &lt;a href="https://en.wikipedia.org/wiki/Social_choice_theory#Interpersonal_utility_comparison">Social Choice Theory&lt;/a> may extend blockchain governance to include interpersonal utility.&lt;/li>
+&lt;/ul>
+&lt;h2 id="universalism-versus-pluralism">Universalism versus pluralism&lt;/h2>
+&lt;p>Many of the elements being discussed in governance are prescriptive requirements for participation. I also detect a presumption of an immutable basis. For example, universal values. This is from a particular constitutional tradition that historically has sought to determine global values and often export them.&lt;/p>
+&lt;h2 id="against-rousseaus-the-social-contract">Against Rousseau&amp;rsquo;s The Social Contract&lt;/h2>
+&lt;p>When common values become sovereign the individual loses their sovereignty. They then become subservient to a common will.&lt;/p>
+&lt;blockquote>
+&lt;p>&amp;ldquo;The language of reason on this subject is, “Give us equality and justice, but no constitution. Suffer us to follow without restraint the dictates of our own judgment, and to change our forms of social order as fast as we improve in understanding and knowledge.” - William Godwin, Of Constitutions, &lt;a href="https://en.wikipedia.org/wiki/Enquiry_Concerning_Political_Justice">Enquiry Concerning Political Justice&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="pax-romana">Pax Romana&lt;/h2>
+&lt;p>Some have called this imperialism in the past. The world I live in is pluralistic and lacks consistency. The problem is not with any lack in this – but the insistence of centralising tendencies to regulate such behaviour.&lt;/p>
+&lt;h2 id="fallibilism">Fallibilism&lt;/h2>
+&lt;p>Because governance is human it is always flawed, partial, local, and contingent. Decentralised governance is proportional to these human qualities and does not try to perfect human nature in common ideals.&lt;/p>
+&lt;p>So, no founders, no middlemen who listen, no expectations, no values, no visions, no mission, no alignments.
+Just persons unknown. Where is the space for them?&lt;/p>
+&lt;blockquote>
+&lt;p>Fallibilism is a key element in innovation. An iterative approach to governance takes steps of &amp;ldquo;&lt;a href="https://en.wikipedia.org/wiki/Proofs_and_Refutations">&lt;em>Proofs and Refutations&lt;/em>&lt;/a>&amp;rdquo; (Imre Lakatos) or &amp;ldquo;&lt;em>Conjectures and Refutations&lt;/em>&amp;rdquo;(&lt;a href="https://en.wikipedia.org/wiki/Karl_Popper">Karl Popper&lt;/a>). As Matt Ridley notes in &amp;ldquo;&lt;em>How Innovation Works: And Why It Flourishes in Freedom&lt;/em>&amp;rdquo; (2020) innovation is gradual, different from invention, often serendiptious, recombinant, involves trail and error and prefers fragmented governance (Chapter 8 - Innovation&amp;rsquo;s essentials).&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="composability">Composability&lt;/h2>
+&lt;blockquote>
+&lt;p>&amp;ldquo;Composability is the general possibility that allows the components of a system to be recombined into larger structures and for the output of one component to be the input of another.&amp;rdquo; - Emurgo, &lt;a href="https://education.emurgo.io/blog/emurgo-academy-why-composability-is-a-secret-weapon-for-web3-dapps-course-info">Why Composability is a Secret Weapon for Web3 dApps&lt;/a>.
+A blockchain can provide centralised or decentralised governance, permissioned or permissionless, homogeneous or heterogenic. (&lt;a href="https://aws.amazon.com/blockchain/decentralization-in-blockchain/">Decentralisation in Blockchain&lt;/a>).&lt;/p>
+&lt;/blockquote>
+&lt;ul>
+&lt;li>&lt;strong>Government as invention&lt;/strong> - A centralised governance approach such as a constitution is oriented to fundamental principles that vest sovereignty in organisations. The founding principles resist being dislodged from their foundation, have a low fault tolerance and resist being recombined.&lt;/li>
+&lt;li>&lt;strong>Government as gradual innovation&lt;/strong> - A decentralised governance approach is recombinant. There are no founding principles, a high fault tolerance and an orientation towards a composable governance toolkit.&lt;/li>
+&lt;/ul>
+&lt;h2 id="intention">Intention&lt;/h2>
+&lt;blockquote>
+&lt;p>What is the intent behind a consitution, a mantifesto or any set of common values ? How is the current state and the expected or envisioned state being framed ? What motivates a particular group to pursue a consitution ?&lt;/p>
+&lt;p>Are we designers or legislators ?&lt;/p>
+&lt;/blockquote>
+&lt;ul>
+&lt;li>Designers - an approach to governance that builds a toolkit to enable decentralisation.&lt;/li>
+&lt;li>Legislators - the drafting of laws, visions, missions and values.&lt;/li>
+&lt;/ul>
+&lt;h2 id="conclusion">Conclusion&lt;/h2>
+&lt;p>I guess where I am coming from is &amp;ldquo;Whose community?&amp;rdquo;. What is the intent behind drafting a constitution? To me it feels like building a particular government not building governance tools.&lt;/p>
+&lt;p>If you start to define common values, you begin to consolidate your community. This may feel good - but it then just becomes one community defined by a constitution.
+Already the possibility of governance is made conditional to those who are not present. I would like to explore the intent of building governance tools. A governance toolkit. Which many different communities may choose to use or abuse.&lt;/p>
+&lt;h2 id="addendum">Addendum&lt;/h2>
+&lt;p>It is tempting to fall into the weeds by insisting on Blockchain Governance Principles such as decentralization. In practice how we implement governance on a blockchain is more flexible. Even at the &amp;ldquo;Social Choice Theory&amp;rdquo; parameter level that Aggelos Kiayias &amp;amp; Philip Lazos recently outlined there is scope to include broader interpersonal utility through Amartya Sen’s approach.&lt;/p>
+&lt;p>Since Fund 5 and lessons I learnt from NFTDAO – I have wrestled with the tension between contribution and value. And I have tended to the view that contribution should always come first to avoid being led or determined by a premature or prescriptive notion of value. But tracking contribution is hard and often appears intrusive to participants.&lt;/p>
+&lt;p>The pain of tracking contribution can be ameliorated by wrapping it in a token (in effect incentivising tracking) But this leads us back to a value proposition. So, I now recognise that contribution &amp;amp; value may be necessarily linked in blockchain solutions. A token granted to represent a contribution (e.g., work done, a vote submitted etc) seems to lack meaning if it is not linked to a value (e.g., payments, incentives, roles).&lt;/p>
+&lt;p>But the story does not end here. As you have pointed out James Dunseith there is a kind of iterative process going on with value propositions. It is linked with factors such as trust, sustainability etc. To enable pluralism in tokenomics does there need to be either a) composability of contribution/value or b) parallel contribution/value offerings ? So, value propositions or settings can be distinguished &amp;amp; separated from contribution tracking. This might create a set of possible combinations on which to iterate on (applying different liquidity models each time – e.g. vesting etc.). (updated the blog post with this response).&lt;/p>
+&lt;p>And above all, in my view, culture. In a recent conversation with someone doing Phd research into social dynamics in the Cardano ecosystem we observed that different cultures clustered around different payment models (e.g., SPO culture, CA culture, Funded Proposer culture). These cultures differ according to how the relationship between contribution and value is configured (e.g., SPO delegation, CA crowdsourced incentives, Funded Proposer waterfall life cycles).&lt;/p>
+&lt;h2 id="tension-between-function-and-value">Tension between function and value&lt;/h2>
+&lt;p>In terms of blockchain governance there is always a tension between function and value. It begins even at the level of a simple treasury contract where (for example) an issuer deposits funds in escrow. The contract is functional. But the question of whether a contribution has met the issuers requirements is evaluative (a value). Connected contracts will build a value framework - like the Gimbalabs Project Based Learning curriculum. To make this as decentralized as possible the value framework needs to be composable and modular. So a decentralized PBL would be a) modular - allow entrants at all stages (given they meet requirements) and b) composable - each PBL module could be reused and adapted elsewhere under open source licensing.&lt;/p>
+&lt;p>Now let’s apply the same approach to communities (plural). Yes, there needs to be a functional platform (the blockchain) but different communities will have different value frameworks (e.g. constitutions, rules, laws, cultures etc). A community with constitution x will issue a contract that is only accessible to contributors who met the constitutional x requirements. The degree to which a value framework is decentralised will depend upon its rigidity. If the value framework is modular, it will not have overriding universal values – but rather have contracts based on local conditions. To be composable the value framework must be changeable and non-proprietary etc.&lt;/p></description></item></channel></rss>
