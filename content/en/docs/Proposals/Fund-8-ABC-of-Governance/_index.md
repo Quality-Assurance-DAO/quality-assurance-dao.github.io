@@ -6,8 +6,9 @@ hide_feedback: true
 icon: fa fa-book
 categories:
 - Proposals
+- Pending Proposals
 description: >
- Funded. Provide governance training and research materials to the Cardano community. Budget $ 10135
+ In Progress. Proposer. ID : 800009. Provide governance training and research materials to the Cardano community. Budget $ 10135
 ---
 
 - [Ideascale](https://cardano.ideascale.com/c/idea/398140) - Stephen
