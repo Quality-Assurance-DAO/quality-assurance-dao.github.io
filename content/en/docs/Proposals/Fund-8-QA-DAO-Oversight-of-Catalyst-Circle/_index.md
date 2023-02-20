@@ -6,8 +6,9 @@ hide_feedback: true
 icon: fa fa-book
 categories:
 - Proposals
+- Pending Proposals
 description: >
- Funded. Provide independent oversight of Catalyst Circle. Resource the Circle GitBooks to document & track the activities of Circle v4 and v5. Budget $ 16143
+ In Progress. Proposer. ID: 800305. Provide independent oversight of Catalyst Circle. Resource the Circle GitBooks to document & track the activities of Circle v4 and v5. Budget $ 16143
 ---
 
 - [Ideascale](https://cardano.ideascale.com/c/idea/399108) - Vanessa
