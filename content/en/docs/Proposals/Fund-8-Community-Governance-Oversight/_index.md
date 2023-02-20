@@ -6,8 +6,9 @@ hide_feedback: true
 icon: fa fa-book
 categories:
 - Proposals
+- Pending Proposals
 description: >
- Funded. Survey, report & facilitate retrospectives to improve our governance processes. Budget $ 34300
+ In Progress. Co-Proposer. ID: 800116. Survey, report & facilitate retrospectives to improve our governance processes. Budget $ 34300
 ---
 
 - [Ideascale](https://cardano.ideascale.com/c/idea/398225)  - Stephen
