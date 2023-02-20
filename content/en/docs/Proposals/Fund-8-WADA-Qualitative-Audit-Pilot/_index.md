@@ -6,8 +6,9 @@ hide_feedback: true
 icon: fa fa-book
 categories:
 - Proposals
+- Pending Proposal
 description: >
- Funded. Develop a new audit & documentation methodology which incorporates vital qualitative information. Pilot it with key WADA funded proposals. Budget $ 26000
+ In Progress. Co_proposal. ID:800358. Develop a new audit & documentation methodology which incorporates vital qualitative information. Pilot it with key WADA funded proposals. Budget $ 26000
 ---
 
 - [Ideascale](https://cardano.ideascale.com/c/idea/402487) - Vanessa
