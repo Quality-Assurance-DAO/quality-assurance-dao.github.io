@@ -6,8 +6,9 @@ hide_feedback: true
 icon: fa fa-book
 categories:
 - Proposals
+- Pending Proposals
 description: >
- Funded. Work with an established UK community philosophy network, to build a philosophy-based Hub and develop philosophy discussion within Catalyst. Budget $ 18600
+ In Progress. Proposer. ID:800232. Work with an established UK community philosophy network, to build a philosophy-based Hub and develop philosophy discussion within Catalyst. Budget $ 18600
 ---
 
 - [Ideascale](https://cardano.ideascale.com/c/idea/402601) - Vanessa & Stephen
