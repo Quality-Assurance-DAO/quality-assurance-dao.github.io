@@ -5,9 +5,9 @@ weight: 5
 hide_feedback: true
 icon: fa fa-book
 categories:
-- Proposals
+- Challenges
 description: >
- In Progress. How to make the auditing process of funded proposals efficient, distributed and transparent? Budget $ 200,000
+ Pending Challenge. How to make the auditing process of funded proposals efficient, distributed and transparent? Budget $ 200,000
 ---
 
 - [Ideascale](https://cardano.ideascale.com/c/idea/383480) - Stephen
