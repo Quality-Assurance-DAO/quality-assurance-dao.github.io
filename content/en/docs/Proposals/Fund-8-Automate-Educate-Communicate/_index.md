@@ -6,8 +6,9 @@ hide_feedback: true
 icon: fa fa-book
 categories:
 - Proposals
+- Pending Proposals
 description: >
- Funded. Build and document automation tools, provide open source training & communicate what open source in Cardano entails. Budget $ 9750
+ In Progress. Co-Proposer. ID: 800039. Build and document automation tools, provide open source training & communicate what open source in Cardano entails. Budget $ 9750
 ---
 
 - [Ideascale](https://cardano.ideascale.com/c/idea/398131) - Stephen
