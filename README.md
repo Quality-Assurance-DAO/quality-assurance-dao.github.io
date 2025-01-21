@@ -7,5 +7,8 @@ Quality Assurance DAO was founded by Stephen Whitenstall in April 2021 and grew 
 https://quality-assurance-dao.github.io/docs/gitbooks/
 We provide everything from summary to detailed exposition. Using common tools such as GitBook and GitHub.
 
+## GitHub Organisations
 
-	
+### SingularityNET-Archive
+
+https://github.com/SingularityNET-Archive
