@@ -1,7 +1,7 @@
 title: QADAO
 #logo: /assets/img/headshot_circle.png
 description: "Decentralised Assurance of Quality"
-show_downloads: true
+# show_downloads: true
 theme: jekyll-theme-minimal
 show_downloads: false
 #google_analytics: [Your Google Analytics tracking ID]
