@@ -1,0 +1,6 @@
+- name: Project Alpha
+  description: An awesome project.
+  url: https://example.com/alpha
+- name: Project Beta
+  description: Another great project.
+  url: https://example.com/beta
