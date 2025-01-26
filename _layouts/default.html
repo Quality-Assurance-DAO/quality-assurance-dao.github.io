@@ -63,6 +63,14 @@
          {{ content }}
         <ul>
 
+                    <h3>GitBook</h3>
+  {% for project in site.data.gitbooks %}
+    <li>
+      <a href="{{ project.url }}">{{ project.name }}</a> - {{ project.description }}
+    </li>
+  {% endfor %}
+</ul>
+
           <h3>Projects</h3>
   {% for project in site.data.projects %}
     <li>
