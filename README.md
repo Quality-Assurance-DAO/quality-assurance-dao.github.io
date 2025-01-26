@@ -14,3 +14,4 @@ We provide everything from summaries to detailed exposition using common tools s
 ### GitHub Organisations
 
 - [SingularityNET-Archive](https://github.com/SingularityNET-Archive)
+- [Quality Assurance DAO](https://github.com/Quality-Assurance-DAO)
