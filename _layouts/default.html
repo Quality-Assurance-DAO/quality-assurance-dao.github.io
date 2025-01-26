@@ -61,17 +61,25 @@
       </header>
       <section>
          {{ content }}
-        <ul>
-
-                    <h3>GitBook</h3>
+        
+  <ul>
+  <h3>GitBooks</h3>
   {% for project in site.data.gitbooks %}
     <li>
       <a href="{{ project.url }}">{{ project.name }}</a> - {{ project.description }}
     </li>
   {% endfor %}
 </ul>
-
-          <h3>Projects</h3>
+  <ul>
+  <h3>GitHub Organisations</h3>
+  {% for project in site.data.github-organisations %}
+    <li>
+      <a href="{{ project.url }}">{{ project.name }}</a> - {{ project.description }}
+    </li>
+  {% endfor %}
+</ul>
+<ul>
+  <h3>Projects</h3>
   {% for project in site.data.projects %}
     <li>
       <a href="{{ project.url }}">{{ project.name }}</a> - {{ project.description }}
