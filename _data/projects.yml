@@ -1,6 +1,6 @@
 - name: SingularityNet Archive
-  description: An awesome project.
-  url: https://snet-ambassadors.gitbook.io/singularitynet-archive
-- name: Project Catalyst
-  description: Another great project.
-  url: https://example.com/beta
+  description: SingularityNet Archive Project Board
+  url: https://github.com/orgs/SingularityNET-Archive/projects/1
+- name: Archive Tool
+  description: Archive Tool Issue Board
+  url: https://github.com/orgs/SingularityNET-Archive/projects/3
