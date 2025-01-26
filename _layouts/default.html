@@ -60,6 +60,7 @@
         </div>
       </header>
       <section>
+         {{ content }}
         <ul>
   {% for project in site.data.projects %}
     <li>
@@ -67,7 +68,7 @@
     </li>
   {% endfor %}
 </ul>
-      {{ content }}
+     
       </section>
       <footer>
         {% if site.github.is_project_page %}
