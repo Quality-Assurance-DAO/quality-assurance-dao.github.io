@@ -6,7 +6,3 @@ QA-DAO is an ongoing open-source project that provides support for SingularityNe
 
 We provide everything from summaries to detailed exposition using common tools such as GitBook and GitHub.
 
-### GitHub Organisations
-
-- [SingularityNET-Archive](https://github.com/SingularityNET-Archive)
-- [Quality Assurance DAO](https://github.com/Quality-Assurance-DAO)
