@@ -1,6 +1,6 @@
 - name: SingularityNet Archive
-  description: An awesome project.
-  url: https://snet-ambassadors.gitbook.io/singularitynet-archive
-- name: Project Catalyst
-  description: Another great project.
-  url: https://example.com/beta
+  description: This GitHub organisation contains repositories for the SingularityNET Ambassador Archive.
+  url: https://github.com/SingularityNET-Archive
+- name: Quality-Assurance-DAO
+  description: The Distributed Autonomous Organisation of Quality Assurance
+  url: https://github.com/Quality-Assurance-DAO
