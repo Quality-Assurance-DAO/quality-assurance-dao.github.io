@@ -4,5 +4,13 @@ QA-DAO is an ongoing open-source project that provides support for SingularityNe
 
 ## Documentation and Communication
 
-We provide everything from summaries to detailed exposition using common tools such as GitBook and GitHub.
+> We provide everything from summaries to detailed exposition using common tools such as GitBook and GitHub.
+
+## Open Source
+
+> Integrating existing best practice open-source community guidelines into all Catalyst Projects. https://opensource.guide/
+
+## Community
+
+> To participate :
 
