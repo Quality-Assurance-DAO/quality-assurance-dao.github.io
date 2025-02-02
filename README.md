@@ -1,7 +1,9 @@
 # Quality Assurance DAO (QA-DAO)
 
 QA-DAO is a consultancy that supports open-source projects in Blockchain, Artificial Intelligence and Decentralised Community Building.
-They have worked in the SingularityNet and Cardano Communities. Quality Assurance DAO was founded by Stephen Whitenstall in April 2021 and grew out of a Project Catalyst Fund 5 Proposal.
+They have worked in the SingularityNet and Cardano Communities. 
+
+Quality Assurance DAO was founded by Stephen Whitenstall in April 2021 and grew out of a Project Catalyst Fund 5 Proposal.
 
 ## Documentation and Communication
 
