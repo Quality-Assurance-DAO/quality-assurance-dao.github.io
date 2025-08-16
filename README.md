@@ -14,6 +14,7 @@ Quality Assurance DAO was founded by Stephen Whitenstall in April 2021 and grew 
 
 > Integrating existing best practice open-source community guidelines into all Catalyst Projects. https://opensource.guide/
 
-## Governace Development and Analysis 
+## Governance Development and Analysis 
 
-> Since 2021 we have provided analsis of Cardano blockchain governance developments
+> Since 2021 we have provided analsis of Cardano blockchain governance developments.
+> Since 2022 we hve built a community archive for the SingularityNet (https://singularitynet.io) Ambassadors Programme.
