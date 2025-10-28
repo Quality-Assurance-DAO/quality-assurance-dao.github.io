@@ -28,12 +28,23 @@
     <![endif]-->
     {% include head-custom.html %}
     <style>
+      /* Typography System */
+      :root {
+        --font-base: 16px;
+        --font-large: 18px;
+        --font-small: 14px;
+        --line-height-base: 1.6;
+        --line-height-heading: 1.3;
+      }
+      
       /* Override theme's default two-column layout */
       body {
         padding: 0;
         margin: 0;
         font-family: "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-        line-height: 1.5;
+        font-size: var(--font-base);
+        line-height: var(--line-height-base);
+        color: #333;
       }
       
       .wrapper {
@@ -51,6 +62,7 @@
         position: static;
       }
       
+      /* Header Styles */
       header {
         text-align: center;
         padding: 20px 0 40px 0;
@@ -60,7 +72,9 @@
       
       header h1 {
         margin: 0 0 10px 0;
-        font-size: 2em;
+        font-size: 32px;
+        line-height: var(--line-height-heading);
+        font-weight: 700;
       }
       
       header h1 a {
@@ -78,11 +92,22 @@
       header p {
         margin: 10px 0;
         color: #555;
-        font-size: 1.1em;
+        font-size: var(--font-large);
+        line-height: var(--line-height-base);
       }
       
       header .view {
         margin: 10px 0;
+        font-size: var(--font-base);
+      }
+      
+      header .view a {
+        color: #0066cc;
+        text-decoration: none;
+      }
+      
+      header .view a:hover {
+        text-decoration: underline;
       }
       
       header .downloads {
@@ -91,16 +116,23 @@
         padding: 0;
         list-style: none;
         margin: 15px 0;
+        font-size: var(--font-base);
       }
       
       header .downloads li {
         margin: 0 10px;
       }
       
+      header .downloads a {
+        color: #0066cc;
+      }
+      
+      /* Social Links */
       .social-links {
         width: 100%;
         text-align: center;
         margin: 20px 0 0 0;
+        font-size: var(--font-base);
       }
       
       .social-links div {
@@ -114,6 +146,7 @@
         gap: 5px;
         text-decoration: none;
         color: #0066cc;
+        font-size: var(--font-base);
       }
       
       .social-links a:hover {
@@ -126,14 +159,65 @@
         vertical-align: middle;
       }
       
+      /* Main Content Area */
       main {
         width: 100%;
+        font-size: var(--font-base);
       }
       
       main section {
         margin-bottom: 30px;
       }
       
+      main h1 {
+        font-size: 28px;
+        line-height: var(--line-height-heading);
+        margin: 1.5em 0 0.5em 0;
+        color: #222;
+        font-weight: 700;
+      }
+      
+      main h2 {
+        font-size: 24px;
+        line-height: var(--line-height-heading);
+        margin: 1.3em 0 0.5em 0;
+        color: #222;
+        font-weight: 600;
+      }
+      
+      main h3 {
+        font-size: 20px;
+        line-height: var(--line-height-heading);
+        margin: 1.2em 0 0.5em 0;
+        color: #222;
+        font-weight: 600;
+      }
+      
+      main p {
+        margin: 0 0 1em 0;
+        font-size: var(--font-base);
+        line-height: var(--line-height-base);
+      }
+      
+      main blockquote {
+        margin: 1em 0;
+        padding: 0.5em 1em;
+        border-left: 3px solid #0066cc;
+        background: #f5f5f5;
+        font-size: var(--font-base);
+        line-height: var(--line-height-base);
+      }
+      
+      main a {
+        color: #0066cc;
+        text-decoration: none;
+      }
+      
+      main a:hover {
+        text-decoration: underline;
+      }
+      
+      /* Content Sections (GitBooks, GitHub Orgs, Projects) */
       .content-section {
         margin-top: 40px;
         padding-top: 20px;
@@ -142,8 +226,10 @@
       .content-section h3 {
         margin-top: 0;
         margin-bottom: 15px;
-        font-size: 1.5em;
+        font-size: 24px;
+        line-height: var(--line-height-heading);
         color: #222;
+        font-weight: 600;
         border-bottom: 2px solid #0066cc;
         padding-bottom: 5px;
       }
@@ -151,24 +237,51 @@
       .content-section ul {
         margin-top: 10px;
         padding-left: 20px;
+        font-size: var(--font-base);
       }
       
       .content-section li {
         margin-bottom: 10px;
-        line-height: 1.6;
+        line-height: var(--line-height-base);
       }
       
+      .content-section a {
+        color: #0066cc;
+        text-decoration: none;
+        font-size: var(--font-base);
+      }
+      
+      .content-section a:hover {
+        text-decoration: underline;
+      }
+      
+      /* Footer */
       footer {
         text-align: center;
         padding: 30px 0 20px 0;
         border-top: 1px solid #e5e5e5;
         margin-top: 50px;
         color: #777;
-        font-size: 0.9em;
+        font-size: var(--font-small);
+        line-height: var(--line-height-base);
       }
       
-      /* Responsive Design */
+      footer p {
+        margin: 5px 0;
+      }
+      
+      footer a {
+        color: #0066cc;
+      }
+      
+      /* Responsive Design - Tablet */
       @media screen and (max-width: 768px) {
+        :root {
+          --font-base: 15px;
+          --font-large: 17px;
+          --font-small: 13px;
+        }
+        
         .wrapper {
           padding: 15px;
         }
@@ -179,19 +292,11 @@
         }
         
         header h1 {
-          font-size: 1.5em;
+          font-size: 28px;
         }
         
         header img {
           max-width: 200px;
-        }
-        
-        header p {
-          font-size: 1em;
-        }
-        
-        .social-links {
-          font-size: 0.9em;
         }
         
         .social-links div {
@@ -199,35 +304,61 @@
           margin: 10px 0;
         }
         
+        main h1 {
+          font-size: 24px;
+        }
+        
+        main h2 {
+          font-size: 20px;
+        }
+        
+        main h3 {
+          font-size: 18px;
+        }
+        
         .content-section h3 {
-          font-size: 1.3em;
+          font-size: 20px;
         }
       }
       
+      /* Responsive Design - Mobile */
       @media screen and (max-width: 480px) {
+        :root {
+          --font-base: 14px;
+          --font-large: 16px;
+          --font-small: 12px;
+        }
+        
         .wrapper {
           padding: 10px;
         }
         
         header h1 {
-          font-size: 1.3em;
+          font-size: 24px;
         }
         
         header img {
           max-width: 150px;
         }
         
-        .social-links {
-          font-size: 0.85em;
-        }
-        
         header .downloads li {
           margin: 5px;
-          font-size: 0.9em;
+        }
+        
+        main h1 {
+          font-size: 22px;
+        }
+        
+        main h2 {
+          font-size: 18px;
+        }
+        
+        main h3 {
+          font-size: 16px;
         }
         
         .content-section h3 {
-          font-size: 1.2em;
+          font-size: 18px;
         }
       }
     </style>
