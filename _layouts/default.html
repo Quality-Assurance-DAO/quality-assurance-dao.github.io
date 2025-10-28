@@ -4,6 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="{{ site.description | default: site.github.project_tagline }}">
+    <meta name="keywords" content="Quality Assurance, DAO, Blockchain, Cardano, SingularityNET, Open Source, Decentralized">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ page.url | absolute_url }}">
+    <meta property="og:title" content="{{ page.title | default: site.title }}">
+    <meta property="og:description" content="{{ site.description | default: site.github.project_tagline }}">
+    <meta property="og:image" content="{{ site.logo | absolute_url }}">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="{{ page.url | absolute_url }}">
+    <meta property="twitter:title" content="{{ page.title | default: site.title }}">
+    <meta property="twitter:description" content="{{ site.description | default: site.github.project_tagline }}">
+    <meta property="twitter:image" content="{{ site.logo | absolute_url }}">
+    
 {% seo %}
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
     <!--[if lt IE 9]>
@@ -12,24 +29,103 @@
     {% include head-custom.html %}
     <style>
       .wrapper {
-        width: 1100px;
+        max-width: 1100px;
+        width: 100%;
         margin: 0 auto;
+        padding: 0 20px;
+        box-sizing: border-box;
       }
+      
       header {
         text-align: center;
       }
-      header h1, header p, header .view, header .downloads {
+      
+      header h1, 
+      header p, 
+      header .view, 
+      header .downloads {
         display: block;
         text-align: center;
       }
+      
       header .downloads {
         display: flex;
         justify-content: center;
         padding: 0;
       }
+      
       header .downloads li {
         display: inline-block;
         margin: 0 10px;
+      }
+      
+      .social-links {
+        width: 100%;
+        text-align: center;
+        margin: 10px 0;
+      }
+      
+      .social-links a {
+        display: inline-flex;
+        align-items: center;
+        gap: 5px;
+        text-decoration: none;
+      }
+      
+      .social-links img {
+        width: 24px;
+        height: 24px;
+        vertical-align: middle;
+      }
+      
+      .content-section h3 {
+        margin-top: 2em;
+        margin-bottom: 0.5em;
+      }
+      
+      .content-section ul {
+        margin-top: 0.5em;
+      }
+      
+      /* Responsive Design */
+      @media screen and (max-width: 768px) {
+        .wrapper {
+          padding: 0 15px;
+        }
+        
+        header h1 {
+          font-size: 1.5em;
+        }
+        
+        header img {
+          max-width: 200px;
+        }
+        
+        .social-links {
+          font-size: 0.9em;
+        }
+      }
+      
+      @media screen and (max-width: 480px) {
+        .wrapper {
+          padding: 0 10px;
+        }
+        
+        header h1 {
+          font-size: 1.2em;
+        }
+        
+        header img {
+          max-width: 150px;
+        }
+        
+        .social-links {
+          font-size: 0.85em;
+        }
+        
+        .social-links div {
+          margin: 8px 0;
+        }
       }
     </style>
   </head>
@@ -38,7 +134,7 @@
       <header>
         <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
         {% if site.logo %}
-          <img src="{{site.logo | relative_url}}" alt="Logo" />
+          <img src="{{site.logo | relative_url}}" alt="{{ site.title }} Logo - Decentralised Assurance of Quality" />
         {% endif %}
         <p>{{ site.description | default: site.github.project_tagline }}</p>
         {% if site.github.is_project_page %}
@@ -54,40 +150,49 @@
           <li><a href="{{ site.github.repository_url }}">View On <strong>GitHub</strong></a></li>
         </ul>
         {% endif %}
-        <div class="social-links" style="width: 100%; text-align: center;">
-          <div>Follow us on: <a href="https://x.com/qa_dao" target="_blank" rel="noopener">Twitter <img src="{{ 'https://abs.twimg.com/icons/apple-touch-icon-192x192.png' | relative_url }}" alt="Twitter" style="width: 24px; height: 24px; vertical-align: middle; margin-left: 5px;"></a></div>
-          <div>Watch us on: <a href="https://youtube.com/@qadao" target="_blank" rel="noopener">YouTube <img src="{{ 'https://upload.wikimedia.org/wikipedia/commons/4/42/YouTube_icon_%282013-2017%29.png' | relative_url }}" alt="YouTube" style="width: 24px; height: 24px; vertical-align: middle; margin-left: 5px;"></a></div>
-        </div>
+        <nav class="social-links" aria-label="Social media links">
+          <div>Follow us on: <a href="{{ site.x_handle | default: 'https://x.com/qa_dao' }}" target="_blank" rel="noopener noreferrer" aria-label="Follow QA-DAO on Twitter/X">Twitter/X <img src="{{ '/assets/images/social/twitter-icon.svg' | relative_url }}" alt=""></a></div>
+          <div>Watch us on: <a href="{{ site.youtube_handle | default: 'https://youtube.com/@qadao' }}" target="_blank" rel="noopener noreferrer" aria-label="Subscribe to QA-DAO on YouTube">YouTube <img src="{{ '/assets/images/social/youtube-icon.svg' | relative_url }}" alt=""></a></div>
+        </nav>
       </header>
-      <section>
-         {{ content }}
+      <main>
+        <section>
+          {{ content }}
+        </section>
         
-  <ul>
-  <h3>GitBooks<a href="https://github.com/Quality-Assurance-DAO/quality-assurance-dao.github.io/blob/main/_data/gitbooks.yml"></a></h3>
-  {% for project in site.data.gitbooks %}
-    <li>
-      <a href="{{ project.url }}">{{ project.name }}</a> - {{ project.description }}
-    </li>
-  {% endfor %}
-</ul>
-  <ul>
-  <h3>GitHub Organisations</h3>
-  {% for project in site.data.github-organisations %}
-    <li>
-      <a href="{{ project.url }}">{{ project.name }}</a> - {{ project.description }}
-    </li>
-  {% endfor %}
-</ul>
-<ul>
-  <h3>Project Boards</h3>
-  {% for project in site.data.projects %}
-    <li>
-      <a href="{{ project.url }}">{{ project.name }}</a> - {{ project.description }}
-    </li>
-  {% endfor %}
-</ul>
-     
-      </section>
+        <section class="content-section">
+          <h3>GitBooks</h3>
+          <ul>
+          {% for project in site.data.gitbooks %}
+            <li>
+              <a href="{{ project.url }}">{{ project.name }}</a> - {{ project.description }}
+            </li>
+          {% endfor %}
+          </ul>
+        </section>
+        
+        <section class="content-section">
+          <h3>GitHub Organisations</h3>
+          <ul>
+          {% for project in site.data.github-organisations %}
+            <li>
+              <a href="{{ project.url }}">{{ project.name }}</a> - {{ project.description }}
+            </li>
+          {% endfor %}
+          </ul>
+        </section>
+        
+        <section class="content-section">
+          <h3>Project Boards</h3>
+          <ul>
+          {% for project in site.data.projects %}
+            <li>
+              <a href="{{ project.url }}">{{ project.name }}</a> - {{ project.description }}
+            </li>
+          {% endfor %}
+          </ul>
+        </section>
+      </main>
       <footer>
         {% if site.github.is_project_page %}
         <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>

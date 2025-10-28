@@ -1,10 +1,13 @@
 title: QADAO
-#logo: /assets/img/headshot_circle.png
 description: "Decentralised Assurance of Quality"
-# show_downloads: true
+logo: /assets/images/qadao.jpg
 theme: jekyll-theme-minimal
 show_downloads: false
-#google_analytics: [Your Google Analytics tracking ID]
-logo: /assets/images/qadao.jpg
-x_handle: https://x.com/qa_dao
 
+# Social Media
+x_handle: https://x.com/qa_dao
+youtube_handle: https://youtube.com/@qadao
+
+# SEO
+author: Stephen Whitenstall
+keywords: Quality Assurance, DAO, Blockchain, Cardano, SingularityNET, Open Source, Decentralized, Community Building
