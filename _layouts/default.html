@@ -28,41 +28,84 @@
     <![endif]-->
     {% include head-custom.html %}
     <style>
+      /* Override theme's default two-column layout */
+      body {
+        padding: 0;
+        margin: 0;
+        font-family: "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        line-height: 1.5;
+      }
+      
       .wrapper {
-        max-width: 1100px;
+        max-width: 960px;
         width: 100%;
         margin: 0 auto;
-        padding: 0 20px;
+        padding: 20px;
         box-sizing: border-box;
+      }
+      
+      /* Override theme's float layout */
+      header, section, footer {
+        float: none;
+        width: 100%;
+        position: static;
       }
       
       header {
         text-align: center;
+        padding: 20px 0 40px 0;
+        border-bottom: 1px solid #e5e5e5;
+        margin-bottom: 40px;
       }
       
-      header h1, 
-      header p, 
-      header .view, 
-      header .downloads {
-        display: block;
-        text-align: center;
+      header h1 {
+        margin: 0 0 10px 0;
+        font-size: 2em;
+      }
+      
+      header h1 a {
+        text-decoration: none;
+        color: #222;
+      }
+      
+      header img {
+        max-width: 250px;
+        height: auto;
+        margin: 20px 0;
+        border-radius: 8px;
+      }
+      
+      header p {
+        margin: 10px 0;
+        color: #555;
+        font-size: 1.1em;
+      }
+      
+      header .view {
+        margin: 10px 0;
       }
       
       header .downloads {
         display: flex;
         justify-content: center;
         padding: 0;
+        list-style: none;
+        margin: 15px 0;
       }
       
       header .downloads li {
-        display: inline-block;
         margin: 0 10px;
       }
       
       .social-links {
         width: 100%;
         text-align: center;
-        margin: 10px 0;
+        margin: 20px 0 0 0;
+      }
+      
+      .social-links div {
+        display: inline-block;
+        margin: 0 15px;
       }
       
       .social-links a {
@@ -70,6 +113,11 @@
         align-items: center;
         gap: 5px;
         text-decoration: none;
+        color: #0066cc;
+      }
+      
+      .social-links a:hover {
+        text-decoration: underline;
       }
       
       .social-links img {
@@ -78,19 +126,56 @@
         vertical-align: middle;
       }
       
+      main {
+        width: 100%;
+      }
+      
+      main section {
+        margin-bottom: 30px;
+      }
+      
+      .content-section {
+        margin-top: 40px;
+        padding-top: 20px;
+      }
+      
       .content-section h3 {
-        margin-top: 2em;
-        margin-bottom: 0.5em;
+        margin-top: 0;
+        margin-bottom: 15px;
+        font-size: 1.5em;
+        color: #222;
+        border-bottom: 2px solid #0066cc;
+        padding-bottom: 5px;
       }
       
       .content-section ul {
-        margin-top: 0.5em;
+        margin-top: 10px;
+        padding-left: 20px;
+      }
+      
+      .content-section li {
+        margin-bottom: 10px;
+        line-height: 1.6;
+      }
+      
+      footer {
+        text-align: center;
+        padding: 30px 0 20px 0;
+        border-top: 1px solid #e5e5e5;
+        margin-top: 50px;
+        color: #777;
+        font-size: 0.9em;
       }
       
       /* Responsive Design */
       @media screen and (max-width: 768px) {
         .wrapper {
-          padding: 0 15px;
+          padding: 15px;
+        }
+        
+        header {
+          padding: 15px 0 30px 0;
+          margin-bottom: 30px;
         }
         
         header h1 {
@@ -101,18 +186,31 @@
           max-width: 200px;
         }
         
+        header p {
+          font-size: 1em;
+        }
+        
         .social-links {
           font-size: 0.9em;
+        }
+        
+        .social-links div {
+          display: block;
+          margin: 10px 0;
+        }
+        
+        .content-section h3 {
+          font-size: 1.3em;
         }
       }
       
       @media screen and (max-width: 480px) {
         .wrapper {
-          padding: 0 10px;
+          padding: 10px;
         }
         
         header h1 {
-          font-size: 1.2em;
+          font-size: 1.3em;
         }
         
         header img {
@@ -123,8 +221,13 @@
           font-size: 0.85em;
         }
         
-        .social-links div {
-          margin: 8px 0;
+        header .downloads li {
+          margin: 5px;
+          font-size: 0.9em;
+        }
+        
+        .content-section h3 {
+          font-size: 1.2em;
         }
       }
     </style>
