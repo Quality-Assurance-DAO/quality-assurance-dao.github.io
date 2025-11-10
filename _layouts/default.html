@@ -14,6 +14,7 @@
 </head>
 
 <body>
+  <!-- HERO SECTION -->
   <header class="hero">
     <div class="container">
       {% if site.logo %}
@@ -21,11 +22,12 @@
       {% endif %}
       <h1>{{ site.title }}</h1>
       <p class="tagline">{{ site.description }}</p>
- 
+      <!-- 'Book a Consultation' button removed -->
     </div>
   </header>
 
   <main>
+    <!-- ABOUT SECTION -->
     <section id="about" class="section about">
       <div class="container">
         <h2>About Us</h2>
@@ -35,51 +37,59 @@
       </div>
     </section>
 
+    <!-- SERVICES SECTION (UPDATED) -->
     <section id="services" class="section services">
       <div class="container">
         <h2>Our Services</h2>
         <div class="service-grid">
           {% for service in site.data.services %}
-          <div class="service-card">
-            <h3>{{ service.name }}</h3>
-            <p>{{ service.description }}</p>
-          </div>
+            <div class="service-card">
+              <h3>{{ service.name }}</h3>
+              <p>{{ service.description }}</p>
+            </div>
           {% endfor %}
         </div>
       </div>
     </section>
 
+    <!-- PORTFOLIO / PROJECTS -->
     <section id="portfolio" class="section portfolio">
       <div class="container">
         <h2>Recent Projects</h2>
         <ul class="project-list">
           {% for project in site.data.projects %}
-          <li>
-            <a href="{{ project.url }}">{{ project.name }}</a>
-            <p>{{ project.description }}</p>
-          </li>
+            <li>
+              <a href="{{ project.url }}">{{ project.name }}</a>
+              <p>{{ project.description }}</p>
+            </li>
           {% endfor %}
         </ul>
       </div>
     </section>
 
+    <!-- CONTACT SECTION -->
     <section id="contact" class="section contact">
       <div class="container">
         <h2>Contact Us</h2>
-        <p>Interested in working with us? Get in touch via <a href="mailto:{{ site.email }}">email</a> or follow us below.</p>
+        <p>
+          Interested in working with us? Get in touch via
+          <a href="mailto:{{ site.email | default: 'info@qadao.io' }}">email</a>
+          or follow us below.
+        </p>
         <nav class="social-links">
-          <a href="{{ site.x_handle | default: 'https://x.com/qa_dao' }}" target="_blank">X / Twitter</a>
-          <a href="{{ site.youtube_handle | default: 'https://youtube.com/@qadao' }}" target="_blank">YouTube</a>
-          <a href="{{ site.github.repository_url }}">GitHub</a>
+          <a href="{{ site.x_handle | default: 'https://x.com/qa_dao' }}" target="_blank" rel="noopener">X / Twitter</a>
+          <a href="{{ site.youtube_handle | default: 'https://youtube.com/@qadao' }}" target="_blank" rel="noopener">YouTube</a>
+          <a href="{{ site.github.repository_url }}" target="_blank" rel="noopener">GitHub</a>
         </nav>
       </div>
     </section>
   </main>
 
+  <!-- FOOTER -->
   <footer class="site-footer">
     <div class="container">
       <p>© {{ site.time | date: '%Y' }} {{ site.title }}. All rights reserved.</p>
-      <p><small>Hosted on GitHub Pages &mdash; Built with Jekyll</small></p>
+      <p><small>Hosted on GitHub Pages — Built with Jekyll</small></p>
     </div>
   </footer>
 
