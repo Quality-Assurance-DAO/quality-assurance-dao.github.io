@@ -1,0 +1,84 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "DataItem Schema",
+  "description": "Schema for standardized data items in projects.yml, services.yml, gitbooks.yml, and github-organisations.yml",
+  "type": "object",
+  "required": ["id", "name", "description"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "URL-safe slug identifier (auto-generated from name)",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+      "examples": ["singularitynet-archive", "archive-tool"]
+    },
+    "name": {
+      "type": "string",
+      "description": "Display name of the item",
+      "minLength": 1,
+      "examples": ["SingularityNet Archive", "Governance Audits"]
+    },
+    "description": {
+      "type": "string",
+      "description": "Text description of the item",
+      "minLength": 1,
+      "examples": ["SingularityNet Archive Project Board", "Independent DAO-based audits for transparency and risk management."]
+    },
+    "url": {
+      "type": "string",
+      "description": "URL link to the item (required for projects, gitbooks, github-organisations; optional for services)",
+      "format": "uri",
+      "examples": ["https://github.com/orgs/SingularityNET-Archive/projects/1", "https://quality-assurance-dao.gitbook.io/decentralised-assurance-of-quality"]
+    },
+    "logo": {
+      "type": "string",
+      "description": "Path to logo image (relative to site root)",
+      "examples": ["/assets/images/logos/project-name.png"]
+    },
+    "year": {
+      "type": "integer",
+      "description": "Numeric year",
+      "minimum": 2000,
+      "maximum": 2100,
+      "examples": [2024, 2023]
+    },
+    "tags": {
+      "type": "array",
+      "description": "Array of tag strings",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "uniqueItems": true,
+      "examples": [["blockchain", "governance", "audit"], ["open-source", "community"]]
+    },
+    "status": {
+      "type": "string",
+      "description": "Status indicator",
+      "enum": ["active", "archived", "in-progress", "completed", "deprecated"],
+      "examples": ["active", "archived"]
+    },
+    "featured": {
+      "type": "boolean",
+      "description": "Featured item flag",
+      "examples": [true, false]
+    },
+    "category": {
+      "type": "string",
+      "description": "Category classification",
+      "examples": ["governance", "development", "community", "research"]
+    },
+    "repo": {
+      "type": "string",
+      "description": "Repository URL",
+      "format": "uri",
+      "examples": ["https://github.com/Quality-Assurance-DAO/quality-assurance-dao.github.io"]
+    },
+    "contact": {
+      "type": "string",
+      "description": "Contact information",
+      "examples": ["info@qadao.io", "@qa_dao"]
+    }
+  },
+  "additionalProperties": false
+}
+
