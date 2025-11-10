@@ -76,14 +76,23 @@
         <div class="data-grid">
           {% for service in site.data.services %}
             <article class="data-card"{% if service.id %} id="service-{{ service.id }}"{% endif %}>
-              {% if service.url %}
-                <a href="{{ service.url }}" class="data-card-link" aria-label="{{ service.name }} - {{ service.description }}">
+              {% if service.logo or service.icon %}
+                <div class="service-visual">
+                  {% if service.logo %}
+                    <img src="{{ service.logo | relative_url }}" alt="{% if service.name %}{{ service.name }} logo{% else %}Logo{% endif %}" class="data-card-logo">
+                  {% elsif service.icon %}
+                    <span class="service-icon">{{ service.icon }}</span>
+                  {% endif %}
+                </div>
               {% endif %}
-              {% if service.logo %}
-                <img src="{{ service.logo | relative_url }}" alt="{% if service.name %}{{ service.name }} logo{% else %}Logo{% endif %}" class="data-card-logo">
-              {% endif %}
+              
               <h3>{{ service.name }}</h3>
               <p>{{ service.description }}</p>
+              
+              {% if service.url %}
+                <a href="{{ service.url }}" class="service-learn-more">Learn more</a>
+              {% endif %}
+              
               {% if service.tags.size > 0 %}
                 <div class="data-card-tags">
                   {% for tag in service.tags %}
@@ -96,9 +105,6 @@
               {% endif %}
               {% if service.status %}
                 <span class="status-indicator status-{{ service.status | downcase }}">{{ service.status }}</span>
-              {% endif %}
-              {% if service.url %}
-                </a>
               {% endif %}
             </article>
           {% endfor %}
