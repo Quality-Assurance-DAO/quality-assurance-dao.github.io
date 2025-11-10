@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en' }}">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{ site.description | default: site.github.project_tagline }}">
+  <meta name="keywords" content="Consulting, Quality Assurance, DAO, Blockchain, Cardano, Open Source">
+  <meta name="theme-color" content="#0052cc">
+  <title>{{ page.title | default: site.title }}</title>
+
+  {% seo %}
+  <link rel="stylesheet" href="{{ '/assets/css/main.css?v=' | append: site.github.build_revision | relative_url }}">
+  {% include head-custom.html %}
+</head>
+
+<body>
+  <header class="hero">
+    <div class="container">
+      {% if site.logo %}
+        <img src="{{ site.logo | relative_url }}" alt="{{ site.title }} logo" class="hero-logo" loading="lazy">
+      {% endif %}
+      <h1>{{ site.title }}</h1>
+      <p class="tagline">{{ site.description }}</p>
+      <a href="#contact" class="btn-primary">Book a Consultation</a>
+    </div>
+  </header>
+
+  <main>
+    <section id="about" class="section about">
+      <div class="container">
+        <h2>About Us</h2>
+        <p>
+          {{ site.about_text | default: "Quality Assurance DAO is a decentralized consultancy providing governance and quality solutions for blockchain, AI, and open-source communities. We bring auditability, transparency, and measurable quality to your project." }}
+        </p>
+      </div>
+    </section>
+
+    <section id="services" class="section services">
+      <div class="container">
+        <h2>Our Services</h2>
+        <div class="service-grid">
+          {% for service in site.data.services %}
+          <div class="service-card">
+            <h3>{{ service.name }}</h3>
+            <p>{{ service.description }}</p>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </section>
+
+    <section id="portfolio" class="section portfolio">
+      <div class="container">
+        <h2>Recent Projects</h2>
+        <ul class="project-list">
+          {% for project in site.data.projects %}
+          <li>
+            <a href="{{ project.url }}">{{ project.name }}</a>
+            <p>{{ project.description }}</p>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="container">
+        <h2>Contact Us</h2>
+        <p>Interested in working with us? Get in touch via <a href="mailto:{{ site.email }}">email</a> or follow us below.</p>
+        <nav class="social-links">
+          <a href="{{ site.x_handle | default: 'https://x.com/qa_dao' }}" target="_blank">X / Twitter</a>
+          <a href="{{ site.youtube_handle | default: 'https://youtube.com/@qadao' }}" target="_blank">YouTube</a>
+          <a href="{{ site.github.repository_url }}">GitHub</a>
+        </nav>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© {{ site.time | date: '%Y' }} {{ site.title }}. All rights reserved.</p>
+      <p><small>Hosted on GitHub Pages &mdash; Built with Jekyll</small></p>
+    </div>
+  </footer>
+
+  <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
+</body>
+</html>
