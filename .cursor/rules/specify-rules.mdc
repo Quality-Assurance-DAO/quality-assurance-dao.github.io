@@ -4,6 +4,8 @@ Auto-generated from all feature plans. Last updated: 2025-11-10
 
 ## Active Technologies
 - N/A (static site, no data persistence) (002-follow-us-section)
+- HTML5, CSS3, JavaScript (ES5+), Liquid (Jekyll templating), Ruby (Jekyll 3.x) + Jekyll static site generator, GitHub Pages build environment, CSS custom properties (variables), localStorage API (003-design-enhancement)
+- N/A (static site, theme preference stored in browser localStorage) (003-design-enhancement)
 
 - Jekyll (Ruby-based static site generator), Liquid templating language + Jekyll, GitHub Pages build environment, YAML parser (001-standardize-yaml-data)
 
@@ -23,6 +25,7 @@ tests/
 Jekyll (Ruby-based static site generator), Liquid templating language: Follow standard conventions
 
 ## Recent Changes
+- 003-design-enhancement: Added HTML5, CSS3, JavaScript (ES5+), Liquid (Jekyll templating), Ruby (Jekyll 3.x) + Jekyll static site generator, GitHub Pages build environment, CSS custom properties (variables), localStorage API
 - 002-follow-us-section: Added Jekyll (Ruby-based static site generator), Liquid templating language + Jekyll, GitHub Pages build environment, YAML parser
 
 - 001-standardize-yaml-data: Added Jekyll (Ruby-based static site generator), Liquid templating language + Jekyll, GitHub Pages build environment, YAML parser
