@@ -1,0 +1,11 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Dataset Schema",
+  "description": "Schema for YAML data files (projects.yml, services.yml, gitbooks.yml, github-organisations.yml)",
+  "type": "array",
+  "items": {
+    "$ref": "./data-item-schema.json"
+  },
+  "minItems": 0
+}
+

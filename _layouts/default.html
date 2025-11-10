@@ -41,12 +41,34 @@
     <section id="services" class="section services">
       <div class="container">
         <h2>Our Services</h2>
-        <div class="service-grid">
+        <div class="data-grid">
           {% for service in site.data.services %}
-            <div class="service-card">
+            <article class="data-card"{% if service.id %} id="service-{{ service.id }}"{% endif %}>
+              {% if service.url %}
+                <a href="{{ service.url }}" class="data-card-link" aria-label="{{ service.name }} - {{ service.description }}">
+              {% endif %}
+              {% if service.logo %}
+                <img src="{{ service.logo | relative_url }}" alt="{% if service.name %}{{ service.name }} logo{% else %}Logo{% endif %}" class="data-card-logo">
+              {% endif %}
               <h3>{{ service.name }}</h3>
               <p>{{ service.description }}</p>
-            </div>
+              {% if service.tags.size > 0 %}
+                <div class="data-card-tags">
+                  {% for tag in service.tags %}
+                    <span class="tag">{{ tag }}</span>
+                  {% endfor %}
+                </div>
+              {% endif %}
+              {% if service.featured %}
+                <span class="featured-badge" aria-label="Featured">Featured</span>
+              {% endif %}
+              {% if service.status %}
+                <span class="status-indicator status-{{ service.status | downcase }}">{{ service.status }}</span>
+              {% endif %}
+              {% if service.url %}
+                </a>
+              {% endif %}
+            </article>
           {% endfor %}
         </div>
       </div>
@@ -56,14 +78,116 @@
     <section id="portfolio" class="section portfolio">
       <div class="container">
         <h2>Recent Projects</h2>
-        <ul class="project-list">
+        <div class="data-grid">
           {% for project in site.data.projects %}
-            <li>
-              <a href="{{ project.url }}">{{ project.name }}</a>
+            <article class="data-card"{% if project.id %} id="project-{{ project.id }}"{% endif %}>
+              {% if project.url %}
+                <a href="{{ project.url }}" class="data-card-link" aria-label="{{ project.name }} - {{ project.description }}">
+              {% endif %}
+              {% if project.logo %}
+                <img src="{{ project.logo | relative_url }}" alt="{% if project.name %}{{ project.name }} logo{% else %}Logo{% endif %}" class="data-card-logo">
+              {% endif %}
+              <h3>{{ project.name }}</h3>
               <p>{{ project.description }}</p>
-            </li>
+              {% if project.tags.size > 0 %}
+                <div class="data-card-tags">
+                  {% for tag in project.tags %}
+                    <span class="tag">{{ tag }}</span>
+                  {% endfor %}
+                </div>
+              {% endif %}
+              {% if project.featured %}
+                <span class="featured-badge" aria-label="Featured">Featured</span>
+              {% endif %}
+              {% if project.status %}
+                <span class="status-indicator status-{{ project.status | downcase }}">{{ project.status }}</span>
+              {% endif %}
+              {% if project.year %}
+                <span class="data-card-meta">Year: {{ project.year }}</span>
+              {% endif %}
+              {% if project.url %}
+                </a>
+              {% endif %}
+            </article>
           {% endfor %}
-        </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- GITBOOKS SECTION -->
+    <section id="gitbooks" class="section gitbooks">
+      <div class="container">
+        <h2>GitBooks</h2>
+        <div class="data-grid">
+          {% for gitbook in site.data.gitbooks %}
+            <article class="data-card"{% if gitbook.id %} id="gitbook-{{ gitbook.id }}"{% endif %}>
+              {% if gitbook.url %}
+                <a href="{{ gitbook.url }}" class="data-card-link" aria-label="{{ gitbook.name }} - {{ gitbook.description }}">
+              {% endif %}
+              {% if gitbook.logo %}
+                <img src="{{ gitbook.logo | relative_url }}" alt="{% if gitbook.name %}{{ gitbook.name }} logo{% else %}Logo{% endif %}" class="data-card-logo">
+              {% endif %}
+              <h3>{{ gitbook.name }}</h3>
+              <p>{{ gitbook.description }}</p>
+              {% if gitbook.tags.size > 0 %}
+                <div class="data-card-tags">
+                  {% for tag in gitbook.tags %}
+                    <span class="tag">{{ tag }}</span>
+                  {% endfor %}
+                </div>
+              {% endif %}
+              {% if gitbook.featured %}
+                <span class="featured-badge" aria-label="Featured">Featured</span>
+              {% endif %}
+              {% if gitbook.status %}
+                <span class="status-indicator status-{{ gitbook.status | downcase }}">{{ gitbook.status }}</span>
+              {% endif %}
+              {% if gitbook.url %}
+                </a>
+              {% endif %}
+            </article>
+          {% endfor %}
+        </div>
+      </div>
+    </section>
+
+    <!-- GITHUB ORGANIZATIONS SECTION -->
+    <section id="organizations" class="section organizations">
+      <div class="container">
+        <h2>GitHub Organizations</h2>
+        <div class="data-grid">
+          {% for org in site.data.github-organisations %}
+            <article class="data-card"{% if org.id %} id="org-{{ org.id }}"{% endif %}>
+              {% if org.url %}
+                <a href="{{ org.url }}" class="data-card-link" aria-label="{{ org.name }} - {{ org.description }}">
+              {% endif %}
+              {% if org.logo %}
+                <img src="{{ org.logo | relative_url }}" alt="{% if org.name %}{{ org.name }} logo{% else %}Logo{% endif %}" class="data-card-logo">
+              {% endif %}
+              <h3>{{ org.name }}</h3>
+              <p>{{ org.description }}</p>
+              {% if org.tags.size > 0 %}
+                <div class="data-card-tags">
+                  {% for tag in org.tags %}
+                    <span class="tag">{{ tag }}</span>
+                  {% endfor %}
+                </div>
+              {% endif %}
+              {% if org.featured %}
+                <span class="featured-badge" aria-label="Featured">Featured</span>
+              {% endif %}
+              {% if org.status %}
+                <span class="status-indicator status-{{ org.status | downcase }}">{{ org.status }}</span>
+              {% endif %}
+              {% if org.url %}
+                </a>
+              {% endif %}
+              {% if org.repo %}
+                <a href="{{ org.repo }}" class="data-card-repo" aria-label="Repository for {{ org.name }}">Repository</a>
+              {% endif %}
+            </article>
+          {% endfor %}
+        </div>
       </div>
     </section>
 

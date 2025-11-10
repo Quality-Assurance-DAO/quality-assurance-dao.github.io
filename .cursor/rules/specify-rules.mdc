@@ -1,0 +1,29 @@
+# quality-assurance-dao.github.io Development Guidelines
+
+Auto-generated from all feature plans. Last updated: 2025-11-10
+
+## Active Technologies
+
+- Jekyll (Ruby-based static site generator), Liquid templating language + Jekyll, GitHub Pages build environment, YAML parser (001-standardize-yaml-data)
+
+## Project Structure
+
+```text
+src/
+tests/
+```
+
+## Commands
+
+# Add commands for Jekyll (Ruby-based static site generator), Liquid templating language
+
+## Code Style
+
+Jekyll (Ruby-based static site generator), Liquid templating language: Follow standard conventions
+
+## Recent Changes
+
+- 001-standardize-yaml-data: Added Jekyll (Ruby-based static site generator), Liquid templating language + Jekyll, GitHub Pages build environment, YAML parser
+
+<!-- MANUAL ADDITIONS START -->
+<!-- MANUAL ADDITIONS END -->
