@@ -38,7 +38,7 @@ As a website visitor, I want to see services presented in a card-based layout wi
 1. **Given** I visit the services section, **When** I view the service cards, **Then** each card displays an icon or image representing the service
 2. **Given** I visit the services section, **When** I read a service card, **Then** I see a short, concise description of the service
 3. **Given** I visit the services section, **When** I view each service card, **Then** I see a "Learn more" link that allows me to access additional information
-4. **Given** I view a service card with an icon, **When** the icon is displayed, **Then** it is visually prominent and appropriately sized relative to the card content
+4. **Given** I view a service card with an icon (emoji), **When** the icon is displayed, **Then** it is visually prominent and appropriately sized relative to the card content
 5. **Given** I view a service card with an image, **When** the image is displayed, **Then** it is properly sized and maintains aspect ratio within the card layout
 6. **Given** I view the services section, **When** I examine multiple service cards, **Then** all cards have consistent layout, spacing, and styling regardless of content length
 7. **Given** I click a "Learn more" link, **When** the link is activated, **Then** I am taken to the service detail page or external resource as appropriate
@@ -48,6 +48,7 @@ As a website visitor, I want to see services presented in a card-based layout wi
 ### Edge Cases
 
 - What happens when a service has no icon or image available? → Card should display gracefully without the visual element, maintaining consistent layout
+- What happens when a service has both logo and icon? → Logo (image) takes priority and is displayed; icon is not shown
 - What happens when a service description is very long? → Description should be truncated or wrapped appropriately to maintain card consistency
 - What happens when a service has no URL for the "Learn more" link? → Card should display without the link or show a disabled state
 - How does the typography hierarchy handle very long h1 headings? → Heading should wrap appropriately while maintaining size hierarchy
@@ -63,16 +64,16 @@ As a website visitor, I want to see services presented in a card-based layout wi
 - **FR-004**: System MUST use a clean modern sans-serif font family for all headings and body text
 - **FR-005**: System MUST maintain proportional heading size relationships across all screen sizes
 - **FR-006**: System MUST display each service in a card-based layout within the services section
-- **FR-007**: System MUST display an icon or image for each service card when available
+- **FR-007**: System MUST display an icon or image for each service card when available (priority: logo/image if present, otherwise icon if present)
 - **FR-008**: System MUST display a short description for each service within the card
-- **FR-009**: System MUST display a "Learn more" link for each service card when a URL is available
+- **FR-009**: System MUST display a "Learn more" link for each service card when a URL is available (styled as text link, not button, positioned after description and before optional tags/status)
 - **FR-010**: System MUST maintain consistent card layout, spacing, and styling across all service cards
 - **FR-011**: System MUST handle missing icon/image gracefully without breaking card layout
 - **FR-012**: System MUST handle missing service URLs gracefully (display card without link or show appropriate state)
 
 ### Key Entities *(include if feature involves data)*
 
-- **Service Card**: Represents a single service offering displayed in card format. Contains icon/image (optional), title (h3), description (required), and "Learn more" link (optional when URL available)
+- **Service Card**: Represents a single service offering displayed in card format. Contains visual element (logo/image preferred over icon emoji, both optional), title (h3), description (required), "Learn more" link (optional when URL available, positioned after description), and optional tags/status metadata
 - **Typography Hierarchy**: Defines the size relationships between h1, h2, and h3 headings, ensuring consistent visual hierarchy across all pages
 
 ## Success Criteria *(mandatory)*
@@ -104,10 +105,10 @@ As a website visitor, I want to see services presented in a card-based layout wi
 ## Assumptions
 
 - Modern sans-serif font family (Space Grotesk) is already implemented from previous design enhancements
-- Service data structure supports optional icon/image and URL fields
+- Service data structure supports optional icon (emoji strings) and logo/image fields
 - "Learn more" links should point to service URLs when available
 - Card layout should maintain existing responsive grid behavior
-- Typography hierarchy should follow standard web typography ratios (e.g., h1:h2:h3 approximately 2.5:2:1.5 or similar proportional relationship)
+- Typography hierarchy should use CSS clamp() with proportional min/max values to maintain responsive scaling while preserving size relationships (e.g., h1:h2:h3 approximately 2.5:2:1.5 ratio)
 
 ## Dependencies
 
@@ -122,3 +123,13 @@ As a website visitor, I want to see services presented in a card-based layout wi
 - Must work within existing responsive design breakpoints
 - Must maintain accessibility standards (WCAG AA) for typography contrast and link visibility
 - Must not break existing functionality in other sections
+
+## Clarifications
+
+### Session 2024-12-19
+
+- Q: When a service has both a logo (image) and an icon (emoji/identifier), which should be displayed? → A: Display logo (image) if present, otherwise display icon if present, otherwise show neither
+- Q: What format should the icon field use when displaying icons in service cards? → A: Emoji strings (e.g., "🚀", "💡") - simple, no dependencies
+- Q: How should the "Learn more" link be styled in service cards? → A: Styled text link (underlined or colored, not a button) - subtle, standard link appearance
+- Q: How should the typography size ratios (h1:h2:h3) be implemented? → A: CSS clamp() with proportional min/max values (e.g., h1: clamp(2rem, 5vw, 3rem)) - responsive scaling
+- Q: Where should the "Learn more" link be positioned within each service card? → A: After the description, before optional tags/status - follows content flow
