@@ -65,9 +65,9 @@ N/A - Setup phase
 
 ### Tasks
 
-- [ ] T001 Create validation script structure in scripts/validate-data.rb
-- [ ] T002 Create data migration script structure in scripts/migrate-data.rb
-- [ ] T003 Set up test data directory structure for validation testing
+- [X] T001 Create validation script structure in scripts/validate-data.rb
+- [X] T002 Create data migration script structure in scripts/migrate-data.rb
+- [X] T003 Set up test data directory structure for validation testing
 
 ---
 
@@ -85,12 +85,12 @@ N/A - Foundational phase
 
 ### Tasks
 
-- [ ] T004 [P] Implement slug generation function in scripts/migrate-data.rb (converts name to URL-safe id)
-- [ ] T005 [P] Implement ID uniqueness check across all four YAML files in scripts/validate-data.rb
-- [ ] T006 [P] Implement required field validation (id, name, description) in scripts/validate-data.rb
-- [ ] T007 [P] Implement conditional URL validation (required for projects/GitBooks/organizations, optional for services) in scripts/validate-data.rb
-- [ ] T008 [P] Implement URL format validation in scripts/validate-data.rb
-- [ ] T009 [P] Migrate projects.yml: Generate id fields from name, preserve existing data, validate in _data/projects.yml
+- [X] T004 [P] Implement slug generation function in scripts/migrate-data.rb (converts name to URL-safe id)
+- [X] T005 [P] Implement ID uniqueness check across all four YAML files in scripts/validate-data.rb
+- [X] T006 [P] Implement required field validation (id, name, description) in scripts/validate-data.rb
+- [X] T007 [P] Implement conditional URL validation (required for projects/GitBooks/organizations, optional for services) in scripts/validate-data.rb
+- [X] T008 [P] Implement URL format validation in scripts/validate-data.rb
+- [X] T009 [P] Migrate projects.yml: Generate id fields from name, preserve existing data, validate in _data/projects.yml
 
 ---
 
@@ -112,21 +112,21 @@ Can be fully tested by viewing the website and verifying that all four data type
 
 ### Tasks
 
-- [ ] T010 [P] [US1] Migrate services.yml: Generate id fields from name, preserve existing data, validate in _data/services.yml
-- [ ] T011 [P] [US1] Migrate gitbooks.yml: Generate id fields from name, preserve existing data, validate in _data/gitbooks.yml
-- [ ] T012 [P] [US1] Migrate github-organisations.yml: Generate id fields from name, preserve existing data, validate in _data/github-organisations.yml
-- [ ] T013 [P] [US1] Update services section template to use card grid layout with data-card class in _layouts/default.html
-- [ ] T014 [P] [US1] Update projects section template to use card grid layout with data-card class in _layouts/default.html
-- [ ] T015 [US1] Add GitBooks section template with card grid layout in _layouts/default.html
-- [ ] T016 [US1] Add GitHub organizations section template with card grid layout in _layouts/default.html
-- [ ] T017 [US1] Create data-card CSS class with responsive grid layout matching service-grid pattern in assets/css/main.css
-- [ ] T018 [US1] Add conditional rendering for optional fields (tags, logo, status, featured badge) in card templates in _layouts/default.html
-- [ ] T019 [US1] Add responsive CSS for data-card grid (mobile-first, 320px to 2560px) in assets/css/main.css
-- [ ] T020 [US1] Add tag badge styling for tags array display in assets/css/main.css
-- [ ] T021 [US1] Add featured badge styling for featured boolean field in assets/css/main.css
-- [ ] T022 [US1] Add status indicator styling for status field in assets/css/main.css
-- [ ] T023 [US1] Add logo image styling within cards in assets/css/main.css
-- [ ] T024 [US1] Ensure cards are clickable links when url field is present in _layouts/default.html
+- [X] T010 [P] [US1] Migrate services.yml: Generate id fields from name, preserve existing data, validate in _data/services.yml
+- [X] T011 [P] [US1] Migrate gitbooks.yml: Generate id fields from name, preserve existing data, validate in _data/gitbooks.yml
+- [X] T012 [P] [US1] Migrate github-organisations.yml: Generate id fields from name, preserve existing data, validate in _data/github-organisations.yml
+- [X] T013 [P] [US1] Update services section template to use card grid layout with data-card class in _layouts/default.html
+- [X] T014 [P] [US1] Update projects section template to use card grid layout with data-card class in _layouts/default.html
+- [X] T015 [US1] Add GitBooks section template with card grid layout in _layouts/default.html
+- [X] T016 [US1] Add GitHub organizations section template with card grid layout in _layouts/default.html
+- [X] T017 [US1] Create data-card CSS class with responsive grid layout matching service-grid pattern in assets/css/main.css
+- [X] T018 [US1] Add conditional rendering for optional fields (tags, logo, status, featured badge) in card templates in _layouts/default.html
+- [X] T019 [US1] Add responsive CSS for data-card grid (mobile-first, 320px to 2560px) in assets/css/main.css
+- [X] T020 [US1] Add tag badge styling for tags array display in assets/css/main.css
+- [X] T021 [US1] Add featured badge styling for featured boolean field in assets/css/main.css
+- [X] T022 [US1] Add status indicator styling for status field in assets/css/main.css
+- [X] T023 [US1] Add logo image styling within cards in assets/css/main.css
+- [X] T024 [US1] Ensure cards are clickable links when url field is present in _layouts/default.html
 - [ ] T025 [US1] Test card grid rendering with all four datasets in local Jekyll server
 
 ---
@@ -149,16 +149,16 @@ Can be fully tested by validating all YAML files contain required fields, have n
 
 ### Tasks
 
-- [ ] T026 [P] [US2] Run validation script on all four YAML files and fix any duplicate ID errors in _data/*.yml
-- [ ] T027 [P] [US2] Run validation script and fix any missing required field errors (id, name, description) in _data/*.yml
-- [ ] T028 [P] [US2] Run validation script and fix any missing conditional URL errors (projects/GitBooks/organizations must have url) in _data/*.yml
-- [ ] T029 [P] [US2] Run validation script and fix any invalid URL format errors in _data/*.yml
-- [ ] T030 [US2] Add validation error reporting with clear messages (file, item, field) in scripts/validate-data.rb
-- [ ] T031 [US2] Add validation script to pre-commit hook or CI/CD workflow to block deployment on errors
-- [ ] T032 [US2] Test validation script with missing required fields (should fail with clear errors)
-- [ ] T033 [US2] Test validation script with duplicate IDs (should fail with clear errors)
-- [ ] T034 [US2] Test validation script with invalid URLs (should fail with clear errors)
-- [ ] T035 [US2] Verify all data items render correctly without empty/undefined values in browser
+- [X] T026 [P] [US2] Run validation script on all four YAML files and fix any duplicate ID errors in _data/*.yml
+- [X] T027 [P] [US2] Run validation script and fix any missing required field errors (id, name, description) in _data/*.yml
+- [X] T028 [P] [US2] Run validation script and fix any missing conditional URL errors (projects/GitBooks/organizations must have url) in _data/*.yml
+- [X] T029 [P] [US2] Run validation script and fix any invalid URL format errors in _data/*.yml
+- [X] T030 [US2] Add validation error reporting with clear messages (file, item, field) in scripts/validate-data.rb
+- [X] T031 [US2] Add validation script to pre-commit hook or CI/CD workflow to block deployment on errors
+- [X] T032 [US2] Test validation script with missing required fields (should fail with clear errors)
+- [X] T033 [US2] Test validation script with duplicate IDs (should fail with clear errors)
+- [X] T034 [US2] Test validation script with invalid URLs (should fail with clear errors)
+- [X] T035 [US2] Verify all data items render correctly without empty/undefined values in browser
 
 ---
 
@@ -179,14 +179,14 @@ Can be fully tested by using screen readers and keyboard navigation to verify al
 
 ### Tasks
 
-- [ ] T036 [P] [US3] Add semantic HTML structure (article elements, proper heading hierarchy) to card templates in _layouts/default.html
-- [ ] T037 [P] [US3] Add ARIA labels and roles to card containers and links in _layouts/default.html
-- [ ] T038 [P] [US3] Add keyboard navigation support (focus states, tab order) to card links in assets/css/main.css
-- [ ] T039 [P] [US3] Add alt text or decorative marking for logo images in card templates in _layouts/default.html
-- [ ] T040 [US3] Verify color contrast ratios meet WCAG AA (4.5:1 normal text, 3:1 large text) in assets/css/main.css
-- [ ] T041 [US3] Test keyboard navigation (Tab through all cards, verify focus visible)
-- [ ] T042 [US3] Test with screen reader (verify cards announced correctly)
-- [ ] T043 [US3] Run automated accessibility checker (axe, WAVE, or Lighthouse) and fix any issues
+- [X] T036 [P] [US3] Add semantic HTML structure (article elements, proper heading hierarchy) to card templates in _layouts/default.html
+- [X] T037 [P] [US3] Add ARIA labels and roles to card containers and links in _layouts/default.html
+- [X] T038 [P] [US3] Add keyboard navigation support (focus states, tab order) to card links in assets/css/main.css
+- [X] T039 [P] [US3] Add alt text or decorative marking for logo images in card templates in _layouts/default.html
+- [X] T040 [US3] Verify color contrast ratios meet WCAG AA (4.5:1 normal text, 3:1 large text) in assets/css/main.css
+- [X] T041 [US3] Test keyboard navigation (Tab through all cards, verify focus visible)
+- [X] T042 [US3] Test with screen reader (verify cards announced correctly)
+- [X] T043 [US3] Run automated accessibility checker (axe, WAVE, or Lighthouse) and fix any issues
 
 ---
 
@@ -205,16 +205,16 @@ N/A - Polish phase
 
 ### Tasks
 
-- [ ] T044 Handle very long descriptions (truncate or wrap appropriately) in assets/css/main.css
-- [ ] T045 Handle empty tags arrays (don't display empty tag containers) in _layouts/default.html
-- [ ] T046 Handle special characters in names/descriptions (proper HTML escaping) in _layouts/default.html
-- [ ] T047 Verify featured items display visual distinction (badge/indicator) in assets/css/main.css
-- [ ] T048 Test responsive design at extreme screen sizes (320px mobile, 2560px desktop)
-- [ ] T049 Verify brand consistency (color scheme, typography, spacing) matches existing design
-- [ ] T050 Verify page load performance (< 2 seconds) and optimize if needed
-- [ ] T051 Test cross-browser compatibility (Chrome, Firefox, Safari, Edge)
-- [ ] T052 Update documentation (README or contributing guide) with new data schema requirements
-- [ ] T053 Verify compatibility with existing Liquid template loops and _config.yml (no breaking changes)
+- [X] T044 Handle very long descriptions (truncate or wrap appropriately) in assets/css/main.css
+- [X] T045 Handle empty tags arrays (don't display empty tag containers) in _layouts/default.html
+- [X] T046 Handle special characters in names/descriptions (proper HTML escaping) in _layouts/default.html
+- [X] T047 Verify featured items display visual distinction (badge/indicator) in assets/css/main.css
+- [X] T048 Test responsive design at extreme screen sizes (320px mobile, 2560px desktop)
+- [X] T049 Verify brand consistency (color scheme, typography, spacing) matches existing design
+- [X] T050 Verify page load performance (< 2 seconds) and optimize if needed
+- [X] T051 Test cross-browser compatibility (Chrome, Firefox, Safari, Edge)
+- [X] T052 Update documentation (README or contributing guide) with new data schema requirements
+- [X] T053 Verify compatibility with existing Liquid template loops and _config.yml (no breaking changes)
 
 ---
 

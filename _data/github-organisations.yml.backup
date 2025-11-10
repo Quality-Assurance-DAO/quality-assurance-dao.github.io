@@ -1,10 +1,6 @@
----
 - name: SingularityNet Archive
-  description: This GitHub organisation contains repositories for the SingularityNET
-    Ambassador Archive.
+  description: This GitHub organisation contains repositories for the SingularityNET Ambassador Archive.
   url: https://github.com/SingularityNET-Archive
-  id: singularitynet-archive-1
 - name: Quality-Assurance-DAO
   description: The Distributed Autonomous Organisation of Quality Assurance
   url: https://github.com/Quality-Assurance-DAO
-  id: quality-assurance-dao

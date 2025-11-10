@@ -1,10 +1,6 @@
----
 - name: QADAO
   description: Quality-assurance-DAO
   url: https://quality-assurance-dao.gitbook.io/decentralised-assurance-of-quality
-  id: qadao
 - name: SingularityNET Ambassador Program
-  description: This GitBook contains a history of the activities of the SingularityNET
-    Ambassador Program
+  description: This GitBook contains a history of the activities of the SingularityNET Ambassador Program
   url: https://snet-ambassadors.gitbook.io/singularitynet-archive
-  id: singularitynet-ambassador-program

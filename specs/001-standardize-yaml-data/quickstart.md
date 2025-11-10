@@ -65,6 +65,7 @@ This feature standardizes four YAML data files to use a consistent schema and up
 
 ### Rendering All Items
 
+{% raw %}
 ```liquid
 {% for project in site.data.projects %}
   <article class="data-card">
@@ -76,9 +77,11 @@ This feature standardizes four YAML data files to use a consistent schema and up
   </article>
 {% endfor %}
 ```
+{% endraw %}
 
 ### Conditional Fields
 
+{% raw %}
 ```liquid
 {% if item.tags.size > 0 %}
   <div class="tags">
@@ -96,6 +99,7 @@ This feature standardizes four YAML data files to use a consistent schema and up
   <img src="{{ item.logo | relative_url }}" alt="{{ item.name }} logo">
 {% endif %}
 ```
+{% endraw %}
 
 ## Validation
 
@@ -200,7 +204,7 @@ When migrating existing data:
 - Check YAML syntax (indentation, colons, dashes)
 - Verify item is in correct file
 - Check for required fields (`id`, `name`, `description`)
-- Verify Jekyll is reading data: `{{ site.data.projects | jsonify }}`
+- Verify Jekyll is reading data: <code>{% raw %}{{ site.data.projects | jsonify }}{% endraw %}</code>
 
 ### Duplicate ID Error
 
@@ -216,7 +220,7 @@ When migrating existing data:
 ### Optional Field Not Displaying
 
 - Check if field exists in YAML (case-sensitive)
-- Verify conditional rendering in template: `{% if item.field %}`
+- Verify conditional rendering in template: <code>{% raw %}{% if item.field %}{% endraw %}</code>
 - Check for typos in field name
 
 ## Related Documentation

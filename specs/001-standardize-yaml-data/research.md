@@ -28,12 +28,12 @@
 
 ### 2. Jekyll/Liquid Template Patterns for Dynamic Rendering
 
-**Decision**: Use Liquid `{% for %}` loops with conditional rendering for optional fields, maintaining compatibility with existing `site.data.*` access patterns.
+**Decision**: Use Liquid <code>{% raw %}{% for %}{% endraw %}</code> loops with conditional rendering for optional fields, maintaining compatibility with existing `site.data.*` access patterns.
 
 **Rationale**:
 - Jekyll's Liquid templating is the standard approach for GitHub Pages
-- Existing templates already use `{% for service in site.data.services %}` pattern
-- Conditional rendering (`{% if item.url %}`) handles optional fields gracefully
+- Existing templates already use <code>{% raw %}{% for service in site.data.services %}{% endraw %}</code> pattern
+- Conditional rendering (<code>{% raw %}{% if item.url %}{% endraw %}</code>) handles optional fields gracefully
 - No changes to `_config.yml` required - data access remains the same
 
 **Alternatives Considered**:
@@ -151,18 +151,18 @@
 
 ### Data Access Pattern
 - Use `site.data.filename` to access YAML data in templates
-- Loop through arrays: `{% for item in site.data.projects %}`
-- Access fields: `{{ item.name }}`, `{{ item.description }}`
+- Loop through arrays: <code>{% raw %}{% for item in site.data.projects %}{% endraw %}</code>
+- Access fields: <code>{% raw %}{{ item.name }}{% endraw %}</code>, <code>{% raw %}{{ item.description }}{% endraw %}</code>
 
 ### Conditional Rendering Pattern
-- Check for optional fields: `{% if item.url %}...{% endif %}`
-- Check for arrays: `{% if item.tags.size > 0 %}...{% endif %}`
-- Check for booleans: `{% if item.featured %}...{% endif %}`
+- Check for optional fields: <code>{% raw %}{% if item.url %}...{% endif %}{% endraw %}</code>
+- Check for arrays: <code>{% raw %}{% if item.tags.size > 0 %}...{% endif %}{% endraw %}</code>
+- Check for booleans: <code>{% raw %}{% if item.featured %}...{% endif %}{% endraw %}</code>
 
 ### Card Rendering Pattern
 - Wrap each item in `<article>` or `<div class="card">`
 - Include semantic structure: heading, description, optional metadata
-- Add link wrapper when URL present: `<a href="{{ item.url }}">...</a>`
+- Add link wrapper when URL present: <code>{% raw %}<a href="{{ item.url }}">...</a>{% endraw %}</code>
 
 ## Resolved Clarifications
 

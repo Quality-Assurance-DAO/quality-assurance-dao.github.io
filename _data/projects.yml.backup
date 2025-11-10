@@ -1,9 +1,6 @@
----
 - name: SingularityNet Archive
   description: SingularityNet Archive Project Board
   url: https://github.com/orgs/SingularityNET-Archive/projects/1
-  id: singularitynet-archive
 - name: Archive Tool
   description: Archive Tool Issue Board
   url: https://github.com/orgs/SingularityNET-Archive/projects/3
-  id: archive-tool

@@ -1,6 +1,11 @@
+---
 - name: Governance Audits
-  description: "Independent DAO-based audits for transparency and risk management."
+  description: Independent DAO-based audits for transparency and risk management.
+  id: governance-audits
 - name: Open Source Community Building
-  description: "Building and scaling open-source communities with best-practice frameworks."
+  description: Building and scaling open-source communities with best-practice frameworks.
+  id: open-source-community-building
 - name: AI & Blockchain Strategy
-  description: "Advising on integration of AI/ML within decentralized systems and token economies."
+  description: Advising on integration of AI/ML within decentralized systems and token
+    economies.
+  id: ai-blockchain-strategy

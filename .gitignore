@@ -24,3 +24,5 @@ Gemfile.lock
 # Logs
 *.log
 
+# Environment variables
+.env*
