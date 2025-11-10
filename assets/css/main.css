@@ -1,0 +1,162 @@
+:root {
+  --primary: #0052cc;
+  --primary-light: #e6f0ff;
+  --text: #1a1a1a;
+  --muted: #555;
+  --bg: #fff;
+  --border: #e0e0e0;
+  --radius: 10px;
+  --font-base: 'Inter', 'Noto Sans', Arial, sans-serif;
+  --max-width: 1000px;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-base);
+  color: var(--text);
+  background: var(--bg);
+  line-height: 1.6;
+}
+
+.container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  background: linear-gradient(180deg, var(--primary) 0%, #003d99 100%);
+  color: #fff;
+  padding: 6rem 1.5rem;
+}
+
+.hero-logo {
+  max-width: 150px;
+  margin-bottom: 1rem;
+}
+
+.hero h1 {
+  font-size: clamp(1.8rem, 4vw, 3rem);
+  margin: 0.5rem 0;
+}
+
+.tagline {
+  font-size: 1.25rem;
+  opacity: 0.9;
+  margin-bottom: 1.5rem;
+}
+
+.btn-primary {
+  background: #fff;
+  color: var(--primary);
+  padding: 0.75rem 1.5rem;
+  border-radius: var(--radius);
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.2s ease;
+}
+
+.btn-primary:hover {
+  background: var(--primary-light);
+}
+
+/* Section Base */
+.section {
+  padding: 4rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.section h2 {
+  text-align: center;
+  color: var(--primary);
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* Services */
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+}
+
+.service-card {
+  background: var(--primary-light);
+  padding: 1.5rem;
+  border-radius: var(--radius);
+  text-align: left;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+}
+
+.service-card h3 {
+  color: var(--primary);
+  margin-top: 0;
+}
+
+/* Portfolio */
+.project-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 700px;
+}
+
+.project-list li {
+  margin-bottom: 1.5rem;
+}
+
+.project-list a {
+  color: var(--primary);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.project-list a:hover {
+  text-decoration: underline;
+}
+
+/* Contact */
+.contact p {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto 1.5rem auto;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.social-links a {
+  color: var(--primary);
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.social-links a:hover {
+  color: #003d99;
+}
+
+/* Footer */
+.site-footer {
+  text-align: center;
+  color: var(--muted);
+  padding: 2rem 0;
+  font-size: 0.9rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero {
+    padding: 4rem 1rem;
+  }
+
+  .section {
+    padding: 2.5rem 1rem;
+  }
+}
