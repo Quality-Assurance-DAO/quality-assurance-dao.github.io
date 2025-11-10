@@ -95,8 +95,8 @@ Start with **User Story 1 (Typography Hierarchy)** as it provides immediate visu
 
 ### Tasks
 
-- [ ] T001 Verify Jekyll development environment is running (`bundle exec jekyll serve` from repository root)
-- [ ] T002 Verify access to required files: `assets/css/main.css`, `_layouts/default.html`, `_data/services.yml`
+- [x] T001 Verify Jekyll development environment is running (`bundle exec jekyll serve` from repository root)
+- [x] T002 Verify access to required files: `assets/css/main.css`, `_layouts/default.html`, `_data/services.yml`
 
 ---
 
@@ -128,13 +128,13 @@ Start with **User Story 1 (Typography Hierarchy)** as it provides immediate visu
 
 ### Implementation for User Story 1
 
-- [ ] T003 [P] [US1] Define typography hierarchy CSS variables in `:root` section of `assets/css/main.css` (add --h1-size: clamp(2rem, 5vw, 3rem), --h2-size: clamp(1.75rem, 4vw, 2.5rem), --h3-size: clamp(1.25rem, 3vw, 1.75rem) after existing CSS variables)
-- [ ] T004 [P] [US1] Add global h1 heading styles using --h1-size variable in `assets/css/main.css` (h1 { font-size: var(--h1-size); font-weight: 700; line-height: 1.2; margin-bottom: 1rem; })
-- [ ] T005 [P] [US1] Add global h2 heading styles using --h2-size variable in `assets/css/main.css` (h2 { font-size: var(--h2-size); font-weight: 600; line-height: 1.3; margin-bottom: 0.875rem; })
-- [ ] T006 [US1] Add global h3 heading styles using --h3-size variable in `assets/css/main.css` (h3 { font-size: var(--h3-size); font-weight: 600; line-height: 1.4; margin-bottom: 0.75rem; })
-- [ ] T007 [P] [US1] Update `.hero h1` style to use --h1-size variable in `assets/css/main.css` (replace existing clamp(1.8rem, 4vw, 3rem) or hardcoded size with var(--h1-size))
-- [ ] T008 [P] [US1] Update `.section h2` style to use --h2-size variable in `assets/css/main.css` (replace existing font-size: 2rem or hardcoded size with var(--h2-size))
-- [ ] T009 [US1] Update `.data-card h3` style to use --h3-size variable in `assets/css/main.css` (add or update font-size: var(--h3-size) if not already present)
+- [x] T003 [P] [US1] Define typography hierarchy CSS variables in `:root` section of `assets/css/main.css` (add --h1-size: clamp(2rem, 5vw, 3rem), --h2-size: clamp(1.75rem, 4vw, 2.5rem), --h3-size: clamp(1.25rem, 3vw, 1.75rem) after existing CSS variables)
+- [x] T004 [P] [US1] Add global h1 heading styles using --h1-size variable in `assets/css/main.css` (h1 { font-size: var(--h1-size); font-weight: 700; line-height: 1.2; margin-bottom: 1rem; })
+- [x] T005 [P] [US1] Add global h2 heading styles using --h2-size variable in `assets/css/main.css` (h2 { font-size: var(--h2-size); font-weight: 600; line-height: 1.3; margin-bottom: 0.875rem; })
+- [x] T006 [US1] Add global h3 heading styles using --h3-size variable in `assets/css/main.css` (h3 { font-size: var(--h3-size); font-weight: 600; line-height: 1.4; margin-bottom: 0.75rem; })
+- [x] T007 [P] [US1] Update `.hero h1` style to use --h1-size variable in `assets/css/main.css` (replace existing clamp(1.8rem, 4vw, 3rem) or hardcoded size with var(--h1-size))
+- [x] T008 [P] [US1] Update `.section h2` style to use --h2-size variable in `assets/css/main.css` (replace existing font-size: 2rem or hardcoded size with var(--h2-size))
+- [x] T009 [US1] Update `.data-card h3` style to use --h3-size variable in `assets/css/main.css` (add or update font-size: var(--h3-size) if not already present)
 
 **Checkpoint**: At this point, User Story 1 should be fully functional and testable independently. All headings should display with consistent hierarchy across the site.
 
@@ -157,13 +157,13 @@ Start with **User Story 1 (Typography Hierarchy)** as it provides immediate visu
 
 ### Implementation for User Story 2
 
-- [ ] T010 [P] [US2] Update service card HTML structure in `_layouts/default.html` to include service-visual container with conditional icon/image display (find services section around lines 72-105, add `<div class="service-visual">` before h3, support service.logo (image) and service.icon (emoji) fields with priority: logo if present, otherwise icon if present)
-- [ ] T011 [P] [US2] Add "Learn more" link to service card HTML structure in `_layouts/default.html` (add `<a href="{{ service.url }}" class="service-learn-more">Learn more</a>` after description paragraph, conditional on service.url existence)
-- [ ] T012 [US2] Add service-visual CSS styles in `assets/css/main.css` (.service-visual { margin-bottom: 1rem; text-align: center; })
-- [ ] T013 [US2] Add service-icon CSS styles in `assets/css/main.css` (.service-icon { font-size: 3rem; display: block; line-height: 1; })
-- [ ] T014 [US2] Add service-learn-more link CSS styles in `assets/css/main.css` (.service-learn-more { display: inline-block; margin-top: 1rem; color: var(--primary); text-decoration: none; font-weight: 500; font-size: 0.9375rem; transition: color 0.2s ease; } .service-learn-more:hover { color: var(--primary-dark); text-decoration: underline; } .service-learn-more:focus { outline: 2px solid var(--primary); outline-offset: 2px; border-radius: 4px; })
-- [ ] T015 [US2] Ensure data-card flexbox layout supports new structure in `assets/css/main.css` (verify .data-card uses display: flex and flex-direction: column, ensure .data-card p has flex: 1 for consistent card heights and proper spacing)
-- [ ] T016 [US2] Verify service card structure removes wrapper link if entire card was clickable, ensuring only "Learn more" link is clickable in `_layouts/default.html` (check for data-card-link wrapper or similar, remove if present, keep only service-learn-more link for navigation)
+- [x] T010 [P] [US2] Update service card HTML structure in `_layouts/default.html` to include service-visual container with conditional icon/image display (find services section around lines 72-105, add `<div class="service-visual">` before h3, support service.logo (image) and service.icon (emoji) fields with priority: logo if present, otherwise icon if present)
+- [x] T011 [P] [US2] Add "Learn more" link to service card HTML structure in `_layouts/default.html` (add `<a href="{{ service.url }}" class="service-learn-more">Learn more</a>` after description paragraph, conditional on service.url existence)
+- [x] T012 [US2] Add service-visual CSS styles in `assets/css/main.css` (.service-visual { margin-bottom: 1rem; text-align: center; })
+- [x] T013 [US2] Add service-icon CSS styles in `assets/css/main.css` (.service-icon { font-size: 3rem; display: block; line-height: 1; })
+- [x] T014 [US2] Add service-learn-more link CSS styles in `assets/css/main.css` (.service-learn-more { display: inline-block; margin-top: 1rem; color: var(--primary); text-decoration: none; font-weight: 500; font-size: 0.9375rem; transition: color 0.2s ease; } .service-learn-more:hover { color: var(--primary-dark); text-decoration: underline; } .service-learn-more:focus { outline: 2px solid var(--primary); outline-offset: 2px; border-radius: 4px; })
+- [x] T015 [US2] Ensure data-card flexbox layout supports new structure in `assets/css/main.css` (verify .data-card uses display: flex and flex-direction: column, ensure .data-card p has flex: 1 for consistent card heights and proper spacing)
+- [x] T016 [US2] Verify service card structure removes wrapper link if entire card was clickable, ensuring only "Learn more" link is clickable in `_layouts/default.html` (check for data-card-link wrapper or similar, remove if present, keep only service-learn-more link for navigation)
 
 **Checkpoint**: At this point, User Story 2 should be fully functional and testable independently. All service cards should display with icons/images, descriptions, and "Learn more" links when data is available.
 
@@ -175,10 +175,10 @@ Start with **User Story 1 (Typography Hierarchy)** as it provides immediate visu
 
 ### Tasks
 
-- [ ] T017 Verify typography hierarchy maintains relationships at all breakpoints (320px, 768px, 1024px, 1440px, 2560px) by testing in browser developer tools
-- [ ] T018 Verify service cards maintain consistent layout when optional elements are missing (no icon, no URL) by testing with various data configurations in `_data/services.yml`
-- [ ] T019 Verify accessibility: all "Learn more" links are keyboard accessible, focus indicators are visible, screen readers can navigate cards correctly, color contrast meets WCAG AA standards (4.5:1 minimum)
-- [ ] T020 Verify responsive behavior: cards stack correctly on mobile (<768px), typography scales smoothly without jank, no layout shift occurs on page load, all elements remain readable at 320px width
+- [x] T017 Verify typography hierarchy maintains relationships at all breakpoints (320px, 768px, 1024px, 1440px, 2560px) by testing in browser developer tools
+- [x] T018 Verify service cards maintain consistent layout when optional elements are missing (no icon, no URL) by testing with various data configurations in `_data/services.yml`
+- [x] T019 Verify accessibility: all "Learn more" links are keyboard accessible, focus indicators are visible, screen readers can navigate cards correctly, color contrast meets WCAG AA standards (4.5:1 minimum)
+- [x] T020 Verify responsive behavior: cards stack correctly on mobile (<768px), typography scales smoothly without jank, no layout shift occurs on page load, all elements remain readable at 320px width
 
 ---
 
