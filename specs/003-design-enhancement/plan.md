@@ -7,108 +7,96 @@
 
 ## Summary
 
-Enhance the Jekyll static website with modern design improvements including: (1) typography upgrade to Space Grotesk font, (2) enhanced spacing and container width (1000px → 1152px), (3) light/dark theme toggle with localStorage persistence, (4) sticky navigation bar, (5) hero section CTA button, and (6) optional Values section. All changes must preserve existing YAML data file functionality and original text content. Implementation uses custom CSS with CSS variables (no Tailwind dependency) and vanilla JavaScript for theme toggle, maintaining Jekyll/GitHub Pages compatibility.
+Enhance the Jekyll static website with modern design improvements including: (1) modern typography (Space Grotesk font), (2) enhanced spacing and container width (1152px), (3) light/dark theme toggle with localStorage persistence, (4) sticky navigation with smooth scrolling, (5) hero section call-to-action button, and (6) optional Values section. All enhancements maintain full compatibility with existing Jekyll data files, preserve all original content, and meet WCAG AA accessibility standards. Implementation uses CSS custom properties for theming, vanilla JavaScript for theme toggle functionality, and maintains the existing custom CSS approach without adding external dependencies.
 
 ## Technical Context
 
-**Language/Version**: HTML5, CSS3, JavaScript (ES5+), Liquid (Jekyll templating), Ruby (Jekyll 3.x)  
-**Primary Dependencies**: Jekyll static site generator, GitHub Pages build environment, CSS custom properties (variables), localStorage API  
-**Storage**: N/A (static site, theme preference stored in browser localStorage)  
-**Testing**: Manual browser testing (Chrome, Firefox, Safari, Edge), accessibility testing (WCAG AA compliance), responsive design testing (320px-2560px), Jekyll build verification  
-**Target Platform**: Web browsers (modern browsers with CSS variables and localStorage support), GitHub Pages hosting  
-**Project Type**: web (static site generator)  
-**Performance Goals**: Theme toggle responds within 200ms, no layout shift on theme change, maintain current page load performance, smooth theme transitions without visual glitches  
-**Constraints**: Must maintain 100% compatibility with existing Jekyll data structure (`_data/*.yml`), preserve all original text content, maintain WCAG AA accessibility standards in both themes, no breaking changes to existing functionality, GitHub Pages deployment compatibility, graceful degradation for browsers without JavaScript/localStorage  
-**Scale/Scope**: Single-page website with 6 main sections (Hero, About, Services, Projects, GitBooks, Organizations, Follow Us), ~370 lines of CSS, ~240 lines of HTML template, theme toggle affects entire site, responsive design from 320px to 2560px viewport width
+**Language/Version**: Jekyll (Ruby-based static site generator), Liquid templating language, HTML5, CSS3, JavaScript (ES5+)  
+**Primary Dependencies**: Jekyll, GitHub Pages build environment, CSS custom properties (variables), localStorage API  
+**Storage**: Browser localStorage (for theme preference), YAML files in `_data/` directory (existing data files unchanged)  
+**Testing**: Manual testing via GitHub Pages preview, Jekyll local server (`bundle exec jekyll serve`), browser-based accessibility testing, color contrast validation tools  
+**Target Platform**: GitHub Pages (Jekyll static site hosting), modern browsers (Chrome 90+, Firefox 88+, Safari 14+, Edge 90+)  
+**Project Type**: Web (static site)  
+**Performance Goals**: Theme toggle response <200ms, page load <2 seconds, no layout shift on theme change, smooth theme transitions (200ms duration)  
+**Constraints**: Must work within GitHub Pages limitations, maintain WCAG AA accessibility standards (4.5:1 contrast ratio minimum), preserve existing Liquid template compatibility, no changes to `_config.yml`, all existing YAML data files must continue to work, responsive design from 320px to 2560px width  
+**Scale/Scope**: Single-page website with multiple sections, 4 existing YAML data files (~10-15 total data items), 1 new optional YAML data file (values.yml), ~3 CSS files, 1 JavaScript file (~2KB)
 
 ## Constitution Check
 
 *GATE: Must pass before Phase 0 research. Re-check after Phase 1 design.*
 
-### Pre-Design Assessment
+**Status**: ✅ PASS (Initial) | ✅ PASS (Post-Phase 1)
 
-**Status**: Constitution file (`.specify/memory/constitution.md`) contains template placeholders only. No specific constitution principles defined for this project.
+**Initial Notes**: 
+- Constitution file (`.specify/memory/constitution.md`) appears to be a template and does not contain specific project principles
+- No explicit constitution violations identified
+- Implementation follows standard web development practices
+- No external dependencies added beyond Google Fonts (typography)
+- Maintains existing Jekyll structure and compatibility
 
-**Assessment**: 
-- No explicit constitution violations identified (no defined principles to violate)
-- Project follows standard Jekyll static site patterns
-- Changes are incremental enhancements to existing design system
-- No architectural complexity introduced (CSS/JS enhancements only)
-
-**Gate Result**: ✅ PASS (no violations, standard web enhancement pattern)
-
-**Note**: Constitution template exists but is not customized for this project. Proceeding with standard web development best practices: accessibility (WCAG AA), responsive design, progressive enhancement, and maintainability.
-
-### Post-Design Assessment
-
-**Status**: After Phase 1 design completion, re-evaluation confirms no violations.
-
-**Design Decisions Review**:
-- **Theme System**: CSS variables approach is standard, maintainable, and performant. No complexity violations.
-- **JavaScript**: Vanilla ES5+ with no dependencies. Minimal footprint (~2KB). No framework bloat.
-- **File Structure**: All changes are incremental to existing files. No new architectural layers.
-- **Data Model**: No changes to existing YAML structure. Optional Values section follows same pattern.
-- **Accessibility**: WCAG AA compliance maintained in both themes. No accessibility regressions.
-
-**Complexity Analysis**:
-- **Files Modified**: 2 (main.css, default.html)
-- **Files Created**: 1 (theme-toggle.js)
-- **Dependencies Added**: 0 (Google Fonts is CDN, not a dependency)
-- **Breaking Changes**: 0
-- **Architectural Changes**: 0
-
-**Gate Result**: ✅ PASS (design maintains simplicity, no unnecessary complexity introduced)
-
-**Final Assessment**: Design phase completed successfully with no constitution violations. Implementation follows best practices for static site enhancement. All design decisions are justified and maintain project simplicity.
+**Post-Phase 1 Notes**:
+- All design decisions documented in research.md
+- Data model preserves existing YAML structure (no breaking changes)
+- Contracts defined for CSS variables, theme toggle API, and data schemas
+- Implementation approach maintains simplicity and accessibility
+- No complexity violations identified
 
 ## Project Structure
 
 ### Documentation (this feature)
 
 ```text
-specs/[###-feature]/
+specs/003-design-enhancement/
 ├── plan.md              # This file (/speckit.plan command output)
 ├── research.md          # Phase 0 output (/speckit.plan command)
 ├── data-model.md        # Phase 1 output (/speckit.plan command)
 ├── quickstart.md        # Phase 1 output (/speckit.plan command)
 ├── contracts/           # Phase 1 output (/speckit.plan command)
+│   ├── README.md
+│   ├── css-variables-contract.md
+│   ├── data-item-schema.json
+│   └── theme-toggle-api.md
 └── tasks.md             # Phase 2 output (/speckit.tasks command - NOT created by /speckit.plan)
 ```
 
 ### Source Code (repository root)
 
 ```text
-_layouts/
-└── default.html              # Main layout template (modify: add theme toggle, sticky nav, hero CTA)
-
 assets/
 ├── css/
-│   └── main.css              # Main stylesheet (modify: add theme variables, typography, spacing)
+│   └── main.css         # Main stylesheet (updated with theme variables)
 └── js/
-    ├── scale.fix.js          # Existing script (no changes)
-    └── theme-toggle.js       # NEW: Theme toggle functionality
+    ├── scale.fix.js     # Existing script
+    └── theme-toggle.js  # New theme toggle script
 
 _data/
-├── services.yml              # Existing data (no changes)
-├── projects.yml              # Existing data (no changes)
-├── gitbooks.yml              # Existing data (no changes)
-└── github-organisations.yml  # Existing data (no changes)
-└── values.yml                # NEW (optional): Values section data
+├── services.yml         # Existing (unchanged)
+├── projects.yml         # Existing (unchanged)
+├── gitbooks.yml        # Existing (unchanged)
+├── github-organisations.yml  # Existing (unchanged)
+└── values.yml          # New (optional)
 
-_config.yml                   # Jekyll config (no changes required)
+_layouts/
+└── default.html         # Main layout template (updated with navigation, theme toggle, CTA)
+
+_config.yml              # Jekyll config (unchanged)
 ```
 
-**Structure Decision**: Jekyll static site structure. All changes are incremental enhancements to existing files:
-- CSS enhancements in `assets/css/main.css` (theme variables, typography, spacing)
-- JavaScript addition: `assets/js/theme-toggle.js` (new file)
-- HTML template updates in `_layouts/default.html` (theme toggle button, sticky nav, hero CTA)
-- Optional data file: `_data/values.yml` (only if Values section content is available)
+**Structure Decision**: This is a Jekyll static site generator project. The structure follows standard Jekyll conventions:
+- **Layouts**: `_layouts/default.html` contains the main page structure
+- **Assets**: CSS and JavaScript files in `assets/` directory
+- **Data**: YAML files in `_data/` directory for content
+- **Configuration**: `_config.yml` for Jekyll settings
+- **No build step required**: Jekyll processes files during GitHub Pages build
+- **No separate frontend/backend**: Single static site with client-side JavaScript for theme toggle
 
 ## Complexity Tracking
 
 > **Fill ONLY if Constitution Check has violations that must be justified**
 
-| Violation | Why Needed | Simpler Alternative Rejected Because |
-|-----------|------------|-------------------------------------|
-| [e.g., 4th project] | [current need] | [why 3 projects insufficient] |
-| [e.g., Repository pattern] | [specific problem] | [why direct DB access insufficient] |
+**No violations identified.** The implementation follows standard web development practices:
+- Uses native browser APIs (localStorage, CSS variables) without external dependencies
+- Maintains existing Jekyll structure without architectural changes
+- Implements theme system using well-established patterns (CSS custom properties)
+- No additional build tools or frameworks required
+- Simple, maintainable code structure
