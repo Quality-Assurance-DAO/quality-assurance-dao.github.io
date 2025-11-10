@@ -1,0 +1,82 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Data Item Schema",
+  "description": "Schema for items in Jekyll data files (services, projects, gitbooks, organizations, values)",
+  "type": "object",
+  "required": ["name"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Optional unique identifier for the item"
+    },
+    "name": {
+      "type": "string",
+      "description": "Required name/title of the item",
+      "minLength": 1
+    },
+    "description": {
+      "type": "string",
+      "description": "Required description of the item",
+      "minLength": 1
+    },
+    "url": {
+      "type": "string",
+      "format": "uri",
+      "description": "Optional URL to external resource"
+    },
+    "logo": {
+      "type": "string",
+      "description": "Optional path to logo/image file (relative to site root)"
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Optional array of tag strings"
+    },
+    "featured": {
+      "type": "boolean",
+      "description": "Optional flag to mark item as featured"
+    },
+    "status": {
+      "type": "string",
+      "enum": ["active", "archived", "in-progress", "completed", "deprecated"],
+      "description": "Optional status of the item"
+    },
+    "year": {
+      "type": "number",
+      "minimum": 1900,
+      "maximum": 2100,
+      "description": "Optional year (for projects)"
+    },
+    "repo": {
+      "type": "string",
+      "format": "uri",
+      "description": "Optional repository URL (for organizations)"
+    },
+    "title": {
+      "type": "string",
+      "description": "Required title (for values items, alternative to name)",
+      "minLength": 1
+    },
+    "icon": {
+      "type": "string",
+      "description": "Optional icon identifier or emoji (for values)"
+    },
+    "order": {
+      "type": "number",
+      "description": "Optional sort order (for values)"
+    }
+  },
+  "anyOf": [
+    {
+      "required": ["name", "description"]
+    },
+    {
+      "required": ["title", "description"]
+    }
+  ],
+  "additionalProperties": false
+}
+
