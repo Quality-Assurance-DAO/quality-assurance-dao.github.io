@@ -5,6 +5,15 @@
 **Status**: Draft  
 **Input**: User description: "Refactor and standardize all YAML files in the `_data` folder (`projects.yml`, `services.yml`, `gitbooks.yml`, and `github-organisations.yml`) for the Quality Assurance DAO GitHub Pages site. Ensure each dataset follows a consistent schema with required fields (`id`, `name`, `description`, `url`) and optional metadata (`logo`, `year`, `tags`, `status`, `featured`, `category`, `repo`, `contact`). Validate for duplicates, missing data, and inconsistent formatting. Update the layout templates to dynamically render each dataset in a clean, responsive, consultancy-style design—using card grids, tags, and optional icons—while maintaining accessibility, brand consistency, and compatibility with existing Liquid loops and configuration in `_config.yml`."
 
+## Clarifications
+
+### Session 2024-12-19
+
+- Q: What format should the `id` field use, and how should IDs be generated for existing data items? → A: Auto-generate URL-safe slugs from names (e.g., "singularitynet-archive")
+- Q: When a required field is missing during migration/validation, what should happen? → A: Validation fails with clear error messages; missing fields must be added before deployment
+- Q: Should `url` be required for all datasets, or optional for certain types? → A: `url` is optional for services; required for projects, GitBooks, and organizations
+- Q: When a `url` field has invalid format (malformed URL), what should happen? → A: Validation fails with clear error messages; invalid URLs must be fixed before deployment
+
 ## User Scenarios & Testing *(mandatory)*
 
 ### User Story 1 - View Standardized Data Display (Priority: P1)
@@ -35,9 +44,9 @@ As a website visitor, I want all displayed data to be complete and accurate so t
 
 **Acceptance Scenarios**:
 
-1. **Given** the YAML files are processed, **When** I check for required fields, **Then** every item has `id`, `name`, `description`, and `url` fields present
+1. **Given** the YAML files are processed, **When** I check for required fields, **Then** every item has `id`, `name`, and `description` fields present, and projects/GitBooks/organizations have `url` fields present (services may omit `url`), and validation fails with clear error messages if any required fields are missing
 2. **Given** the YAML files are processed, **When** I check for duplicates, **Then** no two items share the same `id` value across all files
-3. **Given** a data item has a `url` field, **When** I verify the URL, **Then** it is a valid, properly formatted URL
+3. **Given** a data item has a `url` field, **When** I verify the URL, **Then** it is a valid, properly formatted URL, and validation fails with clear error messages if the URL format is invalid
 4. **Given** optional metadata fields are present, **When** I verify their format, **Then** they conform to expected data types (strings, arrays, booleans as appropriate)
 5. **Given** the website renders data, **When** I view any section, **Then** no items are missing or display as empty/undefined
 
@@ -62,9 +71,9 @@ As a user with assistive technologies, I want the data displays to be accessible
 
 ### Edge Cases
 
-- What happens when a data item has a missing required field? (System should handle gracefully with fallback or validation error)
-- How does the system handle duplicate IDs across different YAML files? (Should be detected and reported)
-- What happens when a URL is malformed or broken? (Should validate format and optionally check accessibility)
+- What happens when a data item has a missing required field? (Validation fails with clear error messages identifying the missing field and item; deployment is blocked until the field is added)
+- How does the system handle duplicate IDs across different YAML files? (Should be detected and reported. If auto-generated slugs collide, system should append numeric suffix to ensure uniqueness)
+- What happens when a URL is malformed or broken? (Validation fails with clear error messages identifying the malformed URL and item; deployment is blocked until the URL is fixed. Accessibility checking is optional and does not block deployment)
 - How does the card grid handle items with very long descriptions? (Should truncate or wrap appropriately)
 - What happens when optional metadata arrays (tags) are empty? (Should not display empty tag containers)
 - How does the system handle special characters in names, descriptions, or URLs? (Should properly escape for HTML/Liquid)
@@ -76,11 +85,11 @@ As a user with assistive technologies, I want the data displays to be accessible
 ### Functional Requirements
 
 - **FR-001**: System MUST standardize all four YAML files (`projects.yml`, `services.yml`, `gitbooks.yml`, `github-organisations.yml`) to use a consistent schema
-- **FR-002**: Each data item MUST have required fields: `id` (unique identifier), `name` (display name), `description` (text description), `url` (link to resource)
+- **FR-002**: Each data item MUST have required fields: `id` (unique URL-safe slug identifier auto-generated from name, e.g., "singularitynet-archive"), `name` (display name), `description` (text description). The `url` field is required for projects, GitBooks, and organizations, but optional for services
 - **FR-003**: Each data item MAY have optional fields: `logo` (image path), `year` (numeric year), `tags` (array of strings), `status` (string status indicator), `featured` (boolean), `category` (string category), `repo` (repository URL), `contact` (contact information)
 - **FR-004**: System MUST validate all YAML files for duplicate `id` values across all files
-- **FR-005**: System MUST validate that all required fields are present for each data item
-- **FR-006**: System MUST validate URL format for all `url` fields
+- **FR-005**: System MUST validate that all required fields are present for each data item (with `url` conditionally required based on dataset type). Validation MUST fail with clear error messages identifying missing fields, and deployment MUST be blocked until all required fields are added
+- **FR-006**: System MUST validate URL format for all `url` fields when present (required for projects/GitBooks/organizations, optional for services). Validation MUST fail with clear error messages for malformed URLs, and deployment MUST be blocked until invalid URLs are fixed
 - **FR-007**: System MUST update layout templates to render data items in card grid format
 - **FR-008**: Card grids MUST be responsive and adapt to different screen sizes
 - **FR-009**: System MUST display tags when present, using appropriate styling
@@ -93,20 +102,20 @@ As a user with assistive technologies, I want the data displays to be accessible
 
 ### Key Entities *(include if feature involves data)*
 
-- **Data Item**: Represents a single entry in any of the four YAML files. Has required fields (id, name, description, url) and optional metadata fields. Each item belongs to one dataset type (project, service, gitbook, or github-organization).
+- **Data Item**: Represents a single entry in any of the four YAML files. Has required fields (id as URL-safe slug auto-generated from name, name, description) and conditional required field (url required for projects/GitBooks/organizations, optional for services). Each item belongs to one dataset type (project, service, gitbook, or github-organization).
 
 - **Dataset**: Represents one of the four YAML files containing a collection of related data items. Each dataset has a type and is rendered in a specific section of the website.
 
-- **Card**: Visual representation of a data item in the layout. Contains the item's information (name, description, optional metadata) and provides a clickable link to the item's URL. Cards are arranged in responsive grids.
+- **Card**: Visual representation of a data item in the layout. Contains the item's information (name, description, optional metadata) and provides a clickable link to the item's URL when present (services may not have URLs). Cards are arranged in responsive grids.
 
 ## Success Criteria *(mandatory)*
 
 ### Measurable Outcomes
 
-- **SC-001**: All four YAML files successfully validate with zero duplicate IDs and zero missing required fields
+- **SC-001**: All four YAML files successfully validate with zero duplicate IDs and zero missing required fields (with `url` conditionally required based on dataset type)
 - **SC-002**: Website visitors can view all data sections (projects, services, GitBooks, organizations) rendered in consistent card grid layouts within 2 seconds of page load
 - **SC-003**: Card grids adapt responsively to screen sizes from 320px to 2560px width without horizontal scrolling or layout breaks
-- **SC-004**: 100% of data items with URLs have valid, properly formatted URL values
+- **SC-004**: 100% of data items with `url` fields (required for projects/GitBooks/organizations, optional for services) have valid, properly formatted URL values
 - **SC-005**: All interactive elements (links, cards) are keyboard accessible and screen reader compatible, passing automated accessibility checks
 - **SC-006**: Optional metadata fields (tags, logos, status indicators) display correctly when present and do not create layout issues when absent
 - **SC-007**: Website maintains visual brand consistency with existing design (color scheme, typography, spacing) while implementing new card-based layouts
