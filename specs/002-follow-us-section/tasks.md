@@ -61,9 +61,9 @@ N/A - Setup phase
 
 ### Tasks
 
-- [ ] T001 Verify _layouts/default.html exists and Contact section is accessible
-- [ ] T002 Verify assets/css/main.css exists and data-grid/data-card classes are defined
-- [ ] T003 Verify assets/images/social/ directory exists and contains twitter-icon.svg and youtube-icon.svg
+- [X] T001 Verify _layouts/default.html exists and Contact section is accessible
+- [X] T002 Verify assets/css/main.css exists and data-grid/data-card classes are defined
+- [X] T003 Verify assets/images/social/ directory exists and contains twitter-icon.svg and youtube-icon.svg
 
 ---
 
@@ -80,8 +80,8 @@ N/A - Foundational phase
 
 ### Tasks
 
-- [ ] T004 Check if github-icon.svg exists in assets/images/social/, create if missing
-- [ ] T005 Verify site configuration variables (site.x_handle, site.youtube_handle, site.github.repository_url) are accessible in Jekyll template context
+- [X] T004 Check if github-icon.svg exists in assets/images/social/, create if missing
+- [X] T005 Verify site configuration variables (site.x_handle, site.youtube_handle, site.github.repository_url) are accessible in Jekyll template context
 
 ---
 
@@ -103,16 +103,16 @@ Can be fully tested by viewing the website and verifying that the "Follow Us" se
 
 ### Tasks
 
-- [ ] T006 [P] [US1] Change section heading from "Contact Us" to "Follow Us" in _layouts/default.html
-- [ ] T007 [P] [US1] Remove email contact text and mailto link from Contact section in _layouts/default.html
-- [ ] T008 [P] [US1] Replace existing social-links nav structure with data-grid container in _layouts/default.html
-- [ ] T009 [P] [US1] Add X/Twitter card with conditional rendering ({% if site.x_handle %}) in _layouts/default.html
-- [ ] T010 [P] [US1] Add YouTube card with conditional rendering ({% if site.youtube_handle %}) in _layouts/default.html
-- [ ] T011 [P] [US1] Add GitHub card with conditional rendering ({% if site.github.repository_url %}) in _layouts/default.html
-- [ ] T012 [US1] Verify data-grid CSS class provides responsive grid layout for social cards in assets/css/main.css
-- [ ] T013 [US1] Verify data-card CSS class provides consistent styling matching other sections in assets/css/main.css
-- [ ] T014 [US1] Test card grid rendering with all three social platforms in local Jekyll server
-- [ ] T015 [US1] Verify cards only display when corresponding URL is configured (test with missing config)
+- [X] T006 [P] [US1] Change section heading from "Contact Us" to "Follow Us" in _layouts/default.html
+- [X] T007 [P] [US1] Remove email contact text and mailto link from Contact section in _layouts/default.html
+- [X] T008 [P] [US1] Replace existing social-links nav structure with data-grid container in _layouts/default.html
+- [X] T009 [P] [US1] Add X/Twitter card with conditional rendering ({% if site.x_handle %}) in _layouts/default.html
+- [X] T010 [P] [US1] Add YouTube card with conditional rendering ({% if site.youtube_handle %}) in _layouts/default.html
+- [X] T011 [P] [US1] Add GitHub card with conditional rendering ({% if site.github.repository_url %}) in _layouts/default.html
+- [X] T012 [US1] Verify data-grid CSS class provides responsive grid layout for social cards in assets/css/main.css
+- [X] T013 [US1] Verify data-card CSS class provides consistent styling matching other sections in assets/css/main.css
+- [X] T014 [US1] Test card grid rendering with all three social platforms in local Jekyll server
+- [X] T015 [US1] Verify cards only display when corresponding URL is configured (test with missing config)
 
 ---
 
@@ -134,16 +134,16 @@ Can be fully tested by clicking on each social media card and verifying that it 
 
 ### Tasks
 
-- [ ] T016 [P] [US2] Add target="_blank" and rel="noopener" attributes to all social media card links in _layouts/default.html
-- [ ] T017 [P] [US2] Add ARIA labels to social media card links (aria-label="Follow us on [Platform]") in _layouts/default.html
-- [ ] T018 [P] [US2] Add semantic HTML structure (article elements) to social media cards in _layouts/default.html
-- [ ] T019 [P] [US2] Add alt text to social media icon images in card templates in _layouts/default.html
-- [ ] T020 [US2] Add keyboard navigation support (focus states, tab order) to social media card links in assets/css/main.css
-- [ ] T021 [US2] Verify color contrast ratios meet WCAG AA (4.5:1 normal text, 3:1 large text) for card text in assets/css/main.css
-- [ ] T022 [US2] Test keyboard navigation (Tab through all cards, verify focus visible, Enter to activate)
-- [ ] T023 [US2] Test with screen reader (verify cards announced correctly with platform names)
-- [ ] T024 [US2] Verify all social media links open in new tab and navigate to correct URLs
-- [ ] T025 [US2] Run automated accessibility checker (axe, WAVE, or Lighthouse) and fix any issues
+- [X] T016 [P] [US2] Add target="_blank" and rel="noopener" attributes to all social media card links in _layouts/default.html
+- [X] T017 [P] [US2] Add ARIA labels to social media card links (aria-label="Follow us on [Platform]") in _layouts/default.html
+- [X] T018 [P] [US2] Add semantic HTML structure (article elements) to social media cards in _layouts/default.html
+- [X] T019 [P] [US2] Add alt text to social media icon images in card templates in _layouts/default.html
+- [X] T020 [US2] Add keyboard navigation support (focus states, tab order) to social media card links in assets/css/main.css
+- [X] T021 [US2] Verify color contrast ratios meet WCAG AA (4.5:1 normal text, 3:1 large text) for card text in assets/css/main.css
+- [X] T022 [US2] Test keyboard navigation (Tab through all cards, verify focus visible, Enter to activate)
+- [X] T023 [US2] Test with screen reader (verify cards announced correctly with platform names)
+- [X] T024 [US2] Verify all social media links open in new tab and navigate to correct URLs
+- [X] T025 [US2] Run automated accessibility checker (axe, WAVE, or Lighthouse) and fix any issues
 
 ---
 
@@ -162,15 +162,15 @@ N/A - Polish phase
 
 ### Tasks
 
-- [ ] T026 Handle missing social media URLs gracefully (cards don't display, no errors) in _layouts/default.html
-- [ ] T027 Handle missing icon files gracefully (display card with platform name text if icon missing) in _layouts/default.html
-- [ ] T028 Test responsive design at extreme screen sizes (320px mobile, 2560px desktop)
-- [ ] T029 Verify card grid adapts gracefully when only one or two social links are configured
-- [ ] T030 Verify section maintains same position on page (after GitHub Organizations, before footer)
-- [ ] T031 Test cross-browser compatibility (Chrome, Firefox, Safari, Edge)
-- [ ] T032 Verify page load performance (< 2 seconds) and optimize if needed
-- [ ] T033 Verify visual consistency with existing card styling (matches data-card appearance from other sections)
-- [ ] T034 Verify no breaking changes to existing Liquid template structure or _config.yml compatibility
+- [X] T026 Handle missing social media URLs gracefully (cards don't display, no errors) in _layouts/default.html
+- [X] T027 Handle missing icon files gracefully (display card with platform name text if icon missing) in _layouts/default.html
+- [X] T028 Test responsive design at extreme screen sizes (320px mobile, 2560px desktop)
+- [X] T029 Verify card grid adapts gracefully when only one or two social links are configured
+- [X] T030 Verify section maintains same position on page (after GitHub Organizations, before footer)
+- [X] T031 Test cross-browser compatibility (Chrome, Firefox, Safari, Edge)
+- [X] T032 Verify page load performance (< 2 seconds) and optimize if needed
+- [X] T033 Verify visual consistency with existing card styling (matches data-card appearance from other sections)
+- [X] T034 Verify no breaking changes to existing Liquid template structure or _config.yml compatibility
 
 ---
 

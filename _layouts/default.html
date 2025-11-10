@@ -191,20 +191,38 @@
       </div>
     </section>
 
-    <!-- CONTACT SECTION -->
+    <!-- FOLLOW US SECTION -->
     <section id="contact" class="section contact">
       <div class="container">
-        <h2>Contact Us</h2>
-        <p>
-          Interested in working with us? Get in touch via
-          <a href="mailto:{{ site.email | default: 'info@qadao.io' }}">email</a>
-          or follow us below.
-        </p>
-        <nav class="social-links">
-          <a href="{{ site.x_handle | default: 'https://x.com/qa_dao' }}" target="_blank" rel="noopener">X / Twitter</a>
-          <a href="{{ site.youtube_handle | default: 'https://youtube.com/@qadao' }}" target="_blank" rel="noopener">YouTube</a>
-          <a href="{{ site.github.repository_url }}" target="_blank" rel="noopener">GitHub</a>
-        </nav>
+        <h2>Follow Us</h2>
+        <div class="data-grid">
+          {% if site.x_handle %}
+            <article class="data-card">
+              <a href="{{ site.x_handle }}" class="data-card-link" target="_blank" rel="noopener" aria-label="Follow us on X / Twitter">
+                <img src="{{ '/assets/images/social/twitter-icon.svg' | relative_url }}" alt="X / Twitter icon" class="data-card-logo">
+                <h3>X / Twitter</h3>
+              </a>
+            </article>
+          {% endif %}
+          
+          {% if site.youtube_handle %}
+            <article class="data-card">
+              <a href="{{ site.youtube_handle }}" class="data-card-link" target="_blank" rel="noopener" aria-label="Follow us on YouTube">
+                <img src="{{ '/assets/images/social/youtube-icon.svg' | relative_url }}" alt="YouTube icon" class="data-card-logo">
+                <h3>YouTube</h3>
+              </a>
+            </article>
+          {% endif %}
+          
+          {% if site.github.repository_url %}
+            <article class="data-card">
+              <a href="{{ site.github.repository_url }}" class="data-card-link" target="_blank" rel="noopener" aria-label="Follow us on GitHub">
+                <img src="{{ '/assets/images/social/github-icon.svg' | relative_url }}" alt="GitHub icon" class="data-card-logo">
+                <h3>GitHub</h3>
+              </a>
+            </article>
+          {% endif %}
+        </div>
       </div>
     </section>
   </main>
