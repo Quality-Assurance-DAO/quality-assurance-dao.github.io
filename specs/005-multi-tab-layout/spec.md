@@ -66,6 +66,7 @@ As a website visitor, I want clear visual feedback when I interact with tabs so 
 ### Edge Cases
 
 - What happens when _data/tabs.yml is empty or missing? → Interface should handle gracefully, either showing an empty state message or not displaying the tab interface at all
+- What happens when duplicate tab IDs exist in the data? → System should validate and handle gracefully (skip duplicates, show error, or use first occurrence)
 - What happens when a tab has no content? → Tab should still be clickable and display an empty content area or appropriate placeholder
 - What happens when there is only one tab in the data? → Tab interface should still function, though navigation may be less meaningful (consider whether to show tabs or just content)
 - What happens when tab titles are very long? → Tab titles should wrap or truncate appropriately to maintain horizontal navigation bar layout
@@ -93,12 +94,17 @@ As a website visitor, I want clear visual feedback when I interact with tabs so 
 - **FR-013**: System MUST work without external dependencies or frameworks (vanilla JavaScript only)
 - **FR-014**: System MUST be compatible with GitHub Pages hosting environment
 - **FR-015**: System MUST display all tab content stacked vertically when JavaScript is disabled (progressive enhancement)
+- **FR-016**: System MUST use standardized data schema for tabs (id, name, description fields required; other standard fields optional)
+- **FR-017**: System MUST implement full ARIA tab pattern (role="tablist", role="tab", role="tabpanel", aria-selected, aria-controls, aria-labelledby) for screen reader accessibility and WCAG AA compliance
+- **FR-018**: System MUST display tabs in the order they appear in the YAML array
+- **FR-019**: System MUST validate that tab IDs are unique (handle duplicate IDs gracefully with error indication or skip duplicates)
+- **FR-020**: System MUST be implemented as a reusable Jekyll include snippet that can be included on any page using {% include %}
 
 ### Key Entities *(include if feature involves data)*
 
-- **Tab**: Represents a single tab in the interface. Contains a title (displayed in navigation bar) and content (displayed in content area when active). Each tab has an active/inactive state that determines visibility and styling.
-- **Tab Navigation Bar**: Horizontal container displaying all tab titles. Provides clickable interface for switching between tabs. Maintains visual indication of active tab.
-- **Tab Content Area**: Container displaying the active tab's content. Only one content area is visible at a time, corresponding to the active tab.
+- **Tab**: Represents a single tab in the interface. Follows the standardized data schema used across all site data files. Required fields: `id` (URL-safe slug), `name` (displayed as tab title in navigation bar), `description` (displayed as tab content when active). Optional fields: `url`, `logo`, `year`, `tags`, `status`, `featured`, `category`, `repo`, `contact` (available for future use or display). Each tab has an active/inactive state that determines visibility and styling.
+- **Tab Navigation Bar**: Horizontal container displaying all tab titles (from `name` field). Provides clickable interface for switching between tabs. Maintains visual indication of active tab.
+- **Tab Content Area**: Container displaying the active tab's content (from `description` field). Only one content area is visible at a time, corresponding to the active tab.
 
 ## Success Criteria *(mandatory)*
 
@@ -124,6 +130,7 @@ As a website visitor, I want clear visual feedback when I interact with tabs so 
 - Data-driven tab generation from YAML data source
 - Vanilla JavaScript implementation (no external dependencies)
 - GitHub Pages compatibility
+- Reusable Jekyll include snippet for flexible page integration
 
 ### Out of Scope
 
@@ -138,12 +145,16 @@ As a website visitor, I want clear visual feedback when I interact with tabs so 
 
 ## Assumptions
 
-- Tab data structure in _data/tabs.yml contains an array of tab objects, each with at minimum a title field and a content field
+- Tab data structure in _data/tabs.yml follows the standardized data schema pattern used across all site data files (projects.yml, services.yml, etc.)
+- Each tab object contains required fields: `id` (URL-safe slug, must be unique), `name` (used as tab title), `description` (used as tab content)
+- Tabs are displayed in the order they appear in the YAML array (no custom ordering field required)
+- Optional fields from standard schema (url, logo, tags, status, etc.) are available but not required for basic tab functionality
 - First tab in the data array should be active by default when page loads
-- Tab content may contain HTML markup that should be rendered
+- Tab content (description field) supports markdown formatting with HTML fallback (Jekyll processes markdown, raw HTML allowed when needed)
 - JavaScript is enabled in user's browser (feature requires JavaScript for tab switching)
 - GitHub Pages supports the required Jekyll and Liquid features
 - Existing site styling and theme can accommodate the tab interface without conflicts
+- Tab interface will be implemented as a reusable Jekyll include snippet (stored in _includes directory) that can be included on any page
 - Tab interface will be used within existing page layouts (not a standalone page)
 
 ## Dependencies
@@ -151,7 +162,7 @@ As a website visitor, I want clear visual feedback when I interact with tabs so 
 - Jekyll static site generator
 - Liquid templating engine (for data iteration)
 - Existing site CSS framework or styling system (for consistent design)
-- _data/tabs.yml data file (must exist and be properly formatted)
+- _data/tabs.yml data file (must exist and be properly formatted following standardized data schema)
 
 ## Constraints
 
@@ -159,7 +170,7 @@ As a website visitor, I want clear visual feedback when I interact with tabs so 
 - Must use only vanilla JavaScript (no external JavaScript libraries or frameworks)
 - Must not require external CSS frameworks or libraries
 - Must maintain compatibility with existing Jekyll site structure
-- Must preserve accessibility standards (WCAG AA minimum) for tab navigation
+- Must preserve accessibility standards (WCAG AA minimum) for tab navigation with full ARIA tab pattern implementation (role="tablist", role="tab", role="tabpanel", aria-selected, aria-controls, aria-labelledby)
 - Must not break existing page functionality or layouts
 - Must work with Jekyll's static site generation process (no client-side data fetching)
 
@@ -168,4 +179,9 @@ As a website visitor, I want clear visual feedback when I interact with tabs so 
 ### Session 2024-12-19
 
 - Q: How should the interface behave if JavaScript is disabled? → A: Show all tab content stacked vertically, allowing users to access all content without JavaScript (progressive enhancement approach)
+- Q: What is the exact structure for _data/tabs.yml? → A: Follow existing data schema pattern (id, name, description, url, etc.) with tab-specific fields. Tab titles use the `name` field, tab content uses the `description` field, and other standard fields (id, url, logo, tags, status, etc.) are available for future use or display
+- Q: What ARIA roles and attributes should the tab interface implement for accessibility? → A: Full ARIA tab pattern with role="tablist", role="tab", role="tabpanel", aria-selected, aria-controls, and aria-labelledby attributes for complete screen reader support and WCAG AA compliance
+- Q: What format should tab content support - plain text, HTML, or markdown? → A: Markdown with HTML fallback (Jekyll processes markdown, HTML allowed when needed)
+- Q: How should tabs be ordered, and what happens if duplicate IDs or names exist? → A: Tabs appear in YAML array order; IDs must be unique (validation required to prevent duplicate IDs)
+- Q: How should the tab interface be structured in Jekyll - as a reusable layout, include snippet, or page-specific? → A: Reusable Jekyll include snippet (pages include it with {% include %}) for maximum flexibility and reusability
 
