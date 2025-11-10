@@ -5,6 +5,16 @@
 **Status**: Draft  
 **Input**: User description: "Enhance website design following this files recommendations - @DESIGN_INTEGRATION_RECOMMENDATIONS.md - ensure that all data files still work and all the original text content remains."
 
+## Clarifications
+
+### Session 2024-12-19
+
+- Q: Where should the theme toggle button be placed? → A: Header/Navigation Bar (next to logo or nav links)
+- Q: Which section(s) should the hero CTA button link to? → A: Single link to Services section
+- Q: What mobile navigation pattern should be used for screens below 768px? → A: Hamburger menu (collapsible menu icon that expands navigation)
+- Q: What should be the duration of the theme transition animation when switching between light and dark themes? → A: 200ms (fast, smooth transition)
+- Q: What should be the maximum container width for the main content area? → A: 1152px (matches design recommendations)
+
 ## User Scenarios & Testing *(mandatory)*
 
 ### User Story 1 - Enhanced Visual Design and Typography (Priority: P1)
@@ -19,7 +29,7 @@ As a website visitor, I want to experience a modern, professional design with im
 
 1. **Given** I visit the website, **When** I view any page, **Then** I see modern typography that improves readability compared to the previous design
 2. **Given** I visit the website, **When** I view the homepage, **Then** I see improved spacing between sections that creates better visual hierarchy
-3. **Given** I visit the website, **When** I view the hero section, **Then** I see a call-to-action button that allows me to navigate to key sections
+3. **Given** I visit the website, **When** I view the hero section, **Then** I see a call-to-action button that allows me to navigate to the Services section
 4. **Given** I view the website on different screen sizes, **When** I resize my browser, **Then** the layout adapts responsively with the new container width and spacing
 5. **Given** I view any section displaying data (services, projects, GitBooks, organizations), **When** I examine the content, **Then** all original text content and data from YAML files is displayed correctly without any loss or modification
 
@@ -55,7 +65,7 @@ As a website visitor, I want a navigation bar that remains visible as I scroll s
 
 1. **Given** I am viewing any page on the website, **When** I scroll down the page, **Then** the navigation bar remains visible at the top of the viewport
 2. **Given** I am viewing the website, **When** I click on any navigation link, **Then** I am smoothly scrolled to the corresponding section
-3. **Given** I am viewing the website on a mobile device, **When** I interact with the navigation, **Then** the navigation is accessible and functional on small screens
+3. **Given** I am viewing the website on a mobile device, **When** I interact with the navigation, **Then** the navigation uses a hamburger menu pattern that is accessible and functional on small screens
 4. **Given** I am using keyboard navigation, **When** I tab through the navigation links, **Then** all links are focusable and accessible
 5. **Given** I have selected a theme preference, **When** I view the sticky navigation, **Then** the navigation styling matches the current theme
 
@@ -82,7 +92,7 @@ As a website visitor, I want to see information about the organization's core va
 - What happens when a user's browser doesn't support localStorage? The theme should still work but may not persist across sessions, defaulting to system preference or light theme
 - How does the system handle missing or incomplete data in YAML files? All existing data files must continue to work, and missing fields should be handled gracefully without breaking the layout
 - What happens when JavaScript is disabled? The theme toggle should gracefully degrade, and the site should still function with system preference detection via CSS media queries
-- How does the navigation behave on very small screens (below 320px)? Navigation should remain accessible, potentially using a mobile menu pattern
+- How does the navigation behave on very small screens (below 320px)? Navigation should remain accessible using a hamburger menu pattern that collapses navigation items
 - What happens when theme toggle is clicked rapidly multiple times? The toggle should handle rapid clicks gracefully without visual glitches or state inconsistencies
 - How does the design handle very long content in data cards? Card layouts should accommodate varying content lengths without breaking the grid structure
 - What happens when a user has a saved theme preference but their system preference changes? User's manual selection should take precedence over system preference changes
@@ -98,14 +108,14 @@ As a website visitor, I want to see information about the organization's core va
 - **FR-005**: Website MUST persist user theme preference across page loads and browser sessions
 - **FR-006**: Website MUST respect system color scheme preference on first visit when no user preference is saved
 - **FR-007**: Website MUST maintain WCAG AA accessibility standards for color contrast in both light and dark themes
-- **FR-008**: Website MUST implement sticky navigation that remains visible during page scrolling
+- **FR-008**: Website MUST implement sticky navigation that remains visible during page scrolling, using a hamburger menu pattern on mobile devices (screens below 768px)
 - **FR-009**: Website MUST provide smooth scrolling behavior when navigating to page sections via navigation links
-- **FR-010**: Website MUST enhance visual spacing and layout while maintaining responsive design across all screen sizes (320px to 2560px)
-- **FR-011**: Website MUST add a call-to-action button in the hero section that links to key sections
+- **FR-010**: Website MUST enhance visual spacing and layout with a maximum container width of 1152px while maintaining responsive design across all screen sizes (320px to 2560px)
+- **FR-011**: Website MUST add a call-to-action button in the hero section that links to the Services section
 - **FR-012**: Website MUST ensure all interactive elements (links, buttons, cards) are keyboard accessible and screen reader compatible
 - **FR-013**: Website MUST maintain compatibility with existing Jekyll data structure and Liquid template functionality
-- **FR-014**: Website MUST display theme toggle button in a location accessible from all pages
-- **FR-015**: Website MUST ensure theme transitions are smooth without visual glitches or content flashing
+- **FR-014**: Website MUST display theme toggle button in the header/navigation bar (next to logo or nav links) for accessibility from all pages
+- **FR-015**: Website MUST ensure theme transitions are smooth (200ms duration) without visual glitches or content flashing
 - **FR-016**: Website MUST handle missing or optional content gracefully without breaking layout or functionality
 - **FR-017**: Website MUST maintain existing section order and page structure unless explicitly adding new sections (e.g., Values section)
 - **FR-018**: Website MUST ensure all data-driven sections (Services, Projects, GitBooks, Organizations, Follow Us) continue to render correctly with enhanced styling
