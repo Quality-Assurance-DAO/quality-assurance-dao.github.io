@@ -7,19 +7,19 @@
 
 ## Summary
 
-Refine typography hierarchy with consistent h1/h2/h3 heading sizes and enhance services section with card-based layout featuring icons/images, descriptions, and "Learn more" links. Implementation uses CSS typography scale and enhances existing card components without modifying data structures.
+Refine typography hierarchy with consistent h1/h2/h3 heading sizes using a modular scale (2.5:2:1.5 ratio) with responsive clamp() values, and enhance services section with card-based layout featuring icons/images, descriptions, and explicit "Learn more" links. Implementation uses CSS-only enhancements (typography variables, card link styles) that build on existing design system from 003-design-enhancement feature. All changes maintain backward compatibility with existing Jekyll structure and YAML data files.
 
 ## Technical Context
 
-**Language/Version**: Jekyll (Ruby-based static site generator), Liquid templating language, HTML5, CSS3  
-**Primary Dependencies**: Jekyll, GitHub Pages build environment, CSS custom properties (variables), existing design system from 003-design-enhancement  
-**Storage**: YAML files in `_data/` directory (existing data files unchanged)  
-**Testing**: Manual testing via GitHub Pages preview, Jekyll local server (`bundle exec jekyll serve`), browser-based visual testing, accessibility testing  
-**Target Platform**: GitHub Pages (Jekyll static site hosting), modern browsers (Chrome 90+, Firefox 88+, Safari 14+, Edge 90+)  
+**Language/Version**: CSS3, HTML5, Liquid (Jekyll templating), YAML  
+**Primary Dependencies**: Jekyll (static site generator), Google Fonts (Space Grotesk - already integrated), CSS custom properties (variables), clamp() function  
+**Storage**: N/A (static site, YAML data files in `_data/` directory)  
+**Testing**: Manual visual testing, browser developer tools, responsive design testing (320px to 2560px), accessibility testing (WCAG AA compliance)  
+**Target Platform**: Web browsers (Chrome 79+, Firefox 75+, Safari 13.1+, Edge 79+), GitHub Pages hosting  
 **Project Type**: Web (static site)  
-**Performance Goals**: No performance degradation, typography renders instantly, card layout loads without layout shift  
-**Constraints**: Must work within GitHub Pages limitations, maintain WCAG AA accessibility standards (4.5:1 contrast ratio minimum), preserve existing Liquid template compatibility, no changes to `_config.yml`, all existing YAML data files must continue to work, responsive design from 320px to 2560px width  
-**Scale/Scope**: Single-page website with multiple sections, ~3-5 service items, typography hierarchy applied across all headings, card layout enhancement for services section only
+**Performance Goals**: Typography renders instantly (CSS-only), no layout shift on page load, maintain current page load performance (<2 seconds), smooth responsive scaling without jank  
+**Constraints**: Must work within GitHub Pages limitations, maintain WCAG AA accessibility standards (4.5:1 contrast ratio minimum), preserve existing Liquid template compatibility, no changes to `_config.yml`, all existing YAML data files must continue to work, responsive design from 320px to 2560px width, must maintain hierarchy relationships at all screen sizes, must handle missing optional fields gracefully  
+**Scale/Scope**: Single-page website with multiple sections, ~3-5 service items in `_data/services.yml`, typography applies to all headings site-wide, CSS-only changes (~50-100 lines of CSS additions), no JavaScript required
 
 ## Constitution Check
 
@@ -31,27 +31,37 @@ Refine typography hierarchy with consistent h1/h2/h3 heading sizes and enhance s
 - Constitution file (`.specify/memory/constitution.md`) appears to be a template and does not contain specific project principles
 - No explicit constitution violations identified
 - Implementation follows standard web development practices
-- No external dependencies added beyond existing design system
+- No external dependencies added (uses existing Space Grotesk font from 003-design-enhancement)
 - Maintains existing Jekyll structure and compatibility
+- CSS-only enhancements (no JavaScript, no new dependencies)
+- Backward compatible with all existing data files
 
 **Post-Phase 1 Notes**:
 - All design decisions documented in research.md
-- Typography hierarchy preserves existing structure (no breaking changes)
-- Card layout enhancements maintain backward compatibility
+- Data model preserves existing YAML structure (no breaking changes)
+- Contracts defined for CSS typography variables and service card HTML structure
 - Implementation approach maintains simplicity and accessibility
 - No complexity violations identified
+- Typography hierarchy uses standard web practices (modular scale, clamp() for responsive scaling)
+- Service card enhancements build on existing `.data-card` infrastructure
 
 ## Project Structure
 
 ### Documentation (this feature)
 
 ```text
-specs/[###-feature]/
+specs/004-typography-hierarchy/
 ├── plan.md              # This file (/speckit.plan command output)
 ├── research.md          # Phase 0 output (/speckit.plan command)
 ├── data-model.md        # Phase 1 output (/speckit.plan command)
 ├── quickstart.md        # Phase 1 output (/speckit.plan command)
 ├── contracts/           # Phase 1 output (/speckit.plan command)
+│   ├── README.md
+│   ├── css-typography-contract.md
+│   ├── service-card-structure.md
+│   └── service-data-schema.json
+├── checklists/
+│   └── requirements.md
 └── tasks.md             # Phase 2 output (/speckit.tasks command - NOT created by /speckit.plan)
 ```
 
@@ -59,29 +69,23 @@ specs/[###-feature]/
 
 ```text
 assets/
-├── css/
-│   └── main.css         # Main stylesheet (updated with typography hierarchy)
-
-_data/
-└── services.yml         # Existing (unchanged, but may add icon/image fields)
+└── css/
+    └── main.css         # Typography variables and service card styles
 
 _layouts/
-└── default.html         # Main layout template (updated services section)
+└── default.html         # Service card HTML structure updates
+
+_data/
+└── services.yml         # Service data (optional icon field addition)
 ```
 
-**Structure Decision**: This is a Jekyll static site generator project. The structure follows standard Jekyll conventions:
-- **Layouts**: `_layouts/default.html` contains the main page structure
-- **Assets**: CSS files in `assets/` directory
-- **Data**: YAML files in `_data/` directory for content
-- **No build step required**: Jekyll processes files during GitHub Pages build
-- **No separate frontend/backend**: Single static site with CSS enhancements
+**Structure Decision**: This is a static Jekyll site with CSS-only enhancements. Changes are made to:
+- `assets/css/main.css`: Add typography CSS variables (`--h1-size`, `--h2-size`, `--h3-size`) and service card link styles
+- `_layouts/default.html`: Update services section HTML structure to include icon/image display and "Learn more" links
+- `_data/services.yml`: Optional enhancement to add `icon` field to service items (backward compatible)
 
 ## Complexity Tracking
 
 > **Fill ONLY if Constitution Check has violations that must be justified**
 
-**No violations identified.** The implementation follows standard web development practices:
-- Uses CSS variables and standard typography patterns without external dependencies
-- Maintains existing Jekyll structure without architectural changes
-- Enhances existing components without breaking changes
-- Simple, maintainable code structure
+**No violations identified** - All implementation follows standard web development practices with CSS-only enhancements. No additional complexity required.
