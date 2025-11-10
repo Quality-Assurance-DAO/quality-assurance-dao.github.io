@@ -127,7 +127,7 @@ Can be fully tested by viewing the website and verifying that all four data type
 - [X] T022 [US1] Add status indicator styling for status field in assets/css/main.css
 - [X] T023 [US1] Add logo image styling within cards in assets/css/main.css
 - [X] T024 [US1] Ensure cards are clickable links when url field is present in _layouts/default.html
-- [ ] T025 [US1] Test card grid rendering with all four datasets in local Jekyll server
+- [X] T025 [US1] Test card grid rendering with all four datasets in local Jekyll server
 
 ---
 
