@@ -1,0 +1,113 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Tabs Data Schema",
+  "description": "JSON schema for _data/tabs.yml following standardized site data schema pattern",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["id", "name", "description"],
+    "properties": {
+      "id": {
+        "type": "string",
+        "description": "URL-safe unique identifier for the tab. Used for ARIA IDs, CSS classes, and JavaScript selection.",
+        "pattern": "^[a-z0-9-]+$",
+        "minLength": 1,
+        "examples": ["overview", "features", "contact", "about-us"]
+      },
+      "name": {
+        "type": "string",
+        "description": "Display title shown in the tab navigation bar. Used as tab button text and ARIA label.",
+        "minLength": 1,
+        "examples": ["Overview", "Features", "Contact Us", "About"]
+      },
+      "description": {
+        "type": "string",
+        "description": "Content displayed when the tab is active. Supports markdown formatting (processed by Jekyll) and raw HTML when needed.",
+        "minLength": 0,
+        "examples": [
+          "This is the overview content.",
+          "## Features\n\n- Feature 1\n- Feature 2",
+          "<h3>Contact</h3><p>Get in touch!</p>"
+        ]
+      },
+      "url": {
+        "type": "string",
+        "description": "Optional external URL. Available for future use or display.",
+        "format": "uri",
+        "examples": ["https://example.com", "https://github.com/user/repo"]
+      },
+      "logo": {
+        "type": "string",
+        "description": "Optional path to logo image. Available for future use or display.",
+        "examples": ["/assets/images/logo.png", "/assets/img/icon.svg"]
+      },
+      "tags": {
+        "type": "array",
+        "description": "Optional array of tag strings. Available for future use or display.",
+        "items": {
+          "type": "string"
+        },
+        "examples": [["featured", "new"], ["support", "contact"], []]
+      },
+      "status": {
+        "type": "string",
+        "description": "Optional status indicator. Available for future use or display.",
+        "examples": ["active", "draft", "archived", "coming-soon"]
+      },
+      "featured": {
+        "type": "boolean",
+        "description": "Optional featured flag. Available for future use or display.",
+        "examples": [true, false]
+      },
+      "category": {
+        "type": "string",
+        "description": "Optional category classification. Available for future use or display.",
+        "examples": ["product", "service", "documentation", "support"]
+      },
+      "repo": {
+        "type": "string",
+        "description": "Optional repository URL. Available for future use or display.",
+        "format": "uri",
+        "examples": ["https://github.com/user/repo", "https://gitlab.com/user/repo"]
+      },
+      "contact": {
+        "type": "string",
+        "description": "Optional contact information. Available for future use or display.",
+        "examples": ["contact@example.com", "John Doe", "+1-234-567-8900"]
+      },
+      "year": {
+        "type": "integer",
+        "description": "Optional year field. Available for future use or display.",
+        "minimum": 1900,
+        "maximum": 2100,
+        "examples": [2024, 2023, 2025]
+      }
+    },
+    "additionalProperties": false
+  },
+  "minItems": 0,
+  "examples": [
+    [
+      {
+        "id": "overview",
+        "name": "Overview",
+        "description": "This is the overview tab content."
+      },
+      {
+        "id": "features",
+        "name": "Features",
+        "description": "## Features\n\n- Feature 1\n- Feature 2",
+        "tags": ["featured"],
+        "featured": true
+      },
+      {
+        "id": "contact",
+        "name": "Contact",
+        "description": "Get in touch with us!",
+        "url": "https://example.com/contact",
+        "tags": ["support", "contact"]
+      }
+    ]
+  ]
+}
+
