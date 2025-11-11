@@ -5,6 +5,16 @@
 **Status**: Draft  
 **Input**: User description: "Interactive Network Graph Includes for QADAO (Jekyll) - Create three interactive service cards for a Jekyll (GitHub Pages) site — each displaying a dynamic network graph representing: Governance Innovation, Open-Source Community Building, AI & Blockchain Strategy"
 
+## Clarifications
+
+### Session 2025-11-11
+
+- Q: How should node repulsion force behave when mouse is within 100px? → A: Proportional repulsion (stronger when closer to cursor, weaker when farther, with maximum strength cap)
+- Q: How should nodes be initially positioned on the canvas? → A: Random distribution across entire canvas area
+- Q: How should node movement speed be configured? → A: Variable speed with configurable range (e.g., 0.5-2.0 pixels per frame)
+- Q: How should nodes behave when canvas is resized? → A: Maintain relative positions and adjust to new dimensions (scale positions proportionally)
+- Q: What color should connection lines use? → A: Same color as nodes with reduced opacity (e.g., 30-50% opacity)
+
 ## User Scenarios & Testing *(mandatory)*
 
 ### User Story 1 - Interactive Network Graph Display (Priority: P1)
@@ -104,15 +114,16 @@ As a website visitor, I want the service cards to load quickly and not impact pa
 - **FR-001**: System MUST create three Jekyll include files for service cards: governance_graph.html, community_graph.html, and ai_graph.html
 - **FR-002**: System MUST create a shared JavaScript include file (network_graph.js) containing a reusable function for creating interactive network graphs
 - **FR-003**: System MUST render a canvas element within each service card for displaying the network graph
-- **FR-004**: System MUST render an animated network graph on each canvas with configurable number of nodes (default 20) that move smoothly with continuous movement
+- **FR-004**: System MUST render an animated network graph on each canvas with configurable number of nodes (default 20) that are initially positioned randomly across the entire canvas area and move smoothly with continuous movement at variable speeds within a configurable range (e.g., 0.5-2.0 pixels per frame)
 - **FR-005**: System MUST render connections (lines) between nodes based on distance threshold (nodes connect if within 120px distance) to create a network graph pattern
 - **FR-006**: System MUST display each service card with appropriate title and description (Governance Innovation, Open-Source Community Building, AI & Blockchain Strategy)
 - **FR-007**: System MUST use distinct colors for each service card's network graph (governance: #6ee7b7/teal-green, community: #60a5fa/blue, AI: #a78bfa/purple)
-- **FR-008**: System MUST respond to mouse movement over canvas by repelling nearby nodes (within 100px) away from cursor position
+- **FR-008**: System MUST respond to mouse movement over canvas by repelling nearby nodes (within 100px) away from cursor position using proportional repulsion force (stronger when closer to cursor, weaker when farther, with maximum strength cap to prevent visual glitches)
 - **FR-009**: System MUST stop repelling nodes when mouse leaves the canvas area
 - **FR-010**: System MUST resize canvas responsively when browser window is resized
 - **FR-011**: System MUST adapt canvas dimensions to different screen sizes (mobile, tablet, desktop)
 - **FR-012**: System MUST maintain smooth animation performance during canvas resizing
+- **FR-029**: System MUST maintain node relative positions when canvas resizes by scaling node positions proportionally to new canvas dimensions
 - **FR-013**: System MUST style service cards with consistent card wrapper (background, border radius, padding, shadow)
 - **FR-014**: System MUST style canvas with dark background, rounded corners, and appropriate dimensions (100% width, 180px height)
 - **FR-015**: System MUST style service titles and descriptions with appropriate typography and spacing
@@ -127,16 +138,16 @@ As a website visitor, I want the service cards to load quickly and not impact pa
 - **FR-024**: System MUST ensure each canvas instance functions independently with its own animation state
 - **FR-025**: System MUST ensure mouse interactions only affect the canvas directly under the cursor
 - **FR-026**: System MUST render nodes as small filled circles (3.5px radius) in the specified color
-- **FR-027**: System MUST render connection lines with opacity based on distance (fade from full opacity at 0px to transparent at 120px threshold)
+- **FR-027**: System MUST render connection lines with same color as nodes but with reduced base opacity (e.g., 30-50% opacity), and opacity must fade based on distance (fade from base opacity at 0px to transparent at 120px threshold)
 - **FR-028**: System MUST ensure nodes bounce off canvas edges by reversing velocity when hitting boundaries
 
 ### Key Entities *(include if feature involves data)*
 
 - **Service Card**: Container element that wraps a canvas, service title, and description. Provides visual structure and styling context for displaying service information with an interactive network graph. Each card represents one of three services: Governance Innovation, Open-Source Community Building, or AI & Blockchain Strategy.
 
-- **Canvas Element**: HTML5 canvas element that renders the interactive network graph. Handles all visual rendering including nodes, connections, and background. Must be responsive and resize appropriately. Each service card contains one canvas instance.
+- **Canvas Element**: HTML5 canvas element that renders the interactive network graph. Handles all visual rendering including nodes, connections, and background. Must be responsive and resize appropriately. When resized, node positions are scaled proportionally to maintain relative positions. Each service card contains one canvas instance.
 
-- **Network Graph**: Visual representation consisting of configurable number of nodes (default 20) and connections (lines between nodes). Nodes connect based on distance threshold (120px). Connection lines have opacity that fades with distance. Nodes move continuously with velocity vectors, bouncing off canvas edges. Nodes respond to mouse proximity by repelling away from cursor.
+- **Network Graph**: Visual representation consisting of configurable number of nodes (default 20) and connections (lines between nodes). Nodes are initially positioned randomly across the entire canvas area. Nodes connect based on distance threshold (120px). Connection lines use the same color as nodes with reduced base opacity (e.g., 30-50% opacity), and opacity fades with distance from full base opacity at 0px to transparent at 120px threshold. Nodes move continuously with velocity vectors at variable speeds within a configurable range (e.g., 0.5-2.0 pixels per frame), bouncing off canvas edges. Nodes respond to mouse proximity by repelling away from cursor using proportional repulsion force (stronger when closer, weaker when farther, with maximum strength cap).
 
 - **Shared Network Function**: Reusable JavaScript function (createInteractiveNetwork) that accepts parameters for canvas ID, node count, and color. Handles all animation logic, mouse interaction, and rendering. Can be instantiated multiple times for different canvas elements.
 
