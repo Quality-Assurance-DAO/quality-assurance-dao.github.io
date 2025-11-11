@@ -33,10 +33,5 @@
 - id: projects
   name: Projects
   data_source: projects
-  description: |
-    ## Testing Tab
-    
-    This tab demonstrates dynamic content loading from projects.yml.
-    
-    The projects listed below are pulled directly from the `_data/projects.yml` file.
+  description: The projects listed below are pulled directly from the `_data/projects.yml` file.
 
