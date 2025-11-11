@@ -30,8 +30,8 @@
     This tab shows contact information and demonstrates
     how the tab interface works with different content types.
 
-- id: testing
-  name: Testing
+- id: projects
+  name: Projects
   data_source: projects
   description: |
     ## Testing Tab
