@@ -730,3 +730,217 @@ body.dark-theme .theme-icon-dark {
     gap: 2rem;
   }
 }
+
+/* ========================================
+   Multi-Tab Interface Styles
+   ======================================== */
+
+/* Tabs Container */
+.tabs-container {
+  margin: 2rem 0;
+}
+
+/* Tab Navigation */
+.tabs-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  border-bottom: 2px solid var(--border);
+  margin-bottom: 1.5rem;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Tab Button */
+.tab-button {
+  padding: 0.75rem 1.5rem;
+  background: transparent;
+  border: none;
+  border-bottom: 3px solid transparent;
+  color: var(--text-muted);
+  font-family: var(--font-base);
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: color 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+  min-height: 44px;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.tab-button:hover:not(.active) {
+  color: var(--primary);
+  border-bottom-color: var(--primary-light);
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+.tab-button:focus {
+  outline: 2px solid var(--primary);
+  outline-offset: 2px;
+  border-radius: var(--radius);
+}
+
+.tab-button.active {
+  color: var(--primary);
+  border-bottom-color: var(--primary);
+  font-weight: 600;
+  background-color: transparent;
+}
+
+/* Tab Content */
+.tabs-content {
+  padding: 1.5rem 0;
+}
+
+/* Tab Panel */
+.tab-panel {
+  display: block; /* Default: all visible (progressive enhancement) */
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+/* JavaScript enhancement: Hide inactive panels */
+.js-enabled .tab-panel:not(.active) {
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.js-enabled .tab-panel.active {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+  animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+  from { 
+    opacity: 0; 
+  }
+  to { 
+    opacity: 1; 
+  }
+}
+
+/* Responsive Design for Tabs */
+
+/* Mobile devices (< 768px) */
+@media (max-width: 768px) {
+  .tabs-nav {
+    gap: 0.25rem;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  .tab-button {
+    padding: 0.625rem 1rem;
+    font-size: 0.9rem;
+    flex-shrink: 0;
+    white-space: nowrap;
+    min-height: 44px;
+    min-width: 44px;
+  }
+}
+
+/* Tablet breakpoint (769px - 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .tabs-nav {
+    gap: 0.5rem;
+  }
+  
+  .tab-button {
+    padding: 0.7rem 1.25rem;
+    font-size: 0.95rem;
+  }
+}
+
+/* Large desktop screens (>= 2560px) */
+@media (min-width: 2560px) {
+  .tabs-container {
+    max-width: var(--max-width);
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .tabs-nav {
+    gap: 0.75rem;
+  }
+  
+  .tab-button {
+    padding: 0.875rem 1.75rem;
+    font-size: 1.1rem;
+  }
+}
+
+/* Very small screens (< 320px) */
+@media (max-width: 319px) {
+  .tabs-nav {
+    gap: 0.125rem;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  .tab-button {
+    padding: 0.5rem 0.75rem;
+    font-size: 0.85rem;
+    min-height: 44px;
+    min-width: 44px;
+  }
+}
+
+/* Tab Projects List Styling */
+.tab-projects {
+  margin-top: 1.5rem;
+}
+
+.tab-projects h3 {
+  margin-bottom: 1rem;
+  color: var(--text);
+  font-size: 1.5rem;
+}
+
+.tab-projects-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.tab-project-item {
+  padding: 1rem;
+  margin-bottom: 1rem;
+  background: var(--bg-secondary);
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  transition: box-shadow 0.2s ease;
+}
+
+.tab-project-item:hover {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tab-project-item strong {
+  display: block;
+  color: var(--primary);
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.tab-project-item p {
+  margin: 0.5rem 0;
+  color: var(--text-muted);
+}
+
+.tab-project-link {
+  display: inline-block;
+  margin-top: 0.5rem;
+  color: var(--primary);
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.tab-project-link:hover {
+  color: var(--primary-dark);
+  text-decoration: underline;
+}
