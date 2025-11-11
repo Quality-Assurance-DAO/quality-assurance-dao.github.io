@@ -3,7 +3,7 @@
   description: SingularityNet Archive Project Board
   url: https://github.com/orgs/SingularityNET-Archive/projects/1
   id: singularitynet-archive
-- name: Archive Tool
-  description: Archive Tool Issue Board
-  url: https://github.com/orgs/SingularityNET-Archive/projects/3
-  id: archive-tool
+- name: Cyclic-Possible-World-Semantics-Governance-Token
+  description: This repository provides a runnable Python 3.9+ simulation of a cyclic possible-world governance system with Kripke semantics, voting, token-like world metadata, simulated on-chain transitions (Cardano), off-chain storage placeholders (Arweave), and visualization.
+  url: https://github.com/Quality-Assurance-DAO/Cyclic-Possible-World-Semantics-Governance-Token
+  id: Cyclic-Possible-World-Semantics-Governance-Token
