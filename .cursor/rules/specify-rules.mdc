@@ -34,9 +34,9 @@ tests/
 Jekyll (Ruby-based static site generator), Liquid templating language: Follow standard conventions
 
 ## Recent Changes
+- 007-network-graph-includes: Added Jekyll (static site generator), Liquid templating engine, vanilla JavaScript (ES5+), HTML5 Canvas API, CSS3 + Jekyll static site generator, HTML5 Canvas API, requestAnimationFrame API (browser-native)
 - 006-animated-header-background: Added Jekyll (static site generator), Liquid templating engine, vanilla JavaScript (ES5+), HTML5 Canvas API, CSS3 + Jekyll static site generator, HTML5 Canvas API, requestAnimationFrame API (browser-native)
 - 005-multi-tab-layout: Added Jekyll (static site generator), Liquid templating engine, vanilla JavaScript (ES5+), HTML5, CSS3 + Jekyll static site generator, Liquid templating, GitHub Pages hosting environmen
-- 004-typography-hierarchy: Added CSS3, HTML5, Liquid (Jekyll templating), YAML + Jekyll (static site generator), Google Fonts (Space Grotesk - already integrated), CSS custom properties (variables), clamp() function
 
 
 <!-- MANUAL ADDITIONS START -->
