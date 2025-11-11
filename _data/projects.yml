@@ -11,3 +11,7 @@
   description: A Python-only, audit-friendly RAG pipeline to interpret archived meeting JSON logs with evidence-bound answers, verifiable citations, offline reproducibility, and human auditability.
   url: https://github.com/SingularityNET-Archive/Archive-RAG
   id: Archive-RAG
+- name: Cardano-Proposal-Anchoring-Prototype
+  description: A minimal working Python prototype that anchors community proposals to the Cardano blockchain using Blockfrost and PyCardano. The system uploads proposals to Arweave for permanent storage, computes SHA256 hashes, and anchors them as metadata in Cardano transactions on the testnest
+  url: https://github.com/SingularityNET-Archive/Cardano-Proposal-Anchoring-Prototype
+  id: Cardano-Proposal-Anchoring-Prototype
