@@ -82,11 +82,12 @@ As a website visitor, I want the animated header to load quickly and not impact 
 ### Functional Requirements
 
 - **FR-001**: System MUST create a header element containing a canvas element for rendering the animated graph network
-- **FR-002**: System MUST render an animated graph network on the canvas with nodes (points) that move smoothly
-- **FR-003**: System MUST render connections (lines) between nodes to create a network graph pattern
+- **FR-025**: System MUST render header at full viewport width with fixed height of 150-200px (consistent across pages)
+- **FR-002**: System MUST render an animated graph network on the canvas with 15-25 nodes (points) that move smoothly with continuous movement using random velocity vectors, bouncing off canvas edges
+- **FR-003**: System MUST render connections (lines) between nodes using distance-based connection rules (nodes connect if within threshold distance) to create a network graph pattern, with low opacity (20-30%), subtle color, and thin stroke (1-2px)
 - **FR-004**: System MUST display a gradient background on the canvas that provides visual depth
 - **FR-005**: System MUST accept a customizable title parameter through Jekyll include syntax
-- **FR-006**: System MUST display the title text over the animated background when a title parameter is provided
+- **FR-006**: System MUST display the title text over the animated background when a title parameter is provided, centered horizontally and vertically with semi-transparent background or text shadow for readability
 - **FR-007**: System MUST function without a title parameter (display only animated background)
 - **FR-008**: System MUST resize the canvas responsively when the browser window is resized
 - **FR-009**: System MUST adapt the canvas dimensions to different screen sizes (mobile, tablet, desktop)
@@ -108,10 +109,10 @@ As a website visitor, I want the animated header to load quickly and not impact 
 
 ### Key Entities *(include if feature involves data)*
 
-- **Header Element**: Container element that wraps the canvas and optional title. Provides semantic structure and styling context for the animated background.
+- **Header Element**: Container element that wraps the canvas and optional title. Provides semantic structure and styling context for the animated background. Renders at full viewport width with fixed height of 150-200px.
 - **Canvas Element**: HTML5 canvas element that renders the animated graph network. Handles all visual rendering including nodes, connections, and gradient background. Must be responsive and resize appropriately.
-- **Graph Network**: Visual representation consisting of nodes (movable points) and connections (lines between nodes). Nodes move smoothly to create dynamic animation effect.
-- **Title Parameter**: Optional text parameter passed through Jekyll include syntax. Displayed as text overlay on the animated background when provided.
+- **Graph Network**: Visual representation consisting of 15-25 nodes (movable points) and connections (lines between nodes). Nodes connect based on distance threshold (distance-based connections). Connection lines have low opacity (20-30%), subtle color, and thin stroke (1-2px). Nodes move continuously with random velocity vectors, bouncing off canvas edges to create dynamic animation effect.
+- **Title Parameter**: Optional text parameter passed through Jekyll include syntax. Displayed as text overlay on the animated background when provided, centered horizontally and vertically with semi-transparent background or text shadow for readability.
 
 ## Success Criteria *(mandatory)*
 
@@ -197,3 +198,8 @@ As a website visitor, I want the animated header to load quickly and not impact 
 - Q: Should the animation pause when the browser tab is in the background? → A: Yes, standard requestAnimationFrame behavior will pause animation when tab is inactive
 - Q: How should the title parameter be handled for security? → A: Title content should be safely escaped to prevent XSS vulnerabilities
 - Q: What visual style should the graph network have? → A: Subtle, professional aesthetic with soft colors and gentle movement suitable for portfolio/documentation sites
+- Q: How many nodes should the graph network have and how should connections be determined? → A: 15-25 nodes with distance-based connections (nodes connect if within threshold distance)
+- Q: What should be the header height and dimensions? → A: Full viewport width with fixed height (150-200px, consistent across pages)
+- Q: How should the title text be positioned and styled over the animated background? → A: Centered horizontally and vertically with semi-transparent background or text shadow for readability
+- Q: How should nodes move in the animation? → A: Continuous movement with random velocity vectors, bouncing off canvas edges (reverse direction on collision)
+- Q: How should connection lines appear visually? → A: Low opacity lines (20-30%) with subtle color, thin stroke (1-2px)
