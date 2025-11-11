@@ -1,0 +1,42 @@
+---
+- id: overview
+  name: Overview
+  description: |
+    This is the overview tab content.
+    
+    It supports **markdown** formatting and can include
+    multiple paragraphs.
+    
+    - List items
+    - More items
+
+- id: features
+  name: Features
+  description: |
+    ## Key Features
+    
+    This tab demonstrates the features of the multi-tab interface.
+    
+    - Tab navigation
+    - Content switching
+    - Responsive design
+    - Accessibility support
+
+- id: contact
+  name: Contact
+  description: |
+    Get in touch with us!
+    
+    This tab shows contact information and demonstrates
+    how the tab interface works with different content types.
+
+- id: testing
+  name: Testing
+  data_source: projects
+  description: |
+    ## Testing Tab
+    
+    This tab demonstrates dynamic content loading from projects.yml.
+    
+    The projects listed below are pulled directly from the `_data/projects.yml` file.
+

@@ -1,0 +1,173 @@
+{% if site.data.tabs and site.data.tabs.size > 0 %}
+<div class="tabs-container" role="region" aria-label="Tabbed content">
+  <!-- Tab Navigation -->
+  <div class="tabs-nav" role="tablist" aria-label="Tabs">
+    {% for tab in site.data.tabs %}
+      {% if tab.id and tab.name %}
+        <button 
+          class="tab-button{% if forloop.first %} active{% endif %}" 
+          role="tab" 
+          id="tab-{{ tab.id }}" 
+          aria-selected="{% if forloop.first %}true{% else %}false{% endif %}" 
+          aria-controls="tabpanel-{{ tab.id }}"
+          tabindex="{% if forloop.first %}0{% else %}-1{% endif %}">
+          {{ tab.name }}
+        </button>
+      {% endif %}
+    {% endfor %}
+  </div>
+  
+  <!-- Tab Content -->
+  <div class="tabs-content">
+    {% for tab in site.data.tabs %}
+      {% if tab.id and tab.name %}
+        <div 
+          class="tab-panel{% if forloop.first %} active{% endif %}" 
+          role="tabpanel" 
+          id="tabpanel-{{ tab.id }}" 
+          aria-labelledby="tab-{{ tab.id }}"
+          tabindex="0">
+          {% if tab.description %}
+            {{ tab.description | markdownify }}
+          {% endif %}
+          
+          {% if tab.data_source == 'projects' %}
+            <!-- Render projects data -->
+            {% if site.data.projects and site.data.projects.size > 0 %}
+              <div class="tab-projects">
+                <h3>Projects from projects.yml</h3>
+                <ul class="tab-projects-list">
+                  {% for project in site.data.projects %}
+                    <li class="tab-project-item">
+                      <strong>{{ project.name }}</strong>
+                      {% if project.description %}
+                        <p>{{ project.description }}</p>
+                      {% endif %}
+                      {% if project.url %}
+                        <a href="{{ project.url }}" target="_blank" rel="noopener" class="tab-project-link">View Project →</a>
+                      {% endif %}
+                    </li>
+                  {% endfor %}
+                </ul>
+              </div>
+            {% else %}
+              <p>No projects available.</p>
+            {% endif %}
+            
+          {% elsif tab.description == null or tab.description == '' %}
+            <p>No content available.</p>
+          {% endif %}
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
+
+<!-- JavaScript for Tab Switching -->
+<script>
+(function() {
+  'use strict';
+  
+  function initializeTabs() {
+    const tabsNav = document.querySelector('.tabs-nav');
+    if (!tabsNav) return;
+    
+    // Mark as JS-enabled for progressive enhancement
+    document.documentElement.classList.add('js-enabled');
+    
+    // Set first tab as active if none active
+    const activeButton = tabsNav.querySelector('.tab-button.active');
+    if (!activeButton) {
+      const firstButton = tabsNav.querySelector('.tab-button');
+      if (firstButton) {
+        switchTab(firstButton.id.replace('tab-', ''));
+      }
+    }
+    
+    // Attach event listener
+    tabsNav.addEventListener('click', handleTabClick);
+    
+    // Keyboard navigation
+    tabsNav.addEventListener('keydown', handleKeyDown);
+  }
+  
+  function handleTabClick(event) {
+    const button = event.target.closest('.tab-button');
+    if (!button || button.classList.contains('active')) return;
+    
+    const tabId = button.id.replace('tab-', '');
+    switchTab(tabId);
+  }
+  
+  function handleKeyDown(event) {
+    const button = event.target.closest('.tab-button');
+    if (!button) return;
+    
+    let targetButton = null;
+    const buttons = Array.from(button.parentElement.querySelectorAll('.tab-button'));
+    const currentIndex = buttons.indexOf(button);
+    
+    switch(event.key) {
+      case 'ArrowLeft':
+      case 'ArrowUp':
+        event.preventDefault();
+        targetButton = buttons[currentIndex - 1] || buttons[buttons.length - 1];
+        break;
+      case 'ArrowRight':
+      case 'ArrowDown':
+        event.preventDefault();
+        targetButton = buttons[currentIndex + 1] || buttons[0];
+        break;
+      case 'Home':
+        event.preventDefault();
+        targetButton = buttons[0];
+        break;
+      case 'End':
+        event.preventDefault();
+        targetButton = buttons[buttons.length - 1];
+        break;
+    }
+    
+    if (targetButton) {
+      targetButton.focus();
+      switchTab(targetButton.id.replace('tab-', ''));
+    }
+  }
+  
+  function switchTab(tabId) {
+    // Remove active state from all tabs
+    const allButtons = document.querySelectorAll('.tab-button');
+    const allPanels = document.querySelectorAll('.tab-panel');
+    
+    allButtons.forEach(function(btn) {
+      btn.classList.remove('active');
+      btn.setAttribute('aria-selected', 'false');
+      btn.setAttribute('tabindex', '-1');
+    });
+    
+    allPanels.forEach(function(panel) {
+      panel.classList.remove('active');
+    });
+    
+    // Set new active tab
+    const button = document.getElementById('tab-' + tabId);
+    const panel = document.getElementById('tabpanel-' + tabId);
+    
+    if (button && panel) {
+      button.classList.add('active');
+      button.setAttribute('aria-selected', 'true');
+      button.setAttribute('tabindex', '0');
+      panel.classList.add('active');
+    }
+  }
+  
+  // Initialize on DOM ready
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initializeTabs);
+  } else {
+    initializeTabs();
+  }
+})();
+</script>
+{% endif %}
+
