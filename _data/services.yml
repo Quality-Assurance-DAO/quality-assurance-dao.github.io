@@ -1,7 +1,7 @@
 ---
-- name: Governance Innovation
-  description: Innovative Goverance solutions for transparency and risk management.
-  id: governance-audits
+- name: Community Co-Production
+  description: In our SingularityNet Archive project we co‑designed an archive with Ambassador Workgroups mapping decision flows into an archival dashboard—ensuring transparency of contributor interactions and record‑keeping.
+  id: Community Co-Production
 - name: Open Source Community Building
   description: Building and scaling open-source communities with best-practice frameworks.
   id: open-source-community-building
