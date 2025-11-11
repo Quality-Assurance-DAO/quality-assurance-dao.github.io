@@ -1,0 +1,112 @@
+{% comment %}
+  AI & Blockchain Strategy Service Card
+  Interactive network graph service card for AI & Blockchain Strategy service
+{% endcomment %}
+
+{% comment %} T040: Include shared network graph function {% endcomment %}
+{% include network_graph.js %}
+
+{% comment %} T038: Create service card structure {% endcomment %}
+<div class="service-card">
+  {% comment %} T039: Add canvas element with ID {% endcomment %}
+  <canvas id="canvas-ai-{{ include.id | default: 1 }}" class="network-canvas" aria-hidden="true"></canvas>
+  {% comment %} T042: Add service title {% endcomment %}
+  <h3 class="service-title">AI & Blockchain Strategy</h3>
+  {% comment %} T043: Add service description {% endcomment %}
+  <p class="service-description">
+    Cutting-edge technological innovation combining artificial intelligence and blockchain for next-generation solutions.
+  </p>
+</div>
+
+{% comment %} T052-T055: Add inline CSS for styling {% endcomment %}
+<style>
+.service-card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+  width: 100%;
+}
+
+.network-canvas {
+  width: 100%;
+  height: 180px;
+  background-color: #1a1a1a;
+  border-radius: 4px;
+  display: block;
+  cursor: crosshair;
+}
+
+.service-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  color: #1a1a1a;
+  line-height: 1.3;
+}
+
+.service-description {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+  color: #4a4a4a;
+}
+
+{% comment %} T058: Add responsive CSS media query for mobile (< 768px) {% endcomment %}
+@media (max-width: 768px) {
+  .service-card {
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .service-title {
+    font-size: 1.25rem;
+  }
+  
+  .service-description {
+    font-size: 0.9rem;
+  }
+}
+
+{% comment %} T061: Add responsive CSS media query for desktop (> 1024px) {% endcomment %}
+@media (min-width: 1025px) {
+  .service-card {
+    padding: 2rem;
+  }
+  
+  .service-title {
+    font-size: 1.75rem;
+  }
+  
+  .service-description {
+    font-size: 1.1rem;
+  }
+}
+</style>
+
+{% comment %} T041: Add JavaScript initialization {% endcomment %}
+<script>
+(function() {
+  'use strict';
+  
+  function initServiceCard() {
+    const canvasId = 'canvas-ai-{{ include.id | default: 1 }}';
+    const nodeCount = 20;
+    const color = '#a78bfa'; // Purple
+    
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', function() {
+        createInteractiveNetwork(canvasId, nodeCount, color);
+      });
+    } else {
+      createInteractiveNetwork(canvasId, nodeCount, color);
+    }
+  }
+  
+  initServiceCard();
+})();
+</script>
+
