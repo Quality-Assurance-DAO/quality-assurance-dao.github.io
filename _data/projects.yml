@@ -7,3 +7,7 @@
   description: Simulation of a cyclic possible-world governance system with Kripke semantics, voting, token-like world metadata, simulated on-chain transitions (Cardano), off-chain storage placeholders (Arweave),and visualization.
   url: https://github.com/Quality-Assurance-DAO/Cyclic-Possible-World-Semantics-Governance-Token
   id: Cyclic-Possible-World-Semantics-Governance-Token
+  - name: Archive-RAG
+  description: A Python-only, audit-friendly RAG pipeline to interpret archived meeting JSON logs with evidence-bound answers, verifiable citations, offline reproducibility, and human auditability.
+  url: https://github.com/SingularityNET-Archive/Archive-RAG
+  id: Archive-RAG
