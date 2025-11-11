@@ -80,9 +80,10 @@ body.dark-theme {
   --nav-border: #333333;
 }
 
-/* Respect system preference on initial load */
+/* Default to dark theme - data-theme="dark" always applies dark theme */
+/* System preference only applies if no explicit theme is set */
 @media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
+  :root:not([data-theme="light"]):not([data-theme="dark"]) {
     /* Base colors */
     --bg: #121212;
     --bg-secondary: #1a1a1a;

@@ -11,10 +11,23 @@
   {% seo %}
   <link rel="stylesheet" href="{{ '/assets/css/main.css?v=' | append: site.github.build_revision | relative_url }}">
   {% include head-custom.html %}
+  <script>
+    // Set dark mode immediately to prevent flash of light mode
+    (function() {
+      const html = document.documentElement;
+      const savedTheme = localStorage.getItem('theme');
+      // Default to dark if no saved preference
+      const theme = savedTheme || 'dark';
+      html.setAttribute('data-theme', theme);
+      if (theme === 'dark') {
+        document.body.classList.add('dark-theme');
+      }
+    })();
+  </script>
   <script src="{{ '/assets/js/theme-toggle.js' | relative_url }}" defer></script>
 </head>
 
-<body>
+<body class="dark-theme">
   <!-- STICKY NAVIGATION -->
   <header class="sticky-nav">
     <nav class="container nav-container">
