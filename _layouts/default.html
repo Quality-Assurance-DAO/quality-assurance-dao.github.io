@@ -59,15 +59,6 @@
   </header>
 
   <main>
-    <!-- ABOUT SECTION -->
-    <section id="about" class="section about">
-      <div class="container">
-        <h2>About Us</h2>
-        <p>
-          {{ site.about_text | default: "Quality Assurance DAO is a decentralized consultancy providing governance and quality solutions for blockchain, AI, and open-source communities. We bring auditability, transparency, and measurable quality to your project." }}
-        </p>
-      </div>
-    </section>
 
     <!-- SERVICES SECTION (UPDATED) -->
     <section id="services" class="section services">
@@ -172,6 +163,16 @@
       </div>
     </section>
 
+    <!-- ABOUT SECTION -->
+    <section id="about" class="section about">
+      <div class="container">
+        <h2>About Us</h2>
+        <p>
+          {{ site.about_text | default: "Quality Assurance DAO is a decentralized consultancy providing governance and quality solutions for blockchain, AI, and open-source communities. We bring auditability, transparency, and measurable quality to your project." }}
+        </p>
+      </div>
+    </section>
+    
     <!-- FOLLOW US SECTION -->
     <section id="contact" class="section contact">
       <div class="container">
