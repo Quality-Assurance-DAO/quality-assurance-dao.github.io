@@ -2,16 +2,16 @@
   const themeToggle = document.getElementById('theme-toggle');
   const html = document.documentElement;
   
-  // Get saved theme or default to system preference
+  // Get saved theme or default to dark mode
   function getInitialTheme() {
     const savedTheme = localStorage.getItem('theme');
     if (savedTheme) {
       return savedTheme;
     }
-    // Check system preference
-    return window.matchMedia('(prefers-color-scheme: dark)').matches 
-      ? 'dark' 
-      : 'light';
+    // Default to dark mode (can still respect system preference if desired)
+    // Uncomment the line below to respect system preference instead:
+    // return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+    return 'dark';
   }
   
   // Apply theme
@@ -53,14 +53,16 @@
   }
   
   // Listen for system theme changes (optional)
-  if (window.matchMedia) {
-    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function(e) {
-      // Only auto-switch if user hasn't manually set a preference
-      if (!localStorage.getItem('theme')) {
-        setTheme(e.matches ? 'dark' : 'light');
-      }
-    });
-  }
+  // Note: With dark mode as default, this is disabled to maintain dark mode preference
+  // Uncomment below to enable system preference following:
+  // if (window.matchMedia) {
+  //   window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function(e) {
+  //     // Only auto-switch if user hasn't manually set a preference
+  //     if (!localStorage.getItem('theme')) {
+  //       setTheme(e.matches ? 'dark' : 'light');
+  //     }
+  //   });
+  // }
   
   // Mobile navigation toggle
   const navToggle = document.getElementById('nav-toggle');
