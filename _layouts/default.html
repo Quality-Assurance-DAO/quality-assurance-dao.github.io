@@ -47,16 +47,9 @@
   </header>
 
   <!-- HERO SECTION -->
-  <header class="hero" id="home">
-    <div class="container">
-      {% if site.logo %}
-        <img src="{{ site.logo | relative_url }}" alt="{{ site.title }} logo" class="hero-logo" loading="lazy">
-      {% endif %}
-      <h1>{{ site.title }}</h1>
-      <p class="tagline">{{ site.description }}</p>
-      <a href="#services" class="btn-primary btn-hero">Learn More</a>
-    </div>
-  </header>
+  <section id="home">
+    {% include animated-header.html title="QADAO" %}
+  </section>
 
   <main>
 

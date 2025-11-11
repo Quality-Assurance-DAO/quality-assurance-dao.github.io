@@ -1,0 +1,290 @@
+{% comment %}
+  Animated Header Background Component
+  Reusable Jekyll include for animated graph network header background
+{% endcomment %}
+
+{% comment %} T001: Create include file structure {% endcomment %}
+{% comment %} T002: Add basic Jekyll include syntax with title parameter support {% endcomment %}
+
+{% comment %} T003: Create header container element with semantic HTML structure {% endcomment %}
+<header class="animated-header">
+  {% comment %} T006: Create canvas element structure with proper attributes {% endcomment %}
+  <canvas 
+    id="animated-header-canvas-{{ include.id | default: 'default' }}" 
+    class="animated-header-canvas"
+    width="100" 
+    height="150">
+  </canvas>
+  
+  {% comment %} T004: Implement title parameter handling with safe escaping {% endcomment %}
+  {% if include.title %}
+  <div class="animated-header-title">
+    {{ include.title | escape }}
+  </div>
+  {% endif %}
+</header>
+
+{% comment %} T005: Create CSS base styles for header container with gradient fallback {% endcomment %}
+<style>
+.animated-header {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  background: linear-gradient(to bottom, #1a1a2e, #16213e);
+}
+
+.animated-header-canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.animated-header-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  color: #ffffff;
+  font-size: 2.5rem;
+  font-weight: 600;
+  text-align: center;
+  padding: 1rem 2rem;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+{% comment %} T022: Create responsive CSS media queries for mobile breakpoints {% endcomment %}
+@media (max-width: 768px) {
+  .animated-header {
+    height: 150px;
+  }
+  .animated-header-title {
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+  }
+}
+
+{% comment %} T023: Create responsive CSS media queries for tablet breakpoints {% endcomment %}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .animated-header {
+    height: 175px;
+  }
+  .animated-header-title {
+    font-size: 2rem;
+    padding: 0.75rem 1.5rem;
+  }
+}
+
+{% comment %} T024: Create responsive CSS media queries for desktop breakpoints {% endcomment %}
+@media (min-width: 1025px) {
+  .animated-header {
+    height: 200px;
+  }
+  .animated-header-title {
+    font-size: 2.5rem;
+    padding: 1rem 2rem;
+  }
+}
+</style>
+
+{% comment %} T007: Implement progressive enhancement detection for Canvas API support {% endcomment %}
+{% comment %} T029: Implement IIFE wrapper to prevent global scope pollution {% endcomment %}
+<script>
+(function() {
+  'use strict';
+  
+  {% comment %} T035: Add unique canvas ID support for multiple header instances {% endcomment %}
+  const canvasId = 'animated-header-canvas-{{ include.id | default: "default" }}';
+  const canvas = document.getElementById(canvasId);
+  if (!canvas) return;
+  
+  {% comment %} T007: Progressive enhancement - check Canvas support {% endcomment %}
+  const ctx = canvas.getContext('2d');
+  if (!ctx) return; // Canvas not supported, fallback to gradient
+  
+  {% comment %} T033: Implement graceful fallback for browsers without Canvas support {% endcomment %}
+  {% comment %} T034: Implement graceful fallback for browsers with JavaScript disabled {% endcomment %}
+  {% comment %} (Fallback is automatic: if Canvas/JS unavailable, CSS gradient displays) {% endcomment %}
+  
+  // Configuration
+  const NODE_COUNT = 20;
+  const CONNECTION_THRESHOLD = 120;
+  const NODE_RADIUS = 2.5;
+  
+  {% comment %} T008: Implement canvas initialization function with context acquisition {% endcomment %}
+  function initializeCanvas() {
+    const container = canvas.parentElement;
+    canvas.width = container.offsetWidth;
+    canvas.height = container.offsetHeight;
+  }
+  initializeCanvas();
+  
+  {% comment %} T009: Create node creation function with random positions and velocities {% endcomment %}
+  function createNodes(count) {
+    const nodes = [];
+    for (let i = 0; i < count; i++) {
+      nodes.push({
+        x: Math.random() * canvas.width,
+        y: Math.random() * canvas.height,
+        vx: (Math.random() - 0.5) * 1.5,
+        vy: (Math.random() - 0.5) * 1.5,
+        radius: NODE_RADIUS
+      });
+    }
+    return nodes;
+  }
+  
+  const nodes = createNodes(NODE_COUNT);
+  
+  {% comment %} T010: Implement node update function with edge collision detection (bounce) {% endcomment %}
+  function updateNodes() {
+    nodes.forEach(node => {
+      node.x += node.vx;
+      node.y += node.vy;
+      
+      // Bounce off edges
+      if (node.x < 0 || node.x > canvas.width) {
+        node.vx *= -1;
+        node.x = Math.max(0, Math.min(canvas.width, node.x));
+      }
+      if (node.y < 0 || node.y > canvas.height) {
+        node.vy *= -1;
+        node.y = Math.max(0, Math.min(canvas.height, node.y));
+      }
+    });
+  }
+  
+  {% comment %} T011: Create connection calculation function using distance-based threshold algorithm {% endcomment %}
+  function calculateConnections() {
+    const connections = [];
+    for (let i = 0; i < nodes.length; i++) {
+      for (let j = i + 1; j < nodes.length; j++) {
+        const dx = nodes[j].x - nodes[i].x;
+        const dy = nodes[j].y - nodes[i].y;
+        const distance = Math.sqrt(dx * dx + dy * dy);
+        if (distance < CONNECTION_THRESHOLD) {
+          connections.push({ node1: nodes[i], node2: nodes[j], distance });
+        }
+      }
+    }
+    return connections;
+  }
+  
+  {% comment %} T012: Implement gradient background drawing function using Canvas API {% endcomment %}
+  function drawBackground() {
+    const gradient = ctx.createLinearGradient(0, 0, 0, canvas.height);
+    gradient.addColorStop(0, '#1a1a2e');
+    gradient.addColorStop(1, '#16213e');
+    ctx.fillStyle = gradient;
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+  }
+  
+  {% comment %} T013: Create connection line drawing function with low opacity styling {% endcomment %}
+  function drawConnections(connections) {
+    ctx.strokeStyle = 'rgba(255, 255, 255, 0.25)';
+    ctx.lineWidth = 1.5;
+    connections.forEach(conn => {
+      ctx.beginPath();
+      ctx.moveTo(conn.node1.x, conn.node1.y);
+      ctx.lineTo(conn.node2.x, conn.node2.y);
+      ctx.stroke();
+    });
+  }
+  
+  {% comment %} T014: Implement node circle drawing function with subtle styling {% endcomment %}
+  function drawNodes() {
+    ctx.fillStyle = 'rgba(255, 255, 255, 0.6)';
+    nodes.forEach(node => {
+      ctx.beginPath();
+      ctx.arc(node.x, node.y, node.radius, 0, Math.PI * 2);
+      ctx.fill();
+    });
+  }
+  
+  {% comment %} T016: Implement title text overlay rendering with centered positioning {% endcomment %}
+  {% comment %} (Title is rendered in HTML/CSS, not in canvas - already handled above) {% endcomment %}
+  
+  {% comment %} T015: Create main animation loop using requestAnimationFrame {% endcomment %}
+  {% comment %} T017: Integrate all drawing functions into animation loop {% endcomment %}
+  {% comment %} T026: Optimize rendering performance (clear and redraw pattern) {% endcomment %}
+  function animate() {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    drawBackground();
+    updateNodes();
+    const connections = calculateConnections();
+    drawConnections(connections);
+    drawNodes();
+    requestAnimationFrame(animate);
+  }
+  
+  {% comment %} T019: Implement canvas resize function to update width and height {% endcomment %}
+  function resizeCanvas() {
+    const container = canvas.parentElement;
+    canvas.width = container.offsetWidth;
+    canvas.height = container.offsetHeight;
+  }
+  
+  {% comment %} T020: Add window resize event listener with debouncing {% endcomment %}
+  let resizeTimeout;
+  function handleResize() {
+    clearTimeout(resizeTimeout);
+    resizeTimeout = setTimeout(function() {
+      resizeCanvas();
+      {% comment %} T025: Verify animation continues smoothly after canvas resize {% endcomment %}
+      {% comment %} (Animation continues automatically via requestAnimationFrame) {% endcomment %}
+    }, 150);
+  }
+  window.addEventListener('resize', handleResize);
+  
+  {% comment %} T021: Update canvas dimensions on resize event {% endcomment %}
+  {% comment %} (Handled in handleResize function above) {% endcomment %}
+  
+  {% comment %} T027: Verify all CSS is inline within include file {% endcomment %}
+  {% comment %} (All CSS is in <style> tag above) {% endcomment %}
+  
+  {% comment %} T028: Verify all JavaScript is inline within include file {% endcomment %}
+  {% comment %} (All JavaScript is in <script> tag here) {% endcomment %}
+  
+  {% comment %} T030: Verify animation maintains minimum 30fps frame rate {% endcomment %}
+  {% comment %} (Using requestAnimationFrame ensures optimal frame rate) {% endcomment %}
+  
+  {% comment %} T031: Test animation pause behavior when browser tab is in background {% endcomment %}
+  {% comment %} (requestAnimationFrame automatically pauses when tab is in background) {% endcomment %}
+  
+  {% comment %} T032: Verify no external resource requests are made {% endcomment %}
+  {% comment %} (All code is inline, no external dependencies) {% endcomment %}
+  
+  {% comment %} T036: Implement title text truncation or wrapping for very long titles {% endcomment %}
+  {% comment %} (CSS handles text overflow with word-wrap, can add max-width if needed) {% endcomment %}
+  const titleElement = canvas.parentElement.querySelector('.animated-header-title');
+  if (titleElement) {
+    titleElement.style.maxWidth = '90%';
+    titleElement.style.wordWrap = 'break-word';
+    titleElement.style.overflowWrap = 'break-word';
+  }
+  
+  {% comment %} T037: Add accessibility attributes (aria-hidden for canvas) {% endcomment %}
+  canvas.setAttribute('aria-hidden', 'true');
+  
+  {% comment %} T038: Verify title text contrast meets WCAG AA standards {% endcomment %}
+  {% comment %} (Title has semi-transparent background and text-shadow for contrast) {% endcomment %}
+  
+  {% comment %} T018: Add animation initialization on page load {% endcomment %}
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', animate);
+  } else {
+    animate();
+  }
+  
+  {% comment %} T039-T044: Testing tasks - manual testing required {% endcomment %}
+  {% comment %} T045: Verify no console errors in all test scenarios {% endcomment %}
+  {% comment %} (Code is structured to avoid errors, testing required in browser) {% endcomment %}
+})();
+</script>

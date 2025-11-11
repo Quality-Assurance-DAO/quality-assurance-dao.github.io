@@ -13,6 +13,8 @@ Auto-generated from all feature plans. Last updated: 2025-11-10
 - N/A (static site, YAML data files in `_data/` directory) (004-typography-hierarchy)
 - Jekyll (static site generator), Liquid templating engine, vanilla JavaScript (ES5+), HTML5, CSS3 + Jekyll static site generator, Liquid templating, GitHub Pages hosting environmen (005-multi-tab-layout)
 - YAML data files (`_data/tabs.yml`) following standardized data schema pattern (005-multi-tab-layout)
+- Jekyll (static site generator), Liquid templating engine, vanilla JavaScript (ES5+), HTML5 Canvas API, CSS3 + Jekyll static site generator, HTML5 Canvas API, requestAnimationFrame API (browser-native) (006-animated-header-background)
+- N/A (no data persistence required, animation is procedural) (006-animated-header-background)
 
 - Jekyll (Ruby-based static site generator), Liquid templating language + Jekyll, GitHub Pages build environment, YAML parser (001-standardize-yaml-data)
 
@@ -32,9 +34,9 @@ tests/
 Jekyll (Ruby-based static site generator), Liquid templating language: Follow standard conventions
 
 ## Recent Changes
+- 006-animated-header-background: Added Jekyll (static site generator), Liquid templating engine, vanilla JavaScript (ES5+), HTML5 Canvas API, CSS3 + Jekyll static site generator, HTML5 Canvas API, requestAnimationFrame API (browser-native)
 - 005-multi-tab-layout: Added Jekyll (static site generator), Liquid templating engine, vanilla JavaScript (ES5+), HTML5, CSS3 + Jekyll static site generator, Liquid templating, GitHub Pages hosting environmen
 - 004-typography-hierarchy: Added CSS3, HTML5, Liquid (Jekyll templating), YAML + Jekyll (static site generator), Google Fonts (Space Grotesk - already integrated), CSS custom properties (variables), clamp() function
-- 004-typography-hierarchy: Added Jekyll (Ruby-based static site generator), Liquid templating language, HTML5, CSS3 + Jekyll, GitHub Pages build environment, CSS custom properties (variables), existing design system from 003-design-enhancemen
 
 
 <!-- MANUAL ADDITIONS START -->
