@@ -1,25 +1,25 @@
 {% comment %}
-  AI & Blockchain Strategy Service Card
-  Interactive network graph service card for AI & Blockchain Strategy service
+  Governance Innovation Service Card
+  Interactive network graph service card for Governance Innovation service
   Pulls data from services.yml
 {% endcomment %}
 
 {% comment %} Find the service in services.yml {% endcomment %}
-{% assign service = site.data.services | where: "id", "ai-blockchain-strategy" | first %}
+{% assign service = site.data.services | where: "id", "governance-innovation" | first %}
 
 {% if service %}
-  {% comment %} Include shared network graph function {% endcomment %}
+  {% comment %} T028: Include shared network graph function {% endcomment %}
   {% include network_graph.js %}
 
-  {% comment %} Create service card structure matching data-card format {% endcomment %}
+  {% comment %} T026: Create service card structure matching data-card format {% endcomment %}
   <article class="data-card"{% if service.id %} id="service-{{ service.id }}"{% endif %}>
-    {% comment %} Add canvas element in service-visual div (matching logo/icon pattern) {% endcomment %}
+    {% comment %} T027: Add canvas element in service-visual div (matching logo/icon pattern) {% endcomment %}
     <div class="service-visual">
-      <canvas id="canvas-ai-{{ include.id | default: 1 }}" class="network-canvas" aria-hidden="true"></canvas>
+      <canvas id="canvas-governance-{{ include.id | default: 1 }}" class="network-canvas" aria-hidden="true"></canvas>
     </div>
-    {% comment %} Add service title using h3 (matching data-card format) {% endcomment %}
+    {% comment %} T030: Add service title using h3 (matching data-card format) {% endcomment %}
     <h3>{{ service.name }}</h3>
-    {% comment %} Add service description using p (matching data-card format) {% endcomment %}
+    {% comment %} T031: Add service description using p (matching data-card format) {% endcomment %}
     <p>{{ service.description }}</p>
     
     {% if service.url %}
@@ -52,14 +52,14 @@
     cursor: crosshair;
   }
 
-  {% comment %} Add responsive CSS media query for mobile (< 768px) {% endcomment %}
+  {% comment %} T056: Add responsive CSS media query for mobile (< 768px) {% endcomment %}
   @media (max-width: 768px) {
     .network-canvas {
       height: 150px;
     }
   }
 
-  {% comment %} Add responsive CSS media query for desktop (> 1024px) {% endcomment %}
+  {% comment %} T059: Add responsive CSS media query for desktop (> 1024px) {% endcomment %}
   @media (min-width: 1025px) {
     .network-canvas {
       height: 200px;
@@ -67,15 +67,15 @@
   }
   </style>
 
-  {% comment %} Add JavaScript initialization {% endcomment %}
+  {% comment %} T029: Add JavaScript initialization {% endcomment %}
   <script>
   (function() {
     'use strict';
     
     function initServiceCard() {
-      const canvasId = 'canvas-ai-{{ include.id | default: 1 }}';
+      const canvasId = 'canvas-governance-{{ include.id | default: 1 }}';
       const nodeCount = 20;
-      const color = '{{ service.color | default: "#a78bfa" }}'; // Purple
+      const color = '{{ service.color | default: "#6ee7b7" }}'; // Teal-green
       
       if (document.readyState === 'loading') {
         document.addEventListener('DOMContentLoaded', function() {
