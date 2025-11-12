@@ -19,7 +19,7 @@
       // Default to dark if no saved preference
       const theme = savedTheme || 'dark';
       html.setAttribute('data-theme', theme);
-      if (theme === 'dark') {
+      if (theme === 'dark' && document.body) {
         document.body.classList.add('dark-theme');
       }
     })();
@@ -63,6 +63,9 @@
   <section id="home">
     {% include animated-header.html title="Decentralised Assurance of Quality" %}
   </section>
+
+  <!-- VIDEO CAROUSEL -->
+  {% include video-carousel.html %}
 
   <main>
 

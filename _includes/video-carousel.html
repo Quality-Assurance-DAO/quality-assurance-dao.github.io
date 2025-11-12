@@ -1,0 +1,475 @@
+{% comment %}
+  Video Carousel Component
+  Responsive autoplay video carousel with fade transitions
+  Feature: 009-video-carousel
+{% endcomment %}
+
+{% comment %}Debug: site.data.slides exists: {{ site.data.slides | size }} slides{% endcomment %}
+{% if site.data.slides %}
+  <div class="video-carousel-wrapper">
+    <div class="carousel-content">
+      {% for slide in site.data.slides %}
+        {% if slide.video and slide.headline and slide.cta_label and slide.cta_link %}
+          <div class="carousel-content-slide" data-slide-index="{{ forloop.index0 }}" {% unless forloop.first %}style="display: none;"{% endunless %}>
+            <h2 class="carousel-headline">{{ slide.headline }}</h2>
+            <a href="{{ slide.cta_link }}" class="carousel-cta">{{ slide.cta_label }}</a>
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+    <section class="video-carousel" id="video-carousel" aria-label="Video carousel" data-slides-count="{{ site.data.slides | size }}">
+      {% for slide in site.data.slides %}
+        {% comment %}Debug slide {{ forloop.index }}: video={{ slide.video }}, headline={{ slide.headline }}, cta_label={{ slide.cta_label }}, cta_link={{ slide.cta_link }}{% endcomment %}
+        {% if slide.video and slide.headline and slide.cta_label and slide.cta_link %}
+          <div class="carousel-slide" data-duration="{{ slide.duration | default: 5 }}">
+            <video 
+              class="carousel-video"
+              autoplay 
+              muted 
+              loop 
+              playsinline
+              {% if slide.poster %}poster="{{ slide.poster | relative_url }}"{% endif %}>
+              <source src="{{ slide.video | relative_url }}" type="video/mp4">
+            </video>
+            <div class="carousel-overlay"></div>
+            <button class="carousel-play-button" aria-label="Play video" style="display: none;">
+              ▶
+            </button>
+          </div>
+        {% endif %}
+      {% endfor %}
+    </section>
+  </div>
+
+  <style>
+    /* Wrapper Styles */
+    .video-carousel-wrapper {
+      width: 100%;
+    }
+
+    /* Content Above Carousel */
+    .carousel-content {
+      width: 100%;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+
+    .carousel-content-slide {
+      width: 100%;
+    }
+
+    /* Container Styles */
+    .video-carousel {
+      position: relative;
+      width: 100%;
+      height: 600px;
+      overflow: hidden;
+      background-color: #ffffff !important;
+    }
+
+    /* Dark theme background - only apply when explicitly dark */
+    html[data-theme="dark"] .video-carousel,
+    body.dark-theme .video-carousel {
+      background-color: #1a1a1a !important;
+    }
+
+    /* Slide Styles */
+    .carousel-slide {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      opacity: 0;
+      transition: opacity 0.8s ease-in-out;
+      z-index: 0;
+      will-change: opacity;
+    }
+
+    .carousel-slide.active {
+      opacity: 1;
+      z-index: 1;
+    }
+
+    .carousel-slide.active .carousel-video {
+      z-index: 0;
+    }
+
+    /* Video Styles */
+    .carousel-video {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      object-position: center;
+      z-index: 0;
+    }
+
+    /* Overlay Styles - Reduced opacity since content is above video now */
+    .carousel-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: transparent;
+      z-index: 1;
+      pointer-events: none;
+    }
+
+    /* Dark overlay only in dark mode */
+    html[data-theme="dark"] .carousel-overlay,
+    body.dark-theme .carousel-overlay {
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.1) 100%);
+    }
+
+    /* Content Styles - Removed absolute positioning, now above carousel */
+
+    .carousel-headline {
+      color: var(--text, #1a1a1a);
+      font-size: 2.5rem;
+      font-weight: 600;
+      line-height: 1.3;
+      margin: 0 0 1rem 0;
+    }
+
+    /* Dark theme support for headline */
+    [data-theme="dark"] .carousel-headline,
+    body.dark-theme .carousel-headline {
+      color: var(--text, #e0e0e0);
+    }
+
+    .carousel-cta {
+      display: inline-block;
+      padding: 1rem 2rem;
+      background-color: #0052cc;
+      color: #ffffff;
+      text-decoration: none;
+      border-radius: 4px;
+      font-size: 1.1rem;
+      font-weight: 600;
+      transition: background-color 0.3s ease;
+      cursor: pointer;
+    }
+
+    .carousel-cta:hover {
+      background-color: #003d99;
+    }
+
+    .carousel-cta:focus {
+      outline: 2px solid #0052cc;
+      outline-offset: 2px;
+    }
+
+    /* Play Button Styles */
+    .carousel-play-button {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      background-color: rgba(255, 255, 255, 0.9);
+      border: none;
+      font-size: 2rem;
+      color: #0052cc;
+      cursor: pointer;
+      z-index: 3;
+      transition: transform 0.3s ease, background-color 0.3s ease;
+    }
+
+    .carousel-play-button:hover {
+      transform: translate(-50%, -50%) scale(1.1);
+      background-color: rgba(255, 255, 255, 1);
+    }
+
+    .carousel-play-button:focus {
+      outline: 2px solid #0052cc;
+      outline-offset: 2px;
+    }
+
+    /* Responsive Styles - Mobile */
+    @media (max-width: 767px) {
+      .video-carousel {
+        height: 400px;
+      }
+      .carousel-content {
+        padding: 1rem;
+      }
+      .carousel-headline {
+        font-size: 1.5rem;
+      }
+      .carousel-cta {
+        padding: 0.75rem 1.5rem;
+        font-size: 0.9rem;
+      }
+    }
+
+    /* Responsive Styles - Tablet */
+    @media (min-width: 768px) and (max-width: 1024px) {
+      .video-carousel {
+        height: 500px;
+      }
+      .carousel-content {
+        padding: 1.5rem;
+      }
+      .carousel-headline {
+        font-size: 2rem;
+      }
+      .carousel-cta {
+        padding: 0.875rem 1.75rem;
+        font-size: 1rem;
+      }
+    }
+
+    /* Responsive Styles - Desktop */
+    @media (min-width: 1025px) {
+      .video-carousel {
+        height: 600px;
+      }
+      .carousel-content {
+        padding: 2rem;
+      }
+      .carousel-headline {
+        font-size: 2.5rem;
+      }
+      .carousel-cta {
+        padding: 1rem 2rem;
+        font-size: 1.1rem;
+      }
+    }
+  </style>
+
+  <script>
+    (function() {
+      'use strict';
+
+      let currentSlideIndex = 0;
+      let slideTimer = null;
+
+      function initializeCarousel() {
+        console.log('[Video Carousel] Initializing...');
+        const carousel = document.getElementById('video-carousel');
+        if (!carousel) {
+          console.error('[Video Carousel] Carousel container not found!');
+          return;
+        }
+        console.log('[Video Carousel] Carousel container found');
+        console.log('[Video Carousel] Data slides count attribute:', carousel.getAttribute('data-slides-count'));
+        console.log('[Video Carousel] Carousel innerHTML length:', carousel.innerHTML.length);
+        console.log('[Video Carousel] Carousel innerHTML preview:', carousel.innerHTML.substring(0, 200));
+
+        const slides = Array.from(carousel.querySelectorAll('.carousel-slide'));
+        console.log('[Video Carousel] Found', slides.length, 'slide(s)');
+        
+        const validSlides = slides.filter(validateSlide);
+        console.log('[Video Carousel] Valid slides:', validSlides.length);
+
+        if (validSlides.length === 0) {
+          console.warn('[Video Carousel] No valid slides found!');
+          console.log('[Video Carousel] Debug info:', {
+            totalSlides: slides.length,
+            slides: slides.map((s, i) => ({
+              index: i,
+              hasVideo: !!s.querySelector('.carousel-video source'),
+              hasHeadline: !!s.querySelector('.carousel-headline'),
+              hasCTA: !!s.querySelector('.carousel-cta'),
+              videoSrc: s.querySelector('.carousel-video source')?.getAttribute('src'),
+              headlineText: s.querySelector('.carousel-headline')?.textContent,
+              ctaHref: s.querySelector('.carousel-cta')?.getAttribute('href')
+            }))
+          });
+          return;
+        }
+
+        if (validSlides.length === 1) {
+          console.log('[Video Carousel] Single slide mode');
+          showSingleSlide(validSlides[0]);
+          return;
+        }
+
+        console.log('[Video Carousel] Starting carousel with', validSlides.length, 'slides');
+        startCarousel(validSlides);
+      }
+
+      function validateSlide(slide) {
+        // Note: headline and CTA are now in separate content slides above, so we only validate video
+        const video = slide.querySelector('.carousel-video source');
+        
+        const isValid = video && video.getAttribute('src');
+        
+        if (!isValid) {
+          console.debug('[Video Carousel] Invalid slide:', {
+            hasVideo: !!video,
+            videoSrc: video?.getAttribute('src'),
+            slideHTML: slide.innerHTML.substring(0, 200)
+          });
+        }
+        
+        return isValid;
+      }
+
+      function showSingleSlide(slide) {
+        console.log('[Video Carousel] Showing single slide');
+        slide.classList.add('active');
+        // Show first content slide for single slide mode
+        const contentSlides = document.querySelectorAll('.carousel-content-slide');
+        if (contentSlides.length > 0) {
+          contentSlides[0].style.display = 'block';
+        }
+        setupVideoAutoplay(slide);
+      }
+
+      function startCarousel(slides) {
+        showSlide(0, slides);
+
+        slides.forEach(slide => {
+          setupVideoAutoplay(slide);
+        });
+      }
+
+      function showSlide(index, slides) {
+        if (slides[currentSlideIndex]) {
+          slides[currentSlideIndex].classList.remove('active');
+        }
+
+        currentSlideIndex = index;
+
+        const slide = slides[currentSlideIndex];
+        if (!slide) {
+          console.error('[Video Carousel] Slide at index', index, 'not found');
+          return;
+        }
+        
+        slide.classList.add('active');
+        console.log('[Video Carousel] Showing slide', index, 'Video element:', slide.querySelector('.carousel-video'));
+
+        // Sync content slide with video slide
+        // Match by data-slide-index attribute to handle filtered slides
+        const contentSlides = document.querySelectorAll('.carousel-content-slide');
+        contentSlides.forEach((contentSlide) => {
+          const slideIndex = parseInt(contentSlide.getAttribute('data-slide-index')) || 0;
+          if (slideIndex === index) {
+            contentSlide.style.display = 'block';
+          } else {
+            contentSlide.style.display = 'none';
+          }
+        });
+
+        clearTimeout(slideTimer);
+        const duration = parseInt(slide.dataset.duration) || 5000;
+        slideTimer = setTimeout(() => {
+          nextSlide(slides);
+        }, duration);
+      }
+
+      function nextSlide(slides) {
+        currentSlideIndex = (currentSlideIndex + 1) % slides.length;
+        showSlide(currentSlideIndex, slides);
+      }
+
+      function setupVideoAutoplay(slide) {
+        const video = slide.querySelector('.carousel-video');
+        const playButton = slide.querySelector('.carousel-play-button');
+
+        if (!video) {
+          console.warn('[Video Carousel] No video element found in slide');
+          return;
+        }
+
+        console.log('[Video Carousel] Setting up autoplay for video:', video.querySelector('source')?.getAttribute('src'));
+        const playPromise = video.play();
+
+        if (playPromise !== undefined) {
+          playPromise
+            .then(() => {
+              console.log('[Video Carousel] Video autoplay succeeded');
+              if (playButton) {
+                playButton.style.display = 'none';
+              }
+            })
+            .catch((error) => {
+              console.warn('[Video Carousel] Video autoplay blocked:', error);
+              if (playButton) {
+                playButton.style.display = 'block';
+                playButton.addEventListener('click', function() {
+                  video.play();
+                  playButton.style.display = 'none';
+                });
+              }
+            });
+        }
+
+        video.addEventListener('error', function(e) {
+          console.error('[Video Carousel] Video error:', e);
+          console.error('[Video Carousel] Video src:', video.querySelector('source')?.getAttribute('src'));
+          if (playButton) {
+            playButton.style.display = 'block';
+          }
+        });
+
+        video.addEventListener('play', function() {
+          console.log('[Video Carousel] Video started playing');
+          if (playButton) {
+            playButton.style.display = 'none';
+          }
+        });
+
+        video.addEventListener('loadeddata', function() {
+          console.log('[Video Carousel] Video data loaded');
+        });
+
+        video.addEventListener('loadstart', function() {
+          console.log('[Video Carousel] Video load started');
+        });
+      }
+
+      function initWhenReady() {
+        console.log('[Video Carousel] initWhenReady called, readyState:', document.readyState);
+        if (document.body && document.getElementById('video-carousel')) {
+          console.log('[Video Carousel] Elements ready, initializing...');
+          initializeCarousel();
+        } else if (document.readyState === 'loading') {
+          console.log('[Video Carousel] Waiting for DOMContentLoaded...');
+          document.addEventListener('DOMContentLoaded', function() {
+            console.log('[Video Carousel] DOMContentLoaded fired');
+            setTimeout(initializeCarousel, 100);
+          });
+        } else {
+          console.log('[Video Carousel] Delaying initialization...');
+          setTimeout(function() {
+            if (document.body && document.getElementById('video-carousel')) {
+              initializeCarousel();
+            } else {
+              console.error('[Video Carousel] Still not ready after delay:', {
+                hasBody: !!document.body,
+                hasCarousel: !!document.getElementById('video-carousel')
+              });
+            }
+          }, 100);
+        }
+      }
+
+      // Expose test function to window for debugging
+      window.testVideoCarousel = function() {
+        console.log('=== Video Carousel Test ===');
+        console.log('Carousel element:', document.getElementById('video-carousel'));
+        console.log('Slides:', document.querySelectorAll('.carousel-slide').length);
+        console.log('Active slides:', document.querySelectorAll('.carousel-slide.active').length);
+        initializeCarousel();
+      };
+
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initWhenReady);
+      } else {
+        initWhenReady();
+      }
+    })();
+  </script>
+{% endif %}
+

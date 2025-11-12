@@ -1,0 +1,53 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Slides Data Schema",
+  "description": "JSON Schema for slides.yml data file used by the video carousel component",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["video", "headline", "cta_label", "cta_link"],
+    "properties": {
+      "video": {
+        "type": "string",
+        "description": "Path to video file relative to site root",
+        "pattern": "^/assets/videos/.+\\.mp4$",
+        "examples": ["/assets/videos/slide1.mp4", "/assets/videos/welcome-slide.mp4"]
+      },
+      "headline": {
+        "type": "string",
+        "description": "Text headline displayed over the video",
+        "minLength": 1,
+        "examples": ["Welcome to QADAO", "Decentralized Quality Assurance"]
+      },
+      "cta_label": {
+        "type": "string",
+        "description": "Text label for the call-to-action button",
+        "minLength": 1,
+        "examples": ["Learn More", "Get Started", "Explore Services"]
+      },
+      "cta_link": {
+        "type": "string",
+        "description": "URL for the CTA button (relative or absolute)",
+        "pattern": "^(/|https?://).+",
+        "examples": ["/about", "/services", "https://example.com"]
+      },
+      "poster": {
+        "type": "string",
+        "description": "Path to poster image displayed while video loads or as fallback",
+        "pattern": "^/assets/images/posters/.+\\.(jpg|jpeg|png|webp)$",
+        "examples": ["/assets/images/posters/slide1.jpg", "/assets/images/posters/welcome-slide.png"]
+      },
+      "duration": {
+        "type": "number",
+        "description": "Display duration in seconds before transitioning to next slide",
+        "minimum": 3,
+        "maximum": 10,
+        "default": 5,
+        "examples": [5, 6, 5.5]
+      }
+    },
+    "additionalProperties": false
+  },
+  "minItems": 0
+}
+
