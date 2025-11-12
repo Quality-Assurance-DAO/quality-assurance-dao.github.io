@@ -199,12 +199,6 @@
                     {% endfor %}
                   </div>
                 {% endif %}
-                {% if partner.featured %}
-                  <span class="featured-badge" aria-label="Featured">Featured</span>
-                {% endif %}
-                {% if partner.status %}
-                  <span class="status-indicator status-{{ partner.status | downcase }}">{{ partner.status }}</span>
-                {% endif %}
                 {% if partner.year %}
                   <span class="data-card-meta">Year: {{ partner.year }}</span>
                 {% endif %}
