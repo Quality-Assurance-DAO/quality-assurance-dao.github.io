@@ -5,6 +5,16 @@
 **Status**: Draft  
 **Input**: User description: "Create a "We work with" section in the same style as the other sections. Add a partners.yml data file that cards in this section draw their data from. Ensure that logos of partners can be embedded as images in each card"
 
+## Clarifications
+
+### Session 2024-12-19
+
+- Q: Should partners.yml follow the standardized DataItem schema from spec 001? → A: Yes - Follow standardized schema: id (required), name (required), description (required), url (optional), logo (optional), plus other optional fields (tags, status, featured, etc.)
+- Q: Should partner cards follow the project card pattern (entire card clickable) or service card pattern (separate "Learn more" link)? → A: Entire card is clickable when URL exists (wrap card in <a> tag, like project cards)
+- Q: What should happen when partners.yml is empty or missing? → A: Hide the section entirely (don't render the section at all)
+- Q: Should external partner links include security attributes? → A: Yes - Use rel="noopener noreferrer" on all external partner links (security best practice)
+- Q: What format should partner logo paths use? → A: Relative paths from site root (e.g., "/assets/images/partners/logo.png") - matches existing services/projects pattern
+
 ## User Scenarios & Testing *(mandatory)*
 
 ### User Story 1 - View Partner Organizations (Priority: P1)
@@ -21,7 +31,7 @@ Visitors to the QADAO website can view a "We work with" section that displays pa
 2. **Given** a partner entry has a logo image path, **When** the partner card is rendered, **Then** the logo image is displayed prominently in the card
 3. **Given** a partner entry has a name, **When** the partner card is rendered, **Then** the partner name is displayed as a heading
 4. **Given** a partner entry has a description, **When** the partner card is rendered, **Then** the description text is displayed below the name
-5. **Given** a partner entry has a website URL, **When** a visitor clicks on the partner card, **Then** they are taken to the partner's website (opens in new tab)
+5. **Given** a partner entry has a website URL, **When** a visitor clicks anywhere on the partner card, **Then** they are taken to the partner's website (opens in new tab with `target="_blank" rel="noopener noreferrer"`). The entire card acts as a clickable link, matching the project card pattern.
 
 ---
 
@@ -53,7 +63,7 @@ Partner cards provide visual feedback on hover and support optional click-throug
 **Acceptance Scenarios**:
 
 1. **Given** a partner card has a URL, **When** a visitor hovers over the card, **Then** the card provides visual feedback (e.g., slight elevation, shadow change) indicating it is clickable
-2. **Given** a partner card has a URL, **When** a visitor clicks the card, **Then** they are navigated to the partner's website in a new tab/window
+2. **Given** a partner card has a URL, **When** a visitor clicks anywhere on the card, **Then** they are navigated to the partner's website in a new tab/window with security attributes (`target="_blank" rel="noopener noreferrer"`) - entire card acts as clickable link
 3. **Given** a partner card is focused via keyboard navigation, **When** the card receives focus, **Then** a visible focus indicator is displayed
 4. **Given** a partner card has a URL, **When** a visitor presses Enter while the card is focused, **Then** they are navigated to the partner's website
 
@@ -61,8 +71,8 @@ Partner cards provide visual feedback on hover and support optional click-throug
 
 ### Edge Cases
 
-- What happens when partners.yml is empty or missing? (Section should not break, may display empty state or be hidden)
-- How does the system handle partner entries with missing required fields (name, logo)? (Should handle gracefully, display available information)
+- What happens when partners.yml is empty or missing? (Section should be hidden entirely - not rendered at all. Use conditional rendering to check if partners data exists before displaying the section)
+- How does the system handle partner entries with missing required fields (id, name, description)? (Should handle gracefully, display available information. Missing id should be auto-generated from name per standardized schema rules)
 - What happens when a partner logo image file is missing or broken? (Should display alt text or placeholder, not break the layout)
 - How does the system handle very long partner names or descriptions? (Should truncate or wrap appropriately to maintain card consistency)
 - What happens when there are many partners (20+)? (Grid should handle gracefully, may paginate or scroll)
@@ -74,13 +84,14 @@ Partner cards provide visual feedback on hover and support optional click-throug
 ### Functional Requirements
 
 - **FR-001**: System MUST display a "We work with" section on the main page with the same visual style as other sections (Services, Projects)
-- **FR-002**: System MUST read partner data from a `partners.yml` file located in the `_data/` directory
+- **FR-002**: System MUST read partner data from a `partners.yml` file located in the `_data/` directory, following the standardized DataItem schema (id, name, description required; url, logo, and other fields optional)
 - **FR-003**: System MUST display partner cards in a grid layout matching the `data-grid` style used in other sections
 - **FR-004**: System MUST display partner logos as images in each partner card when a logo path is provided
 - **FR-005**: System MUST display partner names as headings (h3) in each partner card
 - **FR-006**: System MUST display partner descriptions as paragraph text in each partner card when provided
 - **FR-007**: System MUST support optional website URLs for partner cards that link to partner websites
-- **FR-008**: System MUST open partner website links in a new tab/window when clicked
+- **FR-008**: System MUST open partner website links in a new tab/window when clicked, with `target="_blank"` and `rel="noopener noreferrer"` attributes for security
+- **FR-017**: System MUST make the entire partner card clickable (wrapped in `<a>` tag) when a URL is provided, matching the project card pattern
 - **FR-009**: System MUST maintain responsive design, adapting partner card layout to different screen sizes
 - **FR-010**: System MUST use the same `data-card` CSS class and styling as other card sections for visual consistency
 - **FR-011**: System MUST handle missing or invalid logo images gracefully (display alt text, maintain layout)
@@ -88,12 +99,12 @@ Partner cards provide visual feedback on hover and support optional click-throug
 - **FR-013**: System MUST provide hover effects on partner cards matching the style of other card sections
 - **FR-014**: System MUST support keyboard navigation and focus states for accessible interaction
 - **FR-015**: System MUST display partner cards even when some optional fields are missing
-- **FR-016**: System MUST handle empty partners.yml file gracefully (section may be hidden or display empty state)
+- **FR-016**: System MUST handle empty partners.yml file gracefully - when the file is empty, missing, or contains no valid partner entries, the entire "We work with" section MUST be hidden (not rendered)
 
 ### Key Entities
 
-- **Partner**: Represents an organization that QADAO works with. Key attributes: name (required), logo image path (required), description (optional), website URL (optional), unique identifier (optional)
-- **Partners Data File**: YAML file (`partners.yml`) containing an array of partner entries, following the same data structure pattern as `services.yml` and `projects.yml`
+- **Partner**: Represents an organization that QADAO works with. Follows the standardized DataItem schema from spec 001. Required fields: `id` (URL-safe slug, auto-generated from name), `name` (display name), `description` (text description). Optional fields: `url` (website URL), `logo` (image path relative to site root, e.g., "/assets/images/partners/logo.png"), `tags` (array of strings), `status` (status indicator), `featured` (boolean flag), `year` (numeric year), `category` (category classification), `repo` (repository URL), `contact` (contact information). The `id` field must be unique across all data files (projects.yml, services.yml, gitbooks.yml, github-organisations.yml, partners.yml).
+- **Partners Data File**: YAML file (`partners.yml`) containing an array of partner entries, following the standardized DataItem schema from spec 001, consistent with `services.yml` and `projects.yml`
 
 ## Success Criteria *(mandatory)*
 
@@ -106,7 +117,7 @@ Partner cards provide visual feedback on hover and support optional click-throug
 - **SC-005**: Partner cards with URLs are clickable and navigate correctly - 100% of valid URLs open partner websites in new tabs
 - **SC-006**: Section integrates seamlessly with existing page layout - no visual breaks, spacing issues, or layout conflicts with other sections
 - **SC-007**: Partner data can be managed entirely through partners.yml file - no code changes required to add, remove, or modify partners
-- **SC-008**: Section handles edge cases gracefully - missing logos, empty data file, or invalid URLs do not break the page layout or functionality
+- **SC-008**: Section handles edge cases gracefully - missing logos, empty data file, or invalid URLs do not break the page layout or functionality. When partners.yml is empty or missing, the section is hidden entirely without affecting other page sections
 
 ## Scope
 
@@ -143,9 +154,9 @@ Partner cards provide visual feedback on hover and support optional click-throug
 ## Assumptions
 
 - Partner logos will be provided as image files (PNG, SVG, or JPG format)
-- Partner logos will be stored in the site's assets/images directory or similar location
+- Partner logos will be stored in the site's assets/images directory (e.g., `/assets/images/partners/`) with paths specified relative to site root (e.g., "/assets/images/partners/logo.png"), matching the pattern used by services and projects
 - Partner data will be managed manually through YAML file editing
-- Partner entries will follow a similar structure to existing services.yml and projects.yml files
+- Partner entries will follow the standardized DataItem schema from spec 001, consistent with services.yml and projects.yml files
 - The section will be placed after the Projects section and before the About section (or in a logical location in the page flow)
 - Partner logos will have reasonable aspect ratios and file sizes for web display
 - Partner website URLs will be valid and accessible
@@ -158,5 +169,6 @@ Partner cards provide visual feedback on hover and support optional click-throug
 - Must maintain compatibility with GitHub Pages hosting
 - Must follow existing data file patterns (YAML format, `_data/` directory)
 - Must maintain accessibility standards (WCAG AA compliance)
+- Must include security attributes (`rel="noopener noreferrer"`) on all external partner links
 - Must work with existing dark/light theme system
 - Must not break existing page layout or other sections
