@@ -13,3 +13,8 @@
   cta_label: "Learn More"
   cta_link: "#portfolio"
   duration: 16
+- video: /assets/videos/zero-knowledge-proof.mp4
+  headline: "Zero Knowledge Proof"
+  cta_label: "Learn More"
+  cta_link: "#portfolio"
+  duration: 16
