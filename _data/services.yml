@@ -1,7 +1,7 @@
 ---
-- name: Governance Innovation
-  description: Decentralized decision-making and governance processes that empower community participation and transparent leadership.
-  id: governance-innovation
+- name: Community Co-Production
+  description: In our SingularityNet Archive project we co‑designed an archive with Ambassador Workgroups mapping decision flows into an archival dashboard—ensuring transparency of contributor interactions and record‑keeping.
+  id: Community Co-Production
   color: '#6ee7b7'
 - name: Open Source Community Building
   description: Building and scaling open-source communities with best-practice frameworks.
@@ -11,6 +11,3 @@
   description: Advising on integration of AI within decentralized systems and token economies.
   id: ai-blockchain-strategy
   color: '#a78bfa'
-- name: Community Co-Production
-  description: In our SingularityNet Archive project we co‑designed an archive with Ambassador Workgroups mapping decision flows into an archival dashboard—ensuring transparency of contributor interactions and record‑keeping.
-  id: Community Co-Production
