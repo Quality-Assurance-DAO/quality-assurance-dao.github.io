@@ -3,10 +3,10 @@
 # Each slide requires: video, headline, cta_label, cta_link
 # Optional: poster, duration (default: 5 seconds)
 
-- video: /assets/videos/Ethical-AI-Auditing.mp4
-  headline: "Ethical AI Auditing A Practice Based Approach"
+- video: /assets/videos/MeTTa-sim.mp4
+  headline: "Visualise an ASI Chain Agent Network"
   cta_label: "Learn More"
-  cta_link: "#services"
+  cta_link: "#portfolio"
   duration: 16
 - video: /assets/videos/archive-rag.mp4
   headline: "Archive RAG"
