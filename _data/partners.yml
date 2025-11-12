@@ -1,12 +1,12 @@
 ---
-- id: cardano-foundation
-  name: Cardano Foundation
+- id: singularitynet
+  name: SingularityNet
   description: A non-profit organization dedicated to advancing Cardano blockchain technology.
-  url: https://cardanofoundation.org
-  logo: /assets/images/partners/cardano-foundation.png
+  url: https://singularitynet.io
+  logo: /assets/images/partners/singularitynet.png
   tags:
-    - blockchain
-    - governance
+    - ai
+    - agi
     - non-profit
   status: active
   featured: true
