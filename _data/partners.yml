@@ -1,7 +1,7 @@
 ---
 - id: singularitynet
   name: SingularityNet
-  description: SingularityNET is also bootstrapping an ecosystem of organizations that will fuel the platform with AI services.
+  description: SingularityNET is bootstrapping an ecosystem of organizations that will fuel the platform with AI services.
   url: https://singularitynet.io
   logo: /assets/images/partners/singularitynet.png
   tags:
