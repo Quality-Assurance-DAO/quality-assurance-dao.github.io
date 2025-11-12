@@ -71,7 +71,13 @@
       <div class="container">
         <h2>Our Services</h2>
         <div class="data-grid">
+          <!-- Interactive Service Cards with Network Graphs -->
+          {% include community_co_production_graph.html %}
+          {% include community_graph.html %}
+          {% include ai_graph.html %}
+          {% comment %} Regular service cards (excluding ones with interactive graphs) {% endcomment %}
           {% for service in site.data.services %}
+            {% unless service.id == "Community Co-Production" or service.id == "open-source-community-building" or service.id == "ai-blockchain-strategy" %}
             <article class="data-card"{% if service.id %} id="service-{{ service.id }}"{% endif %}>
               {% if service.logo or service.icon %}
                 <div class="service-visual">
@@ -104,6 +110,7 @@
                 <span class="status-indicator status-{{ service.status | downcase }}">{{ service.status }}</span>
               {% endif %}
             </article>
+            {% endunless %}
           {% endfor %}
         </div>
       </div>
