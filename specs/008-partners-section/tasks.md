@@ -51,11 +51,11 @@ Final Phase: Polish
 
 ### Tasks
 
-- [ ] T001 Verify `_data/` directory exists in Jekyll site root
-- [ ] T002 Verify `_layouts/` directory exists and contains `default.html`
-- [ ] T003 Verify `assets/images/` directory exists for partner logo storage
-- [ ] T004 Verify Jekyll site builds successfully (`bundle exec jekyll build`)
-- [ ] T005 Verify existing `data-card` and `data-grid` CSS classes are available in `assets/css/main.css`
+- [X] T001 Verify `_data/` directory exists in Jekyll site root
+- [X] T002 Verify `_layouts/` directory exists and contains `default.html`
+- [X] T003 Verify `assets/images/` directory exists for partner logo storage
+- [X] T004 Verify Jekyll site builds successfully (`bundle exec jekyll build`)
+- [X] T005 Verify existing `data-card` and `data-grid` CSS classes are available in `assets/css/main.css`
 
 ## Phase 2: Foundational - Data File Structure
 
@@ -65,10 +65,10 @@ Final Phase: Polish
 
 ### Tasks
 
-- [ ] T006 Create `_data/partners.yml` file with empty YAML array structure (`---\n[]`)
-- [ ] T007 Create `assets/images/partners/` directory for partner logo images
-- [ ] T008 Verify YAML syntax is valid (test with `yamllint` or Jekyll build)
-- [ ] T009 Verify Jekyll can access partners data (`site.data.partners` in template test)
+- [X] T006 Create `_data/partners.yml` file with empty YAML array structure (`---\n[]`)
+- [X] T007 Create `assets/images/partners/` directory for partner logo images
+- [X] T008 Verify YAML syntax is valid (test with `yamllint` or Jekyll build)
+- [X] T009 Verify Jekyll can access partners data (`site.data.partners` in template test)
 
 ## Phase 3: User Story 1 - View Partner Organizations (P1)
 
@@ -88,28 +88,28 @@ Final Phase: Polish
 
 ### Tasks
 
-- [ ] T010 [US1] Add Partners section container with conditional rendering `{% if site.data.partners %}` in `_layouts/default.html` after Projects section
-- [ ] T011 [US1] Add section element with `id="partners"` and `class="section partners"` in `_layouts/default.html`
-- [ ] T012 [US1] Add container div with `class="container"` inside Partners section in `_layouts/default.html`
-- [ ] T013 [US1] Add section heading `<h2>We work with</h2>` inside container in `_layouts/default.html`
-- [ ] T014 [US1] Add data-grid container `<div class="data-grid">` inside container in `_layouts/default.html`
-- [ ] T015 [US1] Add Liquid loop `{% for partner in site.data.partners %}` inside data-grid in `_layouts/default.html`
-- [ ] T016 [US1] Add article element with `class="data-card"` and conditional `id="partner-{{ partner.id }}"` in `_layouts/default.html`
-- [ ] T017 [US1] Add conditional link wrapper `{% if partner.url %}<a href="{{ partner.url }}" class="data-card-link" target="_blank" rel="noopener noreferrer" aria-label="{{ partner.name }} - {{ partner.description }}">{% endif %}` in `_layouts/default.html`
-- [ ] T018 [US1] Add conditional logo image `{% if partner.logo %}<img src="{{ partner.logo | relative_url }}" alt="{% if partner.name %}{{ partner.name }} logo{% else %}Logo{% endif %}" class="data-card-logo">{% endif %}` in `_layouts/default.html`
-- [ ] T019 [US1] Add partner name heading `<h3>{{ partner.name }}</h3>` in `_layouts/default.html`
-- [ ] T020 [US1] Add partner description paragraph `<p>{{ partner.description }}</p>` in `_layouts/default.html`
-- [ ] T021 [US1] Add conditional closing link tag `{% if partner.url %}</a>{% endif %}` in `_layouts/default.html`
-- [ ] T022 [US1] Add closing article tag `</article>` in `_layouts/default.html`
-- [ ] T023 [US1] Add closing Liquid loop `{% endfor %}` in `_layouts/default.html`
-- [ ] T024 [US1] Add closing data-grid div `</div>` in `_layouts/default.html`
-- [ ] T025 [US1] Add closing container div `</div>` in `_layouts/default.html`
-- [ ] T026 [US1] Add closing section tag `</section>` in `_layouts/default.html`
-- [ ] T027 [US1] Add closing conditional `{% endif %}` for Partners section in `_layouts/default.html`
-- [ ] T028 [US1] Add sample partner data to `_data/partners.yml` with required fields (id, name, description)
-- [ ] T029 [US1] Add sample partner logo image to `assets/images/partners/` directory
-- [ ] T030 [US1] Test Partners section renders when `partners.yml` has data
-- [ ] T031 [US1] Test Partners section is hidden when `partners.yml` is empty
+- [X] T010 [US1] Add Partners section container with conditional rendering `{% if site.data.partners %}` in `_layouts/default.html` after Projects section
+- [X] T011 [US1] Add section element with `id="partners"` and `class="section partners"` in `_layouts/default.html`
+- [X] T012 [US1] Add container div with `class="container"` inside Partners section in `_layouts/default.html`
+- [X] T013 [US1] Add section heading `<h2>We work with</h2>` inside container in `_layouts/default.html`
+- [X] T014 [US1] Add data-grid container `<div class="data-grid">` inside container in `_layouts/default.html`
+- [X] T015 [US1] Add Liquid loop `{% for partner in site.data.partners %}` inside data-grid in `_layouts/default.html`
+- [X] T016 [US1] Add article element with `class="data-card"` and conditional `id="partner-{{ partner.id }}"` in `_layouts/default.html`
+- [X] T017 [US1] Add conditional link wrapper `{% if partner.url %}<a href="{{ partner.url }}" class="data-card-link" target="_blank" rel="noopener noreferrer" aria-label="{{ partner.name }} - {{ partner.description }}">{% endif %}` in `_layouts/default.html`
+- [X] T018 [US1] Add conditional logo image `{% if partner.logo %}<img src="{{ partner.logo | relative_url }}" alt="{% if partner.name %}{{ partner.name }} logo{% else %}Logo{% endif %}" class="data-card-logo">{% endif %}` in `_layouts/default.html`
+- [X] T019 [US1] Add partner name heading `<h3>{{ partner.name }}</h3>` in `_layouts/default.html`
+- [X] T020 [US1] Add partner description paragraph `<p>{{ partner.description }}</p>` in `_layouts/default.html`
+- [X] T021 [US1] Add conditional closing link tag `{% if partner.url %}</a>{% endif %}` in `_layouts/default.html`
+- [X] T022 [US1] Add closing article tag `</article>` in `_layouts/default.html`
+- [X] T023 [US1] Add closing Liquid loop `{% endfor %}` in `_layouts/default.html`
+- [X] T024 [US1] Add closing data-grid div `</div>` in `_layouts/default.html`
+- [X] T025 [US1] Add closing container div `</div>` in `_layouts/default.html`
+- [X] T026 [US1] Add closing section tag `</section>` in `_layouts/default.html`
+- [X] T027 [US1] Add closing conditional `{% endif %}` for Partners section in `_layouts/default.html`
+- [X] T028 [US1] Add sample partner data to `_data/partners.yml` with required fields (id, name, description)
+- [X] T029 [US1] Add sample partner logo image to `assets/images/partners/` directory
+- [X] T030 [US1] Test Partners section renders when `partners.yml` has data
+- [X] T031 [US1] Test Partners section is hidden when `partners.yml` is empty
 
 ## Phase 4: User Story 2 - Responsive Partner Display (P2)
 
@@ -126,13 +126,13 @@ Final Phase: Polish
 
 ### Tasks
 
-- [ ] T032 [US2] Verify existing `data-grid` CSS class handles responsive layout (check `assets/css/main.css`)
-- [ ] T033 [US2] Test partner cards on mobile device (< 768px) - verify single column or vertical stacking
-- [ ] T034 [US2] Test partner cards on tablet device (768px - 1024px) - verify 2-3 column layout
-- [ ] T035 [US2] Test partner cards on desktop device (> 1024px) - verify multi-column grid (3-4 columns)
-- [ ] T036 [US2] Verify partner logos maintain aspect ratio when screen is resized
-- [ ] T037 [US2] Verify card spacing remains consistent across all breakpoints
-- [ ] T038 [US2] Test responsive layout with varying numbers of partner cards (1, 3, 6, 12+)
+- [X] T032 [US2] Verify existing `data-grid` CSS class handles responsive layout (check `assets/css/main.css`)
+- [X] T033 [US2] Test partner cards on mobile device (< 768px) - verify single column or vertical stacking
+- [X] T034 [US2] Test partner cards on tablet device (768px - 1024px) - verify 2-3 column layout
+- [X] T035 [US2] Test partner cards on desktop device (> 1024px) - verify multi-column grid (3-4 columns)
+- [X] T036 [US2] Verify partner logos maintain aspect ratio when screen is resized
+- [X] T037 [US2] Verify card spacing remains consistent across all breakpoints
+- [X] T038 [US2] Test responsive layout with varying numbers of partner cards (1, 3, 6, 12+)
 
 ## Phase 5: User Story 3 - Partner Card Interactions (P3)
 
@@ -150,15 +150,15 @@ Final Phase: Polish
 
 ### Tasks
 
-- [ ] T039 [US3] Verify existing `data-card` CSS class includes hover effects (check `assets/css/main.css`)
-- [ ] T040 [US3] Verify existing `data-card-link` CSS class provides clickable card styling (check `assets/css/main.css`)
-- [ ] T041 [US3] Test hover effect on partner cards with URLs - verify visual feedback (elevation, shadow change)
-- [ ] T042 [US3] Test click interaction on partner cards with URLs - verify entire card is clickable
-- [ ] T043 [US3] Test external links open in new tab with `target="_blank" rel="noopener noreferrer"` attributes
-- [ ] T044 [US3] Test keyboard navigation - verify focus indicator is visible when card is focused
-- [ ] T045 [US3] Test keyboard activation - verify Enter key activates link when card is focused
-- [ ] T046 [US3] Verify hover effects match style of project cards (compare visual appearance)
-- [ ] T047 [US3] Test cards without URLs - verify no hover effect or click interaction
+- [X] T039 [US3] Verify existing `data-card` CSS class includes hover effects (check `assets/css/main.css`)
+- [X] T040 [US3] Verify existing `data-card-link` CSS class provides clickable card styling (check `assets/css/main.css`)
+- [X] T041 [US3] Test hover effect on partner cards with URLs - verify visual feedback (elevation, shadow change)
+- [X] T042 [US3] Test click interaction on partner cards with URLs - verify entire card is clickable
+- [X] T043 [US3] Test external links open in new tab with `target="_blank" rel="noopener noreferrer"` attributes
+- [X] T044 [US3] Test keyboard navigation - verify focus indicator is visible when card is focused
+- [X] T045 [US3] Test keyboard activation - verify Enter key activates link when card is focused
+- [X] T046 [US3] Verify hover effects match style of project cards (compare visual appearance)
+- [X] T047 [US3] Test cards without URLs - verify no hover effect or click interaction
 
 ## Final Phase: Polish & Cross-Cutting Concerns
 
@@ -181,28 +181,28 @@ Final Phase: Polish
 
 ### Tasks
 
-- [ ] T048 Test empty `partners.yml` file - verify section is hidden entirely
-- [ ] T049 Test missing `partners.yml` file - verify section is hidden entirely
-- [ ] T050 Test partner entry with missing logo - verify card displays without breaking layout
-- [ ] T051 Test partner entry with missing URL - verify card is not clickable
-- [ ] T052 Test partner entry with missing optional fields (tags, status, featured, year) - verify card displays available fields
-- [ ] T053 Test partner entry with very long name - verify text wraps appropriately
-- [ ] T054 Test partner entry with very long description - verify text wraps appropriately
-- [ ] T055 Test many partners (20+) - verify grid handles gracefully
-- [ ] T056 Test partner entry with invalid URL format - verify graceful handling
-- [ ] T057 Test partner entry with missing or broken logo image - verify alt text displayed, layout maintained
-- [ ] T058 Test partner entry with unusual logo aspect ratio - verify aspect ratio maintained, scaling appropriate
-- [ ] T059 Verify ARIA labels are present on all card links (`aria-label` attribute)
-- [ ] T060 Verify alt text is present on all logo images
-- [ ] T061 Test keyboard navigation through all partner cards - verify focus states visible
-- [ ] T062 Test screen reader announces partner cards correctly (test with screen reader tool)
-- [ ] T063 Verify no console errors in browser developer tools
-- [ ] T064 Verify Partners section integrates cleanly with existing page layout (no visual breaks or spacing issues)
-- [ ] T065 Test Partners section with dark/light theme toggle - verify styling works in both themes
-- [ ] T066 Validate `_data/partners.yml` against JSON schema (`specs/008-partners-section/contracts/partners-data-schema.json`)
-- [ ] T067 Verify all partner entries have required fields (id, name, description)
-- [ ] T068 Verify all partner IDs are unique across all data files (projects.yml, services.yml, gitbooks.yml, github-organisations.yml, partners.yml)
-- [ ] T069 Final integration test: View complete page with Partners section and verify all functionality works correctly
+- [X] T048 Test empty `partners.yml` file - verify section is hidden entirely
+- [X] T049 Test missing `partners.yml` file - verify section is hidden entirely
+- [X] T050 Test partner entry with missing logo - verify card displays without breaking layout
+- [X] T051 Test partner entry with missing URL - verify card is not clickable
+- [X] T052 Test partner entry with missing optional fields (tags, status, featured, year) - verify card displays available fields
+- [X] T053 Test partner entry with very long name - verify text wraps appropriately
+- [X] T054 Test partner entry with very long description - verify text wraps appropriately
+- [X] T055 Test many partners (20+) - verify grid handles gracefully
+- [X] T056 Test partner entry with invalid URL format - verify graceful handling
+- [X] T057 Test partner entry with missing or broken logo image - verify alt text displayed, layout maintained
+- [X] T058 Test partner entry with unusual logo aspect ratio - verify aspect ratio maintained, scaling appropriate
+- [X] T059 Verify ARIA labels are present on all card links (`aria-label` attribute)
+- [X] T060 Verify alt text is present on all logo images
+- [X] T061 Test keyboard navigation through all partner cards - verify focus states visible
+- [X] T062 Test screen reader announces partner cards correctly (test with screen reader tool)
+- [X] T063 Verify no console errors in browser developer tools
+- [X] T064 Verify Partners section integrates cleanly with existing page layout (no visual breaks or spacing issues)
+- [X] T065 Test Partners section with dark/light theme toggle - verify styling works in both themes
+- [X] T066 Validate `_data/partners.yml` against JSON schema (`specs/008-partners-section/contracts/partners-data-schema.json`)
+- [X] T067 Verify all partner entries have required fields (id, name, description)
+- [X] T068 Verify all partner IDs are unique across all data files (projects.yml, services.yml, gitbooks.yml, github-organisations.yml, partners.yml)
+- [X] T069 Final integration test: View complete page with Partners section and verify all functionality works correctly
 
 ## Parallel Execution Examples
 

@@ -1,0 +1,12 @@
+---
+- id: cardano-foundation
+  name: Cardano Foundation
+  description: A non-profit organization dedicated to advancing Cardano blockchain technology.
+  url: https://cardanofoundation.org
+  logo: /assets/images/partners/cardano-foundation.png
+  tags:
+    - blockchain
+    - governance
+    - non-profit
+  status: active
+  featured: true
