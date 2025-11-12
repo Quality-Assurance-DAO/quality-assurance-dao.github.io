@@ -515,21 +515,35 @@
           isActive: s.classList.contains('active')
         })));
         
-        // Verify slides array order - first slide should be Ethical-AI-Auditing
-        if (slides.length > 0) {
-          const firstVideo = slides[0].querySelector('.carousel-video source')?.getAttribute('src');
-          // Always log this - critical for debugging
-          console.log('[Video Carousel] First slide in array should be Ethical-AI-Auditing, got:', firstVideo);
-          if (firstVideo && firstVideo.includes('Archive-RAG')) {
-            console.error('[Video Carousel] ERROR: Slides array is reversed! First slide is Archive-RAG, should be Ethical-AI-Auditing');
-            console.log('[Video Carousel] Reversing slides array...');
-            slides.reverse();
-            console.log('[Video Carousel] After reverse:', slides.map((s, i) => ({
-              arrayIndex: i,
-              dataIndex: s.getAttribute('data-slide-index'),
-              videoSrc: s.querySelector('.carousel-video source')?.getAttribute('src')
-            })));
+        // Verify slides array order - check all slides, not just first
+        console.log('[Video Carousel] Verifying slide order - all slides:', slides.map((s, i) => ({
+          arrayIndex: i,
+          dataIndex: s.getAttribute('data-slide-index'),
+          videoSrc: s.querySelector('.carousel-video source')?.getAttribute('src')
+        })));
+        
+        // Check if slides are in correct order by video filename
+        // Expected order: Ethical-AI-Auditing (index 0), archive-rag (index 1), zero-knowledge-proof (index 2)
+        let needsReorder = false;
+        slides.forEach((slide, i) => {
+          const videoSrc = slide.querySelector('.carousel-video source')?.getAttribute('src') || '';
+          const dataIndex = parseInt(slide.getAttribute('data-slide-index')) || 0;
+          
+          // Check if video matches expected index
+          if (dataIndex === 0 && !videoSrc.includes('Ethical-AI-Auditing') && !videoSrc.includes('ethical-ai-auditing')) {
+            console.warn('[Video Carousel] Slide at data-slide-index 0 does not have Ethical-AI-Auditing video:', videoSrc);
+            needsReorder = true;
+          } else if (dataIndex === 1 && !videoSrc.includes('archive-rag') && !videoSrc.includes('Archive-RAG')) {
+            console.warn('[Video Carousel] Slide at data-slide-index 1 does not have Archive-RAG video:', videoSrc);
+            needsReorder = true;
+          } else if (dataIndex === 2 && !videoSrc.includes('zero-knowledge-proof') && !videoSrc.includes('Zero-Knowledge-Proof')) {
+            console.warn('[Video Carousel] Slide at data-slide-index 2 does not have Zero-Knowledge-Proof video:', videoSrc);
+            needsReorder = true;
           }
+        });
+        
+        if (needsReorder) {
+          console.warn('[Video Carousel] Slide order mismatch detected - slides may be out of order');
         }
         
         // Pause all videos initially and ensure none are active
@@ -654,18 +668,55 @@
           }
         }
 
-        currentSlideIndex = index;
-
-        const slide = slides[currentSlideIndex];
+        // Find the slide by data-slide-index, not array index (since slides are sorted)
+        // The 'index' parameter represents the desired data-slide-index, not the array position
+        let slide = null;
+        let actualArrayIndex = -1;
+        
+        // First, try to find slide by matching data-slide-index
+        console.log('[Video Carousel] Searching for slide with data-slide-index', index, 'in', slides.length, 'slides');
+        slides.forEach((s, i) => {
+          const dataIndexAttr = s.getAttribute('data-slide-index');
+          const slideDataIndex = parseInt(dataIndexAttr);
+          console.log('[Video Carousel] Checking slide at array index', i, '- data-slide-index attribute:', dataIndexAttr, 'parsed:', slideDataIndex, 'matches?', (!isNaN(slideDataIndex) && slideDataIndex === index));
+          if (!isNaN(slideDataIndex) && slideDataIndex === index) {
+            slide = s;
+            actualArrayIndex = i;
+            console.log('[Video Carousel] ✓ Found slide with data-slide-index', index, 'at array index', i);
+          }
+        });
+        
+        // Fallback: if not found by data-slide-index, use array index (for backwards compatibility)
+        if (!slide && index >= 0 && index < slides.length) {
+          slide = slides[index];
+          actualArrayIndex = index;
+          const fallbackDataIndex = parseInt(slide.getAttribute('data-slide-index'));
+          console.warn('[Video Carousel] Slide not found by data-slide-index', index, '- using array index', index, 'which has data-slide-index', fallbackDataIndex);
+        }
+        
         if (!slide) {
-          debugError('Slide at index', index, 'not found');
+          debugError('Slide with data-slide-index', index, 'not found in', slides.length, 'slides');
+          console.log('[Video Carousel] Available slides:', slides.map((s, i) => ({
+            arrayIndex: i,
+            dataIndex: s.getAttribute('data-slide-index'),
+            videoSrc: s.querySelector('.carousel-video source')?.getAttribute('src')
+          })));
           return;
         }
+        
+        // Update currentSlideIndex to the actual array index for nextSlide() to work correctly
+        // Also store the data-slide-index for timer checks
+        currentSlideIndex = actualArrayIndex;
+        const foundDataIndex = parseInt(slide.getAttribute('data-slide-index'));
         
         slide.classList.add('active');
         const videoSrc = slide.querySelector('.carousel-video source')?.getAttribute('src');
         // Always log which slide is being shown - critical for debugging
-        console.log('[Video Carousel] Showing slide', index, 'Video:', videoSrc);
+        console.log('[Video Carousel] Showing slide - requested data-slide-index:', index, 'actual array index:', actualArrayIndex, 'Video:', videoSrc);
+
+        // Get the actual data-slide-index from the slide element
+        const slideDataIndex = parseInt(slide.getAttribute('data-slide-index')) || index;
+        console.log('[Video Carousel] Slide data-slide-index:', slideDataIndex, 'array index:', actualArrayIndex);
 
         // Play the current slide's video
         const video = slide.querySelector('.carousel-video');
@@ -673,14 +724,18 @@
           setupVideoAutoplay(slide);
         }
 
-        // Sync content slide with video slide - match by data-slide-index
+        // Sync content slide with video slide - match by data-slide-index (not array index!)
         const contentSlides = document.querySelectorAll('.carousel-content-slide');
+        console.log('[Video Carousel] Syncing content slides - video slide data-slide-index:', slideDataIndex, 'total content slides:', contentSlides.length);
         contentSlides.forEach((contentSlide) => {
-          const slideIndex = parseInt(contentSlide.getAttribute('data-slide-index')) || 0;
-          if (slideIndex === index) {
+          const contentSlideIndex = parseInt(contentSlide.getAttribute('data-slide-index')) || 0;
+          const headline = contentSlide.querySelector('.carousel-headline')?.textContent || 'unknown';
+          if (contentSlideIndex === slideDataIndex) {
             contentSlide.style.display = 'block';
+            console.log('[Video Carousel] Showing content slide', contentSlideIndex, 'with headline:', headline);
           } else {
             contentSlide.style.display = 'none';
+            console.log('[Video Carousel] Hiding content slide', contentSlideIndex, 'with headline:', headline);
           }
         });
 
@@ -696,16 +751,20 @@
           // Duration is in seconds in YAML, convert to milliseconds
           const durationSeconds = parseInt(slide.dataset.duration) || 5;
           const duration = durationSeconds * 1000; // Convert to milliseconds
-          console.log('[Video Carousel] Starting timer for', durationSeconds, 'seconds (', duration, 'ms) for slide', index);
+          console.log('[Video Carousel] Starting timer for', durationSeconds, 'seconds (', duration, 'ms) for slide with data-slide-index', foundDataIndex);
           // Keep isTransitioning true until timer fires
+          // Store the data-slide-index for the timer check (not array index)
+          const timerDataIndex = foundDataIndex;
           slideTimer = setTimeout(() => {
-            console.log('[Video Carousel] Timer expired for slide', index, '- moving to next slide');
-            // Only proceed if we're still on the same slide (not manually changed)
-            if (currentSlideIndex === index) {
+            console.log('[Video Carousel] Timer expired for slide with data-slide-index', timerDataIndex, '- moving to next slide');
+            // Check if we're still on the same slide by comparing data-slide-index
+            const currentSlide = slides[currentSlideIndex];
+            const currentDataIndex = currentSlide ? parseInt(currentSlide.getAttribute('data-slide-index')) : -1;
+            if (currentDataIndex === timerDataIndex) {
               isTransitioning = false; // Reset before calling nextSlide
               nextSlide(slides);
             } else {
-              console.warn('[Video Carousel] Timer expired but slide changed manually - ignoring');
+              console.warn('[Video Carousel] Timer expired but slide changed manually - was', timerDataIndex, 'now', currentDataIndex, '- ignoring');
               isTransitioning = false;
             }
           }, duration);
@@ -721,9 +780,43 @@
           console.warn('[Video Carousel] nextSlide called but already transitioning - ignoring');
           return;
         }
-        const nextIndex = (currentSlideIndex + 1) % slides.length;
-        console.log('[Video Carousel] nextSlide: moving from', currentSlideIndex, 'to', nextIndex);
-        showSlide(nextIndex, slides);
+        
+        // Get the current slide's data-slide-index
+        const currentSlide = slides[currentSlideIndex];
+        if (!currentSlide) {
+          console.error('[Video Carousel] Current slide not found at index', currentSlideIndex);
+          return;
+        }
+        
+        const currentDataIndex = parseInt(currentSlide.getAttribute('data-slide-index')) || 0;
+        const nextDataIndex = (currentDataIndex + 1) % slides.length;
+        
+        console.log('[Video Carousel] nextSlide: current data-slide-index:', currentDataIndex, 'next data-slide-index:', nextDataIndex);
+        console.log('[Video Carousel] Current slide video:', currentSlide.querySelector('.carousel-video source')?.getAttribute('src'));
+        
+        // Find the slide with the next data-slide-index
+        let nextSlideElement = null;
+        slides.forEach((s, i) => {
+          const dataIndexAttr = s.getAttribute('data-slide-index');
+          const slideDataIndex = parseInt(dataIndexAttr);
+          if (!isNaN(slideDataIndex) && slideDataIndex === nextDataIndex) {
+            nextSlideElement = s;
+            console.log('[Video Carousel] Found next slide at array index', i, 'with video:', s.querySelector('.carousel-video source')?.getAttribute('src'));
+          }
+        });
+        
+        if (!nextSlideElement) {
+          console.error('[Video Carousel] Next slide with data-slide-index', nextDataIndex, 'not found');
+          console.log('[Video Carousel] Available slides:', slides.map((s, i) => ({
+            arrayIndex: i,
+            dataIndex: s.getAttribute('data-slide-index'),
+            videoSrc: s.querySelector('.carousel-video source')?.getAttribute('src')
+          })));
+          return;
+        }
+        
+        // Call showSlide with the data-slide-index (not array index)
+        showSlide(nextDataIndex, slides);
       }
 
       function setupVideoAutoplay(slide) {
