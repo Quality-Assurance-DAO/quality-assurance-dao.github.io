@@ -176,6 +176,48 @@
       </div>
     </section>
 
+    <!-- PARTNERS SECTION -->
+    {% if site.data.partners %}
+      <section id="partners" class="section partners">
+        <div class="container">
+          <h2>We work with</h2>
+          <div class="data-grid">
+            {% for partner in site.data.partners %}
+              <article class="data-card"{% if partner.id %} id="partner-{{ partner.id }}"{% endif %}>
+                {% if partner.url %}
+                  <a href="{{ partner.url }}" class="data-card-link" target="_blank" rel="noopener noreferrer" aria-label="{{ partner.name }} - {{ partner.description }}">
+                {% endif %}
+                {% if partner.logo %}
+                  <img src="{{ partner.logo | relative_url }}" alt="{% if partner.name %}{{ partner.name }} logo{% else %}Logo{% endif %}" class="data-card-logo">
+                {% endif %}
+                <h3>{{ partner.name }}</h3>
+                <p>{{ partner.description }}</p>
+                {% if partner.tags.size > 0 %}
+                  <div class="data-card-tags">
+                    {% for tag in partner.tags %}
+                      <span class="tag">{{ tag }}</span>
+                    {% endfor %}
+                  </div>
+                {% endif %}
+                {% if partner.featured %}
+                  <span class="featured-badge" aria-label="Featured">Featured</span>
+                {% endif %}
+                {% if partner.status %}
+                  <span class="status-indicator status-{{ partner.status | downcase }}">{{ partner.status }}</span>
+                {% endif %}
+                {% if partner.year %}
+                  <span class="data-card-meta">Year: {{ partner.year }}</span>
+                {% endif %}
+                {% if partner.url %}
+                  </a>
+                {% endif %}
+              </article>
+            {% endfor %}
+          </div>
+        </div>
+      </section>
+    {% endif %}
+
     <!-- ABOUT SECTION -->
     <section id="about" class="section about">
       <div class="container">

@@ -1,0 +1,88 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Partners Data Schema",
+  "description": "Schema for partners.yml data file following standardized DataItem schema from spec 001",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["id", "name", "description"],
+    "properties": {
+      "id": {
+        "type": "string",
+        "description": "URL-safe slug identifier (auto-generated from name)",
+        "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+        "examples": ["cardano-foundation", "singularitynet"]
+      },
+      "name": {
+        "type": "string",
+        "description": "Display name of the partner organization",
+        "minLength": 1,
+        "examples": ["Cardano Foundation", "SingularityNET"]
+      },
+      "description": {
+        "type": "string",
+        "description": "Text description of the partner organization",
+        "minLength": 1,
+        "examples": ["A non-profit organization dedicated to advancing Cardano blockchain technology.", "Decentralized AI network and marketplace."]
+      },
+      "url": {
+        "type": "string",
+        "description": "Website URL for the partner organization (optional)",
+        "format": "uri",
+        "examples": ["https://cardanofoundation.org", "https://singularitynet.io"]
+      },
+      "logo": {
+        "type": "string",
+        "description": "Path to partner logo image (relative to site root)",
+        "pattern": "^/assets/images/partners/.+\\.(png|jpg|jpeg|svg|gif)$",
+        "examples": ["/assets/images/partners/cardano-foundation.png", "/assets/images/partners/singularitynet.svg"]
+      },
+      "year": {
+        "type": "integer",
+        "description": "Numeric year",
+        "minimum": 2000,
+        "maximum": 2100,
+        "examples": [2024, 2023]
+      },
+      "tags": {
+        "type": "array",
+        "description": "Array of tag strings",
+        "items": {
+          "type": "string",
+          "minLength": 1
+        },
+        "uniqueItems": true,
+        "examples": [["blockchain", "governance", "non-profit"], ["ai", "blockchain"]]
+      },
+      "status": {
+        "type": "string",
+        "description": "Status indicator",
+        "enum": ["active", "archived", "in-progress", "completed", "deprecated"],
+        "examples": ["active", "archived"]
+      },
+      "featured": {
+        "type": "boolean",
+        "description": "Featured partner flag",
+        "examples": [true, false]
+      },
+      "category": {
+        "type": "string",
+        "description": "Category classification",
+        "examples": ["blockchain", "governance", "research", "community", "ai"]
+      },
+      "repo": {
+        "type": "string",
+        "description": "Repository URL (optional, rarely used for partners)",
+        "format": "uri",
+        "examples": ["https://github.com/cardano-foundation/cardano-foundation"]
+      },
+      "contact": {
+        "type": "string",
+        "description": "Contact information (optional, rarely used for partners)",
+        "examples": ["info@cardanofoundation.org", "@CardanoStiftung"]
+      }
+    },
+    "additionalProperties": false
+  }
+}
+
