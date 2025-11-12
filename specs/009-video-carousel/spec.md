@@ -5,6 +5,16 @@
 **Status**: Draft  
 **Input**: User description: "Implement a responsive three-slide autoplay video carousel. The carousel should dynamically load slide data from _data/slides.yml, where each entry contains the video file path, headline text, and call-to-action (CTA) label/link. Use HTML5 <video> elements with attributes autoplay, muted, loop, and playsinline to ensure browser compatibility. Implement smooth fade transitions between slides using CSS opacity transitions and lightweight JavaScript (no external frameworks). Include a semi-transparent dark gradient overlay behind the text for readability, and display one headline and one CTA button per slide. The design should be minimalist and fully responsive, with mobile scaling and graceful fallbacks. Ensure the implementation works seamlessly on GitHub Pages, using standard Jekyll data and asset folder conventions (/assets/videos/ for MP4 files, _data/slides.yml for slide definitions). Optimize for fast load times with compressed MP4s and optional poster images."
 
+## Clarifications
+
+### Session 2025-11-12
+
+- Q: When browser autoplay restrictions prevent automatic video playback, what should happen? → A: Show poster image with a visible play button that users can click to start playback
+- Q: When does the slide duration timer start counting down? → A: Timer starts immediately when the slide becomes visible (regardless of video load state)
+- Q: How should the carousel handle slide entries in slides.yml that have missing required fields? → A: Skip invalid entries silently and continue displaying valid slides
+- Q: What should happen when slides.yml contains only one valid slide? → A: Display the single slide without any transition effects (no fade, no looping)
+- Q: What direction should the semi-transparent dark gradient overlay use? → A: Linear gradient from top to bottom (darker at top, lighter at bottom)
+
 ## User Scenarios & Testing *(mandatory)*
 
 ### User Story 1 - View Video Carousel with Content (Priority: P1)
@@ -21,8 +31,8 @@ Visitors to the QADAO website can view an autoplaying video carousel that displa
 2. **Given** a slide entry has a video file path, **When** the slide is displayed, **Then** the video plays automatically in the background (muted, looping)
 3. **Given** a slide entry has headline text, **When** the slide is displayed, **Then** the headline text is visible over the video with a semi-transparent dark gradient overlay for readability
 4. **Given** a slide entry has a CTA label and link, **When** the slide is displayed, **Then** a CTA button is visible with the specified label and links to the specified URL
-5. **Given** the carousel has multiple slides, **When** a slide is displayed for its duration, **Then** the carousel automatically transitions to the next slide with a smooth fade effect
-6. **Given** the carousel reaches the last slide, **When** that slide's duration completes, **Then** the carousel loops back to the first slide seamlessly
+5. **Given** the carousel has multiple slides, **When** a slide becomes visible and its duration timer completes (timer starts immediately when slide becomes visible), **Then** the carousel automatically transitions to the next slide with a smooth fade effect
+6. **Given** the carousel reaches the last slide, **When** that slide's duration timer completes (started when slide became visible), **Then** the carousel loops back to the first slide seamlessly
 
 ---
 
@@ -57,7 +67,7 @@ The carousel provides graceful fallbacks when videos fail to load, supports opti
 1. **Given** a slide has an optional poster image, **When** the video is loading, **Then** the poster image is displayed until the video is ready to play
 2. **Given** a video file fails to load or is missing, **When** the slide is displayed, **Then** the slide still displays with the headline and CTA button, using the poster image or a solid color background as fallback
 3. **Given** videos are loading, **When** the carousel transitions between slides, **Then** transitions remain smooth and the carousel continues to function
-4. **Given** a visitor's browser doesn't support the required video format, **When** the carousel is displayed, **Then** poster images or fallback content are shown instead of videos
+4. **Given** a visitor's browser doesn't support the required video format or autoplay is blocked, **When** the carousel is displayed, **Then** poster images are shown with a visible play button that users can click to start playback
 5. **Given** a visitor has slow internet connection, **When** videos are loading, **Then** the carousel displays available content (poster images, text) while videos load in the background
 
 ---
@@ -65,13 +75,14 @@ The carousel provides graceful fallbacks when videos fail to load, supports opti
 ### Edge Cases
 
 - What happens when slides.yml is empty or missing? (Carousel should not render, or display a default message. Use conditional rendering to check if slides data exists before displaying the carousel)
-- How does the system handle slide entries with missing required fields (video path, headline, CTA)? (Should handle gracefully - skip slides with missing video paths, display available information for other fields. Missing headline or CTA should not break the slide)
+- What happens when slides.yml contains only one valid slide? (Should display the single slide without any transition effects - no fade transitions, no looping behavior)
+- How does the system handle slide entries with missing required fields (video path, headline, CTA)? (Should skip invalid entries silently and continue displaying valid slides - entries missing any required field (video, headline, cta_label, or cta_link) are excluded from the carousel)
 - What happens when a video file is missing or broken? (Should display poster image if available, or solid color background, with headline and CTA still visible)
 - How does the system handle very long headlines? (Should truncate or wrap appropriately to maintain readability and layout consistency)
 - What happens when there are many slides (10+)? (Carousel should handle gracefully, continuing to cycle through all slides)
 - How does the system handle unsupported video file formats? (Should validate file formats, handle gracefully if format is unsupported - fall back to poster image)
 - What happens when videos have unusual aspect ratios? (Should maintain aspect ratio, scale to cover container with appropriate cropping)
-- How does the system handle autoplay restrictions in browsers? (Should detect autoplay restrictions and either show poster images or provide a play button to start videos manually)
+- How does the system handle autoplay restrictions in browsers? (Should detect autoplay restrictions and show poster image with a visible play button that users can click to start playback)
 - What happens when a CTA link is invalid or missing? (Should handle gracefully - button may be disabled or hidden if no valid link is provided)
 - How does the system handle very large video files? (Should rely on compressed videos as specified, but handle gracefully if files are large - may take longer to load)
 
@@ -84,7 +95,7 @@ The carousel provides graceful fallbacks when videos fail to load, supports opti
 - **FR-003**: System MUST display one video per slide that plays automatically in the background, muted, and loops continuously to ensure browser compatibility
 - **FR-004**: System MUST display one headline text per slide, positioned over the video
 - **FR-005**: System MUST display one CTA button per slide with a label and link, positioned over the video
-- **FR-006**: System MUST apply a semi-transparent dark gradient overlay behind text content to ensure readability over videos
+- **FR-006**: System MUST apply a semi-transparent dark gradient overlay behind text content to ensure readability over videos (linear gradient from top to bottom, darker at top, lighter at bottom)
 - **FR-007**: System MUST implement smooth fade transitions between slides with opacity-based visual effects
 - **FR-008**: System MUST implement carousel functionality using lightweight client-side scripting without requiring external libraries or frameworks
 - **FR-009**: System MUST support video files stored in the standard assets directory structure, using web-compatible video formats
@@ -97,11 +108,14 @@ The carousel provides graceful fallbacks when videos fail to load, supports opti
 - **FR-016**: System MUST support mobile scaling with appropriate text sizes and video dimensions for mobile devices
 - **FR-017**: System MUST work seamlessly on GitHub Pages using standard Jekyll conventions
 - **FR-018**: System MUST optimize for fast load times, supporting compressed video files optimized for web delivery
-- **FR-019**: System MUST handle browser restrictions on automatic media playback gracefully (show poster images or provide manual play option when automatic playback is blocked)
+- **FR-019**: System MUST handle browser restrictions on automatic media playback gracefully (show poster image with a visible play button that users can click to start playback when automatic playback is blocked)
+- **FR-020**: System MUST start the slide duration timer immediately when a slide becomes visible, regardless of video load or playback state
+- **FR-021**: System MUST skip slide entries with missing required fields (video, headline, cta_label, or cta_link) silently and continue displaying valid slides
+- **FR-022**: System MUST display a single valid slide without transition effects (no fade, no looping) when slides.yml contains only one valid slide
 
 ### Key Entities
 
-- **Slide**: Represents a single carousel slide containing video content, headline text, and CTA information. Required fields: `video` (video file path relative to site root), `headline` (text headline to display), `cta_label` (text for CTA button), `cta_link` (URL for CTA button). Optional fields: `poster` (poster image path for fallback/loading state), `duration` (display duration in seconds before transitioning to next slide - defaults to 5 seconds if not specified).
+- **Slide**: Represents a single carousel slide containing video content, headline text, and CTA information. Required fields: `video` (video file path relative to site root), `headline` (text headline to display), `cta_label` (text for CTA button), `cta_link` (URL for CTA button). Optional fields: `poster` (poster image path for fallback/loading state), `duration` (display duration in seconds before transitioning to next slide - defaults to 5 seconds if not specified). The duration timer starts immediately when the slide becomes visible, regardless of video load state.
 - **Slides Data File**: YAML file (`slides.yml`) containing an array of slide entries, each with video path, headline, CTA label, and CTA link, plus optional poster image and duration settings
 
 ## Success Criteria *(mandatory)*
