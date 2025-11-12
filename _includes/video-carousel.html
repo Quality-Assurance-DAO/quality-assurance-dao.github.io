@@ -1,0 +1,334 @@
+{% comment %}
+  Video Carousel Component
+  Responsive autoplay video carousel with fade transitions
+  Feature: 009-video-carousel
+{% endcomment %}
+
+{% if site.data.slides %}
+  <section class="video-carousel" id="video-carousel" aria-label="Video carousel">
+    {% for slide in site.data.slides %}
+      {% if slide.video and slide.headline and slide.cta_label and slide.cta_link %}
+        <div class="carousel-slide" data-duration="{{ slide.duration | default: 5 }}">
+          <video 
+            class="carousel-video"
+            autoplay 
+            muted 
+            loop 
+            playsinline
+            {% if slide.poster %}poster="{{ slide.poster | relative_url }}"{% endif %}>
+            <source src="{{ slide.video | relative_url }}" type="video/mp4">
+          </video>
+          <div class="carousel-overlay"></div>
+          <div class="carousel-content">
+            <h2 class="carousel-headline">{{ slide.headline }}</h2>
+            <a href="{{ slide.cta_link }}" class="carousel-cta">{{ slide.cta_label }}</a>
+          </div>
+          <button class="carousel-play-button" aria-label="Play video" style="display: none;">
+            ▶
+          </button>
+        </div>
+      {% endif %}
+    {% endfor %}
+  </section>
+
+  <style>
+    /* Container Styles */
+    .video-carousel {
+      position: relative;
+      width: 100%;
+      height: 600px;
+      overflow: hidden;
+      background-color: #1a1a1a;
+    }
+
+    /* Slide Styles */
+    .carousel-slide {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      opacity: 0;
+      transition: opacity 0.8s ease-in-out;
+      z-index: 0;
+      will-change: opacity;
+    }
+
+    .carousel-slide.active {
+      opacity: 1;
+      z-index: 1;
+    }
+
+    /* Video Styles */
+    .carousel-video {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+
+    /* Overlay Styles */
+    .carousel-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.3) 100%);
+      z-index: 1;
+      pointer-events: none;
+    }
+
+    /* Content Styles */
+    .carousel-content {
+      position: absolute;
+      bottom: 4rem;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 90%;
+      max-width: 1200px;
+      z-index: 2;
+      text-align: center;
+      padding: 2rem;
+    }
+
+    .carousel-headline {
+      color: #ffffff;
+      font-size: 2.5rem;
+      font-weight: 600;
+      line-height: 1.3;
+      margin: 0 0 1rem 0;
+      text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    }
+
+    .carousel-cta {
+      display: inline-block;
+      padding: 1rem 2rem;
+      background-color: #0052cc;
+      color: #ffffff;
+      text-decoration: none;
+      border-radius: 4px;
+      font-size: 1.1rem;
+      font-weight: 600;
+      transition: background-color 0.3s ease;
+      cursor: pointer;
+    }
+
+    .carousel-cta:hover {
+      background-color: #003d99;
+    }
+
+    .carousel-cta:focus {
+      outline: 2px solid #0052cc;
+      outline-offset: 2px;
+    }
+
+    /* Play Button Styles */
+    .carousel-play-button {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      background-color: rgba(255, 255, 255, 0.9);
+      border: none;
+      font-size: 2rem;
+      color: #0052cc;
+      cursor: pointer;
+      z-index: 3;
+      transition: transform 0.3s ease, background-color 0.3s ease;
+    }
+
+    .carousel-play-button:hover {
+      transform: translate(-50%, -50%) scale(1.1);
+      background-color: rgba(255, 255, 255, 1);
+    }
+
+    .carousel-play-button:focus {
+      outline: 2px solid #0052cc;
+      outline-offset: 2px;
+    }
+
+    /* Responsive Styles - Mobile */
+    @media (max-width: 767px) {
+      .video-carousel {
+        height: 400px;
+      }
+      .carousel-content {
+        bottom: 2rem;
+        padding: 1rem;
+      }
+      .carousel-headline {
+        font-size: 1.5rem;
+      }
+      .carousel-cta {
+        padding: 0.75rem 1.5rem;
+        font-size: 0.9rem;
+      }
+    }
+
+    /* Responsive Styles - Tablet */
+    @media (min-width: 768px) and (max-width: 1024px) {
+      .video-carousel {
+        height: 500px;
+      }
+      .carousel-content {
+        bottom: 3rem;
+        padding: 1.5rem;
+      }
+      .carousel-headline {
+        font-size: 2rem;
+      }
+      .carousel-cta {
+        padding: 0.875rem 1.75rem;
+        font-size: 1rem;
+      }
+    }
+
+    /* Responsive Styles - Desktop */
+    @media (min-width: 1025px) {
+      .video-carousel {
+        height: 600px;
+      }
+      .carousel-content {
+        bottom: 4rem;
+        padding: 2rem;
+      }
+      .carousel-headline {
+        font-size: 2.5rem;
+      }
+      .carousel-cta {
+        padding: 1rem 2rem;
+        font-size: 1.1rem;
+      }
+    }
+  </style>
+
+  <script>
+    (function() {
+      'use strict';
+
+      let currentSlideIndex = 0;
+      let slideTimer = null;
+
+      function initializeCarousel() {
+        const carousel = document.getElementById('video-carousel');
+        if (!carousel) return;
+
+        const slides = Array.from(carousel.querySelectorAll('.carousel-slide'));
+        const validSlides = slides.filter(validateSlide);
+
+        if (validSlides.length === 0) {
+          return;
+        }
+
+        if (validSlides.length === 1) {
+          showSingleSlide(validSlides[0]);
+          return;
+        }
+
+        startCarousel(validSlides);
+      }
+
+      function validateSlide(slide) {
+        const video = slide.querySelector('.carousel-video source');
+        const headline = slide.querySelector('.carousel-headline');
+        const cta = slide.querySelector('.carousel-cta');
+
+        return video &&
+               video.getAttribute('src') &&
+               headline &&
+               headline.textContent.trim() &&
+               cta &&
+               cta.getAttribute('href') &&
+               cta.textContent.trim();
+      }
+
+      function showSingleSlide(slide) {
+        slide.classList.add('active');
+        setupVideoAutoplay(slide);
+      }
+
+      function startCarousel(slides) {
+        showSlide(0, slides);
+
+        slides.forEach(slide => {
+          setupVideoAutoplay(slide);
+        });
+      }
+
+      function showSlide(index, slides) {
+        if (slides[currentSlideIndex]) {
+          slides[currentSlideIndex].classList.remove('active');
+        }
+
+        currentSlideIndex = index;
+
+        const slide = slides[currentSlideIndex];
+        slide.classList.add('active');
+
+        clearTimeout(slideTimer);
+        const duration = parseInt(slide.dataset.duration) || 5000;
+        slideTimer = setTimeout(() => {
+          nextSlide(slides);
+        }, duration);
+      }
+
+      function nextSlide(slides) {
+        currentSlideIndex = (currentSlideIndex + 1) % slides.length;
+        showSlide(currentSlideIndex, slides);
+      }
+
+      function setupVideoAutoplay(slide) {
+        const video = slide.querySelector('.carousel-video');
+        const playButton = slide.querySelector('.carousel-play-button');
+
+        if (!video) return;
+
+        const playPromise = video.play();
+
+        if (playPromise !== undefined) {
+          playPromise
+            .then(() => {
+              if (playButton) {
+                playButton.style.display = 'none';
+              }
+            })
+            .catch(() => {
+              if (playButton) {
+                playButton.style.display = 'block';
+                playButton.addEventListener('click', function() {
+                  video.play();
+                  playButton.style.display = 'none';
+                });
+              }
+            });
+        }
+
+        video.addEventListener('error', function() {
+          if (playButton) {
+            playButton.style.display = 'block';
+          }
+        });
+
+        video.addEventListener('play', function() {
+          if (playButton) {
+            playButton.style.display = 'none';
+          }
+        });
+      }
+
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initializeCarousel);
+      } else {
+        initializeCarousel();
+      }
+    })();
+  </script>
+{% endif %}
+

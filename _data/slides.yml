@@ -1,0 +1,5 @@
+---
+# Video Carousel Slides
+# Each slide requires: video, headline, cta_label, cta_link
+# Optional: poster, duration (default: 5 seconds)
+
