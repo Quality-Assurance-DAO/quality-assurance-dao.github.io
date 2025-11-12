@@ -24,10 +24,10 @@
           <div class="carousel-slide" data-duration="{{ slide.duration | default: 5 }}">
             <video 
               class="carousel-video"
-              autoplay 
               muted 
               loop 
               playsinline
+              preload="metadata"
               {% if slide.poster %}poster="{{ slide.poster | relative_url }}"{% endif %}>
               <source src="{{ slide.video | relative_url }}" type="video/mp4">
             </video>
@@ -326,16 +326,28 @@
       }
 
       function startCarousel(slides) {
-        showSlide(0, slides);
-
+        // Pause all videos initially
         slides.forEach(slide => {
-          setupVideoAutoplay(slide);
+          const video = slide.querySelector('.carousel-video');
+          if (video) {
+            video.pause();
+            video.currentTime = 0;
+          }
         });
+        
+        showSlide(0, slides);
       }
 
       function showSlide(index, slides) {
+        // Pause and reset previous slide's video
         if (slides[currentSlideIndex]) {
-          slides[currentSlideIndex].classList.remove('active');
+          const prevSlide = slides[currentSlideIndex];
+          prevSlide.classList.remove('active');
+          const prevVideo = prevSlide.querySelector('.carousel-video');
+          if (prevVideo) {
+            prevVideo.pause();
+            prevVideo.currentTime = 0;
+          }
         }
 
         currentSlideIndex = index;
@@ -348,6 +360,12 @@
         
         slide.classList.add('active');
         console.log('[Video Carousel] Showing slide', index, 'Video element:', slide.querySelector('.carousel-video'));
+
+        // Play the current slide's video
+        const video = slide.querySelector('.carousel-video');
+        if (video) {
+          setupVideoAutoplay(slide);
+        }
 
         // Sync content slide with video slide
         // Match by data-slide-index attribute to handle filtered slides
