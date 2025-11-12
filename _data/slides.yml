@@ -3,3 +3,8 @@
 # Each slide requires: video, headline, cta_label, cta_link
 # Optional: poster, duration (default: 5 seconds)
 
+- video: /assets/videos/Ethical-AI-Auditing.mp4
+  headline: "Ethical AI Auditing A Practice Based Approach"
+  cta_label: "Learn More"
+  cta_link: "#services"
+  duration: 6
