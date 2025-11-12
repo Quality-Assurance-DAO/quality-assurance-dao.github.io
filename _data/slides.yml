@@ -8,7 +8,7 @@
   cta_label: "Learn More"
   cta_link: "#services"
   duration: 6
-  - video: /assets/videos/Archive-RAG.mp4
+- video: /assets/videos/Archive-RAG.mp4
   headline: "Archive RAG"
   cta_label: "Learn More"
   cta_link: "#projects"
