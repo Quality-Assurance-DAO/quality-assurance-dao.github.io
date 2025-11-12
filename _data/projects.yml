@@ -19,3 +19,7 @@
   description: Token Distribution Framework prototype demonstrating how blockchain treasury funding can be structured with milestone-based token allocations across multiple stakeholder categories.
   url: https://github.com/SingularityNET-Archive/Cardano-Proposal-Anchoring-Prototype
   id: Token Distribution Framework
+- name: Zero Knowledge Identity System
+  description: A Python library for creating and managing multiple cryptographically unlinkable alias identities.
+  url: https://github.com/stephen-rowan/zero-knowledge-identity-system
+  id: Zero-knowledge-identity-system
