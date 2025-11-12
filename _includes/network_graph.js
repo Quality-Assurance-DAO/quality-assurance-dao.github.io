@@ -56,14 +56,13 @@ function createInteractiveNetwork(canvasId, nodeCount, color) {
   function createNodes(count) {
     const nodes = [];
     for (let i = 0; i < count; i++) {
-      // T009: Implement node initialization with random velocities (0.5-2.0 pixels per frame range)
-      const speed = 0.5 + Math.random() * 1.5; // 0.5-2.0 range
-      const angle = Math.random() * Math.PI * 2;
+      // T009: Implement node initialization with random velocities (matching header animation speed)
+      // Using same speed range as animated header: (Math.random() - 0.5) * 1.5
       nodes.push({
         x: Math.random() * width,
         y: Math.random() * height,
-        vx: speed * Math.cos(angle),
-        vy: speed * Math.sin(angle),
+        vx: (Math.random() - 0.5) * 1.5,
+        vy: (Math.random() - 0.5) * 1.5,
         radius: NODE_RADIUS
       });
     }
