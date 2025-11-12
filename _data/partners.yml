@@ -7,7 +7,6 @@
   tags:
     - ai
     - agi
-    - non-profit
   status: active
   featured: true
 - id: Project-Catalyst
@@ -16,8 +15,6 @@
   url: https://singularitynet.io
   logo: /assets/images/partners/Project-Catalyst.png
   tags:
-    - ai
-    - agi
-    - non-profit
+    - blockchain
   status: active
   featured: true
