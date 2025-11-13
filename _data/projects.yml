@@ -23,3 +23,7 @@
   description: A Python library for creating and managing multiple cryptographically unlinkable alias identities.
   url: https://github.com/stephen-rowan/zero-knowledge-identity-system
   id: Zero-knowledge-identity-system
+- name: Attunement through Iterative Oscillatory Networks
+  description: An interactive educational simulation of the AION (Attunement through Iterative Oscillatory Networks) model — a quantum-inspired neural architecture where meaning emerges through phase synchronization among coupled oscillators.
+  url: https://github.com/stephen-rowan/Attunement-through-Iterative-Oscillatory-Networks
+  id: Attunement-through-Iterative-Oscillatory-Networks
