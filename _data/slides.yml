@@ -7,7 +7,7 @@
   headline: "Visualise an ASI Chain Agent Network"
   cta_label: "Learn More"
   cta_link: "#portfolio"
-  duration: 16.5
+  duration: 15
 - video: /assets/videos/archive-rag.mp4
   headline: "Archive RAG"
   cta_label: "Learn More"
@@ -17,4 +17,4 @@
   headline: "Zero Knowledge Proof"
   cta_label: "Learn More"
   cta_link: "#portfolio"
-  duration: 16.5
+  duration: 15
