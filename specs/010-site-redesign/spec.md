@@ -7,7 +7,13 @@
 
 ## Clarifications
 
-_No clarifications needed at this time - all requirements are clear from the input and existing site structure._
+### Session 2025-01-27
+
+- Q: Design guide reference - the spec mentions @code.html but file was not found in repository. How should the design guide be handled? → A: Design guide file (code.html) has been provided - it's a Tailwind CSS-based modern design with dark/light theme support, hero section with video carousel, services grid, partners scrolling section, about section, and contact form. The design uses Inter font, primary purple (#4A00E0) and secondary teal (#00F2A9) colors, and Material Symbols icons.
+- Q: CSS implementation approach - design guide uses Tailwind CSS but spec requires vanilla CSS. How should Tailwind design patterns be implemented? → A: Recreate Tailwind design patterns in vanilla CSS with CSS variables - match visual appearance and structure without using Tailwind framework
+- Q: Color scheme implementation - design guide uses specific colors (purple #4A00E0, teal #00F2A9). Should exact colors be used or adapted? → A: Use exact color scheme from design guide (primary purple #4A00E0, secondary teal #00F2A9, background colors #f5f5f5 light/#121212 dark, text colors, etc.)
+- Q: Typography and font family - design guide uses Inter font. Should Inter be used or maintain existing fonts? → A: Use Inter font family from Google Fonts to match design guide exactly
+- Q: Section structure and content - design guide shows Hero, Services, Partners, About, Contact. Spec also mentions Projects. Which sections should be included? → A: Include all design guide sections (Hero, Services, Partners, About, Contact) plus Projects section from existing data files
 
 ## User Scenarios & Testing *(mandatory)*
 
@@ -122,7 +128,7 @@ Visitors can interact with the video carousel by clicking on videos to navigate 
 
 ### Functional Requirements
 
-- **FR-001**: System MUST display a redesigned homepage with modern UI elements inspired by the design guide, including improved visual hierarchy, spacing, and color scheme
+- **FR-001**: System MUST display a redesigned homepage with modern UI elements matching the design guide, including improved visual hierarchy, spacing, and exact color scheme (primary purple #4A00E0, secondary teal #00F2A9, background colors #f5f5f5 light/#121212 dark)
 - **FR-002**: System MUST incorporate the QADAO logo prominently in the header/navigation area, with fallback to site title if logo is unavailable
 - **FR-003**: System MUST load all content dynamically from data files located in the `_data/` directory (services.yml, partners.yml, projects.yml, slides.yml, tabs.yml, etc.)
 - **FR-004**: System MUST display a theme toggle control that allows visitors to switch between dark and light themes
@@ -130,22 +136,23 @@ Visitors can interact with the video carousel by clicking on videos to navigate 
 - **FR-006**: System MUST apply theme styling consistently across all sections and components (header, navigation, content sections, footer)
 - **FR-007**: System MUST maintain sufficient color contrast in both dark and light themes to meet accessibility standards (WCAG AA minimum)
 - **FR-008**: System MUST work as a GitHub Pages site using Jekyll static site generator
-- **FR-009**: System MUST use CSS for styling (no external CSS frameworks required, but may use CSS variables and modern CSS features)
-- **FR-010**: System MUST display services section with content from `_data/services.yml`, showing service names, descriptions, and associated metadata
-- **FR-011**: System MUST display partners section with content from `_data/partners.yml`, showing partner logos, names, descriptions, and links
-- **FR-012**: System MUST display projects section with content from `_data/projects.yml`, showing project names, descriptions, and links
-- **FR-013**: System MUST display video carousel/hero section with content from `_data/slides.yml` if slides are available, with styling that fits the new design aesthetic
-- **FR-023**: System MUST make videos in the carousel clickable, navigating to relevant sections when clicked (no CTA buttons required)
-- **FR-024**: System MUST NOT display CTA buttons or link buttons on carousel slides - videos themselves serve as the clickable navigation element
-- **FR-014**: System MUST handle missing or empty data files gracefully without breaking page layout
-- **FR-015**: System MUST handle data file entries with missing optional fields gracefully, displaying available information
-- **FR-016**: System MUST maintain responsive design that adapts to mobile (< 768px), tablet (768px-1024px), and desktop (> 1024px) viewports
-- **FR-017**: System MUST ensure all interactive elements (buttons, links) have appropriate touch target sizes on mobile devices (minimum 44x44px)
-- **FR-018**: System MUST maintain existing Jekyll site structure and conventions (layouts, includes, data files)
-- **FR-019**: System MUST ensure images and media scale appropriately across different screen sizes while maintaining aspect ratios
-- **FR-020**: System MUST provide graceful fallbacks when JavaScript is disabled (default theme, basic functionality)
-- **FR-021**: System MUST handle theme switching with smooth transitions between dark and light modes
-- **FR-022**: System MUST ensure the redesigned layout does not break existing functionality or content structure
+- **FR-009**: System MUST use vanilla CSS for styling (no external CSS frameworks like Tailwind required) - Tailwind design patterns from the design guide MUST be recreated using CSS variables, custom properties, and modern CSS features to match the visual appearance
+- **FR-010**: System MUST use Inter font family from Google Fonts as the primary typography to match the design guide exactly
+- **FR-011**: System MUST display services section with content from `_data/services.yml`, showing service names, descriptions, and associated metadata
+- **FR-012**: System MUST display partners section with content from `_data/partners.yml`, showing partner logos, names, descriptions, and links
+- **FR-013**: System MUST display projects section with content from `_data/projects.yml`, showing project names, descriptions, and links
+- **FR-014**: System MUST display video carousel/hero section with content from `_data/slides.yml` if slides are available, with styling that fits the new design aesthetic
+- **FR-015**: System MUST make videos in the carousel clickable, navigating to relevant sections when clicked (no CTA buttons required)
+- **FR-016**: System MUST NOT display CTA buttons or link buttons on carousel slides - videos themselves serve as the clickable navigation element
+- **FR-017**: System MUST handle missing or empty data files gracefully without breaking page layout
+- **FR-018**: System MUST handle data file entries with missing optional fields gracefully, displaying available information
+- **FR-019**: System MUST maintain responsive design that adapts to mobile (< 768px), tablet (768px-1024px), and desktop (> 1024px) viewports
+- **FR-020**: System MUST ensure all interactive elements (buttons, links) have appropriate touch target sizes on mobile devices (minimum 44x44px)
+- **FR-021**: System MUST maintain existing Jekyll site structure and conventions (layouts, includes, data files)
+- **FR-022**: System MUST ensure images and media scale appropriately across different screen sizes while maintaining aspect ratios
+- **FR-023**: System MUST provide graceful fallbacks when JavaScript is disabled (default theme, basic functionality)
+- **FR-024**: System MUST handle theme switching with smooth transitions between dark and light modes
+- **FR-025**: System MUST ensure the redesigned layout does not break existing functionality or content structure
 
 ### Key Entities
 
@@ -180,7 +187,8 @@ Visitors can interact with the video carousel by clicking on videos to navigate 
 
 ### In Scope
 
-- Redesigning the homepage layout with modern UI elements based on the design guide
+- Redesigning the homepage layout with modern UI elements matching the design guide exactly
+- Including all sections: Hero (with video carousel), Services, Partners, About, Contact, and Projects
 - Incorporating QADAO logo in header/navigation
 - Implementing theme toggle functionality (dark/light mode switching)
 - Ensuring all content is loaded from data files (`_data/` directory)
@@ -229,7 +237,7 @@ Visitors can interact with the video carousel by clicking on videos to navigate 
 - CSS variables and modern CSS features are supported (with fallbacks for older browsers)
 - Theme toggle JavaScript functionality exists and can be enhanced if needed
 - Existing site structure and navigation patterns should be maintained
-- Color scheme and design elements from the design guide should be adapted to match QADAO branding
+- Color scheme from the design guide (primary purple #4A00E0, secondary teal #00F2A9, backgrounds, text colors) should be used exactly as specified
 - Default theme preference is dark mode (consistent with existing site behavior)
 - Existing slides.yml uses cta_link field which can be repurposed for video click navigation (cta_label will not be displayed as a button)
 
