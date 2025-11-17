@@ -14,6 +14,7 @@
 - Q: Color scheme implementation - design guide uses specific colors (purple #4A00E0, teal #00F2A9). Should exact colors be used or adapted? → A: Use exact color scheme from design guide (primary purple #4A00E0, secondary teal #00F2A9, background colors #f5f5f5 light/#121212 dark, text colors, etc.)
 - Q: Typography and font family - design guide uses Inter font. Should Inter be used or maintain existing fonts? → A: Use Inter font family from Google Fonts to match design guide exactly
 - Q: Section structure and content - design guide shows Hero, Services, Partners, About, Contact. Spec also mentions Projects. Which sections should be included? → A: Include all design guide sections (Hero, Services, Partners, About, Contact) plus Projects section from existing data files
+- Q: Partner cards display - should partner cards show featured badges and status indicators like services and projects? → A: No, partner cards in the "We work with" section should NOT display featured badges or status indicators. Only logos, names, descriptions, links, tags, and optional year should be shown. This keeps the partners section cleaner and more focused.
 
 ## User Scenarios & Testing *(mandatory)*
 
@@ -139,7 +140,7 @@ Visitors can interact with the video carousel by clicking on videos to navigate 
 - **FR-009**: System MUST use vanilla CSS for styling (no external CSS frameworks like Tailwind required) - Tailwind design patterns from the design guide MUST be recreated using CSS variables, custom properties, and modern CSS features to match the visual appearance
 - **FR-010**: System MUST use Inter font family from Google Fonts as the primary typography to match the design guide exactly
 - **FR-011**: System MUST display services section with content from `_data/services.yml`, showing service names, descriptions, and associated metadata
-- **FR-012**: System MUST display partners section with content from `_data/partners.yml`, showing partner logos, names, descriptions, and links
+- **FR-012**: System MUST display partners section with content from `_data/partners.yml`, showing partner logos, names, descriptions, links, and tags. Note: Featured badges and status indicators MUST NOT be displayed for partners (unlike services and projects)
 - **FR-013**: System MUST display projects section with content from `_data/projects.yml`, showing project names, descriptions, and links
 - **FR-014**: System MUST display video carousel/hero section with content from `_data/slides.yml` if slides are available, with styling that fits the new design aesthetic
 - **FR-015**: System MUST make videos in the carousel clickable, navigating to relevant sections when clicked (no CTA buttons required)
@@ -157,7 +158,7 @@ Visitors can interact with the video carousel by clicking on videos to navigate 
 ### Key Entities
 
 - **Service**: Represents a service offering with fields from `_data/services.yml` (name, description, id, color, optional: logo, icon, url, tags, featured, status)
-- **Partner**: Represents a partner organization with fields from `_data/partners.yml` (id, name, description, url, logo, tags, status, featured, optional: year)
+- **Partner**: Represents a partner organization with fields from `_data/partners.yml` (id, name, description, url, logo, tags, optional: year). Note: Although partners data may contain `status` and `featured` fields, these MUST NOT be displayed in the partners section - only logos, names, descriptions, links, tags, and optional year are shown
 - **Project**: Represents a project with fields from `_data/projects.yml` (name, description, url, id, optional: logo, tags, featured, status, year)
 - **Slide**: Represents a carousel slide with fields from `_data/slides.yml` (video, headline, section_link or cta_link - link to relevant section when video is clicked, optional: poster, duration). Note: CTA buttons (cta_label) are not displayed - clicking the video itself navigates to the section. The section_link field may be the same as cta_link but is used for navigation when the video is clicked rather than displaying a button.
 - **Theme Preference**: User's selected theme (dark or light) stored in browser localStorage and applied via data-theme attribute or CSS classes

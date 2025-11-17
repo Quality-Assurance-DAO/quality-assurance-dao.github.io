@@ -331,17 +331,21 @@ h3 {
   margin-top: 0;
 }
 
-/* Data Grid (for projects, services, gitbooks, organizations) */
+/* Data Grid (for projects, services, partners, organizations) */
+/* T025: Style data grid layout with CSS Grid, gap using --spacing-lg, responsive columns */
+/* Mobile-first: 1 column by default */
 .data-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: 1fr;
   gap: var(--spacing-lg);
+  width: 100%;
 }
 
+/* T026: Style data card components using --card-* variables with border-radius 12px, padding 1.5rem, shadow, hover elevation */
 .data-card {
   background: var(--card-bg);
-  padding: var(--card-padding);
-  border-radius: var(--card-border-radius);
+  padding: var(--card-padding); /* 1.5rem from CSS variables */
+  border-radius: var(--card-border-radius); /* 12px from CSS variables */
   text-align: left;
   box-shadow: var(--card-shadow);
   border: 1px solid var(--card-border);
@@ -349,6 +353,7 @@ h3 {
   position: relative;
   display: flex;
   flex-direction: column;
+  min-height: 0; /* Allow flex items to shrink */
 }
 
 .data-card-link {
@@ -365,10 +370,17 @@ h3 {
   border-radius: var(--radius);
 }
 
+/* T026: Hover elevation change for cards */
 .data-card:hover {
   transform: translateY(-2px);
   box-shadow: var(--card-hover-shadow);
   background: var(--bg-elevated);
+}
+
+/* Ensure cards without links can still have hover effect */
+/* Note: :has() selector has limited browser support, using alternative approach */
+.data-card:not(.data-card-link):hover {
+  /* Cards without links maintain hover effect but don't change cursor */
 }
 
 .data-card h3 {
@@ -410,13 +422,27 @@ h3 {
   line-height: 1;
 }
 
-/* Service Color Coding */
-.data-card[data-service-color] {
+/* T027: Style service cards with optional color coding from service.color field */
+.service-card[data-service-color] {
   border-left: 4px solid var(--service-color, var(--border));
 }
 
-.data-card[data-service-color]:hover {
+.service-card[data-service-color]:hover {
   border-left-color: var(--service-color, var(--primary));
+}
+
+/* T027: Service card logo/icon display */
+.service-card .service-visual {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: var(--spacing-md);
+}
+
+.service-card .service-icon {
+  font-size: 3rem;
+  line-height: 1;
+  color: var(--text);
 }
 
 /* Service Learn More Link */
@@ -564,6 +590,17 @@ h3 {
   margin: 0 auto 1.5rem auto;
 }
 
+/* T031: Empty state handling for missing data */
+.empty-state {
+  text-align: center;
+  color: var(--text-muted);
+  font-style: italic;
+  padding: var(--spacing-xl);
+  background: var(--bg-secondary);
+  border-radius: var(--card-border-radius);
+  border: 1px dashed var(--border);
+}
+
 /* Remove grey overlay from Follow Us social cards */
 .contact .data-card {
   background: transparent;
@@ -588,31 +625,60 @@ h3 {
   margin-right: auto;
 }
 
-/* Partner Card Styling - External Link Indicators */
-.partners .data-card-link::after {
+/* T028: Style partner cards with logo sizing constraints, full card clickable area, external link indicators */
+.partner-card {
+  cursor: pointer;
+}
+
+.partner-card .data-card-link {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  text-decoration: none;
+  color: inherit;
+}
+
+.partner-card .data-card-link::after {
   content: "↗";
   display: inline-block;
   margin-left: 0.5rem;
   font-size: 0.875rem;
   opacity: 0.7;
   transition: opacity var(--transition-base);
+  align-self: flex-start;
 }
 
-.partners .data-card-link:hover::after {
+.partner-card .data-card-link:hover::after {
   opacity: 1;
 }
 
-/* Partner Logo Constraints */
-.partners .data-card-logo {
+/* T028: Partner logo sizing constraints */
+.partner-card .data-card-logo {
   max-height: 100px;
   max-width: 150px;
+  width: auto;
+  height: auto;
   object-fit: contain;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: var(--spacing-md);
 }
 
-/* Project Card - GitHub Icon Indicators */
-.portfolio .data-card-link[href*="github.com"]::after {
+/* T029: Style project cards similar to partner cards with optional GitHub icon indicators */
+.project-card {
+  cursor: pointer;
+}
+
+.project-card .data-card-link {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  text-decoration: none;
+  color: inherit;
+}
+
+/* T029: Project card - GitHub icon indicators for repository links */
+.project-card .data-card-link[href*="github.com"]::after {
   content: "";
   display: inline-block;
   width: 16px;
@@ -625,10 +691,22 @@ h3 {
   vertical-align: middle;
   opacity: 0.7;
   transition: opacity var(--transition-base);
+  align-self: flex-start;
 }
 
-.portfolio .data-card-link[href*="github.com"]:hover::after {
+.project-card .data-card-link[href*="github.com"]:hover::after {
   opacity: 1;
+}
+
+.project-card .data-card-logo {
+  max-height: 120px;
+  max-width: 120px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: var(--spacing-md);
 }
 
 .social-links {
@@ -677,6 +755,7 @@ h3 {
   max-width: var(--container-max-width);
   margin: 0 auto;
   height: var(--nav-height);
+  gap: var(--spacing-xl); /* Add gap between logo and nav-links for spacing */
 }
 
 .logo-link {
@@ -688,6 +767,7 @@ h3 {
   font-weight: var(--font-weight-bold);
   font-size: var(--font-size-lg);
   flex-wrap: nowrap;
+  flex-shrink: 0; /* Prevent logo from shrinking */
 }
 
 .nav-logo {
@@ -722,6 +802,8 @@ h3 {
   display: flex;
   align-items: center;
   gap: var(--spacing-lg);
+  margin-left: auto; /* Push nav-links to the right */
+  flex-shrink: 0; /* Prevent nav-links from shrinking */
 }
 
 .nav-links a {
@@ -840,16 +922,12 @@ body.dark-theme .theme-icon-dark {
   transform: rotate(0deg);
 }
 
-/* Responsive - Mobile First */
-/* Mobile: 1 column */
-.data-grid {
-  grid-template-columns: 1fr;
-}
-
+/* T025: Responsive data grid columns - 1 mobile, 2 tablet, 3 desktop */
 /* Tablet: 2 columns */
 @media (min-width: 768px) {
   .data-grid {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    /* Will naturally create 2 columns with minmax(300px, 1fr) on tablet */
   }
   
   .nav-links {
@@ -860,7 +938,8 @@ body.dark-theme .theme-icon-dark {
 /* Desktop: 3 columns max */
 @media (min-width: 1024px) {
   .data-grid {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    /* Will naturally create up to 3 columns with minmax(300px, 1fr) on desktop */
     max-width: 100%;
   }
   
