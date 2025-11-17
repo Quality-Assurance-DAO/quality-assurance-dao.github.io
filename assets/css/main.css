@@ -143,7 +143,15 @@ body.dark-theme {
   --carousel-overlay-bg: rgba(0, 0, 0, 0.5);
 }
 
-/* Responsive Container Padding */
+/* T039: Responsive Container Padding - Mobile-first approach */
+/* Mobile: 1rem (default) */
+:root {
+  --container-padding: 1rem;
+  --section-padding-y: 3rem;
+  --section-gap: 2rem;
+}
+
+/* Tablet: 2rem */
 @media (min-width: 768px) {
   :root {
     --container-padding: 2rem;
@@ -152,6 +160,7 @@ body.dark-theme {
   }
 }
 
+/* Desktop: 3rem */
 @media (min-width: 1024px) {
   :root {
     --container-padding: 3rem;
@@ -208,7 +217,8 @@ body {
   font-weight: var(--font-weight-normal);
 }
 
-/* Global Heading Styles - Using Inter font with responsive clamp() */
+/* T041: Global Heading Styles - Using Inter font with responsive clamp() */
+/* Responsive typography that scales smoothly from mobile to desktop */
 h1 {
   font-family: var(--font-family);
   font-size: clamp(var(--font-size-2xl), 5vw, var(--font-size-4xl));
@@ -234,6 +244,40 @@ h3 {
   line-height: var(--line-height-normal);
   margin-bottom: var(--spacing-md);
   color: var(--text);
+}
+
+/* T041: Additional responsive typography adjustments for mobile */
+@media (max-width: 767px) {
+  h1 {
+    font-size: clamp(1.5rem, 8vw, 2rem);
+  }
+  
+  h2 {
+    font-size: clamp(1.25rem, 6vw, 1.75rem);
+  }
+  
+  h3 {
+    font-size: clamp(1.125rem, 4vw, 1.5rem);
+  }
+  
+  body {
+    font-size: var(--font-size-base);
+  }
+}
+
+/* T041: Typography adjustments for tablet */
+@media (min-width: 768px) and (max-width: 1023px) {
+  h1 {
+    font-size: clamp(1.875rem, 4vw, 2.25rem);
+  }
+  
+  h2 {
+    font-size: clamp(1.5rem, 3.5vw, 1.875rem);
+  }
+  
+  h3 {
+    font-size: clamp(1.25rem, 3vw, 1.5rem);
+  }
 }
 
 .container {
@@ -282,6 +326,11 @@ h3 {
   text-decoration: none;
   font-weight: 600;
   transition: background 0.2s ease;
+  /* T042: Ensure minimum touch target size */
+  min-height: var(--button-min-height);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .btn-primary:hover {
@@ -400,6 +449,7 @@ h3 {
   /* Display full text - no truncation */
 }
 
+/* T043: Image and media responsive scaling - maintain aspect ratios and quality */
 .data-card-logo {
   width: 100%;
   max-width: 120px;
@@ -408,6 +458,20 @@ h3 {
   margin-bottom: 1rem;
   border-radius: calc(var(--radius) / 2);
   object-fit: contain;
+}
+
+/* T043: Ensure all images are responsive */
+img {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+/* T043: Video carousel responsive scaling */
+video {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
 }
 
 /* Service Card Visual Elements */
@@ -447,13 +511,18 @@ h3 {
 
 /* Service Learn More Link */
 .service-learn-more {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
   margin-top: 1rem;
   color: var(--text);
   text-decoration: none;
   font-weight: 500;
   font-size: 0.9375rem;
   transition: color 0.2s ease;
+  /* T042: Ensure minimum touch target size */
+  min-height: 44px;
+  min-width: 44px;
+  padding: 0.5rem 0;
 }
 
 .service-learn-more:hover {
@@ -542,12 +611,17 @@ h3 {
 }
 
 .data-card-repo {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
   margin-top: 0.75rem;
   color: var(--text);
   text-decoration: none;
   font-weight: 500;
   font-size: 0.875rem;
+  /* T042: Ensure minimum touch target size */
+  min-height: 44px;
+  min-width: 44px;
+  padding: 0.5rem 0;
 }
 
 .data-card-repo:hover {
@@ -815,6 +889,11 @@ h3 {
   border-radius: var(--button-border-radius);
   transition: color var(--transition-base), background-color var(--transition-base);
   white-space: nowrap;
+  /* T042: Ensure minimum touch target size for navigation links */
+  min-height: var(--button-min-height);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .nav-links a:hover {
@@ -922,8 +1001,9 @@ body.dark-theme .theme-icon-dark {
   transform: rotate(0deg);
 }
 
-/* T025: Responsive data grid columns - 1 mobile, 2 tablet, 3 desktop */
-/* Tablet: 2 columns */
+/* T037 & T040: Responsive data grid columns - Mobile-first approach */
+/* Mobile: 1 column (default, defined above) */
+/* Tablet: 2 columns (768px+) */
 @media (min-width: 768px) {
   .data-grid {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -933,9 +1013,42 @@ body.dark-theme .theme-icon-dark {
   .nav-links {
     gap: var(--spacing-md);
   }
+  
+  /* T038: Hide hamburger menu on tablet/desktop */
+  .nav-toggle {
+    display: none;
+  }
+  
+  /* T038: Show full navigation menu on tablet/desktop */
+  .nav-links {
+    position: static;
+    display: flex;
+    flex-direction: row;
+    background: transparent;
+    backdrop-filter: none;
+    border-bottom: none;
+    box-shadow: none;
+    padding: 0;
+  }
+  
+  /* T043: Responsive image scaling on tablet */
+  .data-card-logo {
+    max-width: 120px;
+    max-height: 120px;
+  }
+  
+  .partner-card .data-card-logo {
+    max-width: 150px;
+    max-height: 100px;
+  }
+  
+  .project-card .data-card-logo {
+    max-width: 120px;
+    max-height: 120px;
+  }
 }
 
-/* Desktop: 3 columns max */
+/* Desktop: 3 columns max (1024px+) */
 @media (min-width: 1024px) {
   .data-grid {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -947,9 +1060,26 @@ body.dark-theme .theme-icon-dark {
   .data-grid .data-card {
     max-width: 100%;
   }
+  
+  /* T043: Responsive image scaling on desktop */
+  .data-card-logo {
+    max-width: 120px;
+    max-height: 120px;
+  }
+  
+  .partner-card .data-card-logo {
+    max-width: 150px;
+    max-height: 100px;
+  }
+  
+  .project-card .data-card-logo {
+    max-width: 120px;
+    max-height: 120px;
+  }
 }
 
-/* Mobile Navigation */
+/* T037 & T038: Mobile Navigation - Mobile-first responsive breakpoint */
+/* Mobile devices (< 768px) */
 @media (max-width: 767px) {
   .hero {
     padding: 4rem 1rem;
@@ -961,14 +1091,20 @@ body.dark-theme .theme-icon-dark {
   
   .nav-container {
     padding: var(--spacing-sm) var(--spacing-md);
+    position: relative; /* Enable absolute positioning for nav-links */
   }
   
+  /* T038: Mobile hamburger menu toggle button */
   .nav-toggle {
     display: flex;
     min-width: var(--button-min-height);
     min-height: var(--button-min-height);
+    /* T042: Ensure minimum touch target size */
+    width: var(--button-min-height);
+    height: var(--button-min-height);
   }
   
+  /* T038: Mobile navigation menu - hidden by default, shown when toggled */
   .nav-links {
     position: absolute;
     top: 100%;
@@ -982,6 +1118,7 @@ body.dark-theme .theme-icon-dark {
     padding: var(--spacing-md);
     gap: 0;
     display: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
   
   .nav-links[data-visible="true"] {
@@ -994,10 +1131,34 @@ body.dark-theme .theme-icon-dark {
     min-height: var(--button-min-height);
     display: flex;
     align-items: center;
+    /* T042: Ensure minimum touch target size */
+    width: 100%;
   }
   
   .nav-links a:hover {
     background: var(--bg-secondary);
+  }
+  
+  /* T038: Theme toggle in mobile menu */
+  .nav-links .theme-toggle {
+    align-self: center;
+    margin-top: var(--spacing-sm);
+  }
+  
+  /* T043: Responsive image scaling on mobile */
+  .data-card-logo {
+    max-width: 100px;
+    max-height: 100px;
+  }
+  
+  .partner-card .data-card-logo {
+    max-width: 120px;
+    max-height: 80px;
+  }
+  
+  .project-card .data-card-logo {
+    max-width: 100px;
+    max-height: 100px;
   }
 }
 
@@ -1202,12 +1363,17 @@ body.dark-theme .theme-icon-dark {
 }
 
 .tab-project-link {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
   margin-top: 0.5rem;
   color: var(--text);
   text-decoration: none;
   font-weight: 500;
   transition: color 0.2s ease;
+  /* T042: Ensure minimum touch target size */
+  min-height: 44px;
+  min-width: 44px;
+  padding: 0.5rem 0;
 }
 
 .tab-project-link:hover {
