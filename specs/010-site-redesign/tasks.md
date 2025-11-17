@@ -108,9 +108,9 @@ These can be completed independently and tested immediately.
 
 ### Tasks
 
-- [ ] T001 Verify Jekyll development environment is running (`bundle exec jekyll serve` from repository root)
-- [ ] T002 [P] Verify existing data files exist and are valid: `_data/services.yml`, `_data/partners.yml`, `_data/projects.yml`, `_data/slides.yml`
-- [ ] T003 [P] Verify QADAO logo exists at path specified in `_config.yml` or `assets/images/qadao.jpg`
+- [X] T001 Verify Jekyll development environment is running (`bundle exec jekyll serve` from repository root)
+- [X] T002 [P] Verify existing data files exist and are valid: `_data/services.yml`, `_data/partners.yml`, `_data/projects.yml`, `_data/slides.yml`
+- [X] T003 [P] Verify QADAO logo exists at path specified in `_config.yml` or `assets/images/qadao.jpg`
 
 ---
 
@@ -124,10 +124,10 @@ These can be completed independently and tested immediately.
 
 ### Tasks
 
-- [ ] T004 [P] Define CSS variables for color palette, typography, spacing, and layout in `assets/css/main.css` following css-variables-contract.md (primary #4A00E0, secondary #00F2A9, light/dark theme variables)
-- [ ] T005 [P] Add Inter font family from Google Fonts to `_layouts/default.html` with preconnect optimization (weights 400, 500, 700, font-display: swap)
-- [ ] T006 [P] Add Material Symbols icons from Google Fonts CDN to `_layouts/default.html` for icon system
-- [ ] T007 Verify existing theme toggle JavaScript in `assets/js/theme-toggle.js` sets `data-theme` attribute on `<html>` element and persists to localStorage (enhance if needed)
+- [X] T004 [P] Define CSS variables for color palette, typography, spacing, and layout in `assets/css/main.css` following css-variables-contract.md (primary #4A00E0, secondary #00F2A9, light/dark theme variables)
+- [X] T005 [P] Add Inter font family from Google Fonts to `_layouts/default.html` with preconnect optimization (weights 400, 500, 700, font-display: swap)
+- [X] T006 [P] Add Material Symbols icons from Google Fonts CDN to `_layouts/default.html` for icon system
+- [X] T007 Verify existing theme toggle JavaScript in `assets/js/theme-toggle.js` sets `data-theme` attribute on `<html>` element and persists to localStorage (enhance if needed)
 
 **Checkpoint**: Foundation ready - user story implementation can now begin in parallel
 
@@ -162,10 +162,10 @@ These can be completed independently and tested immediately.
 
 ### Implementation for User Story 2
 
-- [ ] T016 [US2] Add theme toggle button to navigation header in `_layouts/default.html` with Material Symbols icons (light/dark icons) and proper ARIA labels
-- [ ] T017 [US2] Ensure theme toggle JavaScript in `assets/js/theme-toggle.js` reads from localStorage on page load and applies saved theme preference to `<html>` data-theme attribute
-- [ ] T018 [US2] Style theme toggle button in `assets/css/main.css` with minimum 44x44px touch target, theme-aware colors, hover states, and icon visibility based on current theme
-- [ ] T019 [US2] Add smooth CSS transitions for theme switching in `assets/css/main.css` using --transition-theme variable (300ms ease) for color changes on all theme-aware properties
+- [X] T016 [US2] Add theme toggle button to navigation header in `_layouts/default.html` with Material Symbols icons (light/dark icons) and proper ARIA labels
+- [X] T017 [US2] Ensure theme toggle JavaScript in `assets/js/theme-toggle.js` reads from localStorage on page load and applies saved theme preference to `<html>` data-theme attribute
+- [X] T018 [US2] Style theme toggle button in `assets/css/main.css` with minimum 44x44px touch target, theme-aware colors, hover states, and icon visibility based on current theme
+- [X] T019 [US2] Add smooth CSS transitions for theme switching in `assets/css/main.css` using --transition-theme variable (300ms ease) for color changes on all theme-aware properties
 
 **Checkpoint**: At this point, User Story 2 should allow visitors to toggle themes with persistence and smooth transitions
 
@@ -204,11 +204,11 @@ These can be completed independently and tested immediately.
 
 ### Implementation for User Story 5
 
-- [ ] T032 [US5] Update `_includes/video-carousel.html` to use slides from `site.data.slides` with clickable video containers (anchor tags wrapping videos) that navigate to `cta_link` or `section_link` when present
-- [ ] T033 [P] [US5] Style video carousel section in `assets/css/main.css` with height variables (600px desktop, 400px mobile), overlay styling for text readability, and smooth transitions between slides
-- [ ] T034 [US5] Ensure video carousel displays videos with poster images, muted autoplay, loop, and cover object-fit, with headline text overlaid on videos
-- [ ] T035 [US5] Add smooth scroll behavior for section navigation when videos are clicked (using CSS scroll-behavior: smooth or JavaScript smooth scroll)
-- [ ] T036 [US5] Verify no CTA buttons or link buttons are displayed on carousel slides (only video and headline visible, video itself is clickable)
+- [X] T032 [US5] Update `_includes/video-carousel.html` to use slides from `site.data.slides` with clickable video containers (anchor tags wrapping videos) that navigate to `cta_link` or `section_link` when present
+- [X] T033 [P] [US5] Style video carousel section in `assets/css/main.css` with height variables (600px desktop, 400px mobile), overlay styling for text readability, and smooth transitions between slides
+- [X] T034 [US5] Ensure video carousel displays videos with poster images, muted autoplay, loop, and cover object-fit, with headline text overlaid on videos
+- [X] T035 [US5] Add smooth scroll behavior for section navigation when videos are clicked (using CSS scroll-behavior: smooth or JavaScript smooth scroll)
+- [X] T036 [US5] Verify no CTA buttons or link buttons are displayed on carousel slides (only video and headline visible, video itself is clickable)
 
 **Checkpoint**: At this point, User Story 5 should display a working video carousel with clickable videos that navigate to sections, matching the redesigned aesthetic
 

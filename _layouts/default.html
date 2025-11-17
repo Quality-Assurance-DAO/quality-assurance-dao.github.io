@@ -5,10 +5,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="{{ site.description | default: site.github.project_tagline }}">
   <meta name="keywords" content="Consulting, Quality Assurance, DAO, Blockchain, Cardano, Open Source">
-  <meta name="theme-color" content="#0052cc">
+  <meta name="theme-color" content="#00BFFF">
   <title>{{ page.title | default: site.title }}</title>
 
   {% seo %}
+  
+  <!-- Inter Font Family from Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+  
+  <!-- Material Symbols Icons from Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet">
+  
   <link rel="stylesheet" href="{{ '/assets/css/main.css?v=' | append: site.github.build_revision | relative_url }}">
   {% include head-custom.html %}
   <script>
@@ -36,6 +45,7 @@
           <img src="{{ site.logo | relative_url }}" alt="{{ site.title }}" class="nav-logo">
         {% endif %}
         <span class="nav-title">{{ site.title }}</span>
+        <span class="nav-subtitle">{{ site.description }}</span>
       </a>
       <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
         <span></span>
@@ -43,29 +53,31 @@
         <span></span>
       </button>
       <div class="nav-links" id="nav-links">
-        <a href="#about">About</a>
-        <a href="#services">Services</a>
-        <a href="#portfolio">Projects</a>
+        <a href="#services">Our Services</a>
+        <a href="#portfolio">Recent Projects</a>
+        {% if site.data.partners %}
+          <a href="#partners">We work with</a>
+        {% endif %}
+        <a href="#about">About Us</a>
         <a href="#contact">Follow Us</a>
         <button 
           id="theme-toggle" 
           class="theme-toggle" 
-          aria-label="Toggle dark mode"
+          aria-label="Toggle theme"
           title="Toggle dark/light theme">
-          <span class="theme-icon theme-icon-light">☀️</span>
-          <span class="theme-icon theme-icon-dark">🌙</span>
+          <span class="material-symbols-outlined theme-icon theme-icon-light">light_mode</span>
+          <span class="material-symbols-outlined theme-icon theme-icon-dark">dark_mode</span>
         </button>
       </div>
     </nav>
   </header>
 
-  <!-- HERO SECTION -->
-  <section id="home">
-    {% include animated-header.html title="Decentralised Assurance of Quality" %}
-  </section>
-
   <!-- VIDEO CAROUSEL -->
-  {% include video-carousel.html %}
+  <section id="home" class="section">
+    <div class="container">
+      {% include video-carousel.html %}
+    </div>
+  </section>
 
   <main>
 
