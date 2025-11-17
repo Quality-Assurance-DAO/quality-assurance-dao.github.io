@@ -3,10 +3,10 @@
 
 :root {
   /* Primary Colors */
-  --primary: #4A00E0;
-  --secondary: #00F2A9;
-  --primary-hover: #3A00B0;
-  --secondary-hover: #00C289;
+  --primary: #00F2A9;
+  --secondary: #00BFFF;
+  --primary-hover: #00C289;
+  --secondary-hover: #0099CC;
   
   /* Background Colors - Light Theme */
   --bg: #f5f5f5;

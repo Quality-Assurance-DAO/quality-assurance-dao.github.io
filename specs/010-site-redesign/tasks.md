@@ -141,14 +141,14 @@ These can be completed independently and tested immediately.
 
 ### Implementation for User Story 1
 
-- [ ] T008 [US1] Update `_layouts/default.html` to include redesigned structure with semantic HTML5 elements (header, nav, main, section, footer)
-- [ ] T009 [US1] Create navigation header component in `_layouts/default.html` with logo display (image from `site.logo` with fallback to `site.title` text) and navigation links structure
-- [ ] T010 [US1] Add hero section structure in `_layouts/default.html` with include for animated-header.html
-- [ ] T011 [US1] Add section containers for services, partners, projects, about, and contact/follow-us in `_layouts/default.html` with semantic IDs (#services, #partners, #portfolio, #about, #contact)
-- [ ] T012 [US1] Style navigation header in `assets/css/main.css` using CSS variables (height 64px, sticky positioning, theme-aware background and text colors, logo max-height 40px)
-- [ ] T013 [US1] Style hero section in `assets/css/main.css` with full-width layout, theme-aware background, centered typography, responsive padding using section-padding-y variable
-- [ ] T014 [US1] Style section containers in `assets/css/main.css` with container class (max-width 1200px, responsive padding), section class (vertical padding, theme-aware background), and consistent spacing
-- [ ] T015 [US1] Apply Inter font family and typography scale from CSS variables throughout `assets/css/main.css` (headings use clamp() for responsive sizing, body text uses base font-size)
+- [X] T008 [US1] Update `_layouts/default.html` to include redesigned structure with semantic HTML5 elements (header, nav, main, section, footer)
+- [X] T009 [US1] Create navigation header component in `_layouts/default.html` with logo display (image from `site.logo` with fallback to `site.title` text) and navigation links structure
+- [X] T010 [US1] Add hero section structure in `_layouts/default.html` with include for animated-header.html
+- [X] T011 [US1] Add section containers for services, partners, projects, about, and contact/follow-us in `_layouts/default.html` with semantic IDs (#services, #partners, #portfolio, #about, #contact)
+- [X] T012 [US1] Style navigation header in `assets/css/main.css` using CSS variables (height 64px, sticky positioning, theme-aware background and text colors, logo max-height 40px)
+- [X] T013 [US1] Style hero section in `assets/css/main.css` with full-width layout, theme-aware background, centered typography, responsive padding using section-padding-y variable
+- [X] T014 [US1] Style section containers in `assets/css/main.css` with container class (max-width 1200px, responsive padding), section class (vertical padding, theme-aware background), and consistent spacing
+- [X] T015 [US1] Apply Inter font family and typography scale from CSS variables throughout `assets/css/main.css` (headings use clamp() for responsive sizing, body text uses base font-size)
 
 **Checkpoint**: At this point, User Story 1 should display a redesigned homepage structure with proper layout, navigation, and styling matching the design guide
 
