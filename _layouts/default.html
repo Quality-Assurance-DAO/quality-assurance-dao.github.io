@@ -34,15 +34,27 @@
     })();
   </script>
   <script src="{{ '/assets/js/theme-toggle.js' | relative_url }}" defer></script>
+  <!-- T046: Graceful fallback for JavaScript disabled - default theme will be applied via inline script above -->
+  <noscript>
+    <style>
+      /* Ensure site is usable without JavaScript */
+      .nav-links[data-visible="false"] {
+        display: flex !important;
+      }
+    </style>
+  </noscript>
 </head>
 
 <body class="dark-theme">
+  <!-- T044: Skip link for keyboard navigation -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+  
   <!-- STICKY NAVIGATION -->
   <header class="sticky-nav">
     <nav class="container nav-container">
       <a href="#home" class="logo-link">
         {% if site.logo %}
-          <img src="{{ site.logo | relative_url }}" alt="{{ site.title }}" class="nav-logo">
+          <img src="{{ site.logo | relative_url }}" alt="{{ site.title }}" class="nav-logo" onerror="this.style.display='none';">
         {% endif %}
         <span class="nav-title">{{ site.title }}</span>
         <span class="nav-subtitle">{{ site.description }}</span>
@@ -79,7 +91,7 @@
     </div>
   </section>
 
-  <main>
+  <main id="main-content">
 
     <!-- SERVICES SECTION -->
     {% if site.data.services and site.data.services.size > 0 %}
@@ -98,7 +110,7 @@
               {% if service.logo or service.icon %}
                 <div class="service-visual">
                   {% if service.logo %}
-                    <img src="{{ service.logo | relative_url }}" alt="{% if service.name %}{{ service.name }} logo{% else %}Service logo{% endif %}" class="data-card-logo">
+                    <img src="{{ service.logo | relative_url }}" alt="{% if service.name %}{{ service.name }} logo{% else %}Service logo{% endif %}" class="data-card-logo" onerror="this.style.display='none';">
                   {% elsif service.icon %}
                     <span class="service-icon">{{ service.icon }}</span>
                   {% endif %}
@@ -173,7 +185,7 @@
               {% endif %}
               
               {% if project.logo %}
-                <img src="{{ project.logo | relative_url }}" alt="{% if project.name %}{{ project.name }} logo{% else %}Project logo{% endif %}" class="data-card-logo">
+                <img src="{{ project.logo | relative_url }}" alt="{% if project.name %}{{ project.name }} logo{% else %}Project logo{% endif %}" class="data-card-logo" onerror="this.style.display='none';">
               {% endif %}
               
               {% if project.name %}
@@ -227,7 +239,7 @@
                 {% endif %}
                 
                 {% if partner.logo %}
-                  <img src="{{ partner.logo | relative_url }}" alt="{% if partner.name %}{{ partner.name }} logo{% else %}Partner logo{% endif %}" class="data-card-logo">
+                  <img src="{{ partner.logo | relative_url }}" alt="{% if partner.name %}{{ partner.name }} logo{% else %}Partner logo{% endif %}" class="data-card-logo" onerror="this.style.display='none';">
                 {% endif %}
                 
                 {% if partner.name %}
@@ -281,7 +293,7 @@
             {% if site.x_handle %}
               <article class="data-card">
                 <a href="{{ site.x_handle }}" class="data-card-link" target="_blank" rel="noopener noreferrer" aria-label="Follow us on X / Twitter">
-                  <img src="{{ '/assets/images/social/twitter-icon.svg' | relative_url }}" alt="X / Twitter icon" class="data-card-logo">
+                  <img src="{{ '/assets/images/social/twitter-icon.svg' | relative_url }}" alt="X / Twitter icon" class="data-card-logo" onerror="this.style.display='none';">
                   <h3>X / Twitter</h3>
                 </a>
               </article>
@@ -290,7 +302,7 @@
             {% if site.youtube_handle %}
               <article class="data-card">
                 <a href="{{ site.youtube_handle }}" class="data-card-link" target="_blank" rel="noopener noreferrer" aria-label="Follow us on YouTube">
-                  <img src="{{ '/assets/images/social/youtube-icon.svg' | relative_url }}" alt="YouTube icon" class="data-card-logo">
+                  <img src="{{ '/assets/images/social/youtube-icon.svg' | relative_url }}" alt="YouTube icon" class="data-card-logo" onerror="this.style.display='none';">
                   <h3>YouTube</h3>
                 </a>
               </article>
@@ -299,7 +311,7 @@
             {% if site.github.repository_url %}
               <article class="data-card">
                 <a href="{{ site.github.repository_url }}" class="data-card-link" target="_blank" rel="noopener noreferrer" aria-label="Follow us on GitHub">
-                  <img src="{{ '/assets/images/social/github-icon.svg' | relative_url }}" alt="GitHub icon" class="data-card-logo">
+                  <img src="{{ '/assets/images/social/github-icon.svg' | relative_url }}" alt="GitHub icon" class="data-card-logo" onerror="this.style.display='none';">
                   <h3>GitHub</h3>
                 </a>
               </article>
