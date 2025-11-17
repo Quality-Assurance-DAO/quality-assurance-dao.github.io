@@ -19,6 +19,8 @@ Auto-generated from all feature plans. Last updated: 2025-11-10
 - YAML data files in `_data/` directory (partners.yml) (008-partners-section)
 - Jekyll (Ruby-based static site generator), Liquid templating engine, HTML5, CSS3, Vanilla JavaScript (ES6+) + Jekyll, GitHub Pages (hosting), HTML5 video API, CSS transitions (009-video-carousel)
 - YAML data files in `_data/` directory (slides.yml), video files in `/assets/videos/` directory (009-video-carousel)
+- Jekyll (Ruby-based static site generator), Liquid templating, HTML5, CSS3, JavaScript (ES6+) (010-site-redesign)
+- YAML data files in `_data/` directory (services.yml, partners.yml, projects.yml, slides.yml, tabs.yml), browser localStorage for theme preference (010-site-redesign)
 
 - Jekyll (Ruby-based static site generator), Liquid templating language + Jekyll, GitHub Pages build environment, YAML parser (001-standardize-yaml-data)
 
@@ -38,9 +40,9 @@ tests/
 Jekyll (Ruby-based static site generator), Liquid templating language: Follow standard conventions
 
 ## Recent Changes
+- 010-site-redesign: Added Jekyll (Ruby-based static site generator), Liquid templating, HTML5, CSS3, JavaScript (ES6+)
 - 009-video-carousel: Added Jekyll (Ruby-based static site generator), Liquid templating engine, HTML5, CSS3, Vanilla JavaScript (ES6+) + Jekyll, GitHub Pages (hosting), HTML5 video API, CSS transitions
 - 008-partners-section: Added Jekyll (Ruby-based static site generator), Liquid templating engine + Jekyll, GitHub Pages (hosting), CSS (existing styling system)
-- 007-network-graph-includes: Added Jekyll (static site generator), Liquid templating engine, vanilla JavaScript (ES5+), HTML5 Canvas API, CSS3 + Jekyll static site generator, HTML5 Canvas API, requestAnimationFrame API (browser-native)
 
 
 <!-- MANUAL ADDITIONS START -->
