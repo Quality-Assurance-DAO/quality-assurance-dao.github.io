@@ -82,6 +82,7 @@
   <main>
 
     <!-- SERVICES SECTION (UPDATED) -->
+    {% if site.data.services and site.data.services.size > 0 %}
     <section id="services" class="section services">
       <div class="container">
         <h2>Our Services</h2>
@@ -93,7 +94,7 @@
           {% comment %} Regular service cards (excluding ones with interactive graphs) {% endcomment %}
           {% for service in site.data.services %}
             {% unless service.id == "Community Co-Production" or service.id == "open-source-community-building" or service.id == "ai-blockchain-strategy" %}
-            <article class="data-card"{% if service.id %} id="service-{{ service.id }}"{% endif %}>
+            <article class="data-card"{% if service.id %} id="service-{{ service.id }}"{% endif %}{% if service.color %} data-service-color="{{ service.color }}" style="--service-color: {{ service.color }};"{% endif %}>
               {% if service.logo or service.icon %}
                 <div class="service-visual">
                   {% if service.logo %}
@@ -130,6 +131,7 @@
         </div>
       </div>
     </section>
+    {% endif %}
 
     <!-- VALUES SECTION (Optional) -->
     {% if site.data.values %}
@@ -152,6 +154,7 @@
     {% endif %}
 
     <!-- PORTFOLIO / PROJECTS -->
+    {% if site.data.projects and site.data.projects.size > 0 %}
     <section id="portfolio" class="section portfolio">
       <div class="container">
         <h2>Recent Projects</h2>
@@ -190,6 +193,7 @@
         </div>
       </div>
     </section>
+    {% endif %}
 
     <!-- PARTNERS SECTION -->
     {% if site.data.partners %}
