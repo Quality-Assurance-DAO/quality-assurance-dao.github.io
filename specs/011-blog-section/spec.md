@@ -5,6 +5,16 @@
 **Status**: Draft  
 **Input**: User description: "Refactor the site to support a blog section by extending the build process (using the existing static-site setup), creating a new directory (e.g. /posts) where Markdown blog posts with front-matter (title, date, slug, tags, optional summary) can be stored, update the site layout (e.g. add a blog index page listing all posts sorted by date, with excerpts and links to full posts), integrate pagination or tags/categories as appropriate, modify the navigation menu so the blog link appears alongside existing pages, and ensure the site build (via existing configs or by enabling a static site generator like Jekyll, if not already used) automatically transforms those markdown posts into static HTML so that adding a new .md post automatically appears on the blog page without manual HTML authoring."
 
+## Clarifications
+
+### Session 2025-01-27
+
+- Q: Which directory structure should be used for blog posts: `_posts/` (Jekyll convention) or `/posts` (custom structure)? → A: `/posts` directory (custom structure, requires manual configuration)
+- Q: What URL structure should be used for blog post pages: `/blog/post-slug` or `/posts/post-slug`? → A: `/blog/post-slug` URLs (e.g., `/blog/my-first-post`)
+- Q: How should duplicate slugs be handled: auto-generate unique slugs, date-based disambiguation, or skip/error? → A: Use date-based disambiguation (e.g., `2025-01-27-post-slug`)
+- Q: How should future-dated posts be handled: exclude from display, mark as scheduled, or display normally? → A: Exclude future-dated posts from display (hide until date arrives)
+- Q: How should posts with missing required front matter fields (title, date, slug) be handled: skip with warning, use defaults, or fail build? → A: Skip post and log warning (exclude from blog index, continue build)
+
 ## User Scenarios & Testing *(mandatory)*
 
 ### User Story 1 - View Blog Index Page (Priority: P1)
@@ -102,9 +112,9 @@ When a new Markdown blog post is added to the posts directory with proper front 
 
 ### Edge Cases
 
-- What happens when a blog post has missing required front matter fields (title, date, slug)? (Post should be skipped or handled gracefully with default values, maintaining site stability)
+- What happens when a blog post has missing required front matter fields (title, date, slug)? (Post is skipped - excluded from blog index and post pages, build continues with warning logged)
 - What happens when a blog post has an invalid date format? (Post should use a default date or be excluded from display, with error handling)
-- What happens when multiple posts have the same slug? (System should handle duplicates - either generate unique slugs or use date-based disambiguation)
+- What happens when multiple posts have the same slug? (System should handle duplicates using date-based disambiguation - prepend date to slug to create unique URLs like `2025-01-27-post-slug`)
 - What happens when a blog post has no content (empty Markdown body)? (Post should display metadata but handle empty content gracefully)
 - What happens when a blog post has very long content? (Post page should display full content with proper formatting and scrolling)
 - What happens when a blog post has special characters or HTML in the Markdown? (Content should be properly escaped/rendered according to Markdown and HTML standards)
@@ -113,7 +123,7 @@ When a new Markdown blog post is added to the posts directory with proper front 
 - What happens when a tag is clicked but no posts have that tag? (Should display an empty state or "No posts found" message)
 - What happens when a blog post URL is accessed directly but the post doesn't exist? (Should display a 404 error page consistent with site design)
 - What happens when the posts directory doesn't exist? (Site should build successfully with blog index showing empty state)
-- What happens when a blog post has a future date? (Posts with future dates should either be excluded from display or marked as "scheduled")
+- What happens when a blog post has a future date? (Posts with future dates are excluded from display - hidden from blog index and post pages until their publication date arrives)
 - What happens when a blog post has very long tags or many tags? (Tags should display appropriately without breaking layout)
 - What happens when a blog post summary/excerpt is very long? (Summary should be truncated or displayed with appropriate length limits)
 
@@ -121,7 +131,7 @@ When a new Markdown blog post is added to the posts directory with proper front 
 
 ### Functional Requirements
 
-- **FR-001**: System MUST provide a dedicated directory (e.g., `/posts` or `_posts/`) where Markdown blog post files can be stored
+- **FR-001**: System MUST provide a dedicated `/posts` directory where Markdown blog post files can be stored
 - **FR-002**: System MUST support Markdown blog posts with front matter containing at minimum: title (string), date (date format), slug (string), tags (array, optional), summary (string, optional)
 - **FR-003**: System MUST automatically discover and process all Markdown files in the posts directory during site build
 - **FR-004**: System MUST transform Markdown blog posts into static HTML pages during the build process
@@ -129,7 +139,7 @@ When a new Markdown blog post is added to the posts directory with proper front 
 - **FR-006**: System MUST sort blog posts by date (newest first) on the blog index page
 - **FR-007**: System MUST display post title, publication date, and optional summary/excerpt for each post listing on the blog index
 - **FR-008**: System MUST provide clickable links from blog index listings to individual blog post pages
-- **FR-009**: System MUST generate individual blog post pages accessible via slug-based URLs (e.g., `/blog/post-slug` or `/posts/post-slug`)
+- **FR-009**: System MUST generate individual blog post pages accessible via slug-based URLs using `/blog/post-slug` format (e.g., `/blog/my-first-post`)
 - **FR-010**: System MUST render Markdown content as formatted HTML on individual blog post pages (headings, paragraphs, lists, links, images, code blocks, etc.)
 - **FR-011**: System MUST display post metadata (title, date, tags) prominently on individual blog post pages
 - **FR-012**: System MUST add a "Blog" link to the main site navigation menu alongside existing navigation items
@@ -137,17 +147,18 @@ When a new Markdown blog post is added to the posts directory with proper front 
 - **FR-014**: System MUST maintain consistent styling between blog pages and the rest of the site (theme support, colors, typography, layout)
 - **FR-015**: System MUST support dark/light theme switching on blog pages (consistent with existing site theme functionality)
 - **FR-016**: System MUST handle missing or empty posts directory gracefully (blog index displays empty state, site builds successfully)
+- **FR-016a**: System MUST handle blog posts with missing required front matter fields (title, date, slug) by skipping the post, logging a warning, and continuing the build (post excluded from blog index and post pages)
 - **FR-017**: System MUST handle blog posts with missing optional fields (summary, tags) gracefully (display available information, omit missing fields)
 - **FR-018**: System MUST ensure new blog posts automatically appear on the blog index after site rebuild without manual template modifications
 - **FR-019**: System MUST support pagination on the blog index page when there are many posts (e.g., 10 posts per page with navigation controls)
 - **FR-020**: System MUST support tag-based filtering on the blog index page (clicking a tag filters posts to show only posts with that tag)
 - **FR-021**: System MUST display tags as visual indicators or clickable elements on both blog index and individual post pages
 - **FR-022**: System MUST provide a way to clear tag filters and return to viewing all posts
-- **FR-023**: System MUST handle posts with duplicate slugs gracefully (generate unique URLs or use date-based disambiguation)
+- **FR-023**: System MUST handle posts with duplicate slugs gracefully using date-based disambiguation (e.g., `2025-01-27-post-slug` to create unique URLs)
 - **FR-024**: System MUST ensure blog post URLs are SEO-friendly and human-readable (based on slug)
 - **FR-025**: System MUST maintain responsive design on blog pages (mobile, tablet, desktop viewports)
 - **FR-026**: System MUST ensure blog pages work correctly with the existing static site build process (Jekyll or equivalent)
-- **FR-027**: System MUST handle future-dated posts appropriately (exclude from display or mark as scheduled)
+- **FR-027**: System MUST exclude future-dated posts from display (posts with dates in the future are hidden until their publication date arrives)
 - **FR-028**: System MUST provide navigation from individual blog posts back to the blog index page
 
 ### Key Entities
@@ -170,7 +181,7 @@ When a new Markdown blog post is added to the posts directory with proper front 
 - **SC-006**: Blog index page loads within 3 seconds on standard broadband connections
 - **SC-007**: Tag filtering functions correctly - clicking a tag filters posts to show only matching posts, with clear indication of active filter
 - **SC-008**: Pagination works correctly when there are many posts - posts are divided into manageable pages (e.g., 10 per page) with working navigation controls
-- **SC-009**: Blog post URLs are SEO-friendly and accessible - posts are accessible via slug-based URLs (e.g., `/blog/post-slug`)
+- **SC-009**: Blog post URLs are SEO-friendly and accessible - posts are accessible via slug-based URLs using `/blog/post-slug` format (e.g., `/blog/my-first-post`)
 - **SC-010**: Site build process completes successfully with blog posts - adding blog functionality does not break existing site build or functionality
 - **SC-011**: Blog pages are responsive - layout adapts appropriately to mobile (< 768px), tablet (768px-1024px), and desktop (> 1024px) viewports
 - **SC-012**: Empty states are handled gracefully - blog index displays appropriate message when no posts exist, site builds successfully with empty posts directory
@@ -179,7 +190,7 @@ When a new Markdown blog post is added to the posts directory with proper front 
 
 ### In Scope
 
-- Creating a posts directory structure for storing Markdown blog posts
+- Creating a `/posts` directory structure for storing Markdown blog posts
 - Defining front matter schema for blog posts (title, date, slug, tags, summary)
 - Implementing automatic blog post discovery and processing during site build
 - Generating blog index page with post listings sorted by date
@@ -223,7 +234,7 @@ When a new Markdown blog post is added to the posts directory with proper front 
 - Blog posts will be written in Markdown format with YAML front matter
 - Post slugs will be URL-friendly (lowercase, hyphens for spaces, no special characters)
 - Post dates will be in a standard date format (YYYY-MM-DD or ISO 8601)
-- Blog posts will be stored in a dedicated directory (e.g., `_posts/` following Jekyll conventions or `/posts/`)
+- Blog posts will be stored in a dedicated `/posts/` directory (custom structure requiring manual configuration for Jekyll processing)
 - Site build process runs automatically on GitHub Pages or can be triggered manually
 - Existing navigation menu structure can be extended to include blog link
 - Theme system (dark/light mode) will work on blog pages with existing CSS/JavaScript
