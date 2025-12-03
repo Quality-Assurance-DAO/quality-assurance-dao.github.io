@@ -65,6 +65,7 @@
         <span></span>
       </button>
       <div class="nav-links" id="nav-links">
+        <a href="/blog/">Posts</a>
         <a href="#services">Our Services</a>
         <a href="#portfolio">Recent Projects</a>
         {% if site.data.partners %}
@@ -92,6 +93,7 @@
   </section>
 
   <main id="main-content">
+    {{ content }}
 
     <!-- SERVICES SECTION -->
     {% if site.data.services and site.data.services.size > 0 %}

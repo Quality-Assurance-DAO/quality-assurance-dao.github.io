@@ -4,6 +4,12 @@ logo: /assets/images/qadao.jpg
 theme: jekyll-theme-minimal
 show_downloads: false
 
+# Collections
+collections:
+  posts:
+    output: true
+    permalink: /blog/:slug/
+
 # Exclude directories from Jekyll processing
 exclude:
   - specs/

@@ -1,0 +1,44 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Blog Post Front Matter Schema",
+  "description": "JSON Schema for blog post YAML front matter in Markdown files",
+  "type": "object",
+  "required": ["title", "date", "slug"],
+  "properties": {
+    "title": {
+      "type": "string",
+      "description": "Blog post title",
+      "minLength": 1,
+      "maxLength": 200
+    },
+    "date": {
+      "type": "string",
+      "description": "Publication date in YYYY-MM-DD format or ISO 8601",
+      "pattern": "^(\\d{4}-\\d{2}-\\d{2}|\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}([+-]\\d{2}:\\d{2}|Z)?)$"
+    },
+    "slug": {
+      "type": "string",
+      "description": "URL-friendly identifier (should include date prefix for uniqueness, e.g., 2025-01-27-post-slug)",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+      "minLength": 1,
+      "maxLength": 100
+    },
+    "tags": {
+      "type": "array",
+      "description": "Tags for categorization and filtering",
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 50
+      },
+      "uniqueItems": true
+    },
+    "summary": {
+      "type": "string",
+      "description": "Post summary/excerpt for blog index display",
+      "maxLength": 500
+    }
+  },
+  "additionalProperties": false
+}
+
