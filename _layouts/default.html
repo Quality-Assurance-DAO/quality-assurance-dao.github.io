@@ -95,6 +95,7 @@
   <main id="main-content">
     {{ content }}
 
+    {% unless page.url == '/blog/' or page.layout == 'post' %}
     <!-- SERVICES SECTION -->
     {% if site.data.services and site.data.services.size > 0 %}
     <section id="services" class="section services">
@@ -324,6 +325,7 @@
         {% endif %}
       </div>
     </section>
+    {% endunless %}
   </main>
 
   <!-- FOOTER -->
