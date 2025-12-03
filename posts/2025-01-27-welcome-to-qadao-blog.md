@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Welcome to QADAO Blog"
-date: 2025-01-27
-slug: 2025-01-27-welcome-to-qadao-blog
-permalink: /blog/2025-01-27-welcome-to-qadao-blog/
+title: "Welcome to QADAO"
+date: 2025-12-03
+slug: 2025-12-03-welcome-to-qadao
+permalink: /blog/2025-12-03-welcome-to-qadao/
 tags:
   - ai
   - blockchain
