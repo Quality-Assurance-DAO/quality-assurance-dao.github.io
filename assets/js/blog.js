@@ -24,6 +24,9 @@ function initBlog() {
   // Extract all posts from DOM
   allPosts = Array.from(postsContainer.querySelectorAll('.blog-post-card'));
   
+  // If no posts found, exit early
+  if (allPosts.length === 0) return;
+  
   // Parse URL hash for active tag
   activeTag = getActiveTag();
   
@@ -36,14 +39,25 @@ function initBlog() {
     hideFilterControls();
   }
   
-  // Reset to page 1
-  currentPage = 1;
-  
-  // Show first page
-  showPosts(getPostsForPage(filteredPosts, currentPage, postsPerPage));
-  
-  // Render pagination
-  renderPagination(currentPage, getTotalPages(filteredPosts.length, postsPerPage));
+  // Only paginate if we have more than postsPerPage posts
+  if (filteredPosts.length > postsPerPage) {
+    // Reset to page 1
+    currentPage = 1;
+    
+    // Hide all posts first, then show first page
+    hideAllPosts();
+    showPosts(getPostsForPage(filteredPosts, currentPage, postsPerPage));
+    
+    // Render pagination
+    renderPagination(currentPage, getTotalPages(filteredPosts.length, postsPerPage));
+  } else {
+    // If we have fewer posts than postsPerPage, show all and hide pagination
+    const paginationContainer = document.getElementById('blog-pagination');
+    if (paginationContainer) {
+      paginationContainer.style.display = 'none';
+    }
+    // Posts are already visible by default, no need to hide/show
+  }
   
   // Set up event listeners
   setupEventListeners();
@@ -157,7 +171,9 @@ function showPosts(posts) {
   
   // Show posts for current page
   posts.forEach(post => {
-    post.style.display = '';
+    if (post && post.style) {
+      post.style.display = '';
+    }
   });
   
   // Show/hide empty state
@@ -173,7 +189,9 @@ function showPosts(posts) {
  */
 function hideAllPosts() {
   allPosts.forEach(post => {
-    post.style.display = 'none';
+    if (post && post.style) {
+      post.style.display = 'none';
+    }
   });
 }
 

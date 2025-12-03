@@ -14,6 +14,9 @@ collections:
 exclude:
   - specs/
   - vendor/
+  - README.md
+  - TEST_BLOG.md
+  - test-blog.sh
 
 # Social Media
 x_handle: https://x.com/qa_dao

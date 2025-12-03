@@ -52,7 +52,7 @@
   <!-- STICKY NAVIGATION -->
   <header class="sticky-nav">
     <nav class="container nav-container">
-      <a href="#home" class="logo-link">
+      <a href="/" class="logo-link">
         {% if site.logo %}
           <img src="{{ site.logo | relative_url }}" alt="{{ site.title }}" class="nav-logo" onerror="this.style.display='none';">
         {% endif %}
@@ -66,13 +66,13 @@
       </button>
       <div class="nav-links" id="nav-links">
         <a href="/blog/">Posts</a>
-        <a href="#services">Our Services</a>
-        <a href="#portfolio">Recent Projects</a>
+        <a href="/#services">Our Services</a>
+        <a href="/#portfolio">Recent Projects</a>
         {% if site.data.partners %}
-          <a href="#partners">We work with</a>
+          <a href="/#partners">We work with</a>
         {% endif %}
-        <a href="#about">About Us</a>
-        <a href="#contact">Follow Us</a>
+        <a href="/#about">About Us</a>
+        <a href="/#contact">Follow Us</a>
         <button 
           id="theme-toggle" 
           class="theme-toggle" 
